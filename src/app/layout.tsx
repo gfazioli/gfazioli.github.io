@@ -6,6 +6,7 @@ import {
   createTheme,
   mantineHtmlProps,
 } from "@mantine/core";
+import { CFAnalytics } from "@/components/CFAnalytics";
 import { ConsoleBranding } from "@/components/ConsoleBranding";
 import "./globals.css";
 
@@ -57,6 +58,7 @@ export default function RootLayout({
     >
       <head>
         <ColorSchemeScript defaultColorScheme="dark" />
+        <CFAnalytics />
       </head>
       <body>
         <MantineProvider theme={theme} defaultColorScheme="dark">

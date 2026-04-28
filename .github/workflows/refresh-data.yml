@@ -56,6 +56,8 @@ jobs:
 
       - name: Build static site
         if: steps.commit.outputs.changed == 'true'
+        env:
+          NEXT_PUBLIC_CF_BEACON_TOKEN: ${{ secrets.NEXT_PUBLIC_CF_BEACON_TOKEN }}
         run: npm run build
 
       - name: Setup Pages
