@@ -43,6 +43,11 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Undolog",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    creator: "@gfazioli",
   },
 };
 
