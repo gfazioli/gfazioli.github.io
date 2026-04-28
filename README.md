@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/logo.png" alt="Undolog" width="120" height="120" />
 
-## Getting Started
+  <h1>Undolog</h1>
 
-First, run the development server:
+  <p><strong>Open source studio · Since 1983</strong></p>
+
+  <p>
+    React components, Mantine extensions, WordPress plugins,<br/>
+    macOS apps and CLI tools — mostly open source.
+  </p>
+
+  <p>
+    <a href="https://gfazioli.github.io"><strong>→ Visit the site</strong></a>
+  </p>
+</div>
+
+---
+
+## About
+
+This repo is the source of [**gfazioli.github.io**](https://gfazioli.github.io) — a single-page portfolio that auto-updates from my [GitHub profile README](https://github.com/gfazioli) and the public GitHub API.
+
+The project list, descriptions, and section grouping are parsed from the README. Stars, releases, social previews, and topics are pulled from the GitHub API on each build, with a daily cron refresh.
+
+## Stack
+
+- [Next.js 16](https://nextjs.org) (App Router, static export)
+- [Mantine 9](https://mantine.dev) + [Tailwind CSS 4](https://tailwindcss.com)
+- [Tabler](https://tabler.io/icons) + [Simple Icons](https://simpleicons.org) for iconography
+- Deployed via GitHub Actions to GitHub Pages
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run fetch:github   # populate src/data/projects.json (needs GITHUB_TOKEN)
+npm run dev            # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How it auto-updates
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Workflow              | Trigger                | What it does                                                              |
+|-----------------------|------------------------|---------------------------------------------------------------------------|
+| `deploy.yml`          | push to `master`       | builds and deploys the site                                               |
+| `refresh-data.yml`    | every day at 06:00 UTC | re-runs the fetcher; if `projects.json` changed, commits + builds + deploys |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To add or remove a project from the site, edit the bullets in [my profile README](https://github.com/gfazioli) — the next refresh picks them up.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <sub>© Undolog — built with care</sub>
+</div>
