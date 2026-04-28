@@ -25,6 +25,7 @@ export type SectionId =
   | "macos"
   | "cli"
   | "mantine"
+  | "react"
   | "templates"
   | "wordpress"
   | "raycast";

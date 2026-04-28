@@ -19,6 +19,7 @@ const SECTION_KICKERS: Record<ProjectSection["id"], { en: string; it: string }> 
   macos: { en: "macOS", it: "macOS" },
   cli: { en: "CLI", it: "CLI" },
   mantine: { en: "Mantine", it: "Mantine" },
+  react: { en: "React", it: "React" },
   templates: { en: "Templates", it: "Template" },
   wordpress: { en: "WordPress", it: "WordPress" },
   raycast: { en: "Raycast", it: "Raycast" },

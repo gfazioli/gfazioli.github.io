@@ -35,6 +35,11 @@ const SECTION_MAP = {
     title: "Mantine UI Components",
     titleIt: "Componenti Mantine UI",
   },
+  "React Components": {
+    id: "react",
+    title: "React Components",
+    titleIt: "Componenti React",
+  },
   "Templates": { id: "templates", title: "Templates", titleIt: "Template" },
   "WordPress Plugins": {
     id: "wordpress",

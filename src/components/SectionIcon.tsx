@@ -1,5 +1,6 @@
 import {
   IconBrandApple,
+  IconBrandReact,
   IconBrandWordpress,
   IconRocket,
   IconTemplate,
@@ -26,6 +27,8 @@ export function SectionIcon({ id, size = 32, className }: SectionIconProps) {
       return <IconTerminal2 {...tablerProps} />;
     case "mantine":
       return <SiMantine size={size} className={className} />;
+    case "react":
+      return <IconBrandReact {...tablerProps} />;
     case "templates":
       return <IconTemplate {...tablerProps} />;
     case "wordpress":

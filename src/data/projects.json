@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-28T14:36:02.796Z",
-  "sectionCount": 7,
-  "projectCount": 38,
+  "fetchedAt": "2026-04-28T15:54:05.889Z",
+  "sectionCount": 8,
+  "projectCount": 39,
   "sections": [
     {
       "id": "core",
@@ -962,6 +962,52 @@
             },
             "ogImage": "https://repository-images.githubusercontent.com/1101408916/b11f894c-54db-4c67-9adc-691260b31a33",
             "defaultBranch": "master"
+          }
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React Components",
+      "titleIt": "Componenti React",
+      "projects": [
+        {
+          "displayName": "react-toggle-component",
+          "url": "https://gfazioli.github.io/react-toggle/",
+          "description": "Accessible, themeable React toggle/switch with `role=\"switch\"`, ARIA, and CSS-variable theming. Zero runtime dependencies, ~3 KB gzipped, dual ESM+CJS, TypeScript-first. Live theme builder with shareable URLs and ready-made presets (iOS, Material, Pill, Neon).",
+          "external": false,
+          "githubRepo": {
+            "name": "react-toggle",
+            "fullName": "gfazioli/react-toggle",
+            "url": "https://github.com/gfazioli/react-toggle",
+            "stars": 19,
+            "forks": 9,
+            "topics": [
+              "accessible",
+              "aria",
+              "component",
+              "css-modules",
+              "headless-friendly",
+              "react",
+              "react-component",
+              "react18",
+              "react19",
+              "reactjs",
+              "switch",
+              "toggle",
+              "toggle-buttons",
+              "toggle-switches",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-28T15:39:33Z",
+            "release": {
+              "tag": "v4.0.0",
+              "publishedAt": "2026-04-28T15:26:26Z",
+              "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.0"
+            },
+            "ogImage": null,
+            "defaultBranch": "main"
           }
         }
       ]
