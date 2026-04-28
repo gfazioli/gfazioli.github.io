@@ -8,6 +8,7 @@ import {
 } from "@mantine/core";
 import { CFAnalytics } from "@/components/CFAnalytics";
 import { ConsoleBranding } from "@/components/ConsoleBranding";
+import { KonamiOverlay } from "@/components/KonamiOverlay";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -63,6 +64,7 @@ export default function RootLayout({
       <body>
         <MantineProvider theme={theme} defaultColorScheme="dark">
           <ConsoleBranding />
+          <KonamiOverlay />
           <div className="min-h-screen flex flex-col">{children}</div>
         </MantineProvider>
       </body>
