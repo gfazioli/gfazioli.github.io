@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-28T16:05:39.310Z",
+  "fetchedAt": "2026-04-28T17:37:58.080Z",
   "sectionCount": 8,
-  "projectCount": 39,
+  "projectCount": 40,
   "sections": [
     {
       "id": "core",
@@ -98,7 +98,7 @@
             "name": "mantine-border-animate",
             "fullName": "gfazioli/mantine-border-animate",
             "url": "https://github.com/gfazioli/mantine-border-animate",
-            "stars": 8,
+            "stars": 9,
             "forks": 1,
             "topics": [
               "animate",
@@ -1000,13 +1000,48 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-28T15:39:33Z",
+            "pushedAt": "2026-04-28T17:33:29Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T15:26:26Z",
               "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.0"
             },
             "ogImage": "https://gfazioli.github.io/react-toggle/og-default.svg",
+            "defaultBranch": "main"
+          }
+        },
+        {
+          "displayName": "react-amiga-guru-meditation",
+          "url": "https://gfazioli.github.io/react-amiga-guru-meditation/",
+          "description": "A React Error Boundary styled like the Amiga Guru Meditation. Same contract as `react-error-boundary` (`fallback` / `fallbackRender` / `onError` / `resetKeys`), plus a `useAmigaGuru()` hook for triggering errors from function components. ARIA-compliant (`role=\"alert\"`), themeable via CSS variables, zero deps, ~2 KB gzipped. Inline by default; opt into the iconic full-bleed Amiga takeover with a single prop.",
+          "external": false,
+          "githubRepo": {
+            "name": "react-amiga-guru-meditation",
+            "fullName": "gfazioli/react-amiga-guru-meditation",
+            "url": "https://github.com/gfazioli/react-amiga-guru-meditation",
+            "stars": 11,
+            "forks": 0,
+            "topics": [
+              "accessible",
+              "amiga",
+              "aria",
+              "css-variables",
+              "error-boundary",
+              "fallback",
+              "guru-meditation",
+              "react",
+              "react-component",
+              "retro",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-28T17:33:45Z",
+            "release": {
+              "tag": "v4.0.0",
+              "publishedAt": "2026-04-28T17:29:02Z",
+              "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.0"
+            },
+            "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.svg",
             "defaultBranch": "main"
           }
         }
