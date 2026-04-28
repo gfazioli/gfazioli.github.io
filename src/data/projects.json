@@ -1,0 +1,1078 @@
+{
+  "user": "gfazioli",
+  "fetchedAt": "2026-04-28T14:36:02.796Z",
+  "sectionCount": 7,
+  "projectCount": 38,
+  "sections": [
+    {
+      "id": "core",
+      "title": "Flagship",
+      "titleIt": "Progetti principali",
+      "projects": [
+        {
+          "displayName": "WP Bones",
+          "url": "https://wpbones.com",
+          "description": "A lightweight framework that offers tools and guidelines to simplify WordPress plugin development",
+          "external": true
+        },
+        {
+          "displayName": "Mantine Extensions",
+          "url": "https://mantine-extensions.vercel.app",
+          "description": "Mantine UI awesome components extensions",
+          "external": true
+        },
+        {
+          "displayName": "Amiga Assembly Library",
+          "url": "https://amiga-assembly-library.vercel.app/",
+          "description": "A shared library for Commodore Amiga written in Motorola 68020 assembly language. Provides 50+ functions for graphics, file I/O, memory management, UI, and more. Compatible with KickStart 3.0+.",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "macos",
+      "title": "macOS apps",
+      "titleIt": "App macOS",
+      "projects": [
+        {
+          "displayName": "FinderGit",
+          "url": "https://findergit.app",
+          "description": "A native macOS Git-aware file browser. Sortable columns for branch, status, changes and diffs across all your repositories at a glance, with an inline diff viewer, Git actions from the UI, native Markdown preview via Quick Look, and auto-updates via Sparkle. Built with SwiftUI.",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "title": "CLI & Terminal",
+      "titleIt": "CLI & Terminale",
+      "projects": [
+        {
+          "displayName": "octoscope",
+          "url": "https://gfazioli.github.io/octoscope/",
+          "description": "A cross-platform terminal dashboard for GitHub. Profile, social, activity, repo health and languages breakdown at a glance, auto-refreshed every 60 seconds, with native notifications when stars or followers change. Works on your own account or any public profile. Single binary via Homebrew, `go install`, or as a `gh` extension. Built with Go and BubbleTea.",
+          "external": false,
+          "githubRepo": {
+            "name": "octoscope",
+            "fullName": "gfazioli/octoscope",
+            "url": "https://github.com/gfazioli/octoscope",
+            "stars": 7,
+            "forks": 0,
+            "topics": [
+              "bubbletea",
+              "cli",
+              "dashboard",
+              "github",
+              "github-api",
+              "go",
+              "lipgloss",
+              "monitoring",
+              "stats",
+              "terminal",
+              "tui"
+            ],
+            "language": "Go",
+            "pushedAt": "2026-04-28T09:17:38Z",
+            "release": {
+              "tag": "v0.8.1",
+              "publishedAt": "2026-04-28T09:19:14Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.8.1"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1217228073/99444041-7267-434d-93ab-8a896fd9b245",
+            "defaultBranch": "main"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mantine",
+      "title": "Mantine UI Components",
+      "titleIt": "Componenti Mantine UI",
+      "projects": [
+        {
+          "displayName": "Mantine Border Animate",
+          "url": "https://gfazioli.github.io/mantine-border-animate/",
+          "description": "Mantine component for animated border effects with four variants (beam, glow, gradient, pulse), customizable colors, and full animation control. Ideal for creating eye-catching, dynamically styled UI elements with smooth CSS animations.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-border-animate",
+            "fullName": "gfazioli/mantine-border-animate",
+            "url": "https://github.com/gfazioli/mantine-border-animate",
+            "stars": 8,
+            "forks": 1,
+            "topics": [
+              "animate",
+              "beam",
+              "border-animated",
+              "border-animation",
+              "border-beam",
+              "component",
+              "effects",
+              "mantine-ui",
+              "nextjs",
+              "reactjs",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-17T16:41:29Z",
+            "release": {
+              "tag": "2.0.1",
+              "publishedAt": "2026-04-02T12:13:47Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.1"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1108631474/376855ee-5818-4852-be17-eb2be6ded796",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Clock",
+          "url": "https://gfazioli.github.io/mantine-clock/",
+          "description": "React Clock components and hooks for Mantine with timezone support, countdown timers, customization options, and real-time updates.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-clock",
+            "fullName": "gfazioli/mantine-clock",
+            "url": "https://github.com/gfazioli/mantine-clock",
+            "stars": 11,
+            "forks": 0,
+            "topics": [
+              "analog",
+              "animation",
+              "clock",
+              "component",
+              "countdown",
+              "digital-clock",
+              "extension",
+              "hooks",
+              "mantine",
+              "mantine-ui",
+              "mantine-v8",
+              "nextjs",
+              "react-component",
+              "reactjs",
+              "responsive",
+              "timezone",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:01:44Z",
+            "release": {
+              "tag": "4.0.1",
+              "publishedAt": "2026-04-02T12:13:48Z",
+              "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.1"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1026222509/fa12a5db-6e4e-4c9f-89f3-800c960cc827",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Compare",
+          "url": "https://gfazioli.github.io/mantine-compare/",
+          "description": "Mantine Compare is a responsive, accessible React container for side‑by‑side content, letting users reveal differences with a draggable, hover, or fixed split and support for vertical, horizontal, or diagonal dividers.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-compare",
+            "fullName": "gfazioli/mantine-compare",
+            "url": "https://github.com/gfazioli/mantine-compare",
+            "stars": 9,
+            "forks": 0,
+            "topics": [
+              "compare",
+              "compare-images",
+              "image-compare",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "react",
+              "react-component",
+              "reactjs",
+              "reactjs-components",
+              "side-by-side",
+              "slider",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:02:20Z",
+            "release": {
+              "tag": "1.0.0",
+              "publishedAt": "2026-04-02T14:53:47Z",
+              "url": "https://github.com/gfazioli/mantine-compare/releases/tag/1.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1115810167/3e3a0a3b-e88f-40f6-91ee-e62275c6a6a1",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Depth Select",
+          "url": "https://gfazioli.github.io/mantine-depth-select/",
+          "description": "A 3D stack select component inspired by macOS Time Machine for React applications built with Mantine. Navigate through stacked cards with perspective transforms and smooth transitions.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-depth-select",
+            "fullName": "gfazioli/mantine-depth-select",
+            "url": "https://github.com/gfazioli/mantine-depth-select",
+            "stars": 5,
+            "forks": 1,
+            "topics": [
+              "3d-stack",
+              "carousel",
+              "component",
+              "depth-select",
+              "extension",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "react",
+              "react-component",
+              "stack-select",
+              "time-machine",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:02:55Z",
+            "release": {
+              "tag": "2.0.0",
+              "publishedAt": "2026-04-04T20:24:50Z",
+              "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1193486262/57ec7da4-04df-4863-8d44-e42308c19169",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Flip",
+          "url": "https://gfazioli.github.io/mantine-flip/",
+          "description": "A Mantine component that flips the content of the component when hovered over.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-flip",
+            "fullName": "gfazioli/mantine-flip",
+            "url": "https://github.com/gfazioli/mantine-flip",
+            "stars": 29,
+            "forks": 1,
+            "topics": [
+              "component",
+              "flip",
+              "mantine",
+              "mantine-ui",
+              "mantine-v7",
+              "mantine-v8",
+              "nextjs",
+              "reactjs",
+              "typescipt"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-19T04:34:19Z",
+            "release": {
+              "tag": "4.0.2",
+              "publishedAt": "2026-04-17T12:56:24Z",
+              "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.2"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/753039589/9da4ffc6-f888-4220-9016-b9b94db3db08",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Json Tree",
+          "url": "https://gfazioli.github.io/mantine-json-tree/",
+          "description": "A Mantine extension component that renders interactive JSON trees with syntax highlighting, collapsible nodes, copy-to-clipboard, and configurable expansion depth.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-json-tree",
+            "fullName": "gfazioli/mantine-json-tree",
+            "url": "https://github.com/gfazioli/mantine-json-tree",
+            "stars": 10,
+            "forks": 0,
+            "topics": [
+              "collapsible-tree",
+              "component",
+              "developer-tools",
+              "extension",
+              "json",
+              "json-tree",
+              "json-view",
+              "json-viewer",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "react",
+              "react-component",
+              "reactjs",
+              "syntax-highlighting",
+              "treeview",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-12T12:00:07Z",
+            "release": {
+              "tag": "3.1.0",
+              "publishedAt": "2026-04-12T12:00:07Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.1.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1095838382/6ebb2da8-c799-4c49-b12d-613cefc641c8",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Led",
+          "url": "https://gfazioli.github.io/mantine-led/",
+          "description": "A highly customizable LED indicator component for React applications built with Mantine. Provides visual feedback for status indicators with support for colors, sizes, animations, and controlled states",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-led",
+            "fullName": "gfazioli/mantine-led",
+            "url": "https://github.com/gfazioli/mantine-led",
+            "stars": 7,
+            "forks": 0,
+            "topics": [
+              "component",
+              "extension",
+              "led",
+              "library",
+              "mantine",
+              "mantine-ui",
+              "mantine-v8",
+              "nextjs",
+              "react",
+              "react-component",
+              "reactjs",
+              "typescript",
+              "ui"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-14T13:26:06Z",
+            "release": {
+              "tag": "4.0.2",
+              "publishedAt": "2026-04-14T13:26:06Z",
+              "url": "https://github.com/gfazioli/mantine-led/releases/tag/4.0.2"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1132891633/d26ceb3b-bd05-41e2-9a0b-c0a31c77b92a",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Lens Select",
+          "url": "https://gfazioli.github.io/mantine-lens-select/",
+          "description": "A fisheye/lens magnification select component for React built with Mantine. Supports count mode, min/max/step range, macOS Dock-like magnification, and compound components.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-lens-select",
+            "fullName": "gfazioli/mantine-lens-select",
+            "url": "https://github.com/gfazioli/mantine-lens-select",
+            "stars": 3,
+            "forks": 0,
+            "topics": [
+              "component",
+              "count",
+              "dock",
+              "extension",
+              "fisheye",
+              "lens",
+              "macos-dock",
+              "magnification",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "range",
+              "react",
+              "react-component",
+              "select",
+              "slider",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:51:38Z",
+            "release": {
+              "tag": "1.0.0",
+              "publishedAt": "2026-04-09T11:45:46Z",
+              "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine List View Table",
+          "url": "https://gfazioli.github.io/mantine-list-view-table/",
+          "description": "A Mantine component adds a Finder-style List View to the Mantine Table, allowing for column reordering and resizing.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-list-view-table",
+            "fullName": "gfazioli/mantine-list-view-table",
+            "url": "https://github.com/gfazioli/mantine-list-view-table",
+            "stars": 16,
+            "forks": 0,
+            "topics": [
+              "column-reorder",
+              "column-resize",
+              "component",
+              "extension",
+              "finder",
+              "list-view",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "react",
+              "react-component",
+              "responsive",
+              "sorting",
+              "table",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:05:52Z",
+            "release": {
+              "tag": "3.0.0",
+              "publishedAt": "2026-04-04T12:33:30Z",
+              "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/3.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1016110305/0141e449-6eaa-48c6-8677-b98d8a19a5cf",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Marquee",
+          "url": "https://gfazioli.github.io/mantine-marquee/",
+          "description": "A Mantine component that allows you to create a marquee effect with a list of elements",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-marquee",
+            "fullName": "gfazioli/mantine-marquee",
+            "url": "https://github.com/gfazioli/mantine-marquee",
+            "stars": 20,
+            "forks": 0,
+            "topics": [
+              "component",
+              "mantine",
+              "mantine-ui",
+              "mantine-v7",
+              "marquee",
+              "nextjs",
+              "react-component",
+              "reactjs",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:06:28Z",
+            "release": {
+              "tag": "4.0.1",
+              "publishedAt": "2026-04-02T12:13:42Z",
+              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.0.1"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/817275302/7d57ebaf-db7a-4a05-a321-3f6fe931a1e7",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Mask",
+          "url": "https://gfazioli.github.io/mantine-mask/",
+          "description": "A Mantine component that applies a cursor‑follow or static spotlight using CSS masks, revealing content inside the spotlight and softly fading the outside.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-mask",
+            "fullName": "gfazioli/mantine-mask",
+            "url": "https://github.com/gfazioli/mantine-mask",
+            "stars": 3,
+            "forks": 0,
+            "topics": [
+              "component",
+              "css-mask",
+              "extension",
+              "mantine",
+              "mantine-components",
+              "mantine-ui",
+              "mantine-v8",
+              "masking",
+              "nextjs",
+              "overlay",
+              "react",
+              "react-components",
+              "reactjs",
+              "spotlight",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:07:02Z",
+            "release": {
+              "tag": "2.0.1",
+              "publishedAt": "2026-04-02T12:13:45Z",
+              "url": "https://github.com/gfazioli/mantine-mask/releases/tag/2.0.1"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1117605099/4c59267f-9ca7-489b-a3b8-df4de0cbb1f7",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Onboarding Tour",
+          "url": "https://gfazioli.github.io/mantine-onboarding-tour/",
+          "description": "A Mantine component enables you to create a onboarding-tour effect using overlays, popovers, and onboarding tours, which enhances element visibility and interactivity",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-onboarding-tour",
+            "fullName": "gfazioli/mantine-onboarding-tour",
+            "url": "https://github.com/gfazioli/mantine-onboarding-tour",
+            "stars": 52,
+            "forks": 3,
+            "topics": [
+              "focus",
+              "focus-management",
+              "mantine",
+              "mantine-ui",
+              "mantine-v7",
+              "mantine-v9",
+              "nextjs",
+              "onboarding",
+              "onboarding-tool",
+              "reactjs",
+              "reveal",
+              "tour",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-17T16:37:25Z",
+            "release": {
+              "tag": "4.0.0",
+              "publishedAt": "2026-04-07T13:34:10Z",
+              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/935473885/e6105a15-6c72-4535-8cbe-2e9af0137c2d",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Parallax",
+          "url": "https://gfazioli.github.io/mantine-parallax/",
+          "description": "A Mantine component that replicates the Apple TV Card effect and adds parallax effects.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-parallax",
+            "fullName": "gfazioli/mantine-parallax",
+            "url": "https://github.com/gfazioli/mantine-parallax",
+            "stars": 15,
+            "forks": 0,
+            "topics": [
+              "apple",
+              "apple-card",
+              "apple-tv",
+              "apple-tv-card",
+              "component",
+              "mantine",
+              "mantine-ui",
+              "mantine-v7",
+              "nextjs",
+              "parallax",
+              "reactjs",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:08:18Z",
+            "release": {
+              "tag": "4.0.0",
+              "publishedAt": "2026-04-01T21:18:48Z",
+              "url": "https://github.com/gfazioli/mantine-parallax/releases/tag/4.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/895078790/8c49e25a-1b25-4a91-abb4-b09ae8527bd6",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Picker",
+          "url": "https://gfazioli.github.io/mantine-picker/",
+          "description": "A Mantine component that allows you to create a picker effect with a list of elements.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-picker",
+            "fullName": "gfazioli/mantine-picker",
+            "url": "https://github.com/gfazioli/mantine-picker",
+            "stars": 10,
+            "forks": 0,
+            "topics": [
+              "3d",
+              "component",
+              "extension",
+              "ios-picker",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "picker",
+              "react-component",
+              "reactjs",
+              "scroll-picker",
+              "typescript",
+              "wheel-picker"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-26T16:49:19Z",
+            "release": {
+              "tag": "3.1.0",
+              "publishedAt": "2026-04-26T16:49:19Z",
+              "url": "https://github.com/gfazioli/mantine-picker/releases/tag/3.1.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/952062284/0e766484-674a-4f76-87e0-e12a4571b000",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine QRCode",
+          "url": "https://gfazioli.github.io/mantine-qr-code/",
+          "description": "A highly customizable QR Code component for React built with Mantine. Custom dot/corner styles, image overlay, SVG/PNG download hook, and full Styles API.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-qr-code",
+            "fullName": "gfazioli/mantine-qr-code",
+            "url": "https://github.com/gfazioli/mantine-qr-code",
+            "stars": 7,
+            "forks": 0,
+            "topics": [
+              "download",
+              "extension",
+              "mantine",
+              "mantine-extension",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "qr-code",
+              "qr-code-generator",
+              "qrcode",
+              "react",
+              "react-component",
+              "svg",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:09:26Z",
+            "release": {
+              "tag": "2.0.0",
+              "publishedAt": "2026-04-03T15:15:40Z",
+              "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1181066640/394318eb-3734-4c79-a928-c0cb86986d86",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Reflection",
+          "url": "https://gfazioli.github.io/mantine-reflection/",
+          "description": "A Mantine component that adds a reflection effect to its children",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-reflection",
+            "fullName": "gfazioli/mantine-reflection",
+            "url": "https://github.com/gfazioli/mantine-reflection",
+            "stars": 5,
+            "forks": 1,
+            "topics": [
+              "blur",
+              "component",
+              "dark-mode",
+              "effects",
+              "extension",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "mirror",
+              "nextjs",
+              "react-component",
+              "reactjs",
+              "reflection",
+              "responsive",
+              "ripple",
+              "shadow",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:10:00Z",
+            "release": {
+              "tag": "3.0.0",
+              "publishedAt": "2026-04-03T13:03:23Z",
+              "url": "https://github.com/gfazioli/mantine-reflection/releases/tag/3.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/756712347/e16a761f-7c5a-4b4a-85b7-3235a27e26a0",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Rings Progress",
+          "url": "https://gfazioli.github.io/mantine-rings-progress/",
+          "description": "A Mantine component that replicates the progress rings of Apple Watch",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-rings-progress",
+            "fullName": "gfazioli/mantine-rings-progress",
+            "url": "https://github.com/gfazioli/mantine-rings-progress",
+            "stars": 10,
+            "forks": 0,
+            "topics": [
+              "activity-rings",
+              "animation",
+              "apple-watch",
+              "extension",
+              "glow",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "progress",
+              "react-component",
+              "reactjs",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-28T13:12:16Z",
+            "release": {
+              "tag": "4.1.0",
+              "publishedAt": "2026-04-28T13:12:17Z",
+              "url": "https://github.com/gfazioli/mantine-rings-progress/releases/tag/4.1.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/755092083/43a246f1-bba7-4dd7-b612-cb8b3624ec7e",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Select Stepper",
+          "url": "https://gfazioli.github.io/mantine-select-stepper",
+          "description": "Allows users to navigate through a list of options using increment and decrement buttons, providing an intuitive alternative to traditional dropdown selects for cycling through predefined values",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-select-stepper",
+            "fullName": "gfazioli/mantine-select-stepper",
+            "url": "https://github.com/gfazioli/mantine-select-stepper",
+            "stars": 3,
+            "forks": 2,
+            "topics": [
+              "accessible",
+              "animation",
+              "component",
+              "form",
+              "keyboard-navigation",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "reactjs",
+              "reactjs-components",
+              "responsive",
+              "select",
+              "select-stepper",
+              "stepper",
+              "styles-api",
+              "swipe",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:11:46Z",
+            "release": {
+              "tag": "3.0.0",
+              "publishedAt": "2026-04-05T10:01:49Z",
+              "url": "https://github.com/gfazioli/mantine-select-stepper/releases/tag/3.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1134393925/e5a13699-fce5-40e9-a89b-1c07529c8592",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Scene",
+          "url": "https://gfazioli.github.io/mantine-scene/",
+          "description": "A composable decorative background system for Mantine with gradients, particles, noise, and interactive effects.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-scene",
+            "fullName": "gfazioli/mantine-scene",
+            "url": "https://github.com/gfazioli/mantine-scene",
+            "stars": 4,
+            "forks": 0,
+            "topics": [
+              "animation",
+              "aurora",
+              "background",
+              "css-animation",
+              "decorative-background",
+              "extension",
+              "gradient",
+              "mantine",
+              "mantine-component",
+              "mantine-ui",
+              "mantine-v9",
+              "noise-texture",
+              "particles",
+              "react",
+              "react-component",
+              "starfield",
+              "typescript",
+              "visual-effects"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:11:12Z",
+            "release": {
+              "tag": "2.0.0",
+              "publishedAt": "2026-04-03T16:08:05Z",
+              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1179546432/f8415cbe-a6ed-4db2-b120-fe792d145eb4",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Spinner",
+          "url": "https://gfazioli.github.io/mantine-spinner/",
+          "description": "A Mantine React component for an enhanced loading state",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-spinner",
+            "fullName": "gfazioli/mantine-spinner",
+            "url": "https://github.com/gfazioli/mantine-spinner",
+            "stars": 4,
+            "forks": 0,
+            "topics": [
+              "animation",
+              "component",
+              "glow",
+              "gradient",
+              "loader",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "progress",
+              "react-component",
+              "reactjs",
+              "spinner",
+              "svg",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-09T12:12:20Z",
+            "release": {
+              "tag": "4.0.0",
+              "publishedAt": "2026-04-05T08:04:39Z",
+              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/927876363/edfa2381-4a04-48b6-9f84-27406aaa593f",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Split Pane",
+          "url": "https://gfazioli.github.io/mantine-split-pane/",
+          "description": "A Mantine component that manages split panes allows users to divide and resize content areas within a layout efficiently",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-split-pane",
+            "fullName": "gfazioli/mantine-split-pane",
+            "url": "https://github.com/gfazioli/mantine-split-pane",
+            "stars": 72,
+            "forks": 6,
+            "topics": [
+              "component",
+              "extension",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "pane",
+              "react",
+              "resizable",
+              "resizer",
+              "split",
+              "split-pane",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-17T15:47:13Z",
+            "release": {
+              "tag": "4.1.0",
+              "publishedAt": "2026-04-17T15:47:14Z",
+              "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/761778869/e15453b6-5522-42f1-9d62-a6c30eba0c5c",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Text Animate",
+          "url": "https://gfazioli.github.io/mantine-text-animate/",
+          "description": "A Mantine component that allows you to animate text with various effects",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-text-animate",
+            "fullName": "gfazioli/mantine-text-animate",
+            "url": "https://github.com/gfazioli/mantine-text-animate",
+            "stars": 18,
+            "forks": 2,
+            "topics": [
+              "mantine",
+              "mantine-hooks",
+              "mantine-ui",
+              "mantine-v9",
+              "number-ticker",
+              "reactjs",
+              "reactjs-components",
+              "text-animation",
+              "text-effects",
+              "text-spinner",
+              "text-ticker",
+              "typescript",
+              "typewriter",
+              "typewriter-animation",
+              "typewriter-effect",
+              "typewriterjs"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-17T16:27:25Z",
+            "release": {
+              "tag": "4.0.0",
+              "publishedAt": "2026-04-06T19:13:28Z",
+              "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/943410410/9d46af16-e6af-4312-b778-fa75f42a47f0",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Window",
+          "url": "https://gfazioli.github.io/mantine-window/",
+          "description": "A Mantine extension component that renders draggable, resizable floating windows with persistent state, customizable boundaries, collapsible content, and flexible control over position, size, and interaction modes",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-window",
+            "fullName": "gfazioli/mantine-window",
+            "url": "https://github.com/gfazioli/mantine-window",
+            "stars": 10,
+            "forks": 0,
+            "topics": [
+              "component",
+              "draggable",
+              "extension",
+              "floating-window",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "react",
+              "react-component",
+              "resizable",
+              "typescript",
+              "window"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-04-21T15:36:20Z",
+            "release": {
+              "tag": "3.1.0",
+              "publishedAt": "2026-04-21T15:36:20Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1101408916/b11f894c-54db-4c67-9adc-691260b31a33",
+            "defaultBranch": "master"
+          }
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "title": "Templates",
+      "titleIt": "Template",
+      "projects": [
+        {
+          "displayName": "Vercel MantineUI + Nextra",
+          "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
+          "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
+          "external": true
+        },
+        {
+          "displayName": "Mantine NextJS App Router + Nextra Template",
+          "url": "https://next-app-nextra-template.vercel.app/",
+          "description": "This starter Next.js project includes a minimal setup for server side rendering, if you want to learn more on Mantine + Next.js",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "title": "WordPress Plugins",
+      "titleIt": "Plugin WordPress",
+      "projects": [
+        {
+          "displayName": "Bannerize",
+          "url": "https://bannerize.vercel.app/",
+          "description": "WordPress banner management with built-in impressions, clicks, and CTR analytics. Create image, HTML, or WebP banners, organize them into campaigns, and track performance with trend charts and CSV export. Built with WPBones and Mantine UI.",
+          "external": true
+        },
+        {
+          "displayName": "Scotty",
+          "url": "https://scotty-plugin.vercel.app/",
+          "description": "WordPress site maintenance and optimization with a modern React/Mantine dashboard. Clean your database, manage cron jobs, control 22+ hidden WordPress settings, and monitor site health — all from a single interface. Built with WPBones.",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "raycast",
+      "title": "Raycast — maintain or contribute to",
+      "titleIt": "Raycast — manutenzione e contributi",
+      "projects": [
+        {
+          "displayName": "Sync Folders",
+          "url": "https://www.raycast.com/Undolog/sync-folders",
+          "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
+          "external": true
+        },
+        {
+          "displayName": "WP Bones",
+          "url": "https://www.raycast.com/Undolog/wp-bones",
+          "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
+          "external": true
+        },
+        {
+          "displayName": "GitHub",
+          "url": "https://www.raycast.com/raycast/github",
+          "description": "My GitHub Stats Menu Bar, view followers, stars, PRs, issues and commits at a glance",
+          "external": true
+        },
+        {
+          "displayName": "Open Folders",
+          "url": "https://www.raycast.com/timothy_boye/open-folders",
+          "description": "Open your common files and folders quickly!",
+          "external": true
+        },
+        {
+          "displayName": "Text Shortcuts",
+          "url": "https://www.raycast.com/koinzhang/text-shortcuts",
+          "description": "Use Text Shortcuts to handle text from the selection or clipboard",
+          "external": true
+        },
+        {
+          "displayName": "Window Layouts",
+          "url": "https://www.raycast.com/teemu_suvinen/window-layouts",
+          "description": "Tile open windows into predefined or custom layouts, Save & Restore, Auto Layout, Pick Layout",
+          "external": true
+        }
+      ]
+    }
+  ],
+  "techLinks": [
+    {
+      "displayName": "Undolog.com",
+      "url": "https://undolog.com",
+      "description": "R&D blog — deep dives on React, TypeScript, WordPress, and Go"
+    },
+    {
+      "displayName": "Dev.to",
+      "url": "https://dev.to/undolog",
+      "description": "Tutorials and release notes"
+    },
+    {
+      "displayName": "Medium",
+      "url": "https://medium.com/@giovambattista.fazioli",
+      "description": "Long-form articles"
+    },
+    {
+      "displayName": "NPM",
+      "url": "https://www.npmjs.com/~gfazioli",
+      "description": "Published npm packages"
+    },
+    {
+      "displayName": "Composer",
+      "url": "https://packagist.org/users/gfazioli/packages/",
+      "description": "PHP packages on Packagist"
+    }
+  ]
+}
