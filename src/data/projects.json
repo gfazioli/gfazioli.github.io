@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-28T15:54:05.889Z",
+  "fetchedAt": "2026-04-28T16:05:39.310Z",
   "sectionCount": 8,
   "projectCount": 39,
   "sections": [
@@ -78,7 +78,7 @@
               "publishedAt": "2026-04-28T09:19:14Z",
               "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.8.1"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/1217228073/99444041-7267-434d-93ab-8a896fd9b245",
+            "ogImage": "https://gfazioli.github.io/octoscope/og-image.jpg",
             "defaultBranch": "main"
           }
         }
@@ -1006,7 +1006,7 @@
               "publishedAt": "2026-04-28T15:26:26Z",
               "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.0"
             },
-            "ogImage": null,
+            "ogImage": "https://gfazioli.github.io/react-toggle/og-default.svg",
             "defaultBranch": "main"
           }
         }

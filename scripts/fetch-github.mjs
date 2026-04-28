@@ -196,6 +196,31 @@ async function getOpenGraph(slug) {
   }
 }
 
+/**
+ * Try to extract `og:image` from the demo site's HTML <head>.
+ * Used as the preferred source for project cards because it tends to
+ * be more brand-matched than the repo's GitHub social preview.
+ */
+async function getHomepageOgImage(homepage) {
+  if (!homepage) return null;
+  try {
+    const res = await fetch(homepage, {
+      headers: { "User-Agent": "gfazioli-portfolio-fetcher/1.0" },
+      signal: AbortSignal.timeout(10000),
+      redirect: "follow",
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const match =
+      html.match(/<meta[^>]+property=["']og:image["'][^>]*content=["']([^"']+)["']/i) ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:image["']/i);
+    if (!match) return null;
+    return new URL(match[1], homepage).href;
+  } catch {
+    return null;
+  }
+}
+
 async function enrichEntry(entry) {
   const slug = deriveRepoSlug(entry.url);
   if (!slug) {
@@ -208,9 +233,13 @@ async function enrichEntry(entry) {
     return { ...entry, external: true };
   }
   const release = await getLatestRelease(slug);
-  const customOgImage = await getOpenGraph(slug);
+  const homepage = repo.homepage || entry.url;
+  const homepageOg = await getHomepageOgImage(homepage);
+  const repoOg = homepageOg ? null : await getOpenGraph(slug);
+  const ogImage = homepageOg ?? repoOg;
+  const ogSource = homepageOg ? "🌐" : repoOg ? "🖼" : "";
   process.stdout.write(
-    `${release ? `(${release.tag})` : ""}${customOgImage ? " 🖼" : ""}\n`
+    `${release ? `(${release.tag})` : ""}${ogSource ? ` ${ogSource}` : ""}\n`
   );
   return {
     ...entry,
@@ -225,7 +254,7 @@ async function enrichEntry(entry) {
       language: repo.language,
       pushedAt: repo.pushed_at,
       release,
-      ogImage: customOgImage,
+      ogImage,
       defaultBranch: repo.default_branch,
     },
   };
