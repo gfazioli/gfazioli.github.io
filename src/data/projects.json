@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-28T17:37:58.080Z",
+  "fetchedAt": "2026-04-29T07:03:47.359Z",
   "sectionCount": 8,
   "projectCount": 40,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 7,
+            "stars": 16,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -660,7 +660,7 @@
             "name": "mantine-reflection",
             "fullName": "gfazioli/mantine-reflection",
             "url": "https://github.com/gfazioli/mantine-reflection",
-            "stars": 5,
+            "stars": 6,
             "forks": 1,
             "topics": [
               "blur",
@@ -803,7 +803,7 @@
               "visual-effects"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-09T12:11:12Z",
+            "pushedAt": "2026-04-29T05:37:49Z",
             "release": {
               "tag": "2.0.0",
               "publishedAt": "2026-04-03T16:08:05Z",
@@ -1000,13 +1000,13 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-28T17:33:29Z",
+            "pushedAt": "2026-04-28T17:42:50Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T15:26:26Z",
               "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.0"
             },
-            "ogImage": "https://gfazioli.github.io/react-toggle/og-default.svg",
+            "ogImage": "https://gfazioli.github.io/react-toggle/og-default.png",
             "defaultBranch": "main"
           }
         },
@@ -1035,13 +1035,13 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-28T17:33:45Z",
+            "pushedAt": "2026-04-28T17:42:49Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T17:29:02Z",
               "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.0"
             },
-            "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.svg",
+            "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.png",
             "defaultBranch": "main"
           }
         }
