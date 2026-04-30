@@ -17,9 +17,10 @@ import type { ProjectEntry } from "@/lib/projects";
 
 interface ProjectCardProps {
   project: ProjectEntry;
+  icon?: string;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, icon }: ProjectCardProps) {
   const repo = project.githubRepo;
   const ogImage = repo?.ogImage;
 
@@ -44,9 +45,22 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
       <Stack gap="sm" h="100%" p="lg">
         <Group justify="space-between" wrap="nowrap" align="flex-start">
-          <Title order={3} fz="lg" lineClamp={1} title={project.displayName}>
-            {project.displayName}
-          </Title>
+          <Group gap="sm" wrap="nowrap" align="center" style={{ minWidth: 0 }}>
+            {icon ? (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                src={icon}
+                alt=""
+                width={40}
+                height={40}
+                loading="lazy"
+                className="block shrink-0 rounded-md"
+              />
+            ) : null}
+            <Title order={3} fz="lg" lineClamp={1} title={project.displayName}>
+              {project.displayName}
+            </Title>
+          </Group>
           {repo ? (
             <Group gap={4} c="dimmed">
               <IconStar size={14} />

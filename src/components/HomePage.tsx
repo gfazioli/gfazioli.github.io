@@ -8,6 +8,7 @@ import { SiteHeader } from "./SiteHeader";
 import { TechLinkCard } from "./TechLinkCard";
 import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { projects, type ProjectSection } from "@/lib/projects";
+import { PROJECT_ICONS } from "@/data/project-icons";
 
 interface HomePageProps {
   lang: Lang;
@@ -56,7 +57,7 @@ export function HomePage({ lang, dict }: HomePageProps) {
               </Stack>
               <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing="lg">
                 {section.projects.map((p) => (
-                  <ProjectCard key={p.url} project={p} />
+                  <ProjectCard key={p.url} project={p} icon={PROJECT_ICONS[p.url]} />
                 ))}
               </SimpleGrid>
             </Container>

@@ -1,0 +1,14 @@
+export const PROJECT_ICONS: Record<string, string> = {
+  "https://findergit.app": "/macos/findergit.png",
+  "https://gfazioli.github.io/octoscope/": "/cli/octoscope.png",
+  "https://wpbones.com": "/wordpress/wpbones.png",
+  "https://bannerize.vercel.app/": "/wordpress/bannerize.png",
+  "https://scotty-plugin.vercel.app/": "/wordpress/scotty.png",
+  "https://www.raycast.com/Undolog/sync-folders": "/raycast/sync-folders.png",
+  "https://www.raycast.com/Undolog/wp-bones": "/raycast/wp-bones.png",
+  "https://www.raycast.com/Undolog/macos-tweaks": "/raycast/macos-tweaks.png",
+  "https://www.raycast.com/raycast/github": "/raycast/github.png",
+  "https://www.raycast.com/timothy_boye/open-folders": "/raycast/open-folders.png",
+  "https://www.raycast.com/koinzhang/text-shortcuts": "/raycast/text-shortcuts.png",
+  "https://www.raycast.com/teemu_suvinen/window-layouts": "/raycast/window-layouts.png",
+};
