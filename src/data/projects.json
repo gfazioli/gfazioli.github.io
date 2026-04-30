@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-29T07:03:47.359Z",
+  "fetchedAt": "2026-04-30T07:06:30.519Z",
   "sectionCount": 8,
   "projectCount": 40,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 16,
+            "stars": 28,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -72,7 +72,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-04-28T09:17:38Z",
+            "pushedAt": "2026-04-30T05:28:40Z",
             "release": {
               "tag": "v0.8.1",
               "publishedAt": "2026-04-28T09:19:14Z",
@@ -786,28 +786,30 @@
               "animation",
               "aurora",
               "background",
+              "confetti",
               "css-animation",
-              "decorative-background",
               "extension",
               "gradient",
+              "lazy",
               "mantine",
-              "mantine-component",
               "mantine-ui",
               "mantine-v9",
-              "noise-texture",
+              "parallax",
               "particles",
+              "rain",
               "react",
               "react-component",
               "starfield",
+              "svg",
               "typescript",
-              "visual-effects"
+              "waves"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-29T05:37:49Z",
+            "pushedAt": "2026-04-29T13:59:23Z",
             "release": {
-              "tag": "2.0.0",
-              "publishedAt": "2026-04-03T16:08:05Z",
-              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.0.0"
+              "tag": "2.1.0",
+              "publishedAt": "2026-04-29T13:59:23Z",
+              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.1.0"
             },
             "ogImage": "https://repository-images.githubusercontent.com/1179546432/f8415cbe-a6ed-4db2-b120-fe792d145eb4",
             "defaultBranch": "master"
