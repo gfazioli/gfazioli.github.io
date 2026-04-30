@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-04-30T07:06:30.519Z",
+  "fetchedAt": "2026-04-30T09:40:57.275Z",
   "sectionCount": 8,
-  "projectCount": 40,
+  "projectCount": 41,
   "sections": [
     {
       "id": "core",
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 28,
+            "stars": 30,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -72,7 +72,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-04-30T05:28:40Z",
+            "pushedAt": "2026-04-30T07:41:35Z",
             "release": {
               "tag": "v0.8.1",
               "publishedAt": "2026-04-28T09:19:14Z",
@@ -1102,6 +1102,12 @@
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
+          "external": true
+        },
+        {
+          "displayName": "macOS Tweaks",
+          "url": "https://www.raycast.com/Undolog/macos-tweaks",
+          "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
           "external": true
         },
         {
