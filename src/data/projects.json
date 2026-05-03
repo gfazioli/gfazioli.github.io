@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-02T06:51:34.685Z",
+  "fetchedAt": "2026-05-03T07:03:05.304Z",
   "sectionCount": 8,
   "projectCount": 41,
   "sections": [
@@ -263,7 +263,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-19T04:34:19Z",
+            "pushedAt": "2026-05-03T04:35:38Z",
             "release": {
               "tag": "4.0.2",
               "publishedAt": "2026-04-17T12:56:24Z",
@@ -304,11 +304,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-12T12:00:07Z",
+            "pushedAt": "2026-05-02T13:14:54Z",
             "release": {
-              "tag": "3.1.0",
-              "publishedAt": "2026-04-12T12:00:07Z",
-              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.1.0"
+              "tag": "3.2.0",
+              "publishedAt": "2026-05-02T13:14:55Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.2.0"
             },
             "ogImage": "https://repository-images.githubusercontent.com/1095838382/6ebb2da8-c799-4c49-b12d-613cefc641c8",
             "defaultBranch": "master"
@@ -844,11 +844,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-09T12:12:20Z",
+            "pushedAt": "2026-05-02T14:07:56Z",
             "release": {
-              "tag": "4.0.0",
-              "publishedAt": "2026-04-05T08:04:39Z",
-              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.0.0"
+              "tag": "4.1.0",
+              "publishedAt": "2026-05-02T14:07:56Z",
+              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.0"
             },
             "ogImage": "https://repository-images.githubusercontent.com/927876363/edfa2381-4a04-48b6-9f84-27406aaa593f",
             "defaultBranch": "master"
