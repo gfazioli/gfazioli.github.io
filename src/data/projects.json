@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-03T07:03:05.304Z",
+  "fetchedAt": "2026-05-04T07:18:21.304Z",
   "sectionCount": 8,
   "projectCount": 41,
   "sections": [
@@ -72,11 +72,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-04-30T07:41:35Z",
+            "pushedAt": "2026-05-04T07:10:04Z",
             "release": {
-              "tag": "v0.8.1",
-              "publishedAt": "2026-04-28T09:19:14Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.8.1"
+              "tag": "v0.9.0",
+              "publishedAt": "2026-05-04T07:11:24Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.9.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/og-image.jpg",
             "defaultBranch": "main"
@@ -263,11 +263,11 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-03T04:35:38Z",
+            "pushedAt": "2026-05-04T05:46:52Z",
             "release": {
-              "tag": "4.0.2",
-              "publishedAt": "2026-04-17T12:56:24Z",
-              "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.2"
+              "tag": "4.0.3",
+              "publishedAt": "2026-05-04T05:46:17Z",
+              "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.3"
             },
             "ogImage": "https://repository-images.githubusercontent.com/753039589/9da4ffc6-f888-4220-9016-b9b94db3db08",
             "defaultBranch": "master"
@@ -939,7 +939,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 10,
+            "stars": 11,
             "forks": 0,
             "topics": [
               "component",
