@@ -7,6 +7,7 @@ export const PROJECT_ICONS: Record<string, string> = {
   "https://bannerize.vercel.app/": "/wordpress/bannerize.png",
   "https://scotty-plugin.vercel.app/": "/wordpress/scotty.png",
   "https://www.raycast.com/Undolog/sync-folders": "/raycast/sync-folders.png",
+  "https://www.raycast.com/Undolog/app-updates": "/raycast/app-updates.png",
   "https://www.raycast.com/Undolog/wp-bones": "/raycast/wp-bones.png",
   "https://www.raycast.com/Undolog/macos-tweaks": "/raycast/macos-tweaks.png",
   "https://www.raycast.com/raycast/github": "/raycast/github.png",

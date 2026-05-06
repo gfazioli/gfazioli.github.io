@@ -11,9 +11,55 @@ body {
   min-height: 100%;
 }
 
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   background: var(--mantine-color-body);
   color: var(--mantine-color-text);
+}
+
+/* Header scroll-spy nav links */
+.nav-spy-link {
+  position: relative;
+  color: var(--mantine-color-dimmed);
+  transition: color 150ms ease;
+}
+
+.nav-spy-link:hover,
+.nav-spy-link:focus-visible {
+  color: var(--mantine-color-bright);
+}
+
+.nav-spy-link.is-active {
+  color: var(--mantine-color-bright);
+}
+
+.nav-spy-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  border-radius: 9999px;
+  background: var(--mantine-color-orange-4);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 300ms ease-out;
+  pointer-events: none;
+}
+
+.nav-spy-link.is-active::after {
+  transform: scaleX(1);
 }
 
 /* CRT scanline effect — toggleable via [data-crt] on body */
