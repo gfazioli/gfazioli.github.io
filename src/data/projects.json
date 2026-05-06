@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-05T07:00:07.395Z",
+  "fetchedAt": "2026-05-06T07:10:01.749Z",
   "sectionCount": 8,
-  "projectCount": 41,
+  "projectCount": 42,
   "sections": [
     {
       "id": "core",
@@ -401,7 +401,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 16,
+            "stars": 17,
             "forks": 0,
             "topics": [
               "column-reorder",
@@ -421,7 +421,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-05T05:46:48Z",
+            "pushedAt": "2026-05-05T17:12:44Z",
             "release": {
               "tag": "4.0.0",
               "publishedAt": "2026-05-04T13:30:42Z",
@@ -1044,6 +1044,39 @@
               "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.0"
             },
             "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.png",
+            "defaultBranch": "main"
+          }
+        },
+        {
+          "displayName": "@gfazioli/react-flip",
+          "url": "https://gfazioli.github.io/react-flip/",
+          "description": "A React component that wraps any two faces and animates a 3D rotation between them. Compound API (`<Flip>` + `<Flip.Target>`), controlled or uncontrolled, with tunable `perspective` / `duration` / `easing` / `direction` and separate `directionFlipIn` / `directionFlipOut` for one-way coin-flip rotations. Themeable via `--rfp-*` CSS variables, zero deps, ~2 KB gzipped, TypeScript-first.",
+          "external": false,
+          "githubRepo": {
+            "name": "react-flip",
+            "fullName": "gfazioli/react-flip",
+            "url": "https://github.com/gfazioli/react-flip",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "3d",
+              "animation",
+              "card",
+              "css-modules",
+              "flip",
+              "react",
+              "react-component",
+              "transition",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-05-05T17:07:56Z",
+            "release": {
+              "tag": "v1.0.0",
+              "publishedAt": "2026-05-05T17:07:57Z",
+              "url": "https://github.com/gfazioli/react-flip/releases/tag/v1.0.0"
+            },
+            "ogImage": "https://gfazioli.github.io/react-flip/og-default.png",
             "defaultBranch": "main"
           }
         }
