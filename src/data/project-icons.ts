@@ -2,6 +2,8 @@ export const PROJECT_ICONS: Record<string, string> = {
   "https://findergit.app": "/macos/findergit.png",
   "https://gfazioli.github.io/octoscope/": "/cli/octoscope.png",
   "https://wpbones.com": "/wordpress/wpbones.png",
+  "https://mantine-extensions.vercel.app": "/mantine/extensions.svg",
+  "https://amiga-assembly-library.vercel.app/": "/amiga/assembly-library.svg",
   "https://bannerize.vercel.app/": "/wordpress/bannerize.png",
   "https://scotty-plugin.vercel.app/": "/wordpress/scotty.png",
   "https://www.raycast.com/Undolog/sync-folders": "/raycast/sync-folders.png",
