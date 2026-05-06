@@ -12,7 +12,9 @@ interface HeaderNavProps {
   links: HeaderNavLink[];
 }
 
-const SPY_OFFSET = 80;
+// Slightly larger than html `scroll-padding-top` (80px) so that anchor clicks
+// land safely below the threshold even with sub-pixel rounding.
+const SPY_OFFSET = 100;
 
 export function HeaderNav({ links }: HeaderNavProps) {
   const [activeId, setActiveId] = useState<string | null>(null);
