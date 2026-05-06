@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-06T07:10:01.749Z",
+  "fetchedAt": "2026-05-06T10:44:46.209Z",
   "sectionCount": 8,
-  "projectCount": 42,
+  "projectCount": 43,
   "sections": [
     {
       "id": "core",
@@ -421,11 +421,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-05T17:12:44Z",
+            "pushedAt": "2026-05-06T10:34:06Z",
             "release": {
-              "tag": "4.0.0",
-              "publishedAt": "2026-05-04T13:30:42Z",
-              "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.0.0"
+              "tag": "4.1.0",
+              "publishedAt": "2026-05-06T10:34:07Z",
+              "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.1.0"
             },
             "ogImage": "https://repository-images.githubusercontent.com/1016110305/0141e449-6eaa-48c6-8677-b98d8a19a5cf",
             "defaultBranch": "master"
@@ -1002,7 +1002,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-28T17:42:50Z",
+            "pushedAt": "2026-05-06T07:35:43Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T15:26:26Z",
@@ -1037,7 +1037,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-04-28T17:42:49Z",
+            "pushedAt": "2026-05-06T07:35:45Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T17:29:02Z",
@@ -1070,7 +1070,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-05T17:07:56Z",
+            "pushedAt": "2026-05-06T07:35:46Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-05-05T17:07:57Z",
@@ -1141,6 +1141,12 @@
           "displayName": "macOS Tweaks",
           "url": "https://www.raycast.com/Undolog/macos-tweaks",
           "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
+          "external": true
+        },
+        {
+          "displayName": "App Updates",
+          "url": "https://www.raycast.com/Undolog/app-updates",
+          "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
           "external": true
         },
         {
