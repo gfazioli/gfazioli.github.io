@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-06T10:44:46.209Z",
+  "fetchedAt": "2026-05-07T07:15:25.063Z",
   "sectionCount": 8,
   "projectCount": 43,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 33,
+            "stars": 34,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -401,7 +401,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 17,
+            "stars": 18,
             "forks": 0,
             "topics": [
               "column-reorder",
@@ -421,7 +421,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-06T10:34:06Z",
+            "pushedAt": "2026-05-06T12:22:20Z",
             "release": {
               "tag": "4.1.0",
               "publishedAt": "2026-05-06T10:34:07Z",
@@ -440,7 +440,7 @@
             "name": "mantine-marquee",
             "fullName": "gfazioli/mantine-marquee",
             "url": "https://github.com/gfazioli/mantine-marquee",
-            "stars": 20,
+            "stars": 21,
             "forks": 0,
             "topics": [
               "component",
@@ -939,7 +939,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 11,
+            "stars": 12,
             "forks": 0,
             "topics": [
               "component",
