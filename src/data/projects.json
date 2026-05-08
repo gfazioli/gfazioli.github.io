@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-07T07:15:25.063Z",
+  "fetchedAt": "2026-05-08T06:48:46.573Z",
   "sectionCount": 8,
   "projectCount": 43,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 34,
+            "stars": 35,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -72,11 +72,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-05-05T05:24:37Z",
+            "pushedAt": "2026-05-07T14:47:35Z",
             "release": {
-              "tag": "v0.9.1",
-              "publishedAt": "2026-05-05T05:15:35Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.9.1"
+              "tag": "v0.10.1",
+              "publishedAt": "2026-05-07T14:45:13Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.10.1"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/og-image.jpg",
             "defaultBranch": "main"
@@ -212,7 +212,7 @@
             "name": "mantine-depth-select",
             "fullName": "gfazioli/mantine-depth-select",
             "url": "https://github.com/gfazioli/mantine-depth-select",
-            "stars": 5,
+            "stars": 6,
             "forks": 1,
             "topics": [
               "3d-stack",
@@ -440,7 +440,7 @@
             "name": "mantine-marquee",
             "fullName": "gfazioli/mantine-marquee",
             "url": "https://github.com/gfazioli/mantine-marquee",
-            "stars": 21,
+            "stars": 22,
             "forks": 0,
             "topics": [
               "component",
@@ -780,7 +780,7 @@
             "name": "mantine-scene",
             "fullName": "gfazioli/mantine-scene",
             "url": "https://github.com/gfazioli/mantine-scene",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "animation",
@@ -863,7 +863,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 73,
+            "stars": 74,
             "forks": 6,
             "topics": [
               "component",
