@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-08T06:48:46.573Z",
+  "fetchedAt": "2026-05-09T06:55:12.142Z",
   "sectionCount": 8,
   "projectCount": 43,
   "sections": [
@@ -72,7 +72,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-05-07T14:47:35Z",
+            "pushedAt": "2026-05-08T09:04:18Z",
             "release": {
               "tag": "v0.10.1",
               "publishedAt": "2026-05-07T14:45:13Z",
@@ -863,7 +863,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 74,
+            "stars": 75,
             "forks": 6,
             "topics": [
               "component",
