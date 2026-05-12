@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-11T07:30:38.914Z",
+  "fetchedAt": "2026-05-12T07:14:10.112Z",
   "sectionCount": 8,
   "projectCount": 43,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 35,
+            "stars": 36,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -401,7 +401,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 18,
+            "stars": 19,
             "forks": 0,
             "topics": [
               "column-reorder",
