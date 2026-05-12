@@ -10,6 +10,7 @@ export const PROJECT_ICONS: Record<string, string> = {
   "https://www.raycast.com/Undolog/app-updates": "/raycast/app-updates.png",
   "https://www.raycast.com/Undolog/wp-bones": "/raycast/wp-bones.png",
   "https://www.raycast.com/Undolog/macos-tweaks": "/raycast/macos-tweaks.png",
+  "https://www.raycast.com/Undolog/dev-cache-cleaner": "/raycast/dev-cache-cleaner.png",
   "https://www.raycast.com/raycast/github": "/raycast/github.png",
   "https://www.raycast.com/timothy_boye/open-folders": "/raycast/open-folders.png",
   "https://www.raycast.com/koinzhang/text-shortcuts": "/raycast/text-shortcuts.png",
