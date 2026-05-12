@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-12T07:14:10.112Z",
+  "fetchedAt": "2026-05-12T09:27:57.980Z",
   "sectionCount": 8,
-  "projectCount": 43,
+  "projectCount": 44,
   "sections": [
     {
       "id": "core",
@@ -1147,6 +1147,12 @@
           "displayName": "App Updates",
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
+          "external": true
+        },
+        {
+          "displayName": "Dev Cache Cleaner",
+          "url": "https://www.raycast.com/Undolog/dev-cache-cleaner",
+          "description": "Scan and clean developer caches, build artifacts and orphaned dependencies to reclaim disk space, with Quick Clean and a Cache Status menu bar",
           "external": true
         },
         {
