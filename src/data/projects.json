@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-18T07:42:52.418Z",
+  "fetchedAt": "2026-05-18T13:44:39.798Z",
   "sectionCount": 8,
-  "projectCount": 45,
+  "projectCount": 46,
   "sections": [
     {
       "id": "core",
@@ -927,6 +927,49 @@
               "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.2"
             },
             "ogImage": "https://repository-images.githubusercontent.com/943410410/9d46af16-e6af-4312-b778-fa75f42a47f0",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Video",
+          "url": "https://gfazioli.github.io/mantine-video/",
+          "description": "A Mantine-native video player for React with compound API, headless `useVideo` hook, four variants, Picture-in-Picture, fullscreen, captions, live timeline scrubbing, and an `asBackground` mode for hero / section backgrounds.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-video",
+            "fullName": "gfazioli/mantine-video",
+            "url": "https://github.com/gfazioli/mantine-video",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "a11y",
+              "captions",
+              "component",
+              "extension",
+              "fullscreen",
+              "html5-video",
+              "mantine",
+              "mantine-ui",
+              "mantine-v8",
+              "media-player",
+              "picture-in-picture",
+              "playback",
+              "react",
+              "react-component",
+              "react-video",
+              "react-video-player",
+              "typescript",
+              "video",
+              "video-player"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-05-18T13:26:35Z",
+            "release": {
+              "tag": "1.0.0",
+              "publishedAt": "2026-05-18T13:23:04Z",
+              "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1242484473/c7191029-fa66-43d0-a588-96a0044cfae0",
             "defaultBranch": "master"
           }
         },
