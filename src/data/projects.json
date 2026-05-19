@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-19T07:30:09.254Z",
+  "fetchedAt": "2026-05-19T16:56:34.508Z",
   "sectionCount": 8,
-  "projectCount": 46,
+  "projectCount": 47,
   "sections": [
     {
       "id": "core",
@@ -89,6 +89,47 @@
       "title": "Mantine UI Components",
       "titleIt": "Componenti Mantine UI",
       "projects": [
+        {
+          "displayName": "Mantine Audio",
+          "url": "https://gfazioli.github.io/mantine-audio/",
+          "description": "A Mantine-native audio player for React with waveform visualisation, live spectrum analyser, compound API, headless `useAudio` hook, scrubbable timeline with `scrubSound`, multiple-source delivery, `fallbackSrc`, and an `asBackground` preset for ambient hero tracks.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-audio",
+            "fullName": "gfazioli/mantine-audio",
+            "url": "https://github.com/gfazioli/mantine-audio",
+            "stars": 0,
+            "forks": 0,
+            "topics": [
+              "audio",
+              "audio-player",
+              "component",
+              "compound-component",
+              "headless",
+              "mantine",
+              "mantine-extension",
+              "mantine-ui",
+              "mantine-v9",
+              "podcast",
+              "react",
+              "react-audio",
+              "react-component",
+              "spectrum-analyzer",
+              "typescript",
+              "waveform",
+              "web-audio-api"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-05-19T16:40:26Z",
+            "release": {
+              "tag": "1.0.0",
+              "publishedAt": "2026-05-19T16:35:34Z",
+              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1243755335/3878f6e9-3cd4-404a-8ea9-665522162e9a",
+            "defaultBranch": "master"
+          }
+        },
         {
           "displayName": "Mantine Border Animate",
           "url": "https://gfazioli.github.io/mantine-border-animate/",
@@ -512,7 +553,7 @@
             "name": "mantine-onboarding-tour",
             "fullName": "gfazioli/mantine-onboarding-tour",
             "url": "https://github.com/gfazioli/mantine-onboarding-tour",
-            "stars": 53,
+            "stars": 54,
             "forks": 3,
             "topics": [
               "focus",
