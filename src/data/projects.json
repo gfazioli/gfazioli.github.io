@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-19T16:56:34.508Z",
+  "fetchedAt": "2026-05-20T07:29:46.436Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -72,7 +72,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-05-15T15:53:43Z",
+            "pushedAt": "2026-05-20T07:18:27Z",
             "release": {
               "tag": "v0.12.0",
               "publishedAt": "2026-05-15T15:55:33Z",
@@ -98,7 +98,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 0,
+            "stars": 2,
             "forks": 0,
             "topics": [
               "audio",
@@ -155,7 +155,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:34:43Z",
+            "pushedAt": "2026-05-19T16:59:29Z",
             "release": {
               "tag": "2.0.3",
               "publishedAt": "2026-05-17T10:30:53Z",
@@ -196,7 +196,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:34:57Z",
+            "pushedAt": "2026-05-19T16:59:32Z",
             "release": {
               "tag": "4.0.3",
               "publishedAt": "2026-05-17T10:32:23Z",
@@ -234,7 +234,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:35:11Z",
+            "pushedAt": "2026-05-19T16:59:35Z",
             "release": {
               "tag": "1.0.2",
               "publishedAt": "2026-05-17T10:33:48Z",
@@ -271,7 +271,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:35:25Z",
+            "pushedAt": "2026-05-19T16:59:38Z",
             "release": {
               "tag": "2.0.2",
               "publishedAt": "2026-05-17T10:35:14Z",
@@ -304,7 +304,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:35:38Z",
+            "pushedAt": "2026-05-19T16:59:40Z",
             "release": {
               "tag": "4.0.5",
               "publishedAt": "2026-05-17T10:36:35Z",
@@ -345,7 +345,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:35:52Z",
+            "pushedAt": "2026-05-19T16:59:43Z",
             "release": {
               "tag": "3.2.2",
               "publishedAt": "2026-05-17T10:37:58Z",
@@ -382,7 +382,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:36:06Z",
+            "pushedAt": "2026-05-19T16:59:46Z",
             "release": {
               "tag": "4.0.4",
               "publishedAt": "2026-05-17T10:39:21Z",
@@ -462,7 +462,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:36:20Z",
+            "pushedAt": "2026-05-19T16:59:49Z",
             "release": {
               "tag": "4.1.2",
               "publishedAt": "2026-05-17T10:40:57Z",
@@ -495,7 +495,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:36:34Z",
+            "pushedAt": "2026-05-19T16:59:52Z",
             "release": {
               "tag": "4.0.3",
               "publishedAt": "2026-05-17T10:42:24Z",
@@ -534,7 +534,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:36:47Z",
+            "pushedAt": "2026-05-19T16:59:55Z",
             "release": {
               "tag": "2.0.3",
               "publishedAt": "2026-05-17T10:43:47Z",
@@ -571,7 +571,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:37:01Z",
+            "pushedAt": "2026-05-19T16:59:58Z",
             "release": {
               "tag": "4.0.2",
               "publishedAt": "2026-05-17T10:45:11Z",
@@ -607,7 +607,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T15:50:15Z",
+            "pushedAt": "2026-05-19T17:00:01Z",
             "release": {
               "tag": "4.0.2",
               "publishedAt": "2026-05-17T10:46:40Z",
@@ -644,7 +644,7 @@
               "wheel-picker"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:37:28Z",
+            "pushedAt": "2026-05-19T17:00:05Z",
             "release": {
               "tag": "3.1.2",
               "publishedAt": "2026-05-17T10:47:57Z",
@@ -682,7 +682,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:37:42Z",
+            "pushedAt": "2026-05-19T17:00:09Z",
             "release": {
               "tag": "2.0.2",
               "publishedAt": "2026-05-17T10:49:18Z",
@@ -723,7 +723,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:37:56Z",
+            "pushedAt": "2026-05-19T17:00:12Z",
             "release": {
               "tag": "3.0.2",
               "publishedAt": "2026-05-17T10:50:41Z",
@@ -760,7 +760,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:38:10Z",
+            "pushedAt": "2026-05-19T17:00:15Z",
             "release": {
               "tag": "4.1.2",
               "publishedAt": "2026-05-17T10:51:59Z",
@@ -802,7 +802,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:38:37Z",
+            "pushedAt": "2026-05-19T17:00:21Z",
             "release": {
               "tag": "3.0.2",
               "publishedAt": "2026-05-17T10:54:46Z",
@@ -846,7 +846,7 @@
               "waves"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:38:23Z",
+            "pushedAt": "2026-05-19T17:00:18Z",
             "release": {
               "tag": "2.1.2",
               "publishedAt": "2026-05-17T10:53:19Z",
@@ -885,7 +885,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:38:51Z",
+            "pushedAt": "2026-05-19T17:00:25Z",
             "release": {
               "tag": "4.1.2",
               "publishedAt": "2026-05-17T10:56:06Z",
@@ -921,7 +921,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:39:05Z",
+            "pushedAt": "2026-05-19T17:00:28Z",
             "release": {
               "tag": "4.1.4",
               "publishedAt": "2026-05-17T10:57:30Z",
@@ -961,7 +961,7 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:39:19Z",
+            "pushedAt": "2026-05-19T17:00:31Z",
             "release": {
               "tag": "4.0.2",
               "publishedAt": "2026-05-17T10:58:59Z",
@@ -1004,7 +1004,7 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T13:26:35Z",
+            "pushedAt": "2026-05-19T17:00:34Z",
             "release": {
               "tag": "1.0.0",
               "publishedAt": "2026-05-18T13:23:04Z",
@@ -1040,7 +1040,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-18T14:39:33Z",
+            "pushedAt": "2026-05-19T17:00:37Z",
             "release": {
               "tag": "3.1.2",
               "publishedAt": "2026-05-17T11:00:24Z",
