@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-21T07:33:43.788Z",
+  "fetchedAt": "2026-05-22T07:17:00.354Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -607,7 +607,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-20T09:16:55Z",
+            "pushedAt": "2026-05-21T12:33:43Z",
             "release": {
               "tag": "4.0.2",
               "publishedAt": "2026-05-17T10:46:40Z",
@@ -824,33 +824,33 @@
             "stars": 5,
             "forks": 0,
             "topics": [
-              "animation",
               "aurora",
               "background",
+              "beams",
+              "cobe",
               "confetti",
-              "css-animation",
               "extension",
+              "globe",
               "gradient",
-              "lazy",
               "mantine",
               "mantine-ui",
               "mantine-v9",
               "parallax",
-              "particles",
+              "radar",
               "rain",
               "react",
               "react-component",
               "starfield",
-              "svg",
               "typescript",
-              "waves"
+              "waves",
+              "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-20T09:17:05Z",
+            "pushedAt": "2026-05-22T05:40:21Z",
             "release": {
-              "tag": "2.1.2",
-              "publishedAt": "2026-05-17T10:53:19Z",
-              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.1.2"
+              "tag": "2.2.0",
+              "publishedAt": "2026-05-21T17:00:43Z",
+              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.0"
             },
             "ogImage": "https://gfazioli.github.io/mantine-scene/social.jpeg",
             "defaultBranch": "master"
