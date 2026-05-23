@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-22T07:29:43.934Z",
+  "fetchedAt": "2026-05-23T07:08:06.308Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -846,11 +846,11 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-22T05:40:21Z",
+            "pushedAt": "2026-05-22T09:46:01Z",
             "release": {
-              "tag": "2.2.0",
-              "publishedAt": "2026-05-21T17:00:43Z",
-              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.0"
+              "tag": "2.2.1",
+              "publishedAt": "2026-05-22T09:45:47Z",
+              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.1"
             },
             "ogImage": "https://gfazioli.github.io/mantine-scene/social.jpeg",
             "defaultBranch": "master"
