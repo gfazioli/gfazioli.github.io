@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-25T07:52:52.414Z",
+  "fetchedAt": "2026-05-25T12:01:35.947Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -72,11 +72,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-05-23T16:42:55Z",
+            "pushedAt": "2026-05-25T09:10:40Z",
             "release": {
-              "tag": "v0.13.0",
-              "publishedAt": "2026-05-20T10:31:45Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.13.0"
+              "tag": "v0.14.0",
+              "publishedAt": "2026-05-25T09:12:24Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.14.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
@@ -590,7 +590,7 @@
             "name": "mantine-parallax",
             "fullName": "gfazioli/mantine-parallax",
             "url": "https://github.com/gfazioli/mantine-parallax",
-            "stars": 15,
+            "stars": 16,
             "forks": 0,
             "topics": [
               "apple",
