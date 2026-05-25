@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-24T07:19:17.574Z",
+  "fetchedAt": "2026-05-25T07:52:52.414Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 38,
+            "stars": 39,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -98,7 +98,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 3,
+            "stars": 4,
             "forks": 0,
             "topics": [
               "audio",
@@ -821,7 +821,7 @@
             "name": "mantine-scene",
             "fullName": "gfazioli/mantine-scene",
             "url": "https://github.com/gfazioli/mantine-scene",
-            "stars": 5,
+            "stars": 6,
             "forks": 0,
             "topics": [
               "aurora",
