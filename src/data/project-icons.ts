@@ -1,5 +1,6 @@
 export const PROJECT_ICONS: Record<string, string> = {
   "https://findergit.app": "/macos/findergit.png",
+  "https://netfox.app": "/macos/netfox.png",
   "https://gfazioli.github.io/octoscope/": "/cli/octoscope.png",
   "https://wpbones.com": "/wordpress/wpbones.png",
   "https://mantine-extensions.vercel.app": "/mantine/extensions.svg",
