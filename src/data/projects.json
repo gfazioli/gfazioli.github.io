@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-25T12:01:35.947Z",
+  "fetchedAt": "2026-05-26T07:29:02.554Z",
   "sectionCount": 8,
   "projectCount": 47,
   "sections": [
@@ -56,7 +56,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 39,
+            "stars": 40,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -98,7 +98,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "audio",
@@ -904,7 +904,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 76,
+            "stars": 77,
             "forks": 7,
             "topics": [
               "component",
@@ -1086,7 +1086,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-17T15:28:06Z",
+            "pushedAt": "2026-05-25T12:55:03Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T15:26:26Z",
@@ -1121,7 +1121,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-17T15:28:07Z",
+            "pushedAt": "2026-05-25T12:55:04Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T17:29:02Z",
@@ -1154,7 +1154,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-17T15:28:04Z",
+            "pushedAt": "2026-05-25T12:55:01Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-05-05T17:07:57Z",
@@ -1177,7 +1177,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-05-17T13:25:51Z",
+            "pushedAt": "2026-05-25T12:55:00Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-05-17T13:21:21Z",
