@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-26T07:29:02.554Z",
+  "fetchedAt": "2026-05-27T07:42:56.904Z",
   "sectionCount": 8,
-  "projectCount": 47,
+  "projectCount": 48,
   "sections": [
     {
       "id": "core",
@@ -946,7 +946,7 @@
             "name": "mantine-text-animate",
             "fullName": "gfazioli/mantine-text-animate",
             "url": "https://github.com/gfazioli/mantine-text-animate",
-            "stars": 18,
+            "stars": 19,
             "forks": 2,
             "topics": [
               "mantine",
@@ -986,7 +986,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 2,
+            "stars": 3,
             "forks": 0,
             "topics": [
               "a11y",
