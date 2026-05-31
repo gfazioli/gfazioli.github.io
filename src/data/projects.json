@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-05-30T07:14:15.294Z",
+  "fetchedAt": "2026-05-31T07:32:10.097Z",
   "sectionCount": 8,
   "projectCount": 48,
   "sections": [
@@ -62,7 +62,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 41,
+            "stars": 42,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -296,7 +296,7 @@
             "name": "mantine-flip",
             "fullName": "gfazioli/mantine-flip",
             "url": "https://github.com/gfazioli/mantine-flip",
-            "stars": 30,
+            "stars": 31,
             "forks": 1,
             "topics": [
               "component",
@@ -407,7 +407,7 @@
             "name": "mantine-lens-select",
             "fullName": "gfazioli/mantine-lens-select",
             "url": "https://github.com/gfazioli/mantine-lens-select",
-            "stars": 3,
+            "stars": 4,
             "forks": 0,
             "topics": [
               "component",
@@ -613,7 +613,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:13:19Z",
+            "pushedAt": "2026-05-30T20:11:45Z",
             "release": {
               "tag": "4.0.3",
               "publishedAt": "2026-05-28T10:13:05Z",
