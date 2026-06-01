@@ -5,6 +5,7 @@ import { ProjectCard } from "./ProjectCard";
 import { SectionIcon } from "./SectionIcon";
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
+import { SponsorSection } from "./SponsorSection";
 import { TechLinkCard } from "./TechLinkCard";
 import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { projects, type ProjectSection } from "@/lib/projects";
@@ -158,6 +159,8 @@ export function HomePage({ lang, dict }: HomePageProps) {
             </Container>
           </section>
         ) : null}
+
+        <SponsorSection dict={dict} />
       </main>
       <SiteFooter dict={dict} />
     </>

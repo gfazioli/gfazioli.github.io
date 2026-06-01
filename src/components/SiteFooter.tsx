@@ -4,8 +4,10 @@ import {
   IconBrandLinkedin,
   IconBrandNpm,
   IconBrandX,
+  IconHeartFilled,
 } from "@tabler/icons-react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { SPONSOR_URL } from "./SponsorButton";
 
 interface SiteFooterProps {
   dict: Dictionary;
@@ -20,6 +22,15 @@ export function SiteFooter({ dict }: SiteFooterProps) {
             © {new Date().getFullYear()} Undolog — {dict.footer.built}
           </Text>
           <Group gap="md">
+            <Anchor
+              href={SPONSOR_URL}
+              target="_blank"
+              rel="noreferrer"
+              c="pink"
+              aria-label={dict.sponsor.ariaLabel}
+            >
+              <IconHeartFilled size={20} className="sponsor-heart" />
+            </Anchor>
             <Anchor
               href="https://github.com/gfazioli"
               target="_blank"

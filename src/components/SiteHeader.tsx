@@ -4,6 +4,7 @@ import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { projects, type ProjectSection } from "@/lib/projects";
 import { HeaderNav, type HeaderNavLink } from "./HeaderNav";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SponsorButton } from "./SponsorButton";
 
 interface SiteHeaderProps {
   lang: Lang;
@@ -21,7 +22,7 @@ const SECTION_LABELS: Record<ProjectSection["id"], { en: string; it: string }> =
   raycast: { en: "Raycast", it: "Raycast" },
 };
 
-export function SiteHeader({ lang, dict: _dict }: SiteHeaderProps) {
+export function SiteHeader({ lang, dict }: SiteHeaderProps) {
   const home = lang === "it" ? "/it/" : "/";
 
   const navLinks: HeaderNavLink[] = projects.sections.map((s) => ({
@@ -51,7 +52,10 @@ export function SiteHeader({ lang, dict: _dict }: SiteHeaderProps) {
             </Group>
           </Anchor>
           <HeaderNav links={navLinks} />
-          <LanguageSwitcher current={lang} />
+          <Group gap="sm" wrap="nowrap">
+            <SponsorButton label={dict.sponsor.nav} size="xs" radius="xl" />
+            <LanguageSwitcher current={lang} />
+          </Group>
         </Group>
       </Container>
     </header>

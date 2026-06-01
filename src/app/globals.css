@@ -62,6 +62,28 @@ body {
   transform: scaleX(1);
 }
 
+/* Sponsor heart — gentle pulse to draw the eye */
+@keyframes sponsor-heart-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.22);
+  }
+}
+
+.sponsor-heart {
+  transform-origin: center;
+  animation: sponsor-heart-pulse 1.3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sponsor-heart {
+    animation: none;
+  }
+}
+
 /* CRT scanline effect — toggleable via [data-crt] on body */
 body[data-crt="on"]::before {
   content: "";

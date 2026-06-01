@@ -27,6 +27,14 @@ export interface Dictionary {
     title: string;
     subtitle: string;
   };
+  sponsor: {
+    nav: string;
+    kicker: string;
+    title: string;
+    body: string;
+    cta: string;
+    ariaLabel: string;
+  };
   footer: {
     built: string;
   };
@@ -61,6 +69,14 @@ const dictionaries: Record<Lang, Dictionary> = {
       title: "Since 1983",
       subtitle: "A short history of the machines and languages I grew up with.",
     },
+    sponsor: {
+      nav: "Sponsor",
+      kicker: "Support",
+      title: "Support my open source work",
+      body: "I build and maintain these tools in my spare time — free and open source. If they save you time or you find them useful, sponsoring helps me keep developing and maintaining them.",
+      cta: "Sponsor me on GitHub",
+      ariaLabel: "Sponsor on GitHub",
+    },
     footer: {
       built: "Built with Next.js & Mantine — hosted on GitHub Pages",
     },
@@ -93,6 +109,14 @@ const dictionaries: Record<Lang, Dictionary> = {
       title: "Dal 1983",
       subtitle:
         "Una breve storia delle macchine e dei linguaggi con cui sono cresciuto.",
+    },
+    sponsor: {
+      nav: "Sponsor",
+      kicker: "Sostieni",
+      title: "Sostieni il mio lavoro open source",
+      body: "Costruisco e mantengo questi strumenti nel tempo libero, gratis e open source. Se ti fanno risparmiare tempo o ti tornano utili, una sponsorizzazione mi aiuta a continuare a svilupparli e mantenerli.",
+      cta: "Sponsorizzami su GitHub",
+      ariaLabel: "Sponsorizza su GitHub",
     },
     footer: {
       built: "Costruito con Next.js & Mantine — ospitato su GitHub Pages",

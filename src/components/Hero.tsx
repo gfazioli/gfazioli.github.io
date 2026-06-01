@@ -2,6 +2,7 @@ import { Button, Container, Group, Stack, Text, Title } from "@mantine/core";
 import { IconBrandGithub, IconRocket } from "@tabler/icons-react";
 import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { SponsorButton } from "./SponsorButton";
 
 interface HeroProps {
   dict: Dictionary;
@@ -62,6 +63,7 @@ export function Hero({ dict }: HeroProps) {
             >
               {dict.hero.ctaGithub}
             </Button>
+            <SponsorButton label={dict.sponsor.nav} size="lg" />
           </Group>
         </Stack>
       </Container>
