@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-01T08:08:32.740Z",
+  "fetchedAt": "2026-06-02T07:14:46.268Z",
   "sectionCount": 8,
   "projectCount": 48,
   "sections": [
@@ -62,7 +62,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 42,
+            "stars": 43,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -78,11 +78,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-05-29T21:36:50Z",
+            "pushedAt": "2026-06-01T12:27:25Z",
             "release": {
-              "tag": "v0.15.1",
-              "publishedAt": "2026-05-29T21:38:34Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.15.1"
+              "tag": "v0.16.0",
+              "publishedAt": "2026-06-01T12:29:22Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.16.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
@@ -104,7 +104,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 5,
+            "stars": 6,
             "forks": 0,
             "topics": [
               "audio",
@@ -145,7 +145,7 @@
             "name": "mantine-border-animate",
             "fullName": "gfazioli/mantine-border-animate",
             "url": "https://github.com/gfazioli/mantine-border-animate",
-            "stars": 9,
+            "stars": 10,
             "forks": 1,
             "topics": [
               "animate",
@@ -259,7 +259,7 @@
             "name": "mantine-depth-select",
             "fullName": "gfazioli/mantine-depth-select",
             "url": "https://github.com/gfazioli/mantine-depth-select",
-            "stars": 6,
+            "stars": 7,
             "forks": 1,
             "topics": [
               "3d-stack",
@@ -487,7 +487,7 @@
             "name": "mantine-marquee",
             "fullName": "gfazioli/mantine-marquee",
             "url": "https://github.com/gfazioli/mantine-marquee",
-            "stars": 22,
+            "stars": 23,
             "forks": 0,
             "topics": [
               "component",
@@ -559,7 +559,7 @@
             "name": "mantine-onboarding-tour",
             "fullName": "gfazioli/mantine-onboarding-tour",
             "url": "https://github.com/gfazioli/mantine-onboarding-tour",
-            "stars": 54,
+            "stars": 55,
             "forks": 3,
             "topics": [
               "focus",
@@ -827,7 +827,7 @@
             "name": "mantine-scene",
             "fullName": "gfazioli/mantine-scene",
             "url": "https://github.com/gfazioli/mantine-scene",
-            "stars": 6,
+            "stars": 7,
             "forks": 0,
             "topics": [
               "aurora",
@@ -871,7 +871,7 @@
             "name": "mantine-spinner",
             "fullName": "gfazioli/mantine-spinner",
             "url": "https://github.com/gfazioli/mantine-spinner",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "animation",
@@ -910,7 +910,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 77,
+            "stars": 78,
             "forks": 7,
             "topics": [
               "component",
@@ -946,7 +946,7 @@
             "name": "mantine-text-animate",
             "fullName": "gfazioli/mantine-text-animate",
             "url": "https://github.com/gfazioli/mantine-text-animate",
-            "stars": 19,
+            "stars": 20,
             "forks": 2,
             "topics": [
               "mantine",
@@ -986,7 +986,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 3,
+            "stars": 4,
             "forks": 0,
             "topics": [
               "a11y",
@@ -1092,7 +1092,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-25T12:55:03Z",
+            "pushedAt": "2026-06-02T06:57:53Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T15:26:26Z",
@@ -1127,7 +1127,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-25T12:55:04Z",
+            "pushedAt": "2026-06-02T06:57:54Z",
             "release": {
               "tag": "v4.0.0",
               "publishedAt": "2026-04-28T17:29:02Z",
@@ -1160,7 +1160,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-25T12:55:01Z",
+            "pushedAt": "2026-06-02T06:57:55Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-05-05T17:07:57Z",
@@ -1183,7 +1183,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-05-25T12:55:00Z",
+            "pushedAt": "2026-06-02T06:57:57Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-05-17T13:21:21Z",
