@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-02T07:14:46.268Z",
+  "fetchedAt": "2026-06-02T07:38:25.999Z",
   "sectionCount": 8,
   "projectCount": 48,
   "sections": [
@@ -1094,9 +1094,9 @@
             "language": "TypeScript",
             "pushedAt": "2026-06-02T06:57:53Z",
             "release": {
-              "tag": "v4.0.0",
-              "publishedAt": "2026-04-28T15:26:26Z",
-              "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.0"
+              "tag": "v4.0.1",
+              "publishedAt": "2026-06-02T07:37:12Z",
+              "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.1"
             },
             "ogImage": "https://gfazioli.github.io/react-toggle/og-default.png",
             "defaultBranch": "main"
@@ -1129,9 +1129,9 @@
             "language": "TypeScript",
             "pushedAt": "2026-06-02T06:57:54Z",
             "release": {
-              "tag": "v4.0.0",
-              "publishedAt": "2026-04-28T17:29:02Z",
-              "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.0"
+              "tag": "v4.0.1",
+              "publishedAt": "2026-06-02T07:37:13Z",
+              "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.1"
             },
             "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.png",
             "defaultBranch": "main"
@@ -1162,9 +1162,9 @@
             "language": "TypeScript",
             "pushedAt": "2026-06-02T06:57:55Z",
             "release": {
-              "tag": "v1.0.0",
-              "publishedAt": "2026-05-05T17:07:57Z",
-              "url": "https://github.com/gfazioli/react-flip/releases/tag/v1.0.0"
+              "tag": "v1.0.1",
+              "publishedAt": "2026-06-02T07:37:13Z",
+              "url": "https://github.com/gfazioli/react-flip/releases/tag/v1.0.1"
             },
             "ogImage": "https://gfazioli.github.io/react-flip/og-default.png",
             "defaultBranch": "main"
@@ -1185,9 +1185,9 @@
             "language": "TypeScript",
             "pushedAt": "2026-06-02T06:57:57Z",
             "release": {
-              "tag": "v1.0.0",
-              "publishedAt": "2026-05-17T13:21:21Z",
-              "url": "https://github.com/gfazioli/react-tilt/releases/tag/v1.0.0"
+              "tag": "v1.0.1",
+              "publishedAt": "2026-06-02T07:37:14Z",
+              "url": "https://github.com/gfazioli/react-tilt/releases/tag/v1.0.1"
             },
             "ogImage": "https://gfazioli.github.io/react-tilt/og-default.png",
             "defaultBranch": "main"
