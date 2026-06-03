@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-03T16:38:44.495Z",
+  "fetchedAt": "2026-06-03T16:58:47.862Z",
   "sectionCount": 8,
   "projectCount": 49,
   "sections": [
@@ -13,19 +13,76 @@
           "displayName": "WP Bones",
           "url": "https://wpbones.com",
           "description": "A lightweight framework that offers tools and guidelines to simplify WordPress plugin development",
-          "external": true
+          "external": true,
+          "ogImage": null
         },
         {
           "displayName": "Mantine Extensions",
           "url": "https://mantine-extensions.vercel.app",
           "description": "Mantine UI awesome components extensions",
-          "external": true
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-extensions",
+            "fullName": "gfazioli/mantine-extensions",
+            "url": "https://github.com/gfazioli/mantine-extensions",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "nextjs16",
+              "nextra",
+              "oxfmt",
+              "oxlint",
+              "react",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-06-03T15:42:30Z",
+            "release": {
+              "tag": "v1.0.4",
+              "publishedAt": "2026-06-03T12:04:31Z",
+              "url": "https://github.com/gfazioli/mantine-extensions/releases/tag/v1.0.4"
+            },
+            "ogImage": "https://mantine-extensions.vercel.app/images/og-banner.png",
+            "defaultBranch": "main"
+          }
         },
         {
           "displayName": "Amiga Assembly Library",
           "url": "https://amiga-assembly-library.vercel.app/",
           "description": "A shared library for Commodore Amiga written in Motorola 68020 assembly language. Provides 50+ functions for graphics, file I/O, memory management, UI, and more. Compatible with KickStart 3.0+.",
-          "external": true
+          "external": false,
+          "githubRepo": {
+            "name": "amiga-assembly-library",
+            "fullName": "gfazioli/amiga-assembly-library",
+            "url": "https://github.com/gfazioli/amiga-assembly-library",
+            "stars": 9,
+            "forks": 0,
+            "topics": [
+              "68k",
+              "amiga",
+              "amigaos",
+              "assembly",
+              "assembly-library",
+              "commodore",
+              "kickstart",
+              "motorola-68020",
+              "public-domain",
+              "retro-computing"
+            ],
+            "language": "MDX",
+            "pushedAt": "2026-06-03T12:04:51Z",
+            "release": {
+              "tag": "v6.0.1",
+              "publishedAt": "2026-06-03T12:04:56Z",
+              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.1"
+            },
+            "ogImage": "https://amiga-assembly-library.vercel.app/social.jpeg",
+            "defaultBranch": "main"
+          }
         }
       ]
     },
@@ -38,13 +95,15 @@
           "displayName": "FinderGit",
           "url": "https://findergit.app",
           "description": "A native macOS Git-aware file browser. Sortable columns for branch, status, changes and diffs across all your repositories at a glance, with an inline diff viewer, Git actions from the UI, native Markdown preview via Quick Look, and auto-updates via Sparkle. Built with SwiftUI.",
-          "external": true
+          "external": true,
+          "ogImage": "https://findergit.app/opengraph-image.jpeg?opengraph-image.137kv8v_w33d3.jpeg"
         },
         {
           "displayName": "Netfox",
           "url": "https://netfox.app",
           "description": "A native macOS network monitor for who's on your LAN. Multi-source discovery (Bonjour, ARP, SSDP, NetBIOS, ICMP), per-device timeline, security checks with Risk Inspector, Wi-Fi diagnostics with signal history, five-kind alerts, public IP and VPN awareness, Demo Mode privacy mask, tagging. SwiftUI throughout, no cloud, no telemetry, universal binary, signed and notarised with Sparkle auto-updates.",
-          "external": true
+          "external": true,
+          "ogImage": "https://netfox.app/opengraph-image.jpeg?opengraph-image.2wlmy-raxxcuj.jpeg"
         }
       ]
     },
@@ -1204,13 +1263,46 @@
           "displayName": "Vercel MantineUI + Nextra",
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
-          "external": true
+          "external": true,
+          "ogImage": "https://vercel.com/templates/documentation/mantine-ui-nextra/opengraph-image?e541973644094711"
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
           "url": "https://next-app-nextra-template.vercel.app/",
           "description": "This starter Next.js project includes a minimal setup for server side rendering, if you want to learn more on Mantine + Next.js",
-          "external": true
+          "external": false,
+          "githubRepo": {
+            "name": "next-app-nextra-template",
+            "fullName": "gfazioli/next-app-nextra-template",
+            "url": "https://github.com/gfazioli/next-app-nextra-template",
+            "stars": 33,
+            "forks": 8,
+            "topics": [
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "nextjs",
+              "nextjs-app-router",
+              "nextjs16",
+              "nextjs16-typescript",
+              "nextra",
+              "nextra-docs",
+              "nextra-theme-docs",
+              "oxfmt",
+              "oxlint",
+              "reactjs",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-06-03T16:34:06Z",
+            "release": {
+              "tag": "v6.0.6",
+              "publishedAt": "2026-06-03T12:19:29Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.6"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/929481286/8be23eea-44c2-4b62-a394-338d08168b22",
+            "defaultBranch": "main"
+          }
         },
         {
           "displayName": "Mantine NextJS App Router + Fumadocs Template",
@@ -1256,13 +1348,15 @@
           "displayName": "Bannerize",
           "url": "https://bannerize.vercel.app/",
           "description": "WordPress banner management with built-in impressions, clicks, and CTR analytics. Create image, HTML, or WebP banners, organize them into campaigns, and track performance with trend charts and CSV export. Built with WPBones and Mantine UI.",
-          "external": true
+          "external": true,
+          "ogImage": null
         },
         {
           "displayName": "Scotty",
           "url": "https://scotty-plugin.vercel.app/",
           "description": "WordPress site maintenance and optimization with a modern React/Mantine dashboard. Clean your database, manage cron jobs, control 22+ hidden WordPress settings, and monitor site health — all from a single interface. Built with WPBones.",
-          "external": true
+          "external": true,
+          "ogImage": null
         }
       ]
     },
@@ -1275,55 +1369,64 @@
           "displayName": "Sync Folders",
           "url": "https://www.raycast.com/Undolog/sync-folders",
           "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=sync-folders"
         },
         {
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=wp-bones"
         },
         {
           "displayName": "macOS Tweaks",
           "url": "https://www.raycast.com/Undolog/macos-tweaks",
           "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=macos-tweaks"
         },
         {
           "displayName": "App Updates",
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=app-updates"
         },
         {
           "displayName": "Dev Cache Cleaner",
           "url": "https://www.raycast.com/Undolog/dev-cache-cleaner",
           "description": "Scan and clean developer caches, build artifacts and orphaned dependencies to reclaim disk space, with Quick Clean and a Cache Status menu bar",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=dev-cache-cleaner"
         },
         {
           "displayName": "GitHub",
           "url": "https://www.raycast.com/raycast/github",
           "description": "My GitHub Stats Menu Bar, view followers, stars, PRs, issues and commits at a glance",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=raycast&name=github"
         },
         {
           "displayName": "Open Folders",
           "url": "https://www.raycast.com/timothy_boye/open-folders",
           "description": "Open your common files and folders quickly!",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=timothy_boye&name=open-folders"
         },
         {
           "displayName": "Text Shortcuts",
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=koinzhang&name=text-shortcuts"
         },
         {
           "displayName": "Window Layouts",
           "url": "https://www.raycast.com/teemu_suvinen/window-layouts",
           "description": "Tile open windows into predefined or custom layouts, Save & Restore, Auto Layout, Pick Layout",
-          "external": true
+          "external": true,
+          "ogImage": "https://www.raycast.com/api/extension-og?handle=teemu_suvinen&name=window-layouts"
         }
       ]
     }

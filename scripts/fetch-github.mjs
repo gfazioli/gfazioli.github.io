@@ -144,6 +144,13 @@ function deriveRepoSlug(url) {
       const parts = u.pathname.split("/").filter(Boolean);
       if (parts[0]) return parts[0];
     }
+    // Vercel deployments usually live at <repo>.vercel.app — try the
+    // subdomain as a repo slug; getRepo() verifies it actually exists
+    // (404 → the entry falls back to external).
+    if (u.hostname.endsWith(".vercel.app")) {
+      const sub = u.hostname.slice(0, -".vercel.app".length);
+      if (sub && !sub.includes(".")) return sub;
+    }
     return null;
   } catch {
     return null;
@@ -215,7 +222,16 @@ async function getHomepageOgImage(homepage) {
       html.match(/<meta[^>]+property=["']og:image["'][^>]*content=["']([^"']+)["']/i) ||
       html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:image["']/i);
     if (!match) return null;
-    return new URL(match[1], homepage).href;
+    // Attribute values are HTML-escaped (e.g. `&amp;` in query strings) —
+    // decode the common entities or the resulting URL 404s.
+    const decoded = match[1]
+      .replace(/&amp;/g, "&")
+      .replace(/&#0?38;/g, "&")
+      .replace(/&quot;/g, '"')
+      .replace(/&#0?39;/g, "'")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">");
+    return new URL(decoded, homepage).href;
   } catch {
     return null;
   }
@@ -224,13 +240,20 @@ async function getHomepageOgImage(homepage) {
 async function enrichEntry(entry) {
   const slug = deriveRepoSlug(entry.url);
   if (!slug) {
-    return { ...entry, external: true };
+    // External link: still try to grab the site's og:image so the card
+    // gets a cover like GitHub-backed projects.
+    const ogImage = await getHomepageOgImage(entry.url);
+    process.stdout.write(
+      `  · ${entry.displayName} → external${ogImage ? " 🌐" : ""}\n`
+    );
+    return { ...entry, external: true, ogImage };
   }
   process.stdout.write(`  · ${entry.displayName} → ${slug} `);
   const repo = await getRepo(slug);
   if (!repo) {
-    process.stdout.write("(no repo)\n");
-    return { ...entry, external: true };
+    const ogImage = await getHomepageOgImage(entry.url);
+    process.stdout.write(`(no repo)${ogImage ? " 🌐" : ""}\n`);
+    return { ...entry, external: true, ogImage };
   }
   const release = await getLatestRelease(slug);
   const homepage = repo.homepage || entry.url;

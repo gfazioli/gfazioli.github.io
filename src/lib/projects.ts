@@ -5,6 +5,8 @@ export interface ProjectEntry {
   url: string;
   description: string;
   external: boolean;
+  /** og:image of the external site (external entries only). */
+  ogImage?: string | null;
   githubRepo?: {
     name: string;
     fullName: string;

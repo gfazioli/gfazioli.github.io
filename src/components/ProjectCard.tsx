@@ -18,11 +18,14 @@ import type { ProjectEntry } from "@/lib/projects";
 interface ProjectCardProps {
   project: ProjectEntry;
   icon?: string;
+  /** Render a branded gradient cover when the entry has no og:image,
+   *  so cards stay visually aligned with image-backed siblings. */
+  coverFallback?: boolean;
 }
 
-export function ProjectCard({ project, icon }: ProjectCardProps) {
+export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) {
   const repo = project.githubRepo;
-  const ogImage = repo?.ogImage;
+  const ogImage = repo?.ogImage ?? project.ogImage ?? null;
 
   return (
     <Card
@@ -41,6 +44,29 @@ export function ProjectCard({ project, icon }: ProjectCardProps) {
             className="block aspect-[2/1] w-full object-cover bg-[var(--mantine-color-default-hover)]"
           />
         </CardSection>
+      ) : coverFallback ? (
+        <CardSection>
+          <div
+            aria-hidden
+            className="flex aspect-[2/1] w-full items-center justify-center px-6"
+            style={{
+              background:
+                "radial-gradient(ellipse 90% 80% at 85% 115%, rgba(240,140,0,0.35), transparent 70%), linear-gradient(160deg, var(--mantine-color-dark-7) 0%, var(--mantine-color-dark-8) 100%)",
+            }}
+          >
+            <Text
+              fw={800}
+              fz={24}
+              lh={1.2}
+              ta="center"
+              c="bright"
+              lineClamp={2}
+              style={{ opacity: 0.92 }}
+            >
+              {project.displayName}
+            </Text>
+          </div>
+        </CardSection>
       ) : null}
 
       <Stack gap="sm" h="100%" p="lg">
@@ -57,12 +83,12 @@ export function ProjectCard({ project, icon }: ProjectCardProps) {
                 className="block shrink-0 rounded-md"
               />
             ) : null}
-            <Title order={3} fz="lg" lineClamp={1} title={project.displayName}>
+            <Title order={3} fz="lg" lineClamp={2} title={project.displayName}>
               {project.displayName}
             </Title>
           </Group>
           {repo ? (
-            <Group gap={4} c="dimmed">
+            <Group gap={4} c="dimmed" wrap="nowrap" style={{ flexShrink: 0 }}>
               <IconStar size={14} />
               <Text size="sm" fw={600}>
                 {repo.stars}

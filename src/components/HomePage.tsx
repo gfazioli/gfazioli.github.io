@@ -41,6 +41,11 @@ export function HomePage({ lang, dict }: HomePageProps) {
 
         {projects.sections.map((section, index) => {
           const bg = SECTION_BACKGROUNDS[section.id];
+          // If at least one card in the section has a cover image, give the
+          // cover-less ones a branded fallback so the row stays aligned.
+          const sectionHasCover = section.projects.some(
+            (p) => p.githubRepo?.ogImage || p.ogImage
+          );
           return (
             <section
               key={section.id}
@@ -122,7 +127,12 @@ export function HomePage({ lang, dict }: HomePageProps) {
                 </Stack>
                 <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing="lg">
                   {section.projects.map((p) => (
-                    <ProjectCard key={p.url} project={p} icon={PROJECT_ICONS[p.url]} />
+                    <ProjectCard
+                      key={p.url}
+                      project={p}
+                      icon={PROJECT_ICONS[p.url]}
+                      coverFallback={sectionHasCover}
+                    />
                   ))}
                 </SimpleGrid>
               </Container>
