@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-03T16:58:47.862Z",
+  "fetchedAt": "2026-06-03T17:07:08.398Z",
   "sectionCount": 8,
   "projectCount": 49,
   "sections": [
@@ -96,14 +96,14 @@
           "url": "https://findergit.app",
           "description": "A native macOS Git-aware file browser. Sortable columns for branch, status, changes and diffs across all your repositories at a glance, with an inline diff viewer, Git actions from the UI, native Markdown preview via Quick Look, and auto-updates via Sparkle. Built with SwiftUI.",
           "external": true,
-          "ogImage": "https://findergit.app/opengraph-image.jpeg?opengraph-image.137kv8v_w33d3.jpeg"
+          "ogImage": "/og/findergit.jpg"
         },
         {
           "displayName": "Netfox",
           "url": "https://netfox.app",
           "description": "A native macOS network monitor for who's on your LAN. Multi-source discovery (Bonjour, ARP, SSDP, NetBIOS, ICMP), per-device timeline, security checks with Risk Inspector, Wi-Fi diagnostics with signal history, five-kind alerts, public IP and VPN awareness, Demo Mode privacy mask, tagging. SwiftUI throughout, no cloud, no telemetry, universal binary, signed and notarised with Sparkle auto-updates.",
           "external": true,
-          "ogImage": "https://netfox.app/opengraph-image.jpeg?opengraph-image.2wlmy-raxxcuj.jpeg"
+          "ogImage": "/og/netfox.jpg"
         }
       ]
     },
@@ -1264,7 +1264,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "https://vercel.com/templates/documentation/mantine-ui-nextra/opengraph-image?e541973644094711"
+          "ogImage": "/og/vercel-mantineui-nextra.png"
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
@@ -1370,63 +1370,63 @@
           "url": "https://www.raycast.com/Undolog/sync-folders",
           "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=sync-folders"
+          "ogImage": "/og/sync-folders.png"
         },
         {
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=wp-bones"
+          "ogImage": "/og/wp-bones.png"
         },
         {
           "displayName": "macOS Tweaks",
           "url": "https://www.raycast.com/Undolog/macos-tweaks",
           "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=macos-tweaks"
+          "ogImage": "/og/macos-tweaks.png"
         },
         {
           "displayName": "App Updates",
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=app-updates"
+          "ogImage": "/og/app-updates.png"
         },
         {
           "displayName": "Dev Cache Cleaner",
           "url": "https://www.raycast.com/Undolog/dev-cache-cleaner",
           "description": "Scan and clean developer caches, build artifacts and orphaned dependencies to reclaim disk space, with Quick Clean and a Cache Status menu bar",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=Undolog&name=dev-cache-cleaner"
+          "ogImage": "/og/dev-cache-cleaner.png"
         },
         {
           "displayName": "GitHub",
           "url": "https://www.raycast.com/raycast/github",
           "description": "My GitHub Stats Menu Bar, view followers, stars, PRs, issues and commits at a glance",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=raycast&name=github"
+          "ogImage": "/og/github.png"
         },
         {
           "displayName": "Open Folders",
           "url": "https://www.raycast.com/timothy_boye/open-folders",
           "description": "Open your common files and folders quickly!",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=timothy_boye&name=open-folders"
+          "ogImage": "/og/open-folders.png"
         },
         {
           "displayName": "Text Shortcuts",
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=koinzhang&name=text-shortcuts"
+          "ogImage": "/og/text-shortcuts.png"
         },
         {
           "displayName": "Window Layouts",
           "url": "https://www.raycast.com/teemu_suvinen/window-layouts",
           "description": "Tile open windows into predefined or custom layouts, Save & Restore, Auto Layout, Pick Layout",
           "external": true,
-          "ogImage": "https://www.raycast.com/api/extension-og?handle=teemu_suvinen&name=window-layouts"
+          "ogImage": "/og/window-layouts.png"
         }
       ]
     }

@@ -42,14 +42,14 @@ jobs:
       - name: Commit if changed
         id: commit
         run: |
-          if git diff --quiet src/data/projects.json; then
+          git add src/data/projects.json public/og
+          if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes to projects.json — skipping deploy."
+            echo "No changes to project data — skipping deploy."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add src/data/projects.json
             git commit -m "chore: refresh project data"
             git push
           fi

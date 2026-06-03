@@ -10,6 +10,7 @@
  */
 
 import { writeFile, mkdir } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Octokit } from "@octokit/rest";
@@ -17,6 +18,17 @@ import { Octokit } from "@octokit/rest";
 const USER = "gfazioli";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT = resolve(__dirname, "..", "src", "data", "projects.json");
+// Local cache for external og:images — third-party URLs (vercel.com,
+// raycast.com, …) can be signed/ephemeral or hotlink-hostile, so we
+// download them once and serve them from our own domain.
+const OG_DIR = resolve(__dirname, "..", "public", "og");
+const OG_EXT_BY_TYPE = {
+  "image/png": "png",
+  "image/jpeg": "jpg",
+  "image/webp": "webp",
+  "image/gif": "gif",
+  "image/svg+xml": "svg",
+};
 
 const auth = process.env.GITHUB_TOKEN;
 const octokit = new Octokit(auth ? { auth } : {});
@@ -237,12 +249,57 @@ async function getHomepageOgImage(homepage) {
   }
 }
 
+function slugify(s) {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * Download a remote og:image into `public/og/` and return the local path
+ * (`/og/<slug>.<ext>`). Skips the download when a cached file already
+ * exists, so daily refreshes don't churn binary diffs. Returns null when
+ * the image can't be fetched — callers fall back to the gradient cover.
+ */
+async function cacheOgImage(url, name) {
+  const slug = slugify(name);
+  if (!slug) return null;
+  for (const ext of Object.values(OG_EXT_BY_TYPE)) {
+    if (existsSync(resolve(OG_DIR, `${slug}.${ext}`))) return `/og/${slug}.${ext}`;
+  }
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "gfazioli-portfolio-fetcher/1.0" },
+      signal: AbortSignal.timeout(15000),
+      redirect: "follow",
+    });
+    if (!res.ok) return null;
+    const type = (res.headers.get("content-type") || "").split(";")[0].trim();
+    const ext = OG_EXT_BY_TYPE[type];
+    if (!ext) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length < 1024) return null; // tiny body → likely an error page
+    await mkdir(OG_DIR, { recursive: true });
+    await writeFile(resolve(OG_DIR, `${slug}.${ext}`), buf);
+    return `/og/${slug}.${ext}`;
+  } catch {
+    return null;
+  }
+}
+
+async function externalOgImage(entry) {
+  const remote = await getHomepageOgImage(entry.url);
+  if (!remote) return null;
+  return cacheOgImage(remote, entry.displayName);
+}
+
 async function enrichEntry(entry) {
   const slug = deriveRepoSlug(entry.url);
   if (!slug) {
     // External link: still try to grab the site's og:image so the card
     // gets a cover like GitHub-backed projects.
-    const ogImage = await getHomepageOgImage(entry.url);
+    const ogImage = await externalOgImage(entry);
     process.stdout.write(
       `  · ${entry.displayName} → external${ogImage ? " 🌐" : ""}\n`
     );
@@ -251,7 +308,7 @@ async function enrichEntry(entry) {
   process.stdout.write(`  · ${entry.displayName} → ${slug} `);
   const repo = await getRepo(slug);
   if (!repo) {
-    const ogImage = await getHomepageOgImage(entry.url);
+    const ogImage = await externalOgImage(entry);
     process.stdout.write(`(no repo)${ogImage ? " 🌐" : ""}\n`);
     return { ...entry, external: true, ogImage };
   }
