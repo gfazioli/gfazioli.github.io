@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-03T07:59:16.619Z",
+  "fetchedAt": "2026-06-03T16:38:44.495Z",
   "sectionCount": 8,
-  "projectCount": 48,
+  "projectCount": 49,
   "sections": [
     {
       "id": "core",
@@ -126,11 +126,11 @@
               "web-audio-api"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T09:48:33Z",
+            "pushedAt": "2026-06-03T08:37:11Z",
             "release": {
-              "tag": "1.0.1",
-              "publishedAt": "2026-05-28T09:48:18Z",
-              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.0.1"
+              "tag": "1.0.2",
+              "publishedAt": "2026-06-03T08:36:54Z",
+              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.0.2"
             },
             "ogImage": "https://gfazioli.github.io/mantine-audio/social.jpeg",
             "defaultBranch": "master"
@@ -161,11 +161,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T09:51:49Z",
+            "pushedAt": "2026-06-03T15:45:31Z",
             "release": {
-              "tag": "2.0.4",
-              "publishedAt": "2026-05-28T09:51:34Z",
-              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.4"
+              "tag": "2.0.5",
+              "publishedAt": "2026-06-03T08:36:57Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-border-animate/social.jpeg",
             "defaultBranch": "master"
@@ -202,11 +202,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T09:53:33Z",
+            "pushedAt": "2026-06-03T08:37:23Z",
             "release": {
-              "tag": "4.0.4",
-              "publishedAt": "2026-05-28T09:53:19Z",
-              "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.4"
+              "tag": "4.0.5",
+              "publishedAt": "2026-06-03T08:37:08Z",
+              "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-clock/social.jpeg",
             "defaultBranch": "master"
@@ -240,11 +240,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T09:55:10Z",
+            "pushedAt": "2026-06-03T08:42:11Z",
             "release": {
-              "tag": "1.0.3",
-              "publishedAt": "2026-05-28T09:54:56Z",
-              "url": "https://github.com/gfazioli/mantine-compare/releases/tag/1.0.3"
+              "tag": "1.0.4",
+              "publishedAt": "2026-06-03T08:41:55Z",
+              "url": "https://github.com/gfazioli/mantine-compare/releases/tag/1.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-compare/social.jpeg",
             "defaultBranch": "master"
@@ -277,11 +277,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T09:56:51Z",
+            "pushedAt": "2026-06-03T15:45:33Z",
             "release": {
-              "tag": "2.0.3",
-              "publishedAt": "2026-05-28T09:56:37Z",
-              "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.3"
+              "tag": "2.0.5",
+              "publishedAt": "2026-06-03T08:43:45Z",
+              "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-depth-select/social.jpeg",
             "defaultBranch": "master"
@@ -310,11 +310,11 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:00:38Z",
+            "pushedAt": "2026-06-03T08:48:53Z",
             "release": {
-              "tag": "4.0.6",
-              "publishedAt": "2026-05-28T09:58:18Z",
-              "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.6"
+              "tag": "4.0.8",
+              "publishedAt": "2026-06-03T08:43:54Z",
+              "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.8"
             },
             "ogImage": "https://gfazioli.github.io/mantine-flip/social.jpeg",
             "defaultBranch": "master"
@@ -351,11 +351,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:00:11Z",
+            "pushedAt": "2026-06-03T08:44:35Z",
             "release": {
-              "tag": "3.2.3",
-              "publishedAt": "2026-05-28T09:59:57Z",
-              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.2.3"
+              "tag": "3.2.5",
+              "publishedAt": "2026-06-03T08:43:54Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.2.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-json-tree/social.jpeg",
             "defaultBranch": "master"
@@ -388,11 +388,11 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:01:53Z",
+            "pushedAt": "2026-06-03T08:48:54Z",
             "release": {
-              "tag": "4.0.5",
-              "publishedAt": "2026-05-28T10:01:39Z",
-              "url": "https://github.com/gfazioli/mantine-led/releases/tag/4.0.5"
+              "tag": "4.0.7",
+              "publishedAt": "2026-06-03T08:43:51Z",
+              "url": "https://github.com/gfazioli/mantine-led/releases/tag/4.0.7"
             },
             "ogImage": "https://gfazioli.github.io/mantine-led/social.jpeg",
             "defaultBranch": "master"
@@ -429,11 +429,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T12:13:03Z",
+            "pushedAt": "2026-06-03T08:46:46Z",
             "release": {
-              "tag": "1.0.2",
-              "publishedAt": "2026-05-28T12:12:50Z",
-              "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.2"
+              "tag": "1.0.3",
+              "publishedAt": "2026-06-03T08:46:32Z",
+              "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.3"
             },
             "ogImage": "https://repository-images.githubusercontent.com/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529",
             "defaultBranch": "master"
@@ -468,11 +468,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:03:41Z",
+            "pushedAt": "2026-06-03T08:46:52Z",
             "release": {
-              "tag": "4.1.3",
-              "publishedAt": "2026-05-28T10:03:27Z",
-              "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.1.3"
+              "tag": "4.1.4",
+              "publishedAt": "2026-06-03T08:46:38Z",
+              "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.1.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-list-view-table/social.jpeg",
             "defaultBranch": "master"
@@ -501,11 +501,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:05:19Z",
+            "pushedAt": "2026-06-03T08:50:52Z",
             "release": {
-              "tag": "4.0.4",
-              "publishedAt": "2026-05-28T10:05:04Z",
-              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.0.4"
+              "tag": "4.0.5",
+              "publishedAt": "2026-06-03T08:50:33Z",
+              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-marquee/social.jpeg",
             "defaultBranch": "master"
@@ -540,11 +540,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:07:49Z",
+            "pushedAt": "2026-06-03T08:51:09Z",
             "release": {
-              "tag": "2.0.4",
-              "publishedAt": "2026-05-28T10:07:36Z",
-              "url": "https://github.com/gfazioli/mantine-mask/releases/tag/2.0.4"
+              "tag": "2.0.5",
+              "publishedAt": "2026-06-03T08:50:54Z",
+              "url": "https://github.com/gfazioli/mantine-mask/releases/tag/2.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-mask/social.jpeg",
             "defaultBranch": "master"
@@ -577,11 +577,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:09:31Z",
+            "pushedAt": "2026-06-03T08:51:33Z",
             "release": {
-              "tag": "4.0.3",
-              "publishedAt": "2026-05-28T10:09:17Z",
-              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.0.3"
+              "tag": "4.0.4",
+              "publishedAt": "2026-06-03T08:51:13Z",
+              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-onboarding-tour/social.jpeg",
             "defaultBranch": "master"
@@ -613,11 +613,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-30T20:11:45Z",
+            "pushedAt": "2026-06-03T09:01:04Z",
             "release": {
-              "tag": "4.0.3",
-              "publishedAt": "2026-05-28T10:13:05Z",
-              "url": "https://github.com/gfazioli/mantine-parallax/releases/tag/4.0.3"
+              "tag": "4.0.4",
+              "publishedAt": "2026-06-03T08:51:13Z",
+              "url": "https://github.com/gfazioli/mantine-parallax/releases/tag/4.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-parallax/social.jpeg",
             "defaultBranch": "master"
@@ -650,11 +650,11 @@
               "wheel-picker"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:15:08Z",
+            "pushedAt": "2026-06-03T08:51:33Z",
             "release": {
-              "tag": "3.1.3",
-              "publishedAt": "2026-05-28T10:14:54Z",
-              "url": "https://github.com/gfazioli/mantine-picker/releases/tag/3.1.3"
+              "tag": "3.1.4",
+              "publishedAt": "2026-06-03T08:51:14Z",
+              "url": "https://github.com/gfazioli/mantine-picker/releases/tag/3.1.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-picker/social.jpeg",
             "defaultBranch": "master"
@@ -688,11 +688,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:16:46Z",
+            "pushedAt": "2026-06-03T15:45:35Z",
             "release": {
-              "tag": "2.0.3",
-              "publishedAt": "2026-05-28T10:16:32Z",
-              "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.3"
+              "tag": "2.0.4",
+              "publishedAt": "2026-06-03T08:57:40Z",
+              "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-qr-code/social.jpeg",
             "defaultBranch": "master"
@@ -729,11 +729,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:19:26Z",
+            "pushedAt": "2026-06-03T08:54:02Z",
             "release": {
-              "tag": "3.0.3",
-              "publishedAt": "2026-05-28T10:19:12Z",
-              "url": "https://github.com/gfazioli/mantine-reflection/releases/tag/3.0.3"
+              "tag": "3.0.4",
+              "publishedAt": "2026-06-03T08:53:46Z",
+              "url": "https://github.com/gfazioli/mantine-reflection/releases/tag/3.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-reflection/social.jpeg",
             "defaultBranch": "master"
@@ -766,11 +766,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:21:04Z",
+            "pushedAt": "2026-06-03T15:45:36Z",
             "release": {
-              "tag": "4.1.3",
-              "publishedAt": "2026-05-28T10:20:50Z",
-              "url": "https://github.com/gfazioli/mantine-rings-progress/releases/tag/4.1.3"
+              "tag": "4.1.4",
+              "publishedAt": "2026-06-03T08:53:59Z",
+              "url": "https://github.com/gfazioli/mantine-rings-progress/releases/tag/4.1.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-rings-progress/social.jpeg",
             "defaultBranch": "master"
@@ -808,11 +808,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:24:28Z",
+            "pushedAt": "2026-06-03T15:45:40Z",
             "release": {
-              "tag": "3.0.3",
-              "publishedAt": "2026-05-28T10:24:14Z",
-              "url": "https://github.com/gfazioli/mantine-select-stepper/releases/tag/3.0.3"
+              "tag": "3.0.4",
+              "publishedAt": "2026-06-03T08:54:48Z",
+              "url": "https://github.com/gfazioli/mantine-select-stepper/releases/tag/3.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-select-stepper/social.jpeg",
             "defaultBranch": "master"
@@ -852,11 +852,11 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:22:47Z",
+            "pushedAt": "2026-06-03T15:45:38Z",
             "release": {
-              "tag": "2.2.2",
-              "publishedAt": "2026-05-28T10:22:32Z",
-              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.2"
+              "tag": "2.2.4",
+              "publishedAt": "2026-06-03T12:20:29Z",
+              "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-scene/social.jpeg",
             "defaultBranch": "master"
@@ -891,11 +891,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:26:05Z",
+            "pushedAt": "2026-06-03T08:54:58Z",
             "release": {
-              "tag": "4.1.3",
-              "publishedAt": "2026-05-28T10:25:50Z",
-              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.3"
+              "tag": "4.1.4",
+              "publishedAt": "2026-06-03T08:54:44Z",
+              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-spinner/social.jpeg",
             "defaultBranch": "master"
@@ -927,11 +927,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:27:42Z",
+            "pushedAt": "2026-06-03T08:57:41Z",
             "release": {
-              "tag": "4.1.5",
-              "publishedAt": "2026-05-28T10:27:28Z",
-              "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.5"
+              "tag": "4.1.6",
+              "publishedAt": "2026-06-03T08:57:26Z",
+              "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.6"
             },
             "ogImage": "https://gfazioli.github.io/mantine-split-pane/social.jpeg",
             "defaultBranch": "master"
@@ -967,11 +967,11 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:29:27Z",
+            "pushedAt": "2026-06-03T08:57:50Z",
             "release": {
-              "tag": "4.0.3",
-              "publishedAt": "2026-05-28T10:29:12Z",
-              "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.3"
+              "tag": "4.0.4",
+              "publishedAt": "2026-06-03T08:57:34Z",
+              "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-text-animate/social.jpeg",
             "defaultBranch": "master"
@@ -1010,11 +1010,11 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:31:07Z",
+            "pushedAt": "2026-06-03T08:58:07Z",
             "release": {
-              "tag": "1.1.1",
-              "publishedAt": "2026-05-28T10:30:53Z",
-              "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.1.1"
+              "tag": "1.1.2",
+              "publishedAt": "2026-06-03T08:57:52Z",
+              "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.1.2"
             },
             "ogImage": "https://gfazioli.github.io/mantine-video/social.jpeg",
             "defaultBranch": "master"
@@ -1029,8 +1029,8 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 12,
-            "forks": 0,
+            "stars": 13,
+            "forks": 1,
             "topics": [
               "component",
               "draggable",
@@ -1046,11 +1046,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-05-28T10:32:49Z",
+            "pushedAt": "2026-06-03T08:58:11Z",
             "release": {
-              "tag": "3.1.3",
-              "publishedAt": "2026-05-28T10:32:36Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.3"
+              "tag": "3.1.4",
+              "publishedAt": "2026-06-03T08:57:57Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.4"
             },
             "ogImage": "https://gfazioli.github.io/mantine-window/social.jpeg",
             "defaultBranch": "master"
@@ -1211,6 +1211,39 @@
           "url": "https://next-app-nextra-template.vercel.app/",
           "description": "This starter Next.js project includes a minimal setup for server side rendering, if you want to learn more on Mantine + Next.js",
           "external": true
+        },
+        {
+          "displayName": "Mantine NextJS App Router + Fumadocs Template",
+          "url": "https://gfazioli.github.io/next-app-fumadocs-template/",
+          "description": "Documentation starter with Next.js App Router, Mantine 9 and the headless Fumadocs engine — docs UI built 100% with Mantine, no Tailwind: collapsible sidebar, clerk-style TOC, `⌘K` Orama search with Mantine Spotlight, live GitHub release notes. Deploys to GitHub Pages (bundled workflow) or Vercel.",
+          "external": false,
+          "githubRepo": {
+            "name": "next-app-fumadocs-template",
+            "fullName": "gfazioli/next-app-fumadocs-template",
+            "url": "https://github.com/gfazioli/next-app-fumadocs-template",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "documentation",
+              "fumadocs",
+              "mantine",
+              "mantine-v9",
+              "mdx",
+              "nextjs",
+              "react",
+              "template",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-06-03T16:34:03Z",
+            "release": {
+              "tag": "v1.0.0",
+              "publishedAt": "2026-06-03T15:38:37Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.0"
+            },
+            "ogImage": "https://repository-images.githubusercontent.com/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd",
+            "defaultBranch": "main"
+          }
         }
       ]
     },
