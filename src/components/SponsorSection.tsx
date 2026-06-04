@@ -1,5 +1,6 @@
-import { Container, Stack, Text, Title } from "@mantine/core";
-import { IconHeartFilled } from "@tabler/icons-react";
+import { Anchor, Avatar, Container, Group, Stack, Text, Title } from "@mantine/core";
+import { IconHeartFilled, IconPlus } from "@tabler/icons-react";
+import { sponsors } from "@/data/sponsors";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { SponsorButton } from "./SponsorButton";
 
@@ -41,12 +42,54 @@ export function SponsorSection({ dict }: SponsorSectionProps) {
           <Text size="sm" c="pink" fw={600} tt="uppercase" lts={2}>
             {dict.sponsor.kicker}
           </Text>
-          <Title order={2} fz={{ base: 28, sm: 44 }} fw={700} lh={1.1}>
+          <Title order={2} fz={{ base: 24, sm: 36 }} fw={700} lh={1.1}>
             {dict.sponsor.title}
           </Title>
-          <Text size="lg" c="dimmed" maw={560}>
+          <Text size="md" c="dimmed" maw={560}>
             {dict.sponsor.body}
           </Text>
+          <Group justify="center" gap="xl" mt="xs">
+            {sponsors.map((sponsor) => (
+              <Anchor
+                key={sponsor.key}
+                href={sponsor.href ?? `https://github.com/${sponsor.github}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="never"
+              >
+                <Stack gap={6} align="center">
+                  <Avatar
+                    src={`https://github.com/${sponsor.github}.png`}
+                    alt={sponsor.name}
+                    size="xl"
+                    radius="50%"
+                  />
+                  <Text fz={13} c="dimmed">
+                    {sponsor.name}
+                  </Text>
+                </Stack>
+              </Anchor>
+            ))}
+            <Anchor
+              href="https://github.com/sponsors/gfazioli"
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="never"
+            >
+              <Stack gap={6} align="center">
+                <Avatar
+                  size="xl"
+                  radius="50%"
+                  className="border border-dashed border-[var(--mantine-color-default-border)] bg-transparent text-[var(--mantine-color-dimmed)]"
+                >
+                  <IconPlus size={28} />
+                </Avatar>
+                <Text fz={13} c="dimmed">
+                  {dict.sponsor.logoHere}
+                </Text>
+              </Stack>
+            </Anchor>
+          </Group>
           <SponsorButton label={dict.sponsor.cta} size="lg" mt="xs" />
         </Stack>
       </Container>

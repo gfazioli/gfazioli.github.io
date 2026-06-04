@@ -63,7 +63,7 @@ export function Hero({ dict }: HeroProps) {
             >
               {dict.hero.ctaGithub}
             </Button>
-            <SponsorButton label={dict.sponsor.nav} size="lg" />
+            <SponsorButton label={dict.sponsor.nav} size="lg" href="#sponsor" />
           </Group>
         </Stack>
       </Container>

@@ -53,7 +53,7 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
           </Anchor>
           <HeaderNav links={navLinks} />
           <Group gap="sm" wrap="nowrap">
-            <SponsorButton label={dict.sponsor.nav} size="xs" radius="xl" />
+            <SponsorButton label={dict.sponsor.nav} size="xs" radius="xl" href="#sponsor" />
             <LanguageSwitcher current={lang} />
           </Group>
         </Group>

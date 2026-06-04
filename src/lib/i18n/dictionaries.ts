@@ -34,9 +34,11 @@ export interface Dictionary {
     body: string;
     cta: string;
     ariaLabel: string;
+    logoHere: string;
   };
   footer: {
-    built: string;
+    builtWith: string;
+    hostedOn: string;
   };
 }
 
@@ -76,9 +78,11 @@ const dictionaries: Record<Lang, Dictionary> = {
       body: "I build and maintain these tools in my spare time — free and open source. If they save you time or you find them useful, sponsoring helps me keep developing and maintaining them.",
       cta: "Sponsor me on GitHub",
       ariaLabel: "Sponsor on GitHub",
+      logoHere: "Your logo here",
     },
     footer: {
-      built: "Built with Next.js & Mantine — hosted on GitHub Pages",
+      builtWith: "Built with",
+      hostedOn: "hosted on",
     },
   },
   it: {
@@ -117,9 +121,11 @@ const dictionaries: Record<Lang, Dictionary> = {
       body: "Costruisco e mantengo questi strumenti nel tempo libero, gratis e open source. Se ti fanno risparmiare tempo o ti tornano utili, una sponsorizzazione mi aiuta a continuare a svilupparli e mantenerli.",
       cta: "Sponsorizzami su GitHub",
       ariaLabel: "Sponsorizza su GitHub",
+      logoHere: "Il tuo logo qui",
     },
     footer: {
-      built: "Costruito con Next.js & Mantine — ospitato su GitHub Pages",
+      builtWith: "Costruito con",
+      hostedOn: "ospitato su",
     },
   },
 };
