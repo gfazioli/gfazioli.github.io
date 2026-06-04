@@ -65,6 +65,20 @@ const SECTION_MAP = {
   },
 };
 
+/**
+ * Manual overrides for entries whose URL can't be auto-mapped to a
+ * `gfazioli/<repo>` slug. Keyed by the entry URL in the README.
+ * - `repo`: full `owner/name` slug to enrich from (any owner).
+ * - `ogImage`: force a local cover (path under `public/`) instead of the
+ *   homepage/repo og:image.
+ */
+const OVERRIDES = {
+  "https://wpbones.com": {
+    repo: "wpbones/WPBones",
+    ogImage: "/og/wpbones-framework.jpg",
+  },
+};
+
 const BULLET_RE = /^>\s*-\s*\[([^\]]+)\]\(([^)]+)\)\s*-\s*_([^_]+)_\s*$/;
 const SUBHEAD_RE = /^>\s*####\s*(.+?)\s*$/;
 const PROJECTS_HEAD_RE = /<h3>⭐\s*Projects<\/h3>/i;
@@ -169,9 +183,9 @@ function deriveRepoSlug(url) {
   }
 }
 
-async function getRepo(slug) {
+async function getRepo(slug, owner = USER) {
   try {
-    const { data } = await octokit.rest.repos.get({ owner: USER, repo: slug });
+    const { data } = await octokit.rest.repos.get({ owner, repo: slug });
     return data;
   } catch (err) {
     if (err.status === 404) return null;
@@ -179,10 +193,10 @@ async function getRepo(slug) {
   }
 }
 
-async function getLatestRelease(slug) {
+async function getLatestRelease(slug, owner = USER) {
   try {
     const { data } = await octokit.rest.repos.getLatestRelease({
-      owner: USER,
+      owner,
       repo: slug,
     });
     return {
@@ -196,7 +210,7 @@ async function getLatestRelease(slug) {
   }
 }
 
-async function getOpenGraph(slug) {
+async function getOpenGraph(slug, owner = USER) {
   try {
     const result = await octokit.graphql(
       `query($owner: String!, $name: String!) {
@@ -205,7 +219,7 @@ async function getOpenGraph(slug) {
           usesCustomOpenGraphImage
         }
       }`,
-      { owner: USER, name: slug }
+      { owner, name: slug }
     );
     const r = result?.repository;
     if (!r || !r.usesCustomOpenGraphImage) return null;
@@ -295,7 +309,12 @@ async function externalOgImage(entry) {
 }
 
 async function enrichEntry(entry) {
-  const slug = deriveRepoSlug(entry.url);
+  const override = OVERRIDES[entry.url];
+  let owner = USER;
+  let slug = deriveRepoSlug(entry.url);
+  if (override?.repo) {
+    [owner, slug] = override.repo.split("/");
+  }
   if (!slug) {
     // External link: still try to grab the site's og:image so the card
     // gets a cover like GitHub-backed projects.
@@ -305,19 +324,19 @@ async function enrichEntry(entry) {
     );
     return { ...entry, external: true, ogImage };
   }
-  process.stdout.write(`  · ${entry.displayName} → ${slug} `);
-  const repo = await getRepo(slug);
+  process.stdout.write(`  · ${entry.displayName} → ${owner}/${slug} `);
+  const repo = await getRepo(slug, owner);
   if (!repo) {
     const ogImage = await externalOgImage(entry);
     process.stdout.write(`(no repo)${ogImage ? " 🌐" : ""}\n`);
     return { ...entry, external: true, ogImage };
   }
-  const release = await getLatestRelease(slug);
+  const release = await getLatestRelease(slug, owner);
   const homepage = repo.homepage || entry.url;
-  const homepageOg = await getHomepageOgImage(homepage);
-  const repoOg = homepageOg ? null : await getOpenGraph(slug);
-  const ogImage = homepageOg ?? repoOg;
-  const ogSource = homepageOg ? "🌐" : repoOg ? "🖼" : "";
+  const homepageOg = override?.ogImage ? null : await getHomepageOgImage(homepage);
+  const repoOg = homepageOg || override?.ogImage ? null : await getOpenGraph(slug, owner);
+  const ogImage = override?.ogImage ?? homepageOg ?? repoOg;
+  const ogSource = override?.ogImage ? "📌" : homepageOg ? "🌐" : repoOg ? "🖼" : "";
   process.stdout.write(
     `${release ? `(${release.tag})` : ""}${ogSource ? ` ${ogSource}` : ""}\n`
   );

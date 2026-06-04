@@ -34,6 +34,16 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
       padding={0}
       className="group relative overflow-hidden transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
     >
+      {/* Stretched link: makes the whole card clickable. Points to the
+          project site (`url`); the GitHub icon below sits above it with
+          its own z-index so it stays independently clickable. */}
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={project.displayName}
+        className="absolute inset-0 z-[1]"
+      />
       {ogImage ? (
         <CardSection>
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -136,7 +146,7 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
               </Badge>
             ) : null}
           </Group>
-          <Group gap="xs">
+          <Group gap="xs" className="relative z-[2]">
             <Anchor
               href={project.url}
               target="_blank"
