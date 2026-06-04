@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-03T17:07:08.398Z",
+  "fetchedAt": "2026-06-04T07:52:46.640Z",
   "sectionCount": 8,
   "projectCount": 49,
   "sections": [
@@ -20,35 +20,8 @@
           "displayName": "Mantine Extensions",
           "url": "https://mantine-extensions.vercel.app",
           "description": "Mantine UI awesome components extensions",
-          "external": false,
-          "githubRepo": {
-            "name": "mantine-extensions",
-            "fullName": "gfazioli/mantine-extensions",
-            "url": "https://github.com/gfazioli/mantine-extensions",
-            "stars": 1,
-            "forks": 0,
-            "topics": [
-              "mantine",
-              "mantine-ui",
-              "mantine-v9",
-              "nextjs",
-              "nextjs16",
-              "nextra",
-              "oxfmt",
-              "oxlint",
-              "react",
-              "typescript"
-            ],
-            "language": "TypeScript",
-            "pushedAt": "2026-06-03T15:42:30Z",
-            "release": {
-              "tag": "v1.0.4",
-              "publishedAt": "2026-06-03T12:04:31Z",
-              "url": "https://github.com/gfazioli/mantine-extensions/releases/tag/v1.0.4"
-            },
-            "ogImage": "https://mantine-extensions.vercel.app/images/og-banner.png",
-            "defaultBranch": "main"
-          }
+          "external": true,
+          "ogImage": "/og/mantine-extensions.png"
         },
         {
           "displayName": "Amiga Assembly Library",
@@ -986,7 +959,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-03T08:57:41Z",
+            "pushedAt": "2026-06-04T07:40:06Z",
             "release": {
               "tag": "4.1.6",
               "publishedAt": "2026-06-03T08:57:26Z",
@@ -1088,8 +1061,8 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 13,
-            "forks": 1,
+            "stars": 14,
+            "forks": 2,
             "topics": [
               "component",
               "draggable",
@@ -1105,7 +1078,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-03T08:58:11Z",
+            "pushedAt": "2026-06-04T05:36:39Z",
             "release": {
               "tag": "3.1.4",
               "publishedAt": "2026-06-03T08:57:57Z",
@@ -1313,7 +1286,7 @@
             "name": "next-app-fumadocs-template",
             "fullName": "gfazioli/next-app-fumadocs-template",
             "url": "https://github.com/gfazioli/next-app-fumadocs-template",
-            "stars": 1,
+            "stars": 3,
             "forks": 0,
             "topics": [
               "documentation",
