@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-05T07:45:55.720Z",
+  "fetchedAt": "2026-06-06T07:17:23.651Z",
   "sectionCount": 8,
   "projectCount": 49,
   "sections": [
@@ -137,11 +137,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-06-04T11:44:06Z",
+            "pushedAt": "2026-06-06T05:57:55Z",
             "release": {
-              "tag": "v0.17.0",
-              "publishedAt": "2026-06-02T15:51:32Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.17.0"
+              "tag": "v0.18.0",
+              "publishedAt": "2026-06-06T05:54:18Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.18.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
@@ -1045,7 +1045,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "a11y",
