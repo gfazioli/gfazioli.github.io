@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-06T07:17:23.651Z",
+  "fetchedAt": "2026-06-07T06:52:59.464Z",
   "sectionCount": 8,
-  "projectCount": 49,
+  "projectCount": 50,
   "sections": [
     {
       "id": "core",
@@ -121,7 +121,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 44,
+            "stars": 49,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -227,6 +227,49 @@
               "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-border-animate/social.jpeg",
+            "defaultBranch": "master"
+          }
+        },
+        {
+          "displayName": "Mantine Book",
+          "url": "https://gfazioli.github.io/mantine-book/",
+          "description": "Realistic iBooks-style book component for React: stack two-sided pages and turn them by dragging any point of the free edge in any direction, with a pure-DOM reflection fold (flat) or a true 3D WebGL curl (rounded), hard covers, riffle through multi-page jumps, controlled navigation and full keyboard accessibility.",
+          "external": false,
+          "githubRepo": {
+            "name": "mantine-book",
+            "fullName": "gfazioli/mantine-book",
+            "url": "https://github.com/gfazioli/mantine-book",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "3d",
+              "book",
+              "component",
+              "curl",
+              "ebook",
+              "extension",
+              "flip",
+              "ibooks",
+              "mantine",
+              "mantine-ui",
+              "mantine-v9",
+              "page-curl",
+              "page-flip",
+              "page-turn",
+              "paper",
+              "react",
+              "react-component",
+              "typescript",
+              "webgl"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-06-07T06:31:06Z",
+            "release": {
+              "tag": "1.0.0",
+              "publishedAt": "2026-06-07T06:30:50Z",
+              "url": "https://github.com/gfazioli/mantine-book/releases/tag/1.0.0"
+            },
+            "ogImage": "https://gfazioli.github.io/mantine-book/social.jpeg",
             "defaultBranch": "master"
           }
         },
@@ -369,7 +412,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-04T11:52:50Z",
+            "pushedAt": "2026-06-07T04:35:44Z",
             "release": {
               "tag": "4.0.8",
               "publishedAt": "2026-06-03T08:43:54Z",
@@ -672,7 +715,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-04T11:54:11Z",
+            "pushedAt": "2026-06-06T16:11:38Z",
             "release": {
               "tag": "4.0.4",
               "publishedAt": "2026-06-03T08:51:13Z",
