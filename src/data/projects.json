@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-07T07:37:56.274Z",
+  "fetchedAt": "2026-06-08T08:03:36.217Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -121,7 +121,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 49,
+            "stars": 55,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -163,7 +163,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 6,
+            "stars": 7,
             "forks": 0,
             "topics": [
               "audio",
@@ -204,7 +204,7 @@
             "name": "mantine-border-animate",
             "fullName": "gfazioli/mantine-border-animate",
             "url": "https://github.com/gfazioli/mantine-border-animate",
-            "stars": 10,
+            "stars": 11,
             "forks": 1,
             "topics": [
               "animate",
@@ -263,11 +263,11 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-07T06:58:47Z",
+            "pushedAt": "2026-06-07T10:55:01Z",
             "release": {
-              "tag": "1.0.0",
-              "publishedAt": "2026-06-07T06:30:50Z",
-              "url": "https://github.com/gfazioli/mantine-book/releases/tag/1.0.0"
+              "tag": "1.0.1",
+              "publishedAt": "2026-06-07T10:54:48Z",
+              "url": "https://github.com/gfazioli/mantine-book/releases/tag/1.0.1"
             },
             "ogImage": "https://gfazioli.github.io/mantine-book/social.jpeg",
             "defaultBranch": "master"
@@ -361,7 +361,7 @@
             "name": "mantine-depth-select",
             "fullName": "gfazioli/mantine-depth-select",
             "url": "https://github.com/gfazioli/mantine-depth-select",
-            "stars": 7,
+            "stars": 8,
             "forks": 1,
             "topics": [
               "3d-stack",
