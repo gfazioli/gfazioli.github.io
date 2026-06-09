@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-08T08:03:36.217Z",
+  "fetchedAt": "2026-06-09T07:31:00.224Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -603,11 +603,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-07T06:58:24Z",
+            "pushedAt": "2026-06-08T15:27:57Z",
             "release": {
-              "tag": "4.0.5",
-              "publishedAt": "2026-06-03T08:50:33Z",
-              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.0.5"
+              "tag": "4.1.0",
+              "publishedAt": "2026-06-08T15:23:11Z",
+              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.1.0"
             },
             "ogImage": "https://gfazioli.github.io/mantine-marquee/social.jpeg",
             "defaultBranch": "master"
