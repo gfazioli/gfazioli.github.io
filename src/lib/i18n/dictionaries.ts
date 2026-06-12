@@ -33,6 +33,7 @@ export interface Dictionary {
     title: string;
     body: string;
     cta: string;
+    coffeeCta: string;
     ariaLabel: string;
     logoHere: string;
   };
@@ -77,6 +78,7 @@ const dictionaries: Record<Lang, Dictionary> = {
       title: "Support my open source work",
       body: "I build and maintain these tools in my spare time — free and open source. If they save you time or you find them useful, sponsoring helps me keep developing and maintaining them.",
       cta: "Sponsor me on GitHub",
+      coffeeCta: "Buy me a coffee",
       ariaLabel: "Sponsor on GitHub",
       logoHere: "Your logo here",
     },
@@ -120,6 +122,7 @@ const dictionaries: Record<Lang, Dictionary> = {
       title: "Sostieni il mio lavoro open source",
       body: "Costruisco e mantengo questi strumenti nel tempo libero, gratis e open source. Se ti fanno risparmiare tempo o ti tornano utili, una sponsorizzazione mi aiuta a continuare a svilupparli e mantenerli.",
       cta: "Sponsorizzami su GitHub",
+      coffeeCta: "Offrimi un caffè",
       ariaLabel: "Sponsorizza su GitHub",
       logoHere: "Il tuo logo qui",
     },

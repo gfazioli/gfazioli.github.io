@@ -2,6 +2,7 @@ import { Anchor, Avatar, Container, Group, Stack, Text, Title } from "@mantine/c
 import { IconHeartFilled, IconPlus } from "@tabler/icons-react";
 import { sponsors } from "@/data/sponsors";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { CoffeeButton } from "./CoffeeButton";
 import { SponsorButton } from "./SponsorButton";
 
 interface SponsorSectionProps {
@@ -90,7 +91,10 @@ export function SponsorSection({ dict }: SponsorSectionProps) {
               </Stack>
             </Anchor>
           </Group>
-          <SponsorButton label={dict.sponsor.cta} size="lg" mt="xs" />
+          <Group justify="center" gap="sm" mt="xs">
+            <SponsorButton label={dict.sponsor.cta} size="lg" />
+            <CoffeeButton label={dict.sponsor.coffeeCta} size="lg" />
+          </Group>
         </Stack>
       </Container>
     </section>
