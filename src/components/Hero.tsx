@@ -1,7 +1,17 @@
-import { Button, Container, Group, Stack, Text, Title } from "@mantine/core";
-import { IconBrandGithub, IconRocket } from "@tabler/icons-react";
+import {
+  ActionIcon,
+  Button,
+  Container,
+  Group,
+  Stack,
+  Text,
+  Title,
+  Tooltip,
+} from "@mantine/core";
+import { IconBrandGithub, IconCoffee, IconRocket } from "@tabler/icons-react";
 import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { DONATE_URL } from "./CoffeeButton";
 import { SponsorButton } from "./SponsorButton";
 
 interface HeroProps {
@@ -64,6 +74,20 @@ export function Hero({ dict }: HeroProps) {
               {dict.hero.ctaGithub}
             </Button>
             <SponsorButton label={dict.sponsor.nav} size="lg" href="#sponsor" />
+            <Tooltip label={dict.sponsor.coffeeCta}>
+              <ActionIcon
+                component="a"
+                href={DONATE_URL}
+                target="_blank"
+                rel="noreferrer"
+                size={50}
+                variant="gradient"
+                gradient={{ from: "yellow.7", to: "orange.7", deg: 45 }}
+                aria-label={dict.sponsor.coffeeCta}
+              >
+                <IconCoffee size={24} />
+              </ActionIcon>
+            </Tooltip>
           </Group>
         </Stack>
       </Container>
