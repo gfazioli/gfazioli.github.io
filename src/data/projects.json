@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-15T08:22:02.768Z",
+  "fetchedAt": "2026-06-16T08:13:57.500Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -1148,11 +1148,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-12T08:00:46Z",
+            "pushedAt": "2026-06-16T07:54:00Z",
             "release": {
-              "tag": "3.1.4",
-              "publishedAt": "2026-06-03T08:57:57Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.4"
+              "tag": "3.1.5",
+              "publishedAt": "2026-06-16T07:53:46Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.5"
             },
             "ogImage": "https://gfazioli.github.io/mantine-window/social.jpeg",
             "defaultBranch": "master"
@@ -1307,7 +1307,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.png"
+          "ogImage": null
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
@@ -1427,7 +1427,7 @@
           "url": "https://www.raycast.com/Undolog/macos-tweaks",
           "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
           "external": true,
-          "ogImage": "/og/macos-tweaks.png"
+          "ogImage": null
         },
         {
           "displayName": "App Updates",
