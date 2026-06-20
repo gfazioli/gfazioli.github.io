@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-19T08:09:49.768Z",
+  "fetchedAt": "2026-06-20T07:34:14.561Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -1318,7 +1318,7 @@
             "name": "next-app-nextra-template",
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
-            "stars": 33,
+            "stars": 34,
             "forks": 8,
             "topics": [
               "mantine",
