@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-20T07:34:14.561Z",
+  "fetchedAt": "2026-06-21T07:53:30.563Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -137,11 +137,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-06-16T14:08:50Z",
+            "pushedAt": "2026-06-21T06:47:16Z",
             "release": {
-              "tag": "v0.20.1",
-              "publishedAt": "2026-06-16T13:08:36Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.20.1"
+              "tag": "v0.20.2",
+              "publishedAt": "2026-06-21T06:36:21Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.20.2"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
@@ -412,7 +412,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-16T10:46:45Z",
+            "pushedAt": "2026-06-21T04:35:32Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-06-16T10:44:41Z",
