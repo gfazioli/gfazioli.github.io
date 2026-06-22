@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-21T07:53:30.563Z",
+  "fetchedAt": "2026-06-22T08:21:57.410Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -121,7 +121,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 55,
+            "stars": 56,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -137,11 +137,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-06-21T06:47:16Z",
+            "pushedAt": "2026-06-22T05:26:34Z",
             "release": {
-              "tag": "v0.20.2",
-              "publishedAt": "2026-06-21T06:36:21Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.20.2"
+              "tag": "v0.21.0",
+              "publishedAt": "2026-06-22T05:28:22Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.21.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
