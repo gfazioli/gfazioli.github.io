@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-23T07:30:11.110Z",
+  "fetchedAt": "2026-06-24T07:26:40.324Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -74,11 +74,11 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-06-12T08:20:06Z",
+            "pushedAt": "2026-06-23T12:10:18Z",
             "release": {
-              "tag": "v6.0.1",
-              "publishedAt": "2026-06-03T12:04:56Z",
-              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.1"
+              "tag": "v6.0.2",
+              "publishedAt": "2026-06-23T12:10:19Z",
+              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.2"
             },
             "ogImage": "https://amiga-assembly-library.vercel.app/social.jpeg",
             "defaultBranch": "main"
@@ -1131,7 +1131,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 14,
+            "stars": 15,
             "forks": 2,
             "topics": [
               "component",
@@ -1148,11 +1148,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-23T05:51:54Z",
+            "pushedAt": "2026-06-23T07:45:01Z",
             "release": {
-              "tag": "3.1.7",
-              "publishedAt": "2026-06-23T05:51:40Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.7"
+              "tag": "3.1.8",
+              "publishedAt": "2026-06-23T07:44:46Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.8"
             },
             "ogImage": "https://gfazioli.github.io/mantine-window/social.jpeg",
             "defaultBranch": "master"
@@ -1194,7 +1194,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-17T02:55:36Z",
+            "pushedAt": "2026-06-23T12:22:51Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1229,7 +1229,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-17T02:52:16Z",
+            "pushedAt": "2026-06-23T12:23:10Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1262,7 +1262,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-17T04:01:09Z",
+            "pushedAt": "2026-06-23T12:23:01Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1285,7 +1285,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-06-17T04:28:42Z",
+            "pushedAt": "2026-06-23T12:23:04Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
