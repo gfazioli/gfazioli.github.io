@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-24T07:26:40.324Z",
+  "fetchedAt": "2026-06-25T07:27:27.621Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -550,7 +550,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 19,
+            "stars": 20,
             "forks": 0,
             "topics": [
               "column-reorder",
