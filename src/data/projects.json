@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-06-26T07:33:26.039Z",
+  "fetchedAt": "2026-06-27T07:18:31.491Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -163,7 +163,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 7,
+            "stars": 8,
             "forks": 0,
             "topics": [
               "audio",
@@ -1088,7 +1088,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 5,
+            "stars": 6,
             "forks": 0,
             "topics": [
               "a11y",
@@ -1131,7 +1131,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 15,
+            "stars": 16,
             "forks": 2,
             "topics": [
               "component",
