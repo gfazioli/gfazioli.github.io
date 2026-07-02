@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-01T07:46:25.273Z",
+  "fetchedAt": "2026-07-02T07:21:23.446Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -1131,7 +1131,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 16,
+            "stars": 17,
             "forks": 2,
             "topics": [
               "component",
