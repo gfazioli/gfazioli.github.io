@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-02T07:21:23.446Z",
+  "fetchedAt": "2026-07-03T07:16:59.836Z",
   "sectionCount": 8,
   "projectCount": 50,
   "sections": [
@@ -137,7 +137,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-06-28T18:43:27Z",
+            "pushedAt": "2026-07-03T05:53:15Z",
             "release": {
               "tag": "v0.22.0",
               "publishedAt": "2026-06-28T16:02:16Z",
@@ -550,7 +550,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 20,
+            "stars": 21,
             "forks": 0,
             "topics": [
               "column-reorder",
@@ -1148,11 +1148,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-06-23T07:45:01Z",
+            "pushedAt": "2026-07-03T06:13:55Z",
             "release": {
-              "tag": "3.1.8",
-              "publishedAt": "2026-06-23T07:44:46Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.8"
+              "tag": "3.1.9",
+              "publishedAt": "2026-07-03T06:13:42Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.9"
             },
             "ogImage": "https://gfazioli.github.io/mantine-window/social.jpeg",
             "defaultBranch": "master"
