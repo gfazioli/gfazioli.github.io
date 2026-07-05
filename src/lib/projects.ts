@@ -30,7 +30,8 @@ export type SectionId =
   | "react"
   | "templates"
   | "wordpress"
-  | "raycast";
+  | "raycast"
+  | "glaze";
 
 export interface ProjectSection {
   id: SectionId;

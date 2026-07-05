@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
   "fetchedAt": "2026-07-05T07:16:46.215Z",
-  "sectionCount": 8,
-  "projectCount": 50,
+  "sectionCount": 9,
+  "projectCount": 52,
   "sections": [
     {
       "id": "core",
@@ -1470,6 +1470,27 @@
           "description": "Tile open windows into predefined or custom layouts, Save & Restore, Auto Layout, Pick Layout",
           "external": true,
           "ogImage": "/og/window-layouts.png"
+        }
+      ]
+    },
+    {
+      "id": "glaze",
+      "title": "Glaze",
+      "titleIt": "Glaze",
+      "projects": [
+        {
+          "displayName": "Applause",
+          "url": "https://www.glaze.app/app/applause-0La79U",
+          "description": "A macOS menu bar app that celebrates your GitHub stars in real time — live star counts with automatic refresh, confetti and toast notifications on every new star, daily and session deltas with sparklines, a recent-stars feed with contributor avatars, and milestone celebrations. All processed locally, no external tracking.",
+          "external": true,
+          "ogImage": "/og/applause.png"
+        },
+        {
+          "displayName": "Quokka",
+          "url": "https://www.glaze.app/app/quokka-jKQxa8",
+          "description": "A number-logic puzzle: fill the grid by placing 1–25 along a single continuous path, leaping three cells straight or two diagonally on each move. Multiple difficulty levels up to zero-undo Genius mode, timer or zen mode, grids from 5×5 to 100×100, and a shareable Daily Challenge — fully offline, no account needed.",
+          "external": true,
+          "ogImage": "/og/quokka.png"
         }
       ]
     }

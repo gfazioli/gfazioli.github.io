@@ -3,6 +3,7 @@ import {
   IconBrandReact,
   IconBrandWordpress,
   IconRocket,
+  IconSparkles,
   IconTemplate,
   IconTerminal2,
   type IconProps,
@@ -35,6 +36,8 @@ export function SectionIcon({ id, size = 32, className }: SectionIconProps) {
       return <IconBrandWordpress {...tablerProps} />;
     case "raycast":
       return <SiRaycast size={size} className={className} />;
+    case "glaze":
+      return <IconSparkles {...tablerProps} />;
     default:
       return null;
   }

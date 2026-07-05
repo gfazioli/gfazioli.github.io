@@ -25,6 +25,7 @@ const SECTION_KICKERS: Record<ProjectSection["id"], { en: string; it: string }> 
   templates: { en: "Templates", it: "Template" },
   wordpress: { en: "WordPress", it: "WordPress" },
   raycast: { en: "Raycast", it: "Raycast" },
+  glaze: { en: "Raycast", it: "Raycast" },
 };
 
 const SECTION_BACKGROUNDS: Partial<Record<ProjectSection["id"], string>> = {
@@ -101,6 +102,41 @@ export function HomePage({ lang, dict }: HomePageProps) {
                         "radial-gradient(ellipse 70% 28% at 20% 60%, rgba(236,72,153,0.7), transparent 70%)",
                         "radial-gradient(ellipse 75% 30% at 75% 88%, rgba(59,130,246,0.8), transparent 70%)",
                       ].join(", "),
+                    }}
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 -z-10"
+                    style={{
+                      background:
+                        "linear-gradient(to bottom, var(--mantine-color-body) 0%, transparent 15%, transparent 85%, var(--mantine-color-body) 100%)",
+                    }}
+                  />
+                </>
+              ) : null}
+              {section.id === "glaze" ? (
+                <>
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 -z-20"
+                    style={{
+                      opacity: 0.5,
+                      backgroundImage: [
+                        "radial-gradient(ellipse 60% 30% at 15% 12%, rgba(240,140,0,0.55), transparent 70%)",
+                        "radial-gradient(ellipse 55% 28% at 85% 22%, rgba(255,180,90,0.42), transparent 70%)",
+                        "radial-gradient(ellipse 60% 30% at 22% 72%, rgba(255,99,99,0.38), transparent 70%)",
+                        "radial-gradient(ellipse 65% 32% at 82% 90%, rgba(150,110,255,0.30), transparent 70%)",
+                      ].join(", "),
+                    }}
+                  />
+                  {/* Glossy "glaze" sheen — a soft diagonal highlight sweeping the section */}
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 -z-20"
+                    style={{
+                      opacity: 0.5,
+                      backgroundImage:
+                        "linear-gradient(115deg, transparent 34%, rgba(255,255,255,0.05) 47%, rgba(255,255,255,0.13) 50%, rgba(255,255,255,0.05) 53%, transparent 66%)",
                     }}
                   />
                   <div

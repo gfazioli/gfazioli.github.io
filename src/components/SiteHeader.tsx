@@ -20,6 +20,7 @@ const SECTION_LABELS: Record<ProjectSection["id"], { en: string; it: string }> =
   templates: { en: "Templates", it: "Template" },
   wordpress: { en: "WordPress", it: "WordPress" },
   raycast: { en: "Raycast", it: "Raycast" },
+  glaze: { en: "Glaze", it: "Glaze" },
 };
 
 export function SiteHeader({ lang, dict }: SiteHeaderProps) {

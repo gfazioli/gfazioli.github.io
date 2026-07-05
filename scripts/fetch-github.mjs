@@ -63,6 +63,11 @@ const SECTION_MAP = {
     title: "Raycast — maintain or contribute to",
     titleIt: "Raycast — manutenzione e contributi",
   },
+  "Glaze": {
+    id: "glaze",
+    title: "Glaze",
+    titleIt: "Glaze",
+  },
 };
 
 /**
