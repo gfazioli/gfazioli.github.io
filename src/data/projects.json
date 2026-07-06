@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-05T07:16:46.215Z",
+  "fetchedAt": "2026-07-06T07:49:01.397Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -137,7 +137,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-07-04T10:52:42Z",
+            "pushedAt": "2026-07-05T11:13:12Z",
             "release": {
               "tag": "v0.23.0",
               "publishedAt": "2026-07-04T10:54:37Z",
@@ -361,7 +361,7 @@
             "name": "mantine-depth-select",
             "fullName": "gfazioli/mantine-depth-select",
             "url": "https://github.com/gfazioli/mantine-depth-select",
-            "stars": 8,
+            "stars": 9,
             "forks": 1,
             "topics": [
               "3d-stack",
@@ -1318,7 +1318,7 @@
             "name": "next-app-nextra-template",
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
-            "stars": 34,
+            "stars": 35,
             "forks": 8,
             "topics": [
               "mantine",
