@@ -7,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: { userAgent: "*", allow: "/" },
     sitemap: [
       "https://gfazioli.github.io/sitemap.xml",
+      "https://gfazioli.github.io/octoscope/sitemap.xml",
       "https://gfazioli.github.io/react-tilt/sitemap.xml",
       "https://gfazioli.github.io/react-flip/sitemap.xml",
       "https://gfazioli.github.io/react-toggle/sitemap.xml",
