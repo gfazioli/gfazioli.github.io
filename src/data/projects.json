@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-13T07:21:38.605Z",
+  "fetchedAt": "2026-07-14T06:54:40.220Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -1356,7 +1356,7 @@
             "name": "next-app-fumadocs-template",
             "fullName": "gfazioli/next-app-fumadocs-template",
             "url": "https://github.com/gfazioli/next-app-fumadocs-template",
-            "stars": 3,
+            "stars": 4,
             "forks": 0,
             "topics": [
               "documentation",
