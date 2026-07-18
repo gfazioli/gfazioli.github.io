@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-17T06:57:53.466Z",
+  "fetchedAt": "2026-07-18T06:48:02.956Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -239,7 +239,7 @@
             "name": "mantine-book",
             "fullName": "gfazioli/mantine-book",
             "url": "https://github.com/gfazioli/mantine-book",
-            "stars": 1,
+            "stars": 2,
             "forks": 0,
             "topics": [
               "3d",
@@ -472,7 +472,7 @@
             "name": "mantine-led",
             "fullName": "gfazioli/mantine-led",
             "url": "https://github.com/gfazioli/mantine-led",
-            "stars": 7,
+            "stars": 8,
             "forks": 0,
             "topics": [
               "component",
@@ -509,7 +509,7 @@
             "name": "mantine-lens-select",
             "fullName": "gfazioli/mantine-lens-select",
             "url": "https://github.com/gfazioli/mantine-lens-select",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "component",
@@ -887,7 +887,7 @@
             "name": "mantine-select-stepper",
             "fullName": "gfazioli/mantine-select-stepper",
             "url": "https://github.com/gfazioli/mantine-select-stepper",
-            "stars": 3,
+            "stars": 4,
             "forks": 2,
             "topics": [
               "accessible",
