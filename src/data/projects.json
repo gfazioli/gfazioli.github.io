@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-18T06:48:02.956Z",
+  "fetchedAt": "2026-07-19T07:01:14.272Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -361,7 +361,7 @@
             "name": "mantine-depth-select",
             "fullName": "gfazioli/mantine-depth-select",
             "url": "https://github.com/gfazioli/mantine-depth-select",
-            "stars": 9,
+            "stars": 10,
             "forks": 1,
             "topics": [
               "3d-stack",
@@ -412,7 +412,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-12T05:09:15Z",
+            "pushedAt": "2026-07-19T04:34:44Z",
             "release": {
               "tag": "4.0.11",
               "publishedAt": "2026-07-10T05:48:09Z",
@@ -715,7 +715,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-12T05:09:27Z",
+            "pushedAt": "2026-07-18T23:06:29Z",
             "release": {
               "tag": "4.0.7",
               "publishedAt": "2026-07-10T05:52:01Z",
