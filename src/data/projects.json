@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-20T07:18:59.724Z",
+  "fetchedAt": "2026-07-21T07:02:38.291Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -121,7 +121,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 57,
+            "stars": 58,
             "forks": 0,
             "topics": [
               "bubbletea",
