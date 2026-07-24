@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-23T07:01:10.612Z",
+  "fetchedAt": "2026-07-24T07:02:11.731Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -1012,7 +1012,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 78,
+            "stars": 79,
             "forks": 7,
             "topics": [
               "component",
@@ -1318,7 +1318,7 @@
             "name": "next-app-nextra-template",
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
-            "stars": 35,
+            "stars": 36,
             "forks": 8,
             "topics": [
               "mantine",
@@ -1462,7 +1462,7 @@
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": "/og/text-shortcuts.png"
+          "ogImage": null
         },
         {
           "displayName": "Window Layouts",
