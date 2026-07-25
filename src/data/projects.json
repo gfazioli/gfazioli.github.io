@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-24T07:02:11.731Z",
+  "fetchedAt": "2026-07-25T06:56:37.832Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -1462,7 +1462,7 @@
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/text-shortcuts.png"
         },
         {
           "displayName": "Window Layouts",
