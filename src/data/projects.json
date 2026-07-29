@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-07-28T07:03:32.065Z",
+  "fetchedAt": "2026-07-29T07:05:41.943Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -121,7 +121,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 59,
+            "stars": 58,
             "forks": 0,
             "topics": [
               "bubbletea",
@@ -137,7 +137,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-07-26T10:42:28Z",
+            "pushedAt": "2026-07-28T17:41:49Z",
             "release": {
               "tag": "v0.24.2",
               "publishedAt": "2026-07-14T13:11:54Z",
@@ -185,11 +185,11 @@
               "web-audio-api"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:48:47Z",
+            "pushedAt": "2026-07-28T15:51:35Z",
             "release": {
-              "tag": "1.0.6",
-              "publishedAt": "2026-07-27T14:51:51Z",
-              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.0.6"
+              "tag": "1.1.0",
+              "publishedAt": "2026-07-28T15:51:24Z",
+              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.1.0"
             },
             "ogImage": "https://gfazioli.github.io/mantine-audio/social.jpeg",
             "defaultBranch": "master"
@@ -220,7 +220,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:24Z",
+            "pushedAt": "2026-07-28T09:26:25Z",
             "release": {
               "tag": "2.0.9",
               "publishedAt": "2026-07-27T14:53:46Z",
@@ -263,7 +263,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:59Z",
+            "pushedAt": "2026-07-28T09:43:22Z",
             "release": {
               "tag": "1.0.5",
               "publishedAt": "2026-07-27T14:55:53Z",
@@ -304,7 +304,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:31Z",
+            "pushedAt": "2026-07-28T09:43:44Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-07-27T14:57:52Z",
@@ -342,7 +342,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:01Z",
+            "pushedAt": "2026-07-28T09:44:04Z",
             "release": {
               "tag": "1.0.8",
               "publishedAt": "2026-07-27T14:59:47Z",
@@ -379,11 +379,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:33Z",
+            "pushedAt": "2026-07-28T09:47:40Z",
             "release": {
-              "tag": "2.0.9",
-              "publishedAt": "2026-07-27T14:52:20Z",
-              "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.9"
+              "tag": "2.0.10",
+              "publishedAt": "2026-07-28T08:54:16Z",
+              "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.10"
             },
             "ogImage": "https://gfazioli.github.io/mantine-depth-select/social.jpeg",
             "defaultBranch": "master"
@@ -412,7 +412,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:20Z",
+            "pushedAt": "2026-07-28T09:26:11Z",
             "release": {
               "tag": "4.0.12",
               "publishedAt": "2026-07-27T14:54:21Z",
@@ -453,7 +453,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:53Z",
+            "pushedAt": "2026-07-28T09:48:00Z",
             "release": {
               "tag": "3.2.9",
               "publishedAt": "2026-07-27T14:56:24Z",
@@ -490,7 +490,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:25Z",
+            "pushedAt": "2026-07-28T09:24:33Z",
             "release": {
               "tag": "4.0.11",
               "publishedAt": "2026-07-27T14:49:08Z",
@@ -531,13 +531,13 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:58Z",
+            "pushedAt": "2026-07-28T09:48:21Z",
             "release": {
-              "tag": "1.0.7",
-              "publishedAt": "2026-07-27T14:58:14Z",
-              "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.7"
+              "tag": "1.0.8",
+              "publishedAt": "2026-07-28T08:53:49Z",
+              "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.8"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T070529Z&X-Amz-Expires=300&X-Amz-Signature=d6be3a7bc2c9a82b2284d30ab5efd4548fbd3495306328e85748357c791f2935&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTMwOTAyOSwibmJmIjoxNzg1MzA4NzI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.rUHjOC5mJ2BB--eJ6OZS55_irrqZVI4cAa1hfvTDjn4",
             "defaultBranch": "master"
           }
         },
@@ -570,7 +570,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:31Z",
+            "pushedAt": "2026-07-28T09:48:49Z",
             "release": {
               "tag": "4.1.8",
               "publishedAt": "2026-07-27T15:00:30Z",
@@ -603,7 +603,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:52:01Z",
+            "pushedAt": "2026-07-28T09:49:09Z",
             "release": {
               "tag": "4.1.4",
               "publishedAt": "2026-07-27T14:52:40Z",
@@ -642,7 +642,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:52:32Z",
+            "pushedAt": "2026-07-28T09:49:29Z",
             "release": {
               "tag": "2.0.9",
               "publishedAt": "2026-07-27T14:54:48Z",
@@ -679,7 +679,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:20Z",
+            "pushedAt": "2026-07-28T09:26:25Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-07-27T14:57:20Z",
@@ -715,7 +715,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:53Z",
+            "pushedAt": "2026-07-28T09:42:54Z",
             "release": {
               "tag": "4.0.8",
               "publishedAt": "2026-07-27T14:59:44Z",
@@ -752,7 +752,7 @@
               "wheel-picker"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:23Z",
+            "pushedAt": "2026-07-28T10:59:19Z",
             "release": {
               "tag": "3.1.8",
               "publishedAt": "2026-07-27T15:02:06Z",
@@ -790,7 +790,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:12Z",
+            "pushedAt": "2026-07-28T09:47:42Z",
             "release": {
               "tag": "2.0.8",
               "publishedAt": "2026-07-27T14:57:23Z",
@@ -831,7 +831,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:57Z",
+            "pushedAt": "2026-07-28T09:44:51Z",
             "release": {
               "tag": "3.0.8",
               "publishedAt": "2026-07-27T14:52:44Z",
@@ -868,7 +868,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:31Z",
+            "pushedAt": "2026-07-28T09:47:46Z",
             "release": {
               "tag": "4.1.8",
               "publishedAt": "2026-07-27T14:54:45Z",
@@ -910,7 +910,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:52:34Z",
+            "pushedAt": "2026-07-28T09:48:48Z",
             "release": {
               "tag": "3.0.8",
               "publishedAt": "2026-07-27T14:58:52Z",
@@ -954,7 +954,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:52:02Z",
+            "pushedAt": "2026-07-28T09:48:18Z",
             "release": {
               "tag": "2.2.8",
               "publishedAt": "2026-07-27T14:56:46Z",
@@ -993,7 +993,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:49:36Z",
+            "pushedAt": "2026-07-28T09:42:23Z",
             "release": {
               "tag": "4.1.8",
               "publishedAt": "2026-07-27T15:00:46Z",
@@ -1029,7 +1029,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:11Z",
+            "pushedAt": "2026-07-28T09:43:05Z",
             "release": {
               "tag": "4.1.10",
               "publishedAt": "2026-07-27T14:52:58Z",
@@ -1069,7 +1069,7 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:50:41Z",
+            "pushedAt": "2026-07-28T09:43:39Z",
             "release": {
               "tag": "4.0.8",
               "publishedAt": "2026-07-27T14:55:12Z",
@@ -1112,11 +1112,11 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:51:43Z",
+            "pushedAt": "2026-07-28T13:47:09Z",
             "release": {
-              "tag": "1.1.6",
-              "publishedAt": "2026-07-27T14:59:35Z",
-              "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.1.6"
+              "tag": "1.2.0",
+              "publishedAt": "2026-07-28T13:46:58Z",
+              "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.2.0"
             },
             "ogImage": "https://gfazioli.github.io/mantine-video/social.jpeg",
             "defaultBranch": "master"
@@ -1148,7 +1148,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T20:52:14Z",
+            "pushedAt": "2026-07-28T09:48:38Z",
             "release": {
               "tag": "3.1.11",
               "publishedAt": "2026-07-27T15:01:22Z",
@@ -1343,7 +1343,7 @@
               "publishedAt": "2026-07-27T15:10:35Z",
               "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.10"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/929481286/8be23eea-44c2-4b62-a394-338d08168b22",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/929481286/8be23eea-44c2-4b62-a394-338d08168b22?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T070537Z&X-Amz-Expires=300&X-Amz-Signature=ef73f8fd8a0bebea4915f17b086f83b74fc8e1bc14bc9e352696d2cac97b1695&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTMwOTAzNywibmJmIjoxNzg1MzA4NzM3LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.tLmDC91gFNFKhD7aH5N0-iZQkq1Wa5Sf02AFZLiETKQ",
             "defaultBranch": "main"
           }
         },
@@ -1376,7 +1376,7 @@
               "publishedAt": "2026-07-27T15:12:58Z",
               "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.4"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T070538Z&X-Amz-Expires=300&X-Amz-Signature=4f27312a0129e26b65fc763b88875e37dbd870101e4de710eb40d7ffb71cb456&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTMwOTAzOCwibmJmIjoxNzg1MzA4NzM4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.AkM18vL7c1TGm4pdb0NQE9pFE23gMYTSEOA7FhduPCk",
             "defaultBranch": "main"
           }
         }
