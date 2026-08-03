@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-02T07:02:29.294Z",
+  "fetchedAt": "2026-08-03T07:21:58.252Z",
   "sectionCount": 9,
   "projectCount": 52,
   "sections": [
@@ -137,7 +137,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-01T19:38:32Z",
+            "pushedAt": "2026-08-03T06:31:05Z",
             "release": {
               "tag": "v0.26.0",
               "publishedAt": "2026-07-31T05:01:12Z",
@@ -537,7 +537,7 @@
               "publishedAt": "2026-07-28T08:53:49Z",
               "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.8"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T070217Z&X-Amz-Expires=300&X-Amz-Signature=b0c50a5839f3452566d574d3c9b557ddabadc75c60540ac5a37fb62b4d3bb528&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1NDQzNywibmJmIjoxNzg1NjU0MTM3LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.H3_TRxvwz2bbFAi9N-ccZxgOmsPZ8Ow5J8mhDP01pBI",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T072146Z&X-Amz-Expires=300&X-Amz-Signature=7303132b5c81ca585b9798ef74629a2cee5d09a5523a912b2771aa3f689a47fa&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTc0MjAwNiwibmJmIjoxNzg1NzQxNzA2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.2Rg7jCXFUyqTIvP2w2O-hoQTJEXVD0LCwex6fDTPE_4",
             "defaultBranch": "master"
           }
         },
@@ -1343,7 +1343,7 @@
               "publishedAt": "2026-07-27T15:10:35Z",
               "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.10"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/929481286/8be23eea-44c2-4b62-a394-338d08168b22?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T070225Z&X-Amz-Expires=300&X-Amz-Signature=6caeaca370bcfb2e09e8581a332ab1b03907cda92971ebb025ebab3f61b3d2a5&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1NDQ0NSwibmJmIjoxNzg1NjU0MTQ1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.KNmINOn-yrChQ_xNc33klTjWSdWEm4VPjZBbXHfh66A",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/929481286/8be23eea-44c2-4b62-a394-338d08168b22?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T072154Z&X-Amz-Expires=300&X-Amz-Signature=42f40418827f7fdc8102a83a7b56fc450ec375f4c46051e53e13c999006fef49&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTc0MjAxNCwibmJmIjoxNzg1NzQxNzE0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.bY2wI3T7Ht3MgNVjpm_-7cjbg78YERKcT3OQxEP_E3g",
             "defaultBranch": "main"
           }
         },
@@ -1376,7 +1376,7 @@
               "publishedAt": "2026-07-27T15:12:58Z",
               "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.4"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T070226Z&X-Amz-Expires=300&X-Amz-Signature=d95cc1b38bdf33d8077aea4395e02c43a2cf9ea9a5568148fac9c867f46f4c11&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1NDQ0NiwibmJmIjoxNzg1NjU0MTQ2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ZID8jLXzzie7kaXrPc8I2Zi0BU0JSZJeEeKmja4wEvI",
+            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T072155Z&X-Amz-Expires=300&X-Amz-Signature=ac5b16527653073c9d337163f7e2fcae75bfdb3a760d4893fbb220736489249c&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTc0MjAxNSwibmJmIjoxNzg1NzQxNzE1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.w8zsbXGX9htbSPjJw7HlTBKdU7wGgKedb-2_rX8U0l4",
             "defaultBranch": "main"
           }
         }
