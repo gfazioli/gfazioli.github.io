@@ -25,7 +25,7 @@ const SECTION_KICKERS: Record<ProjectSection["id"], { en: string; it: string }> 
   templates: { en: "Templates", it: "Template" },
   wordpress: { en: "WordPress", it: "WordPress" },
   raycast: { en: "Raycast", it: "Raycast" },
-  glaze: { en: "Raycast", it: "Raycast" },
+  glaze: { en: "Glaze", it: "Glaze" },
 };
 
 const SECTION_BACKGROUNDS: Partial<Record<ProjectSection["id"], string>> = {
