@@ -26,6 +26,7 @@ interface ProjectCardProps {
 export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) {
   const repo = project.githubRepo;
   const ogImage = repo?.ogImage ?? project.ogImage ?? null;
+  const topics = repo?.topics ?? project.topics ?? [];
 
   return (
     <Card
@@ -111,9 +112,9 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
           {project.description}
         </Text>
 
-        {repo && repo.topics.length > 0 ? (
+        {topics.length > 0 ? (
           <Group gap={4} mt="xs">
-            {repo.topics.slice(0, 4).map((t) => (
+            {topics.slice(0, 4).map((t) => (
               <Badge
                 key={t}
                 variant="light"

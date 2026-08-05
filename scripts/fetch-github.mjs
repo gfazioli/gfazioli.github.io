@@ -76,11 +76,29 @@ const SECTION_MAP = {
  * - `repo`: full `owner/name` slug to enrich from (any owner).
  * - `ogImage`: force a local cover (path under `public/`) instead of the
  *   homepage/repo og:image.
+ * - `topics`: tags for an entry that stays external, where there is no
+ *   repo to read them from. Only used when the entry has no `githubRepo`.
  */
 const OVERRIDES = {
   "https://wpbones.com": {
     repo: "wpbones/WPBones",
     ogImage: "/og/wpbones-framework.jpg",
+  },
+  // mantine-extensions is a private repo: the workflow's GITHUB_TOKEN gets a
+  // 404 for it, so the entry falls back to external and loses the topics that
+  // give its sibling cards their tags. Mirror them here (a personal token
+  // *can* see the repo, which is why a local fetch produces a different card).
+  "https://mantine-extensions.vercel.app": {
+    topics: [
+      "mantine",
+      "mantine-ui",
+      "mantine-v9",
+      "nextjs",
+      "nextjs16",
+      "nextra",
+      "react",
+      "typescript",
+    ],
   },
 };
 
@@ -327,6 +345,13 @@ async function externalOgImage(entry) {
   return cacheOgImage(remote, entry.displayName);
 }
 
+/** An entry with no repo behind it: carry the override's tags, if any. */
+function externalEntry(entry, ogImage, override) {
+  const out = { ...entry, external: true, ogImage };
+  if (override?.topics?.length) out.topics = override.topics;
+  return out;
+}
+
 async function enrichEntry(entry) {
   const override = OVERRIDES[entry.url];
   let owner = USER;
@@ -341,14 +366,14 @@ async function enrichEntry(entry) {
     process.stdout.write(
       `  · ${entry.displayName} → external${ogImage ? " 🌐" : ""}\n`
     );
-    return { ...entry, external: true, ogImage };
+    return externalEntry(entry, ogImage, override);
   }
   process.stdout.write(`  · ${entry.displayName} → ${owner}/${slug} `);
   const repo = await getRepo(slug, owner);
   if (!repo) {
     const ogImage = await externalOgImage(entry);
     process.stdout.write(`(no repo)${ogImage ? " 🌐" : ""}\n`);
-    return { ...entry, external: true, ogImage };
+    return externalEntry(entry, ogImage, override);
   }
   const release = await getLatestRelease(slug, owner);
   const homepage = repo.homepage || entry.url;

@@ -7,6 +7,9 @@ export interface ProjectEntry {
   external: boolean;
   /** og:image of the external site (external entries only). */
   ogImage?: string | null;
+  /** Tags for an external entry, where there is no repo to read them from
+   *  (see OVERRIDES in scripts/fetch-github.mjs). */
+  topics?: string[];
   githubRepo?: {
     name: string;
     fullName: string;

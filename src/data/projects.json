@@ -2,7 +2,7 @@
   "user": "gfazioli",
   "fetchedAt": "2026-08-05T07:04:28.676Z",
   "sectionCount": 9,
-  "projectCount": 52,
+  "projectCount": 55,
   "sections": [
     {
       "id": "core",
@@ -46,9 +46,19 @@
         {
           "displayName": "Mantine Extensions",
           "url": "https://mantine-extensions.vercel.app",
-          "description": "Mantine UI awesome components extensions",
+          "description": "The showcase hub for 25+ Mantine UI extensions — live demos, documentation and copy-paste examples for every component, from Window and Split Pane to Text Animate and Onboarding Tour. Built with Next.js 16, Mantine 9 and Nextra 4.",
           "external": true,
-          "ogImage": "/og/mantine-extensions.png"
+          "ogImage": "/og/mantine-extensions.png",
+          "topics": [
+            "mantine",
+            "mantine-ui",
+            "mantine-v9",
+            "nextjs",
+            "nextjs16",
+            "nextra",
+            "react",
+            "typescript"
+          ]
         },
         {
           "displayName": "Amiga Assembly Library",
@@ -1484,6 +1494,27 @@
           "description": "A macOS menu bar app that celebrates your GitHub stars in real time — live star counts with automatic refresh, confetti and toast notifications on every new star, daily and session deltas with sparklines, a recent-stars feed with contributor avatars, and milestone celebrations. All processed locally, no external tracking.",
           "external": true,
           "ogImage": "/og/applause.png"
+        },
+        {
+          "displayName": "Galaga 1983",
+          "url": "https://www.glaze.app/app/galaga-1983-WWwcYw",
+          "description": "A faithful desktop recreation of the 1983 arcade shooter — command your fighter against swarming enemy formations, face the boss Galaga with its distinctive attack patterns, and chase the high score with smooth, responsive controls.",
+          "external": true,
+          "ogImage": "/og/galaga-1983.png"
+        },
+        {
+          "displayName": "Pac-Man Classic",
+          "url": "https://www.glaze.app/app/pac-man-classic-WC9u94",
+          "description": "A pixel-perfect recreation of the iconic 1980s maze arcade game — collect the pellets while outsmarting the four ghosts, play with arrow keys or WASD, pause, mute and restart with dedicated shortcuts, all with authentic retro sound effects.",
+          "external": true,
+          "ogImage": "/og/pac-man-classic.png"
+        },
+        {
+          "displayName": "Pole Position",
+          "url": "https://www.glaze.app/app/pole-position-gjRKc2",
+          "description": "A desktop recreation of the 1982 polygon racing classic — precision steering and acceleration across multiple tracks with increasing difficulty and unique obstacles, racing against the clock to reach the finish line before time expires.",
+          "external": true,
+          "ogImage": "/og/pole-position.png"
         },
         {
           "displayName": "Quokka",
