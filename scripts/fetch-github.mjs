@@ -215,7 +215,21 @@ async function getLatestRelease(slug, owner = USER) {
   }
 }
 
+/**
+ * The repo's custom GitHub social preview, downloaded into `public/og/`.
+ *
+ * Never store `openGraphImageUrl` as-is: the API hands back a pre-signed
+ * `repository-images.githubusercontent.com` URL that expires after 300s,
+ * so a card built from it shows a broken image minutes after the build
+ * (and that host 503s on hotlinks anyway). Cache it under the repo slug.
+ */
 async function getOpenGraph(slug, owner = USER) {
+  const remote = await getOpenGraphUrl(slug, owner);
+  if (!remote) return null;
+  return cacheOgImage(remote, slug);
+}
+
+async function getOpenGraphUrl(slug, owner = USER) {
   try {
     const result = await octokit.graphql(
       `query($owner: String!, $name: String!) {
