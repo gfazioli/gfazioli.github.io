@@ -537,7 +537,7 @@
               "publishedAt": "2026-07-28T08:53:49Z",
               "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.8"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1194452213/af86eb22-b4fd-48e9-8679-2ed422100529?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260805T070414Z&X-Amz-Expires=300&X-Amz-Signature=072a0c52a81643b6e30a3dc60a18eec1c0a8b1cf0e4a2b6231510819862109a5&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTkxMzc1NCwibmJmIjoxNzg1OTEzNDU0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.RUvewP7x5UjLXk3_FLjGdM3TUUANx2oFxkMolvHj2CA",
+            "ogImage": "/og/mantine-lens-select.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1343,7 +1343,7 @@
               "publishedAt": "2026-07-27T15:10:35Z",
               "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.10"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/929481286/8be23eea-44c2-4b62-a394-338d08168b22?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260805T070425Z&X-Amz-Expires=300&X-Amz-Signature=fd8ed306db344c499d0464db0aa93a58512ae39a8e55a0fcdd4b074611905b34&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTkxMzc2NSwibmJmIjoxNzg1OTEzNDY1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.9MDEnz5Co5IgkTcq6JNLoSVtHP8cwyKpym1EmyQZlUQ",
+            "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
           }
         },
@@ -1376,7 +1376,7 @@
               "publishedAt": "2026-07-27T15:12:58Z",
               "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.4"
             },
-            "ogImage": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1258353478/44712a9c-a3ad-49a2-b16d-205ac942cabd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260805T070425Z&X-Amz-Expires=300&X-Amz-Signature=ff8482bb8bdb7f4bab6d32e5733f9d28637fb437bf9872dbe8e3028b4cd3fe0c&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTkxMzc2NSwibmJmIjoxNzg1OTEzNDY1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.9MDEnz5Co5IgkTcq6JNLoSVtHP8cwyKpym1EmyQZlUQ",
+            "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
           }
         }
