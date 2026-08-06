@@ -51,19 +51,23 @@ self-hosted) and `e53385c` (`getOpenGraph` now caches instead of storing the sig
 2. `getHomepageOgImage(homepage)` — `og:image` scraped from the project's own site (🌐)
 3. `getOpenGraph(slug)` — the repo's custom GitHub social preview (🖼)
 
-Paths (1) and (3) yield local paths. **(2) does not, and it takes precedence over (3)** — this is the
-gap that remains after the fix above. `getHomepageOgImage` ends in
-`return new URL(decoded, homepage).href`, i.e. the raw remote URL, and the repo-backed branch stores
-that value as-is. Only the `external` branch launders it (`externalOgImage` wraps the call in
-`cacheOgImage`). So a repo-backed project whose own site points `og:image` at a host with expiring
-URLs will leak it into the JSON exactly as before, and nothing will warn you.
+**All three now yield local paths, and the invariant holds: 53 of 55 covers are under `/og/`, the
+other two have none at all** (Bannerize and Scotty — repos gone from GitHub, sites with no
+`og:image`; give them an `OVERRIDES` entry if they ever need one).
+
+Path (2) was the last leak, and it takes precedence over (3), so it covered 31 of 55 cards:
+`getHomepageOgImage` ends in `return new URL(decoded, homepage).href` and the repo-backed branch
+stored that value as-is, while only the `external` branch laundered it. Closed in `2ccff71` by
+`homepageCover()`, which wraps it in `cacheOgImage` keyed by the repo slug. That one keeps the remote
+URL as a fallback when the download fails — those sources are plain static assets, so a stale cover
+beats dropping the card to its gradient placeholder. `getOpenGraph` deliberately does **not** fall
+back: there the remote URL is the expiring one, and `null` is the safer answer.
 
 **Rules when touching this code:**
 
 - Any new code path that produces an `ogImage` must return `cacheOgImage(url, slug)`, never a raw
   remote URL. `cacheOgImage` already skips the download when the file exists, so daily refreshes
-  don't churn binary diffs. The open item is the repo-backed use of `getHomepageOgImage` at the
-  `homepageOg` assignment: routing it through `cacheOgImage` closes the last hole.
+  don't churn binary diffs.
 - Treat `grep -c 'repository-images.githubusercontent.com' src/data/projects.json` returning
   anything but **0** as a regression. The same goes for any other absolute `http(s)://` host in
   `ogImage` that isn't under `public/og/`.
