@@ -53,7 +53,9 @@ self-hosted) and `e53385c` (`getOpenGraph` now caches instead of storing the sig
 
 **All three now yield local paths, and the invariant holds: 53 of 55 covers are under `/og/`, the
 other two have none at all** (Bannerize and Scotty — their sites expose no `og:image`, so there is
-nothing to download; they need a hand-pinned `OVERRIDES` cover).
+nothing to download). Those two are **deliberately left coverless** (decided 2026-08-06): don't
+"fix" them with a hand-made screenshot. The real fix, if it ever matters, is adding `og:image` to the
+two sites themselves, and then the fetch picks them up with no override at all.
 
 Path (2) was the last leak, and it takes precedence over (3), so it covered 31 of 55 cards:
 `getHomepageOgImage` ends in `return new URL(decoded, homepage).href` and the repo-backed branch
