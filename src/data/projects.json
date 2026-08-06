@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-06T09:04:49.560Z",
+  "fetchedAt": "2026-08-06T15:21:51.037Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -84,11 +84,11 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-07-27T19:45:48Z",
+            "pushedAt": "2026-08-06T09:40:17Z",
             "release": {
-              "tag": "v6.0.4",
-              "publishedAt": "2026-07-27T15:14:56Z",
-              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.4"
+              "tag": "v6.0.5",
+              "publishedAt": "2026-08-06T09:40:35Z",
+              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.5"
             },
             "ogImage": "/og/amiga-assembly-library.jpg",
             "defaultBranch": "main"
@@ -147,7 +147,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-05T14:04:12Z",
+            "pushedAt": "2026-08-06T14:50:27Z",
             "release": {
               "tag": "v0.28.0",
               "publishedAt": "2026-08-05T12:05:38Z",
@@ -1402,14 +1402,30 @@
           "url": "https://bannerize.vercel.app/",
           "description": "WordPress banner management with built-in impressions, clicks, and CTR analytics. Create image, HTML, or WebP banners, organize them into campaigns, and track performance with trend charts and CSV export. Built with WPBones and Mantine UI.",
           "external": true,
-          "ogImage": null
+          "ogImage": null,
+          "topics": [
+            "wordpress",
+            "wpbones",
+            "banner",
+            "mantine",
+            "mantine-v9",
+            "nextra"
+          ]
         },
         {
           "displayName": "Scotty",
           "url": "https://scotty-plugin.vercel.app/",
           "description": "WordPress site maintenance and optimization with a modern React/Mantine dashboard. Clean your database, manage cron jobs, control 22+ hidden WordPress settings, and monitor site health — all from a single interface. Built with WPBones.",
           "external": true,
-          "ogImage": null
+          "ogImage": null,
+          "topics": [
+            "wordpress",
+            "wpbones",
+            "mantine",
+            "mantine-v9",
+            "nextjs",
+            "nextra"
+          ]
         }
       ]
     },
