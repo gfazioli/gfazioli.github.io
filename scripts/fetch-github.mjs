@@ -100,6 +100,19 @@ const OVERRIDES = {
       "typescript",
     ],
   },
+  // Two more private repos, and here the slug guess is wrong as well:
+  // deriveRepoSlug reads the vercel subdomain, so it looks for `bannerize` and
+  // `scotty-plugin` while the repos are `*-website`. Pin the real slug (the
+  // entry upgrades itself if they ever go public) and mirror the topics, with
+  // the WordPress ones first since that's what these cards are about.
+  "https://bannerize.vercel.app/": {
+    repo: "gfazioli/bannerize-website",
+    topics: ["wordpress", "wpbones", "banner", "mantine", "mantine-v9", "nextra"],
+  },
+  "https://scotty-plugin.vercel.app/": {
+    repo: "gfazioli/scotty-plugin-website",
+    topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
+  },
 };
 
 const BULLET_RE = /^>\s*-\s*\[([^\]]+)\]\(([^)]+)\)\s*-\s*_([^_]+)_\s*$/;

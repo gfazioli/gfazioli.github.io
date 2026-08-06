@@ -52,8 +52,8 @@ self-hosted) and `e53385c` (`getOpenGraph` now caches instead of storing the sig
 3. `getOpenGraph(slug)` — the repo's custom GitHub social preview (🖼)
 
 **All three now yield local paths, and the invariant holds: 53 of 55 covers are under `/og/`, the
-other two have none at all** (Bannerize and Scotty — repos gone from GitHub, sites with no
-`og:image`; give them an `OVERRIDES` entry if they ever need one).
+other two have none at all** (Bannerize and Scotty — their sites expose no `og:image`, so there is
+nothing to download; they need a hand-pinned `OVERRIDES` cover).
 
 Path (2) was the last leak, and it takes precedence over (3), so it covered 31 of 55 cards:
 `getHomepageOgImage` ends in `return new URL(decoded, homepage).href` and the repo-backed branch
@@ -86,3 +86,11 @@ contains data CI can't reproduce.
 
 The same privacy caveat applies to anything public that links to it: a `mantine-extensions` release
 URL 404s for anonymous visitors.
+
+**A 404 in the fetch log does not mean the repo is gone.** `deriveRepoSlug` guesses the slug from the
+URL — for a `*.vercel.app` homepage it takes the subdomain — so the lookup fails whenever the repo is
+named differently. `bannerize.vercel.app` → `gfazioli/bannerize`, but the repo is
+`gfazioli/bannerize-website`; same for `scotty-plugin` → `scotty-plugin-website`. Both exist and are
+**private**, so even the correct slug would 404 in CI and the entry stays `external` either way — but
+map the real slug in `OVERRIDES` anyway, so the entry upgrades itself if the repo ever goes public,
+and mirror its `topics` there to give the card its tags today.
