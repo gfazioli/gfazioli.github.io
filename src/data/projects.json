@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-06T07:05:00.268Z",
+  "fetchedAt": "2026-08-06T09:04:49.560Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -90,7 +90,7 @@
               "publishedAt": "2026-07-27T15:14:56Z",
               "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.4"
             },
-            "ogImage": "https://amiga-assembly-library.vercel.app/social.jpeg",
+            "ogImage": "/og/amiga-assembly-library.jpg",
             "defaultBranch": "main"
           }
         }
@@ -153,7 +153,7 @@
               "publishedAt": "2026-08-05T12:05:38Z",
               "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.28.0"
             },
-            "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
+            "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
           }
         }
@@ -201,7 +201,7 @@
               "publishedAt": "2026-07-28T15:51:24Z",
               "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.1.0"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-audio/social.jpeg",
+            "ogImage": "/og/mantine-audio.jpg",
             "defaultBranch": "master"
           }
         },
@@ -236,7 +236,7 @@
               "publishedAt": "2026-07-27T14:53:46Z",
               "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.9"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-border-animate/social.jpeg",
+            "ogImage": "/og/mantine-border-animate.jpg",
             "defaultBranch": "master"
           }
         },
@@ -279,7 +279,7 @@
               "publishedAt": "2026-07-27T14:55:53Z",
               "url": "https://github.com/gfazioli/mantine-book/releases/tag/1.0.5"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-book/social.jpeg",
+            "ogImage": "/og/mantine-book.jpg",
             "defaultBranch": "master"
           }
         },
@@ -320,7 +320,7 @@
               "publishedAt": "2026-07-27T14:57:52Z",
               "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.9"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-clock/social.jpeg",
+            "ogImage": "/og/mantine-clock.jpg",
             "defaultBranch": "master"
           }
         },
@@ -358,7 +358,7 @@
               "publishedAt": "2026-07-27T14:59:47Z",
               "url": "https://github.com/gfazioli/mantine-compare/releases/tag/1.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-compare/social.jpeg",
+            "ogImage": "/og/mantine-compare.jpg",
             "defaultBranch": "master"
           }
         },
@@ -395,7 +395,7 @@
               "publishedAt": "2026-07-28T08:54:16Z",
               "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.10"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-depth-select/social.jpeg",
+            "ogImage": "/og/mantine-depth-select.jpg",
             "defaultBranch": "master"
           }
         },
@@ -428,7 +428,7 @@
               "publishedAt": "2026-07-27T14:54:21Z",
               "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.12"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-flip/social.jpeg",
+            "ogImage": "/og/mantine-flip.jpg",
             "defaultBranch": "master"
           }
         },
@@ -469,7 +469,7 @@
               "publishedAt": "2026-07-27T14:56:24Z",
               "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.2.9"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-json-tree/social.jpeg",
+            "ogImage": "/og/mantine-json-tree.jpg",
             "defaultBranch": "master"
           }
         },
@@ -506,7 +506,7 @@
               "publishedAt": "2026-07-27T14:49:08Z",
               "url": "https://github.com/gfazioli/mantine-led/releases/tag/4.0.11"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-led/social.jpeg",
+            "ogImage": "/og/mantine-led.jpg",
             "defaultBranch": "master"
           }
         },
@@ -586,7 +586,7 @@
               "publishedAt": "2026-07-27T15:00:30Z",
               "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.1.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-list-view-table/social.jpeg",
+            "ogImage": "/og/mantine-list-view-table.jpg",
             "defaultBranch": "master"
           }
         },
@@ -619,7 +619,7 @@
               "publishedAt": "2026-07-27T14:52:40Z",
               "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.1.4"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-marquee/social.jpeg",
+            "ogImage": "/og/mantine-marquee.jpg",
             "defaultBranch": "master"
           }
         },
@@ -658,7 +658,7 @@
               "publishedAt": "2026-07-27T14:54:48Z",
               "url": "https://github.com/gfazioli/mantine-mask/releases/tag/2.0.9"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-mask/social.jpeg",
+            "ogImage": "/og/mantine-mask.jpg",
             "defaultBranch": "master"
           }
         },
@@ -695,7 +695,7 @@
               "publishedAt": "2026-07-27T14:57:20Z",
               "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.0.9"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-onboarding-tour/social.jpeg",
+            "ogImage": "/og/mantine-onboarding-tour.jpg",
             "defaultBranch": "master"
           }
         },
@@ -731,7 +731,7 @@
               "publishedAt": "2026-07-27T14:59:44Z",
               "url": "https://github.com/gfazioli/mantine-parallax/releases/tag/4.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-parallax/social.jpeg",
+            "ogImage": "/og/mantine-parallax.jpg",
             "defaultBranch": "master"
           }
         },
@@ -768,7 +768,7 @@
               "publishedAt": "2026-07-27T15:02:06Z",
               "url": "https://github.com/gfazioli/mantine-picker/releases/tag/3.1.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-picker/social.jpeg",
+            "ogImage": "/og/mantine-picker.jpg",
             "defaultBranch": "master"
           }
         },
@@ -806,7 +806,7 @@
               "publishedAt": "2026-07-27T14:57:23Z",
               "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-qr-code/social.jpeg",
+            "ogImage": "/og/mantine-qr-code.jpg",
             "defaultBranch": "master"
           }
         },
@@ -847,7 +847,7 @@
               "publishedAt": "2026-07-27T14:52:44Z",
               "url": "https://github.com/gfazioli/mantine-reflection/releases/tag/3.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-reflection/social.jpeg",
+            "ogImage": "/og/mantine-reflection.jpg",
             "defaultBranch": "master"
           }
         },
@@ -884,7 +884,7 @@
               "publishedAt": "2026-07-27T14:54:45Z",
               "url": "https://github.com/gfazioli/mantine-rings-progress/releases/tag/4.1.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-rings-progress/social.jpeg",
+            "ogImage": "/og/mantine-rings-progress.jpg",
             "defaultBranch": "master"
           }
         },
@@ -926,7 +926,7 @@
               "publishedAt": "2026-07-27T14:58:52Z",
               "url": "https://github.com/gfazioli/mantine-select-stepper/releases/tag/3.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-select-stepper/social.jpeg",
+            "ogImage": "/og/mantine-select-stepper.jpg",
             "defaultBranch": "master"
           }
         },
@@ -970,7 +970,7 @@
               "publishedAt": "2026-07-27T14:56:46Z",
               "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-scene/social.jpeg",
+            "ogImage": "/og/mantine-scene.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1009,7 +1009,7 @@
               "publishedAt": "2026-07-27T15:00:46Z",
               "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-spinner/social.jpeg",
+            "ogImage": "/og/mantine-spinner.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1045,7 +1045,7 @@
               "publishedAt": "2026-07-27T14:52:58Z",
               "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.10"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-split-pane/social.jpeg",
+            "ogImage": "/og/mantine-split-pane.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1085,7 +1085,7 @@
               "publishedAt": "2026-07-27T14:55:12Z",
               "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.8"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-text-animate/social.jpeg",
+            "ogImage": "/og/mantine-text-animate.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1128,7 +1128,7 @@
               "publishedAt": "2026-07-28T13:46:58Z",
               "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.2.0"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-video/social.jpeg",
+            "ogImage": "/og/mantine-video.jpg",
             "defaultBranch": "master"
           }
         },
@@ -1164,7 +1164,7 @@
               "publishedAt": "2026-07-27T15:01:22Z",
               "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.11"
             },
-            "ogImage": "https://gfazioli.github.io/mantine-window/social.jpeg",
+            "ogImage": "/og/mantine-window.jpg",
             "defaultBranch": "master"
           }
         }
@@ -1210,7 +1210,7 @@
               "publishedAt": "2026-06-02T07:37:12Z",
               "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.1"
             },
-            "ogImage": "https://gfazioli.github.io/react-toggle/og-default.png",
+            "ogImage": "/og/react-toggle.png",
             "defaultBranch": "main"
           }
         },
@@ -1245,7 +1245,7 @@
               "publishedAt": "2026-06-02T07:37:13Z",
               "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.1"
             },
-            "ogImage": "https://gfazioli.github.io/react-amiga-guru-meditation/og-default.png",
+            "ogImage": "/og/react-amiga-guru-meditation.png",
             "defaultBranch": "main"
           }
         },
@@ -1278,7 +1278,7 @@
               "publishedAt": "2026-06-02T07:37:13Z",
               "url": "https://github.com/gfazioli/react-flip/releases/tag/v1.0.1"
             },
-            "ogImage": "https://gfazioli.github.io/react-flip/og-default.png",
+            "ogImage": "/og/react-flip.png",
             "defaultBranch": "main"
           }
         },
@@ -1301,7 +1301,7 @@
               "publishedAt": "2026-06-02T07:37:14Z",
               "url": "https://github.com/gfazioli/react-tilt/releases/tag/v1.0.1"
             },
-            "ogImage": "https://gfazioli.github.io/react-tilt/og-default.png",
+            "ogImage": "/og/react-tilt.png",
             "defaultBranch": "main"
           }
         }
