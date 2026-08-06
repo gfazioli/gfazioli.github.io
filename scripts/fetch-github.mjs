@@ -345,6 +345,21 @@ async function externalOgImage(entry) {
   return cacheOgImage(remote, entry.displayName);
 }
 
+/**
+ * The project site's own og:image, downloaded into `public/og/`.
+ *
+ * Same rule as getOpenGraph: a cover must never be a remote URL, even one
+ * on a domain we control — it can move, expire or rate-limit, and the card
+ * then breaks with nothing to warn us. Unlike getOpenGraph this falls back
+ * to the remote URL when the download fails: the source is a plain static
+ * asset, so a stale-but-working cover beats no cover at all.
+ */
+async function homepageCover(homepage, slug) {
+  const remote = await getHomepageOgImage(homepage);
+  if (!remote) return null;
+  return (await cacheOgImage(remote, slug)) ?? remote;
+}
+
 /** An entry with no repo behind it: carry the override's tags, if any. */
 function externalEntry(entry, ogImage, override) {
   const out = { ...entry, external: true, ogImage };
@@ -377,7 +392,7 @@ async function enrichEntry(entry) {
   }
   const release = await getLatestRelease(slug, owner);
   const homepage = repo.homepage || entry.url;
-  const homepageOg = override?.ogImage ? null : await getHomepageOgImage(homepage);
+  const homepageOg = override?.ogImage ? null : await homepageCover(homepage, slug);
   const repoOg = homepageOg || override?.ogImage ? null : await getOpenGraph(slug, owner);
   const ogImage = override?.ogImage ?? homepageOg ?? repoOg;
   const ogSource = override?.ogImage ? "📌" : homepageOg ? "🌐" : repoOg ? "🖼" : "";
