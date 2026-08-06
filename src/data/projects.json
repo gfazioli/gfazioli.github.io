@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-05T07:04:28.676Z",
+  "fetchedAt": "2026-08-06T07:05:00.268Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -147,11 +147,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-05T06:49:43Z",
+            "pushedAt": "2026-08-05T14:04:12Z",
             "release": {
-              "tag": "v0.27.0",
-              "publishedAt": "2026-08-03T07:28:48Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.27.0"
+              "tag": "v0.28.0",
+              "publishedAt": "2026-08-05T12:05:38Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.28.0"
             },
             "ogImage": "https://gfazioli.github.io/octoscope/icons/og-image.jpg",
             "defaultBranch": "main"
@@ -1347,11 +1347,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T19:47:31Z",
+            "pushedAt": "2026-08-05T10:02:48Z",
             "release": {
-              "tag": "v6.0.10",
-              "publishedAt": "2026-07-27T15:10:35Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.10"
+              "tag": "v6.0.11",
+              "publishedAt": "2026-08-05T10:03:02Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.11"
             },
             "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
@@ -1380,11 +1380,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-27T19:51:10Z",
+            "pushedAt": "2026-08-05T12:12:33Z",
             "release": {
-              "tag": "v1.0.4",
-              "publishedAt": "2026-07-27T15:12:58Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.4"
+              "tag": "v1.0.5",
+              "publishedAt": "2026-08-05T12:12:47Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.5"
             },
             "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
