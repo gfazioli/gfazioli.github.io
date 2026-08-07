@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-06T15:21:51.037Z",
+  "fetchedAt": "2026-08-07T06:32:26.604Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -249,7 +249,7 @@
             "name": "mantine-book",
             "fullName": "gfazioli/mantine-book",
             "url": "https://github.com/gfazioli/mantine-book",
-            "stars": 2,
+            "stars": 3,
             "forks": 0,
             "topics": [
               "3d",
