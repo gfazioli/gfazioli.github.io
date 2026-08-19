@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-18T06:14:58.713Z",
+  "fetchedAt": "2026-08-19T06:15:54.753Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -217,24 +217,33 @@
             "stars": 13,
             "forks": 2,
             "topics": [
-              "animate",
-              "beam",
-              "border-animated",
-              "border-animation",
+              "animation",
+              "border-animate",
               "border-beam",
+              "border-dash",
+              "border-draw",
+              "border-glow",
+              "border-progress",
+              "border-pulse",
               "component",
-              "effects",
+              "effect",
+              "extension",
+              "mantine",
               "mantine-ui",
+              "mantine-v8",
+              "mantine-v9",
               "nextjs",
-              "reactjs",
-              "typescript"
+              "react",
+              "react-component",
+              "typescript",
+              "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-28T09:26:25Z",
+            "pushedAt": "2026-08-19T05:40:10Z",
             "release": {
-              "tag": "2.0.9",
-              "publishedAt": "2026-07-27T14:53:46Z",
-              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/2.0.9"
+              "tag": "3.0.0",
+              "publishedAt": "2026-08-18T12:11:19Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.0.0"
             },
             "ogImage": "/og/mantine-border-animate.jpg",
             "defaultBranch": "master"
@@ -447,8 +456,10 @@
               "collapsible-tree",
               "component",
               "developer-tools",
+              "editable",
               "extension",
               "json",
+              "json-editor",
               "json-tree",
               "json-view",
               "json-viewer",
@@ -457,17 +468,16 @@
               "mantine-v9",
               "react",
               "react-component",
-              "reactjs",
               "syntax-highlighting",
               "treeview",
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-28T09:48:00Z",
+            "pushedAt": "2026-08-19T05:28:31Z",
             "release": {
-              "tag": "3.2.9",
-              "publishedAt": "2026-07-27T14:56:24Z",
-              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.2.9"
+              "tag": "3.4.0",
+              "publishedAt": "2026-08-19T05:26:47Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.4.0"
             },
             "ogImage": "/og/mantine-json-tree.jpg",
             "defaultBranch": "master"
@@ -1317,7 +1327,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.png"
+          "ogImage": null
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
