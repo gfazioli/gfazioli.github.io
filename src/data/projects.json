@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-21T06:16:43.208Z",
+  "fetchedAt": "2026-08-22T06:13:28.103Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -18,7 +18,7 @@
             "name": "WPBones",
             "fullName": "wpbones/WPBones",
             "url": "https://github.com/wpbones/WPBones",
-            "stars": 169,
+            "stars": 170,
             "forks": 31,
             "topics": [
               "laravel",
