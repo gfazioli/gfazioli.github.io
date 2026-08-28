@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-27T09:18:01.741Z",
+  "fetchedAt": "2026-08-28T09:22:00.601Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -609,7 +609,7 @@
             "name": "mantine-marquee",
             "fullName": "gfazioli/mantine-marquee",
             "url": "https://github.com/gfazioli/mantine-marquee",
-            "stars": 23,
+            "stars": 22,
             "forks": 0,
             "topics": [
               "component",
