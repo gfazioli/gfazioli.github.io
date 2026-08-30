@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-29T06:28:07.732Z",
+  "fetchedAt": "2026-08-30T06:29:42.045Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -147,7 +147,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-20T11:29:05Z",
+            "pushedAt": "2026-08-30T05:42:04Z",
             "release": {
               "tag": "v0.29.0",
               "publishedAt": "2026-08-20T09:36:54Z",
@@ -949,7 +949,7 @@
             "name": "mantine-scene",
             "fullName": "gfazioli/mantine-scene",
             "url": "https://github.com/gfazioli/mantine-scene",
-            "stars": 7,
+            "stars": 8,
             "forks": 0,
             "topics": [
               "aurora",
