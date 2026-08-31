@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-08-30T06:29:42.045Z",
+  "fetchedAt": "2026-08-31T06:41:46.442Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -147,7 +147,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-30T05:42:04Z",
+            "pushedAt": "2026-08-31T06:32:42Z",
             "release": {
               "tag": "v0.29.0",
               "publishedAt": "2026-08-20T09:36:54Z",
