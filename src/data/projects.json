@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-01T06:34:57.055Z",
+  "fetchedAt": "2026-09-02T06:37:51.270Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -18,7 +18,7 @@
             "name": "WPBones",
             "fullName": "wpbones/WPBones",
             "url": "https://github.com/wpbones/WPBones",
-            "stars": 170,
+            "stars": 169,
             "forks": 31,
             "topics": [
               "laravel",
@@ -147,7 +147,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-08-31T14:11:17Z",
+            "pushedAt": "2026-09-02T05:21:04Z",
             "release": {
               "tag": "v0.30.1",
               "publishedAt": "2026-08-31T13:45:48Z",
@@ -195,7 +195,7 @@
               "web-audio-api"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:01:47Z",
+            "pushedAt": "2026-09-01T14:43:21Z",
             "release": {
               "tag": "1.1.1",
               "publishedAt": "2026-09-01T06:01:16Z",
@@ -239,7 +239,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:01:42Z",
+            "pushedAt": "2026-09-01T14:43:28Z",
             "release": {
               "tag": "3.0.1",
               "publishedAt": "2026-09-01T06:01:13Z",
@@ -282,7 +282,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:01:47Z",
+            "pushedAt": "2026-09-01T14:43:35Z",
             "release": {
               "tag": "1.0.6",
               "publishedAt": "2026-09-01T06:01:15Z",
@@ -323,7 +323,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:01:43Z",
+            "pushedAt": "2026-09-01T14:43:41Z",
             "release": {
               "tag": "4.0.10",
               "publishedAt": "2026-09-01T06:01:14Z",
@@ -361,7 +361,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:17Z",
+            "pushedAt": "2026-09-01T14:43:48Z",
             "release": {
               "tag": "1.0.9",
               "publishedAt": "2026-09-01T06:02:04Z",
@@ -398,7 +398,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:16Z",
+            "pushedAt": "2026-09-01T14:43:55Z",
             "release": {
               "tag": "2.0.11",
               "publishedAt": "2026-09-01T06:02:03Z",
@@ -431,7 +431,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:17Z",
+            "pushedAt": "2026-09-01T15:13:02Z",
             "release": {
               "tag": "4.0.13",
               "publishedAt": "2026-09-01T06:02:04Z",
@@ -473,7 +473,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:17Z",
+            "pushedAt": "2026-09-01T14:44:09Z",
             "release": {
               "tag": "3.4.1",
               "publishedAt": "2026-09-01T06:02:04Z",
@@ -510,7 +510,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:00:21Z",
+            "pushedAt": "2026-09-01T14:44:16Z",
             "release": {
               "tag": "4.0.12",
               "publishedAt": "2026-09-01T06:00:10Z",
@@ -551,7 +551,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:54Z",
+            "pushedAt": "2026-09-01T14:44:23Z",
             "release": {
               "tag": "1.0.9",
               "publishedAt": "2026-09-01T06:02:33Z",
@@ -590,7 +590,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:56Z",
+            "pushedAt": "2026-09-01T14:44:30Z",
             "release": {
               "tag": "4.1.9",
               "publishedAt": "2026-09-01T06:02:35Z",
@@ -623,7 +623,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:55Z",
+            "pushedAt": "2026-09-01T14:44:37Z",
             "release": {
               "tag": "4.1.5",
               "publishedAt": "2026-09-01T06:02:34Z",
@@ -662,7 +662,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:02:55Z",
+            "pushedAt": "2026-09-01T14:44:44Z",
             "release": {
               "tag": "2.0.10",
               "publishedAt": "2026-09-01T06:02:34Z",
@@ -699,7 +699,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:03:44Z",
+            "pushedAt": "2026-09-01T14:44:52Z",
             "release": {
               "tag": "4.0.10",
               "publishedAt": "2026-09-01T06:03:16Z",
@@ -735,7 +735,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:03:44Z",
+            "pushedAt": "2026-09-01T14:45:00Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-09-01T06:03:15Z",
@@ -772,7 +772,7 @@
               "wheel-picker"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:03:44Z",
+            "pushedAt": "2026-09-01T14:45:06Z",
             "release": {
               "tag": "3.1.9",
               "publishedAt": "2026-09-01T06:03:14Z",
@@ -810,7 +810,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:46Z",
+            "pushedAt": "2026-09-01T14:46:02Z",
             "release": {
               "tag": "2.0.9",
               "publishedAt": "2026-09-01T06:04:33Z",
@@ -851,7 +851,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:03:45Z",
+            "pushedAt": "2026-09-01T14:45:13Z",
             "release": {
               "tag": "3.0.9",
               "publishedAt": "2026-09-01T06:03:16Z",
@@ -888,7 +888,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:18Z",
+            "pushedAt": "2026-09-01T14:45:19Z",
             "release": {
               "tag": "4.1.9",
               "publishedAt": "2026-09-01T06:04:04Z",
@@ -930,7 +930,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:18Z",
+            "pushedAt": "2026-09-01T14:45:33Z",
             "release": {
               "tag": "3.0.9",
               "publishedAt": "2026-09-01T06:04:05Z",
@@ -974,7 +974,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:19Z",
+            "pushedAt": "2026-09-01T14:45:26Z",
             "release": {
               "tag": "2.2.9",
               "publishedAt": "2026-09-01T06:04:05Z",
@@ -1013,7 +1013,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:17Z",
+            "pushedAt": "2026-09-01T14:45:40Z",
             "release": {
               "tag": "4.1.9",
               "publishedAt": "2026-09-01T06:04:04Z",
@@ -1049,7 +1049,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:47Z",
+            "pushedAt": "2026-09-01T14:45:47Z",
             "release": {
               "tag": "4.1.11",
               "publishedAt": "2026-09-01T06:04:34Z",
@@ -1089,7 +1089,7 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:47Z",
+            "pushedAt": "2026-09-01T14:45:54Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-09-01T06:04:34Z",
@@ -1132,7 +1132,7 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:04:48Z",
+            "pushedAt": "2026-09-01T14:46:09Z",
             "release": {
               "tag": "1.2.1",
               "publishedAt": "2026-09-01T06:04:33Z",
@@ -1168,11 +1168,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:05:15Z",
+            "pushedAt": "2026-09-01T14:46:16Z",
             "release": {
-              "tag": "3.1.12",
-              "publishedAt": "2026-09-01T06:05:03Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.1.12"
+              "tag": "3.2.0",
+              "publishedAt": "2026-09-01T10:34:46Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.2.0"
             },
             "ogImage": "/og/mantine-window.jpg",
             "defaultBranch": "master"
@@ -1357,11 +1357,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:07:50Z",
+            "pushedAt": "2026-09-01T09:02:09Z",
             "release": {
-              "tag": "v6.0.13",
-              "publishedAt": "2026-09-01T06:07:52Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.13"
+              "tag": "v6.0.14",
+              "publishedAt": "2026-09-01T09:02:10Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.14"
             },
             "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
@@ -1390,11 +1390,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-01T06:07:43Z",
+            "pushedAt": "2026-09-01T14:50:14Z",
             "release": {
-              "tag": "v1.0.7",
-              "publishedAt": "2026-09-01T06:07:44Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.7"
+              "tag": "v1.0.8",
+              "publishedAt": "2026-09-01T09:02:16Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.8"
             },
             "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
