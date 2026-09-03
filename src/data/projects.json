@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-02T06:37:51.270Z",
+  "fetchedAt": "2026-09-03T06:32:31.897Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -147,11 +147,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-02T05:21:04Z",
+            "pushedAt": "2026-09-02T08:44:14Z",
             "release": {
-              "tag": "v0.30.1",
-              "publishedAt": "2026-08-31T13:45:48Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.30.1"
+              "tag": "v0.31.0",
+              "publishedAt": "2026-09-02T07:49:47Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.31.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
@@ -258,7 +258,7 @@
             "name": "mantine-book",
             "fullName": "gfazioli/mantine-book",
             "url": "https://github.com/gfazioli/mantine-book",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "3d",
