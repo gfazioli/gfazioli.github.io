@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-04T06:36:10.456Z",
+  "fetchedAt": "2026-09-05T06:28:54.475Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -1108,7 +1108,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 6,
+            "stars": 7,
             "forks": 0,
             "topics": [
               "a11y",
