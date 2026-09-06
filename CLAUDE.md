@@ -96,3 +96,19 @@ named differently. `bannerize.vercel.app` → `gfazioli/bannerize`, but the repo
 **private**, so even the correct slug would 404 in CI and the entry stays `external` either way — but
 map the real slug in `OVERRIDES` anyway, so the entry upgrades itself if the repo ever goes public,
 and mirror its `topics` there to give the card its tags today.
+
+## Visual changes: look at them before claiming them
+
+`scripts/screenshot.mjs` (headless Chrome via `puppeteer-core`, installed with `--no-save`) takes
+viewport shots of a running instance — top, three scroll offsets, a hovered card and a 390px mobile
+view. Read the header comment before using it: a **fullPage** capture shows the `.reveal` card grids
+as empty (scroll-driven start state, a capture artefact), and the Turbopack dev server has served a
+**stale `globals.css`** after an edit — screenshot `npm run build` served from `out/` (for example
+`python3 -m http.server 3100 --directory out`) when a CSS change does not show up.
+
+Styling notes (2026-09-06): the hover/glow rules for `.project-card` live **unlayered** in
+`globals.css` on purpose — Tailwind utilities sit in `layer(utilities)`, declared before
+`layer(mantine)`, so a Tailwind `hover:border-*` on a Mantine `Card` loses to Mantine's own rule.
+The card reveal uses CSS scroll-driven animations behind `@supports` + `prefers-reduced-motion`;
+it needs the sections to use `overflow: clip`, not `hidden` (a hidden overflow makes the section
+the `view()` scroller and the cards never appear).

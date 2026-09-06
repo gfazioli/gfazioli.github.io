@@ -13,6 +13,13 @@ export interface Dictionary {
     subtitle: string;
     ctaProjects: string;
     ctaGithub: string;
+    stats: {
+      projects: string;
+      stars: string;
+      categories: string;
+      since: string;
+      latestRelease: string;
+    };
   };
   projects: {
     sectionTitle: string;
@@ -58,6 +65,13 @@ const dictionaries: Record<Lang, Dictionary> = {
         "React components, Mantine extensions, WordPress plugins, macOS apps and CLI tools — mostly open source.",
       ctaProjects: "Explore projects",
       ctaGithub: "View on GitHub",
+      stats: {
+        projects: "Projects",
+        stars: "GitHub stars",
+        categories: "Categories",
+        since: "Coding since",
+        latestRelease: "Latest release",
+      },
     },
     projects: {
       sectionTitle: "Projects",
@@ -101,6 +115,13 @@ const dictionaries: Record<Lang, Dictionary> = {
         "Componenti React, estensioni Mantine, plugin WordPress, app macOS e tool CLI — quasi tutto open source.",
       ctaProjects: "Vai ai progetti",
       ctaGithub: "Vai su GitHub",
+      stats: {
+        projects: "Progetti",
+        stars: "Stelle GitHub",
+        categories: "Categorie",
+        since: "Programmo dal",
+        latestRelease: "Ultima release",
+      },
     },
     projects: {
       sectionTitle: "Progetti",

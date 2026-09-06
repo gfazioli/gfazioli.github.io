@@ -61,7 +61,7 @@ export function TechLinkCard({ link }: TechLinkCardProps) {
       href={link.url}
       target="_blank"
       rel="noreferrer"
-      className="group block transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg hover:border-orange-500"
+      className="project-card reveal group block h-full"
     >
       <Stack gap="xs" align="center" h="100%">
         <div className="flex h-12 w-12 items-center justify-center text-orange-400">

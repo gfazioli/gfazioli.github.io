@@ -1,5 +1,6 @@
-import { Container, Group, SimpleGrid, Stack, Text, Title } from "@mantine/core";
+import { Badge, Container, Group, SimpleGrid, Stack, Text, Title } from "@mantine/core";
 import { IconBookmark } from "@tabler/icons-react";
+import type { ReactNode } from "react";
 import { Hero } from "./Hero";
 import { ProjectCard } from "./ProjectCard";
 import { SectionIcon } from "./SectionIcon";
@@ -16,16 +17,61 @@ interface HomePageProps {
   dict: Dictionary;
 }
 
-const SECTION_KICKERS: Record<ProjectSection["id"], { en: string; it: string }> = {
-  core: { en: "Flagship", it: "Principali" },
-  macos: { en: "macOS", it: "macOS" },
-  cli: { en: "CLI", it: "CLI" },
-  mantine: { en: "Mantine", it: "Mantine" },
-  react: { en: "React", it: "React" },
-  templates: { en: "Templates", it: "Template" },
-  wordpress: { en: "WordPress", it: "WordPress" },
-  raycast: { en: "Raycast", it: "Raycast" },
-  glaze: { en: "Glaze", it: "Glaze" },
+type Localized = { en: string; it: string };
+
+/** Kicker (small orange label) and lead (one line under the title) per section. */
+const SECTION_META: Record<ProjectSection["id"], { kicker: Localized; lead: Localized }> = {
+  core: {
+    kicker: { en: "Flagship", it: "Principali" },
+    lead: { en: "The projects I'd show first.", it: "I progetti che mostrerei per primi." },
+  },
+  macos: {
+    kicker: { en: "macOS", it: "macOS" },
+    lead: { en: "Native apps for the Mac.", it: "App native per il Mac." },
+  },
+  cli: {
+    kicker: { en: "CLI", it: "CLI" },
+    lead: { en: "Tools that live in the terminal.", it: "Strumenti che vivono nel terminale." },
+  },
+  mantine: {
+    kicker: { en: "Mantine", it: "Mantine" },
+    lead: {
+      en: "Drop-in extensions for the Mantine UI library, each with its own live demo.",
+      it: "Estensioni pronte all'uso per Mantine UI, ognuna con la sua demo live.",
+    },
+  },
+  react: {
+    kicker: { en: "React", it: "React" },
+    lead: {
+      en: "Standalone React components with zero runtime dependencies.",
+      it: "Componenti React standalone, zero dipendenze a runtime.",
+    },
+  },
+  templates: {
+    kicker: { en: "Templates", it: "Template" },
+    lead: {
+      en: "Starters for documentation sites with Next.js and Mantine.",
+      it: "Starter per siti di documentazione con Next.js e Mantine.",
+    },
+  },
+  wordpress: {
+    kicker: { en: "WordPress", it: "WordPress" },
+    lead: { en: "Plugins for WordPress sites.", it: "Plugin per siti WordPress." },
+  },
+  raycast: {
+    kicker: { en: "Raycast", it: "Raycast" },
+    lead: {
+      en: "Extensions I maintain or contribute to on the Raycast Store.",
+      it: "Estensioni che mantengo o a cui contribuisco sullo Store di Raycast.",
+    },
+  },
+  glaze: {
+    kicker: { en: "Glaze", it: "Glaze" },
+    lead: {
+      en: "Desktop apps and arcade classics on Glaze, Raycast's mini-app platform.",
+      it: "App desktop e classici arcade su Glaze, la piattaforma di mini app di Raycast.",
+    },
+  },
 };
 
 const SECTION_BACKGROUNDS: Partial<Record<ProjectSection["id"], string>> = {
@@ -33,15 +79,66 @@ const SECTION_BACKGROUNDS: Partial<Record<ProjectSection["id"], string>> = {
   raycast: "/backgrounds/raycast.jpg",
 };
 
+/** Two-tone radial glow (top-left, bottom-right) for the sections that have
+ *  neither a photo background nor a bespoke CSS block below. */
+const SECTION_GLOWS: Partial<Record<ProjectSection["id"], [string, string]>> = {
+  core: ["rgba(255,140,0,0.42)", "rgba(112,72,232,0.30)"],
+  mantine: ["rgba(51,154,240,0.40)", "rgba(34,139,230,0.24)"],
+  templates: ["rgba(32,201,151,0.34)", "rgba(51,154,240,0.22)"],
+  wordpress: ["rgba(33,117,155,0.50)", "rgba(0,160,210,0.26)"],
+};
+
+function countLabel(n: number, lang: Lang) {
+  if (lang === "it") return `${n} ${n === 1 ? "progetto" : "progetti"}`;
+  return `${n} ${n === 1 ? "project" : "projects"}`;
+}
+
+interface SectionHeaderProps {
+  kicker: string;
+  title: string;
+  lead?: string;
+  count?: string;
+  icon: ReactNode;
+}
+
+function SectionHeader({ kicker, title, lead, count, icon }: SectionHeaderProps) {
+  return (
+    <Stack gap="sm" mb="xl">
+      <Text size="sm" c="orange" fw={600} tt="uppercase" lts={2}>
+        {kicker}
+      </Text>
+      <Group gap="md" align="center" wrap="wrap">
+        <Group gap="md" align="center" wrap="nowrap" style={{ minWidth: 0 }}>
+          {icon}
+          <Title order={2} fz={{ base: 28, sm: 44 }} fw={700} lh={1}>
+            {title}
+          </Title>
+        </Group>
+        {count ? (
+          <Badge variant="light" color="orange" size="lg" radius="xl" className="shrink-0">
+            {count}
+          </Badge>
+        ) : null}
+      </Group>
+      {lead ? (
+        <Text size="lg" c="dimmed" maw={640}>
+          {lead}
+        </Text>
+      ) : null}
+    </Stack>
+  );
+}
+
 export function HomePage({ lang, dict }: HomePageProps) {
   return (
     <>
       <SiteHeader lang={lang} dict={dict} />
       <main className="flex-1">
-        <Hero dict={dict} />
+        <Hero lang={lang} dict={dict} />
 
         {projects.sections.map((section, index) => {
           const bg = SECTION_BACKGROUNDS[section.id];
+          const glow = SECTION_GLOWS[section.id];
           // If at least one card in the section has a cover image, give the
           // cover-less ones a branded fallback so the row stays aligned.
           const sectionHasCover = section.projects.some(
@@ -55,9 +152,32 @@ export function HomePage({ lang, dict }: HomePageProps) {
                 (index === 0
                   ? "py-24"
                   : "py-24 border-t border-[var(--mantine-color-default-border)]") +
-                " relative isolate overflow-hidden"
+                " relative isolate overflow-clip"
               }
             >
+              {glow ? (
+                <>
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 -z-20"
+                    style={{
+                      opacity: 0.45,
+                      backgroundImage: [
+                        `radial-gradient(ellipse 55% 40% at 8% 0%, ${glow[0]}, transparent 70%)`,
+                        `radial-gradient(ellipse 50% 40% at 95% 100%, ${glow[1]}, transparent 70%)`,
+                      ].join(", "),
+                    }}
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 -z-10"
+                    style={{
+                      background:
+                        "linear-gradient(to bottom, var(--mantine-color-body) 0%, transparent 15%, transparent 85%, var(--mantine-color-body) 100%)",
+                    }}
+                  />
+                </>
+              ) : null}
               {bg ? (
                 <>
                   <div
@@ -150,17 +270,19 @@ export function HomePage({ lang, dict }: HomePageProps) {
                 </>
               ) : null}
               <Container size="lg">
-                <Stack gap="xs" mb="xl">
-                  <Text size="sm" c="orange" fw={600} tt="uppercase" lts={2}>
-                    {SECTION_KICKERS[section.id][lang]}
-                  </Text>
-                  <Group gap="md" align="center" wrap="nowrap">
-                    <SectionIcon id={section.id} size={40} className="text-[var(--mantine-color-orange-4)] shrink-0" />
-                    <Title order={2} fz={{ base: 28, sm: 44 }} fw={700} lh={1}>
-                      {lang === "it" ? section.titleIt : section.title}
-                    </Title>
-                  </Group>
-                </Stack>
+                <SectionHeader
+                  kicker={SECTION_META[section.id].kicker[lang]}
+                  title={lang === "it" ? section.titleIt : section.title}
+                  lead={SECTION_META[section.id].lead[lang]}
+                  count={countLabel(section.projects.length, lang)}
+                  icon={
+                    <SectionIcon
+                      id={section.id}
+                      size={40}
+                      className="text-[var(--mantine-color-orange-4)] shrink-0"
+                    />
+                  }
+                />
                 <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing="lg">
                   {section.projects.map((p) => (
                     <ProjectCard
@@ -182,21 +304,18 @@ export function HomePage({ lang, dict }: HomePageProps) {
             className="py-24 border-t border-[var(--mantine-color-default-border)]"
           >
             <Container size="lg">
-              <Stack gap="xs" mb="xl">
-                <Text size="sm" c="orange" fw={600} tt="uppercase" lts={2}>
-                  {lang === "it" ? "Pubblicazioni" : "Read & subscribe"}
-                </Text>
-                <Group gap="md" align="center" wrap="nowrap">
+              <SectionHeader
+                kicker={lang === "it" ? "Pubblicazioni" : "Read & subscribe"}
+                title={lang === "it" ? "Link tech" : "Tech Links"}
+                lead={lang === "it" ? "Dove scrivo e pubblico." : "Where I write and publish."}
+                icon={
                   <IconBookmark
                     size={40}
                     stroke={1.5}
                     className="text-[var(--mantine-color-orange-4)] shrink-0"
                   />
-                  <Title order={2} fz={{ base: 28, sm: 44 }} fw={700} lh={1}>
-                    {lang === "it" ? "Link tech" : "Tech Links"}
-                  </Title>
-                </Group>
-              </Stack>
+                }
+              />
               <SimpleGrid cols={{ base: 2, sm: 3, md: 4, lg: 5 }} spacing="md">
                 {projects.techLinks.map((l) => (
                   <TechLinkCard key={l.url} link={l} />
