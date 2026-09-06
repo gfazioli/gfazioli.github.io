@@ -99,7 +99,7 @@ and mirror its `topics` there to give the card its tags today.
 
 ## Visual changes: look at them before claiming them
 
-`scripts/screenshot.mjs` (headless Chrome via `puppeteer-core`, installed with `--no-save`) takes
+`scripts/screenshot.mjs` (headless Chrome via `puppeteer-core`, installed with `--no-save` — any later `npm install`/`npm audit fix` prunes it, so reinstall before shooting) takes
 viewport shots of a running instance — top, three scroll offsets, a hovered card and a 390px mobile
 view. Read the header comment before using it: a **fullPage** capture shows the `.reveal` card grids
 as empty (scroll-driven start state, a capture artefact), and the Turbopack dev server has served a
