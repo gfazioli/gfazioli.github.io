@@ -18,7 +18,9 @@ export interface Dictionary {
       stars: string;
       categories: string;
       since: string;
-      latestRelease: string;
+      latestReleases: string;
+      /** `{n}` is replaced with the number of further releases in the last 30 days */
+      moreReleases: string;
     };
   };
   projects: {
@@ -70,7 +72,8 @@ const dictionaries: Record<Lang, Dictionary> = {
         stars: "GitHub stars",
         categories: "Categories",
         since: "Coding since",
-        latestRelease: "Latest release",
+        latestReleases: "Latest releases",
+        moreReleases: "+{n} more in the last 30 days",
       },
     },
     projects: {
@@ -120,7 +123,8 @@ const dictionaries: Record<Lang, Dictionary> = {
         stars: "Stelle GitHub",
         categories: "Categorie",
         since: "Programmo dal",
-        latestRelease: "Ultima release",
+        latestReleases: "Ultime release",
+        moreReleases: "+{n} altre negli ultimi 30 giorni",
       },
     },
     projects: {
