@@ -259,20 +259,39 @@ body[data-crt="on"]::before {
 @keyframes reveal-up {
   from {
     opacity: 0;
-    transform: translateY(28px) scale(0.98);
+    transform: perspective(1000px) translateY(80px) rotateX(8deg) scale(0.94);
+    filter: blur(8px);
+  }
+  55% {
+    opacity: 1;
+    filter: blur(0);
   }
   to {
     opacity: 1;
     transform: none;
+    filter: blur(0);
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
+    /* Linear on purpose: the motion is scrubbed by the scroll, so an eased
+       curve front-loads it and the settle becomes imperceptible. `cover`
+       (not `entry`) for the end so the card keeps moving until it sits
+       about a third of the way up the viewport, whatever its height. */
     .reveal {
       animation: reveal-up linear backwards;
       animation-timeline: view();
-      animation-range: entry 0% entry 40%;
+      animation-range: entry 0% cover 38%;
+    }
+
+    /* Stagger the columns so a row lands as a left-to-right wave */
+    .reveal:nth-child(3n + 2) {
+      animation-range: entry 8% cover 42%;
+    }
+
+    .reveal:nth-child(3n + 3) {
+      animation-range: entry 16% cover 46%;
     }
   }
 }

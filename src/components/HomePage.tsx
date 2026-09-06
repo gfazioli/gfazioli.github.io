@@ -103,7 +103,7 @@ interface SectionHeaderProps {
 
 function SectionHeader({ kicker, title, lead, count, icon }: SectionHeaderProps) {
   return (
-    <Stack gap="sm" mb="xl">
+    <Stack gap="sm" mb="xl" className="reveal">
       <Text size="sm" c="orange" fw={600} tt="uppercase" lts={2}>
         {kicker}
       </Text>
