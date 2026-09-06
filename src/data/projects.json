@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-06T17:00:43.547Z",
+  "fetchedAt": "2026-09-06T18:50:49.532Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -147,11 +147,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-06T15:31:35Z",
+            "pushedAt": "2026-09-06T18:31:12Z",
             "release": {
-              "tag": "v0.31.1",
-              "publishedAt": "2026-09-06T06:33:09Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.31.1"
+              "tag": "v0.32.0",
+              "publishedAt": "2026-09-06T18:33:39Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.32.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
@@ -1214,7 +1214,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-11T06:16:52Z",
+            "pushedAt": "2026-09-06T17:06:02Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1249,7 +1249,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-10T18:50:32Z",
+            "pushedAt": "2026-09-06T17:06:05Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1282,7 +1282,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-07-11T06:16:50Z",
+            "pushedAt": "2026-09-06T17:05:58Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1305,7 +1305,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-07-10T18:50:27Z",
+            "pushedAt": "2026-09-06T17:06:00Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
