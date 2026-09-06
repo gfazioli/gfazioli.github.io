@@ -14,7 +14,7 @@
     "@mantine/core": "^9.1.0",
     "@mantine/hooks": "^9.1.0",
     "@tabler/icons-react": "^3.40.0",
-    "next": "16.2.4",
+    "next": "16.3.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-icons": "^5.6.0"
@@ -26,7 +26,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.4",
+    "eslint-config-next": "16.3.4",
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^4",
