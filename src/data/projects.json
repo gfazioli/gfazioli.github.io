@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-07T09:59:57.930Z",
+  "fetchedAt": "2026-09-07T10:03:11.425Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -105,15 +105,59 @@
           "displayName": "FinderGit",
           "url": "https://findergit.app",
           "description": "A native macOS Git-aware file browser. Sortable columns for branch, status, changes and diffs across all your repositories at a glance, with an inline diff viewer, Git actions from the UI, native Markdown preview via Quick Look, and auto-updates via Sparkle. Built with SwiftUI.",
-          "external": true,
-          "ogImage": "/og/findergit.jpg"
+          "external": false,
+          "githubRepo": {
+            "name": "findergit-website",
+            "fullName": "gfazioli/findergit-website",
+            "url": "https://github.com/gfazioli/findergit-website",
+            "stars": 13,
+            "forks": 0,
+            "topics": [
+              "macos",
+              "swiftui",
+              "git",
+              "finder",
+              "sparkle"
+            ],
+            "language": "Swift",
+            "pushedAt": "2026-09-04T12:02:09Z",
+            "release": {
+              "tag": "v0.29.0",
+              "publishedAt": "2026-09-04T12:02:03Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.29.0"
+            },
+            "ogImage": "/og/findergit.jpg",
+            "defaultBranch": "main"
+          }
         },
         {
           "displayName": "Netfox",
           "url": "https://netfox.app",
           "description": "A native macOS network monitor for who's on your LAN. Multi-source discovery (Bonjour, ARP, SSDP, NetBIOS, ICMP), per-device timeline, security checks with Risk Inspector, Wi-Fi diagnostics with signal history, five-kind alerts, public IP and VPN awareness, Demo Mode privacy mask, tagging. SwiftUI throughout, no cloud, no telemetry, universal binary, signed and notarised with Sparkle auto-updates.",
-          "external": true,
-          "ogImage": "/og/netfox.jpg"
+          "external": false,
+          "githubRepo": {
+            "name": "netfox-website",
+            "fullName": "gfazioli/netfox-website",
+            "url": "https://github.com/gfazioli/netfox-website",
+            "stars": 13,
+            "forks": 0,
+            "topics": [
+              "macos",
+              "swiftui",
+              "network-monitor",
+              "lan",
+              "wifi"
+            ],
+            "language": "Swift",
+            "pushedAt": "2026-09-07T09:47:35Z",
+            "release": {
+              "tag": "v0.19.0",
+              "publishedAt": "2026-09-07T09:47:28Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.19.0"
+            },
+            "ogImage": "/og/netfox.jpg",
+            "defaultBranch": "main"
+          }
         }
       ]
     },
