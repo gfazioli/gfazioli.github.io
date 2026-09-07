@@ -33,7 +33,7 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
       withBorder
       radius="lg"
       padding={0}
-      className="project-card reveal group relative h-full overflow-hidden"
+      className="project-card reveal group relative overflow-hidden"
     >
       {/* Stretched link: makes the whole card clickable. Points to the
           project site (`url`); the GitHub icon below sits above it with
@@ -108,9 +108,14 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
           ) : null}
         </Group>
 
-        <Text size="sm" c="dimmed" lineClamp={4} flex={1}>
-          {project.description}
-        </Text>
+        {/* The wrapper takes the spare row height, not the text: a flex-grown
+            clamped Text keeps its ellipsis on line 4 and then paints the
+            following lines in the extra room (Chrome, measured 2026-09-07). */}
+        <div className="flex-1">
+          <Text size="sm" c="dimmed" lineClamp={4}>
+            {project.description}
+          </Text>
+        </div>
 
         {topics.length > 0 ? (
           <Group gap={4} mt="xs">
