@@ -76,8 +76,10 @@ const SECTION_MAP = {
  * - `repo`: full `owner/name` slug to enrich from (any owner).
  * - `ogImage`: force a local cover (path under `public/`) instead of the
  *   homepage/repo og:image.
- * - `topics`: tags for an entry that stays external, where there is no
- *   repo to read them from. Only used when the entry has no `githubRepo`.
+ * - `topics`: tags shown on the card. They win over the repo's own topics,
+ *   and they are the only tags an entry that stays external can have.
+ * - `language`: pinned language badge (a `*-website` repo standing in for a
+ *   private app would otherwise label a SwiftUI app as HTML).
  */
 const OVERRIDES = {
   "https://wpbones.com": {
@@ -112,6 +114,25 @@ const OVERRIDES = {
   "https://scotty-plugin.vercel.app/": {
     repo: "gfazioli/scotty-plugin-website",
     topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
+  },
+  // The two macOS apps live in private repos, but their public `*-website`
+  // repos host the marketing site AND the release artifacts (one DMG per
+  // GitHub Release), so they are the right source for version, stars and the
+  // GitHub link — an apex domain gives deriveRepoSlug nothing to guess from.
+  // The website repo's language (HTML / TypeScript) would mislabel a SwiftUI
+  // app, hence the pinned language; covers are the ones already cached from
+  // the sites' og:image.
+  "https://findergit.app": {
+    repo: "gfazioli/findergit-website",
+    language: "Swift",
+    topics: ["macos", "swiftui", "git", "finder", "sparkle"],
+    ogImage: "/og/findergit.jpg",
+  },
+  "https://netfox.app": {
+    repo: "gfazioli/netfox-website",
+    language: "Swift",
+    topics: ["macos", "swiftui", "network-monitor", "lan", "wifi"],
+    ogImage: "/og/netfox.jpg",
   },
 };
 
@@ -421,8 +442,10 @@ async function enrichEntry(entry) {
       url: repo.html_url,
       stars: repo.stargazers_count,
       forks: repo.forks_count,
-      topics: repo.topics || [],
-      language: repo.language,
+      // Override tags/language win over the repo's own: for a `*-website`
+      // repo standing in for a private app they describe the app, not the site.
+      topics: override?.topics?.length ? override.topics : repo.topics || [],
+      language: override?.language !== undefined ? override.language : repo.language,
       pushedAt: repo.pushed_at,
       release,
       ogImage,

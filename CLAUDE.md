@@ -75,6 +75,11 @@ back: there the remote URL is the expiring one, and `null` is the safer answer.
   `ogImage` that isn't under `public/og/`.
 - To pin a cover by hand, add an `OVERRIDES` entry with a local path (see the
   `https://wpbones.com` entry), and commit the file into `public/og/`. Don't edit the JSON.
+- `OVERRIDES` can also pin `repo`, `topics` and `language`, and since 2026-09-07 `topics`/`language`
+  win over the repo's own values even when the repo resolves. That is how the macOS apps
+  (`findergit.app`, `netfox.app`, private app repos) get version, stars and a GitHub link from
+  their public `*-website` repos, which host the release DMGs, without inheriting the site's
+  HTML/TypeScript language badge.
 - A green build proves nothing here: covers are `<img>` requests made in the browser. Verify a
   changed card by actually looking at the rendered page.
 
