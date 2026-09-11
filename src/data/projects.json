@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-10T06:33:18.353Z",
+  "fetchedAt": "2026-09-11T06:32:23.512Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -110,7 +110,7 @@
             "name": "findergit-website",
             "fullName": "gfazioli/findergit-website",
             "url": "https://github.com/gfazioli/findergit-website",
-            "stars": 13,
+            "stars": 14,
             "forks": 0,
             "topics": [
               "macos",
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-10T05:59:11Z",
+            "pushedAt": "2026-09-10T16:23:23Z",
             "release": {
-              "tag": "v0.31.0",
-              "publishedAt": "2026-09-10T05:59:04Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.31.0"
+              "tag": "v0.32.0",
+              "publishedAt": "2026-09-10T16:23:17Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.32.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -1258,7 +1258,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-06T17:06:02Z",
+            "pushedAt": "2026-09-11T00:21:22Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1293,7 +1293,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-06T17:06:05Z",
+            "pushedAt": "2026-09-10T23:43:20Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1326,7 +1326,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-06T17:05:58Z",
+            "pushedAt": "2026-09-11T01:19:04Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1349,7 +1349,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-09-06T17:06:00Z",
+            "pushedAt": "2026-09-11T00:33:04Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
@@ -1371,7 +1371,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.png"
+          "ogImage": null
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
