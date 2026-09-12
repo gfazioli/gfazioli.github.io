@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-11T06:32:23.512Z",
+  "fetchedAt": "2026-09-12T06:29:03.404Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-10T16:23:23Z",
+            "pushedAt": "2026-09-11T10:20:26Z",
             "release": {
-              "tag": "v0.32.0",
-              "publishedAt": "2026-09-10T16:23:17Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.32.0"
+              "tag": "v0.33.0",
+              "publishedAt": "2026-09-11T10:13:48Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.33.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -175,7 +175,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 63,
+            "stars": 62,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -191,7 +191,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-08T11:52:30Z",
+            "pushedAt": "2026-09-11T15:36:50Z",
             "release": {
               "tag": "v0.33.0",
               "publishedAt": "2026-09-08T11:55:02Z",
@@ -386,7 +386,7 @@
             "name": "mantine-compare",
             "fullName": "gfazioli/mantine-compare",
             "url": "https://github.com/gfazioli/mantine-compare",
-            "stars": 9,
+            "stars": 10,
             "forks": 0,
             "topics": [
               "compare",
@@ -1345,7 +1345,7 @@
             "name": "react-tilt",
             "fullName": "gfazioli/react-tilt",
             "url": "https://github.com/gfazioli/react-tilt",
-            "stars": 1,
+            "stars": 2,
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
@@ -1371,7 +1371,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/vercel-mantineui-nextra.png"
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
