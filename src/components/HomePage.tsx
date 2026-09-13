@@ -316,7 +316,7 @@ export function HomePage({ lang, dict }: HomePageProps) {
                   />
                 }
               />
-              <SimpleGrid cols={{ base: 2, sm: 3, md: 4, lg: 5 }} spacing="md">
+              <SimpleGrid cols={{ base: 2, sm: 3, md: 4, lg: 6 }} spacing="md">
                 {projects.techLinks.map((l) => (
                   <TechLinkCard key={l.url} link={l} />
                 ))}

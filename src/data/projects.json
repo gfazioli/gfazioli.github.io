@@ -1613,6 +1613,11 @@
       "description": "Long-form articles"
     },
     {
+      "displayName": "ZyVOP",
+      "url": "https://zyvop.com/author/giovambattista",
+      "description": "Dev articles and product showcases"
+    },
+    {
       "displayName": "NPM",
       "url": "https://www.npmjs.com/~gfazioli",
       "description": "Published npm packages"

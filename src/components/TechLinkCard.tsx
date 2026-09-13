@@ -31,6 +31,9 @@ function resolveIcon(url: string): ResolvedIcon {
   if (host.endsWith("undolog.com")) {
     return { type: "image", src: "/logo.png" };
   }
+  if (host.endsWith("zyvop.com")) {
+    return { type: "image", src: "/zyvop.png" };
+  }
   if (host.endsWith("dev.to")) {
     return { type: "si", Icon: SiDevdotto };
   }
