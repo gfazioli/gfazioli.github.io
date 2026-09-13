@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-12T06:29:03.404Z",
+  "fetchedAt": "2026-09-13T06:33:56.470Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-11T10:20:26Z",
+            "pushedAt": "2026-09-12T18:35:30Z",
             "release": {
-              "tag": "v0.33.0",
-              "publishedAt": "2026-09-11T10:13:48Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.33.0"
+              "tag": "v0.34.0",
+              "publishedAt": "2026-09-12T17:16:33Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.34.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -191,11 +191,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-11T15:36:50Z",
+            "pushedAt": "2026-09-13T06:29:31Z",
             "release": {
-              "tag": "v0.33.0",
-              "publishedAt": "2026-09-08T11:55:02Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.33.0"
+              "tag": "v0.34.0",
+              "publishedAt": "2026-09-12T18:45:13Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.34.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
@@ -779,7 +779,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-06T03:01:28Z",
+            "pushedAt": "2026-09-12T16:10:20Z",
             "release": {
               "tag": "4.0.9",
               "publishedAt": "2026-09-01T06:03:15Z",
