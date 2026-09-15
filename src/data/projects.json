@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-14T06:43:05.264Z",
+  "fetchedAt": "2026-09-15T06:34:36.154Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-13T15:18:19Z",
+            "pushedAt": "2026-09-14T15:06:37Z",
             "release": {
               "tag": "v0.35.0",
               "publishedAt": "2026-09-13T15:18:14Z",
@@ -475,7 +475,7 @@
               "typescipt"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-14T06:25:12Z",
+            "pushedAt": "2026-09-14T06:59:03Z",
             "release": {
               "tag": "4.0.14",
               "publishedAt": "2026-09-14T06:21:48Z",
@@ -779,7 +779,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-14T06:21:56Z",
+            "pushedAt": "2026-09-14T06:58:40Z",
             "release": {
               "tag": "4.0.10",
               "publishedAt": "2026-09-14T06:20:15Z",
@@ -1258,7 +1258,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-11T00:21:22Z",
+            "pushedAt": "2026-09-14T12:40:56Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1293,7 +1293,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-10T23:43:20Z",
+            "pushedAt": "2026-09-14T12:41:16Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1326,7 +1326,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-11T01:19:04Z",
+            "pushedAt": "2026-09-14T12:41:08Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1349,7 +1349,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-09-11T00:33:04Z",
+            "pushedAt": "2026-09-14T12:41:08Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
@@ -1401,11 +1401,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-14T06:18:52Z",
+            "pushedAt": "2026-09-14T06:49:51Z",
             "release": {
-              "tag": "v6.0.15",
-              "publishedAt": "2026-09-14T06:18:54Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.15"
+              "tag": "v6.0.16",
+              "publishedAt": "2026-09-14T06:49:53Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.16"
             },
             "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
@@ -1434,11 +1434,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-14T06:20:45Z",
+            "pushedAt": "2026-09-14T06:59:27Z",
             "release": {
-              "tag": "v1.0.9",
-              "publishedAt": "2026-09-14T06:20:46Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.9"
+              "tag": "v1.0.10",
+              "publishedAt": "2026-09-14T06:49:58Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.10"
             },
             "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
