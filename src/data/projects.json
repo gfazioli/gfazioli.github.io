@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-16T09:50:12.138Z",
+  "fetchedAt": "2026-09-17T06:34:19.780Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -110,7 +110,7 @@
             "name": "findergit-website",
             "fullName": "gfazioli/findergit-website",
             "url": "https://github.com/gfazioli/findergit-website",
-            "stars": 14,
+            "stars": 15,
             "forks": 0,
             "topics": [
               "macos",
@@ -191,7 +191,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-16T09:47:08Z",
+            "pushedAt": "2026-09-16T11:16:34Z",
             "release": {
               "tag": "v0.35.0",
               "publishedAt": "2026-09-16T07:06:36Z",
