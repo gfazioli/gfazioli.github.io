@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-17T06:34:19.780Z",
+  "fetchedAt": "2026-09-18T06:32:37.843Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -149,11 +149,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-15T11:55:24Z",
+            "pushedAt": "2026-09-17T13:31:12Z",
             "release": {
-              "tag": "v0.22.1",
-              "publishedAt": "2026-09-15T11:55:18Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.22.1"
+              "tag": "v0.23.1",
+              "publishedAt": "2026-09-17T12:16:44Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.23.1"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
@@ -175,7 +175,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 62,
+            "stars": 64,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -191,7 +191,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-16T11:16:34Z",
+            "pushedAt": "2026-09-17T07:26:17Z",
             "release": {
               "tag": "v0.35.0",
               "publishedAt": "2026-09-16T07:06:36Z",
@@ -1152,7 +1152,7 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 7,
+            "stars": 8,
             "forks": 0,
             "topics": [
               "a11y",
