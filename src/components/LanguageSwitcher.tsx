@@ -90,6 +90,9 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
     if (!place || place.to !== current) return;
 
     let cancelled = false;
+    // The last position WE set, so a scroll from anywhere else is recognisable.
+    let applied = -1;
+
     const target = () => {
       const limit = maxScroll();
       if (place.atEnd) return limit;
@@ -103,32 +106,52 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
     };
     const apply = () => {
       if (cancelled) return;
+      applied = target();
       // `instant`: `scroll-behavior: smooth` would animate the restore, which
       // is the very thing that reads as "the page ran off on its own".
-      window.scrollTo({ top: target(), behavior: "instant" as ScrollBehavior });
+      window.scrollTo({ top: applied, behavior: "instant" as ScrollBehavior });
     };
 
     // Two frames for the first go: the translated content has to be laid out
-    // before a section's position means anything. Then keep re-anchoring for a
-    // moment, because images and fonts landing above the section move it under
-    // us — and stop the instant the reader touches the page.
+    // before a heading's position means anything.
     requestAnimationFrame(() => requestAnimationFrame(apply));
 
+    // Then keep re-anchoring while the page is still settling — a fixed timer
+    // was not enough on the live site, where images above the anchor finish
+    // loading late and shove it down (measured 90px out on the macOS section),
+    // so follow the layout itself. And let go the moment anything else moves
+    // the page: the reader scrolling, or a nav link scrolling to a section,
+    // which we would otherwise drag back.
     const stop = () => {
       cancelled = true;
+      observer.disconnect();
       window.clearInterval(timer);
       window.clearTimeout(deadline);
+      window.removeEventListener("scroll", onScroll);
       for (const ev of ["wheel", "touchstart", "keydown"] as const) {
-        window.removeEventListener(ev, stop);
+        window.removeEventListener(ev, userStop);
       }
     };
-    const timer = window.setInterval(() => {
+    const reanchor = () => {
       if (cancelled) return;
       if (Math.abs(target() - window.scrollY) > 2) apply();
-    }, 100);
-    const deadline = window.setTimeout(stop, 1500);
+    };
+    // A jump this big is somebody else driving — a nav link scrolling to a
+    // section, say. Small deltas are the browser's own scroll anchoring
+    // nudging the page as late images change the height above us, and letting
+    // go on those was what made the restore miss by ~90px at random.
+    const HANDOVER = 150;
+    const onScroll = () => {
+      if (!cancelled && applied >= 0 && Math.abs(window.scrollY - applied) > HANDOVER) stop();
+    };
+    const observer = new ResizeObserver(reanchor);
+    observer.observe(document.documentElement);
+    const timer = window.setInterval(reanchor, 100);
+    const deadline = window.setTimeout(stop, 4000);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    const userStop = () => stop();
     for (const ev of ["wheel", "touchstart", "keydown"] as const) {
-      window.addEventListener(ev, stop, { passive: true });
+      window.addEventListener(ev, userStop, { passive: true });
     }
 
     return stop;
