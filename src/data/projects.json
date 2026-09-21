@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-20T06:29:56.644Z",
+  "fetchedAt": "2026-09-21T06:44:03.278Z",
   "sectionCount": 9,
   "projectCount": 55,
   "sections": [
@@ -33,7 +33,7 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-09-18T15:20:56Z",
+            "pushedAt": "2026-09-21T06:42:54Z",
             "release": {
               "tag": "v2.0.3",
               "publishedAt": "2026-04-21T13:59:10Z",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-18T12:49:37Z",
+            "pushedAt": "2026-09-20T10:24:42Z",
             "release": {
               "tag": "v0.38.0",
               "publishedAt": "2026-09-18T07:14:41Z",
@@ -149,7 +149,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-18T12:51:30Z",
+            "pushedAt": "2026-09-20T10:24:46Z",
             "release": {
               "tag": "v0.23.1",
               "publishedAt": "2026-09-17T12:16:44Z",
@@ -175,7 +175,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 65,
+            "stars": 66,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -191,7 +191,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-17T07:26:17Z",
+            "pushedAt": "2026-09-20T10:43:02Z",
             "release": {
               "tag": "v0.35.0",
               "publishedAt": "2026-09-16T07:06:36Z",
@@ -345,7 +345,7 @@
             "name": "mantine-clock",
             "fullName": "gfazioli/mantine-clock",
             "url": "https://github.com/gfazioli/mantine-clock",
-            "stars": 11,
+            "stars": 12,
             "forks": 0,
             "topics": [
               "analog",
