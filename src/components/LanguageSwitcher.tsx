@@ -14,35 +14,59 @@ const HEADER_OFFSET = 80;
 
 interface SavedPlace {
   to: Lang;
+  /** The section that holds the anchor heading. */
   id: string | null;
-  offset: number;
+  /** Which heading inside that section — same count and order in both languages. */
+  head: number;
+  /** Where that heading sat relative to the scroll position, in pixels. */
+  delta: number;
+  /** Absolute position, used when the anchor cannot be found again. */
   y: number;
+  /** The reader had run out of page — restore the end, not a computed offset. */
+  atEnd: boolean;
+}
+
+function maxScroll() {
+  return Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
 }
 
 /**
- * The section the reader is looking at, plus how far into it they are.
+ * The heading the reader has just under the header, and how far below the
+ * viewport edge it sits.
  *
  * Switching language is a route change (`/` ↔ `/it/`), and Next re-anchors the
- * page on navigation: the scroll position came back 80px lower every time —
+ * page on navigation: the scroll came back 80px lower every time —
  * `scroll-padding-top` — animated, because `scroll-behavior` is `smooth`. So
  * the switcher opts out of that (`scroll={false}`) and puts the reader back on
- * the same section itself, which also absorbs the fact that the translated
- * copy has different heights.
+ * the same spot itself.
+ *
+ * The spot is a HEADING, not a scroll offset and not a fraction of the section:
+ * the translated copy gives every card and every section a different height, so
+ * anything measured from the top of a section drifts by the time you are a few
+ * cards into it, and on a tall window the last sections run out of page and come
+ * back clamped and misaligned. Headings come in the same number and order in
+ * both languages, so the card you were looking at stays exactly where it was.
  */
+function anchorHeadings(section: Element) {
+  return Array.from(section.querySelectorAll<HTMLElement>("h2, h3"));
+}
+
 function currentPlace(to: Lang): SavedPlace {
   const y = window.scrollY;
   const edge = y + HEADER_OFFSET + 1;
-  let id: string | null = null;
-  let offset = 0;
+  const place: SavedPlace = { to, id: null, head: 0, delta: 0, y, atEnd: y >= maxScroll() - 2 };
 
-  for (const el of document.querySelectorAll<HTMLElement>("section[id]")) {
-    const top = y + el.getBoundingClientRect().top;
-    if (top > edge) break;
-    id = el.id;
-    offset = y - top;
+  for (const section of document.querySelectorAll<HTMLElement>("section[id]")) {
+    const heads = anchorHeadings(section);
+    for (let i = 0; i < heads.length; i += 1) {
+      const top = y + heads[i].getBoundingClientRect().top;
+      if (top >= edge - 1) {
+        return { ...place, id: section.id, head: i, delta: y - top };
+      }
+    }
   }
 
-  return { to, id, offset, y };
+  return place;
 }
 
 function takePlace(): SavedPlace | null {
@@ -67,10 +91,15 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
 
     let cancelled = false;
     const target = () => {
-      const el = place.id ? document.getElementById(place.id) : null;
-      return el
-        ? window.scrollY + el.getBoundingClientRect().top + place.offset
-        : place.y;
+      const limit = maxScroll();
+      if (place.atEnd) return limit;
+      const section = place.id ? document.getElementById(place.id) : null;
+      if (!section) return Math.min(place.y, limit);
+      const heads = anchorHeadings(section);
+      const head = heads[Math.min(place.head, heads.length - 1)];
+      if (!head) return Math.min(place.y, limit);
+      const top = window.scrollY + head.getBoundingClientRect().top;
+      return Math.max(0, Math.min(top + place.delta, limit));
     };
     const apply = () => {
       if (cancelled) return;
