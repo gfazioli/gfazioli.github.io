@@ -133,7 +133,7 @@
         {
           "displayName": "Lancetta",
           "url": "https://lancetta.app",
-          "description": "A native macOS menu-bar monitor for Codex and Claude Code. Both quota windows for each agent — the 5-hour and the 7-day — with the plan read from the account, the bucket that refused named instead of averaged away, a pace line saying where the window lands at the rate you are going, and every reading carrying its own age. Reading a quota spends no tokens: no model is ever asked. It also reclaims the orphaned agent process trees nothing else reaps, lives under the notch on a MacBook Pro, and keeps a window of daily token history over 7, 30 or 90 days. SwiftUI throughout, free, universal binary, signed and notarised.",
+          "description": "A native macOS menu-bar monitor for Codex and Claude Code. Both quota windows per agent, a pace line saying where each one lands at your current rate, and every reading carrying its own age — and reading a quota spends no tokens. It also reaps the orphaned agent processes nothing else does, and sits under the notch on a MacBook Pro. SwiftUI, free, universal binary, signed and notarised.",
           "external": false,
           "githubRepo": {
             "name": "lancetta-website",
