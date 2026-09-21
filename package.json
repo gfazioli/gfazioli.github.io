@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/postbuild-og.mjs",
+    "postbuild": "node scripts/postbuild-og.mjs && node scripts/postbuild-lang.mjs",
     "start": "next start",
     "lint": "eslint",
     "fetch:github": "node scripts/fetch-github.mjs"
