@@ -115,7 +115,7 @@ const OVERRIDES = {
     repo: "gfazioli/scotty-plugin-website",
     topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
   },
-  // The two macOS apps live in private repos, but their public `*-website`
+  // The macOS apps live in private repos, but their public `*-website`
   // repos host the marketing site AND the release artifacts (one DMG per
   // GitHub Release), so they are the right source for version, stars and the
   // GitHub link — an apex domain gives deriveRepoSlug nothing to guess from.
@@ -133,6 +133,12 @@ const OVERRIDES = {
     language: "Swift",
     topics: ["macos", "swiftui", "network-monitor", "lan", "wifi"],
     ogImage: "/og/netfox.jpg",
+  },
+  "https://lancetta.app": {
+    repo: "gfazioli/lancetta-website",
+    language: "Swift",
+    topics: ["macos", "swiftui", "menu-bar", "claude-code", "codex"],
+    ogImage: "/og/lancetta.png",
   },
 };
 
