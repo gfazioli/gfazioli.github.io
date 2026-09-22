@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-21T06:44:03.278Z",
+  "fetchedAt": "2026-09-22T06:33:18.796Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-09-21T06:42:54Z",
+            "pushedAt": "2026-09-21T13:32:53Z",
             "release": {
-              "tag": "v2.0.3",
-              "publishedAt": "2026-04-21T13:59:10Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.3"
+              "tag": "v2.0.6",
+              "publishedAt": "2026-09-21T13:33:06Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.6"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-20T10:24:42Z",
+            "pushedAt": "2026-09-21T17:15:09Z",
             "release": {
-              "tag": "v0.38.0",
-              "publishedAt": "2026-09-18T07:14:41Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.38.0"
+              "tag": "v0.39.0",
+              "publishedAt": "2026-09-21T17:15:01Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.39.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -1224,7 +1224,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 18,
+            "stars": 19,
             "forks": 2,
             "topics": [
               "component",
