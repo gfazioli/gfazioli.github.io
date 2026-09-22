@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-22T06:33:18.796Z",
+  "fetchedAt": "2026-09-22T11:20:05.084Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-21T14:36:51Z",
+            "pushedAt": "2026-09-22T11:16:31Z",
             "release": {
-              "tag": "v0.4.0",
-              "publishedAt": "2026-09-21T07:24:11Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.4.0"
+              "tag": "v0.6.2",
+              "publishedAt": "2026-09-22T11:16:25Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.6.2"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-20T10:24:46Z",
+            "pushedAt": "2026-09-22T11:17:43Z",
             "release": {
               "tag": "v0.23.1",
               "publishedAt": "2026-09-17T12:16:44Z",
@@ -287,7 +287,7 @@
             "name": "mantine-border-animate",
             "fullName": "gfazioli/mantine-border-animate",
             "url": "https://github.com/gfazioli/mantine-border-animate",
-            "stars": 13,
+            "stars": 14,
             "forks": 2,
             "topics": [
               "animation",
