@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-23T06:34:40.479Z",
+  "fetchedAt": "2026-09-23T11:57:13.860Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-09-21T13:32:53Z",
+            "pushedAt": "2026-09-23T10:51:15Z",
             "release": {
-              "tag": "v2.0.6",
-              "publishedAt": "2026-09-21T13:33:06Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.6"
+              "tag": "v2.0.7",
+              "publishedAt": "2026-09-23T10:51:27Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.7"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-21T17:15:09Z",
+            "pushedAt": "2026-09-23T11:36:50Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-09-21T17:15:01Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-22T16:56:13Z",
+            "pushedAt": "2026-09-23T11:36:56Z",
             "release": {
-              "tag": "v0.9.0",
-              "publishedAt": "2026-09-22T16:56:06Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.9.0"
+              "tag": "v0.11.0",
+              "publishedAt": "2026-09-23T09:29:07Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.11.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-23T06:05:23Z",
+            "pushedAt": "2026-09-23T11:36:52Z",
             "release": {
-              "tag": "v0.23.1",
-              "publishedAt": "2026-09-17T12:16:44Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.23.1"
+              "tag": "v0.24.0",
+              "publishedAt": "2026-09-23T09:20:43Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.24.0"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
