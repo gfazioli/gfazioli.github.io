@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-23T11:57:13.860Z",
+  "fetchedAt": "2026-09-24T06:34:11.515Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-09-23T10:51:15Z",
+            "pushedAt": "2026-09-23T15:17:19Z",
             "release": {
-              "tag": "v2.0.7",
-              "publishedAt": "2026-09-23T10:51:27Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.7"
+              "tag": "v2.0.8",
+              "publishedAt": "2026-09-23T15:17:20Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.8"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-23T11:36:50Z",
+            "pushedAt": "2026-09-23T12:24:57Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-09-21T17:15:01Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-23T11:36:56Z",
+            "pushedAt": "2026-09-23T17:49:26Z",
             "release": {
               "tag": "v0.11.0",
               "publishedAt": "2026-09-23T09:29:07Z",
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-23T11:36:52Z",
+            "pushedAt": "2026-09-23T13:55:35Z",
             "release": {
-              "tag": "v0.24.0",
-              "publishedAt": "2026-09-23T09:20:43Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.24.0"
+              "tag": "v0.24.1",
+              "publishedAt": "2026-09-23T12:58:06Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.24.1"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
@@ -1105,7 +1105,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 79,
+            "stars": 78,
             "forks": 7,
             "topics": [
               "component",
