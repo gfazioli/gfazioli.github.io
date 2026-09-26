@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-25T06:34:33.935Z",
+  "fetchedAt": "2026-09-26T06:31:12.386Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-09-24T12:33:46Z",
+            "pushedAt": "2026-09-25T12:14:16Z",
             "release": {
-              "tag": "v2.0.10",
-              "publishedAt": "2026-09-24T12:33:48Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.0.10"
+              "tag": "v2.1.0",
+              "publishedAt": "2026-09-25T12:14:17Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v2.1.0"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -110,7 +110,7 @@
             "name": "findergit-website",
             "fullName": "gfazioli/findergit-website",
             "url": "https://github.com/gfazioli/findergit-website",
-            "stars": 16,
+            "stars": 17,
             "forks": 0,
             "topics": [
               "macos",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-24T12:24:15Z",
+            "pushedAt": "2026-09-25T12:51:27Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-09-21T17:15:01Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-25T06:29:54Z",
+            "pushedAt": "2026-09-25T13:24:10Z",
             "release": {
-              "tag": "v0.11.0",
-              "publishedAt": "2026-09-23T09:29:07Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.11.0"
+              "tag": "v0.11.1",
+              "publishedAt": "2026-09-25T06:49:24Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.11.1"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-24T10:53:10Z",
+            "pushedAt": "2026-09-25T17:57:01Z",
             "release": {
               "tag": "v0.24.1",
               "publishedAt": "2026-09-23T12:58:06Z",
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 65,
+            "stars": 66,
             "forks": 1,
             "topics": [
               "bubbletea",
