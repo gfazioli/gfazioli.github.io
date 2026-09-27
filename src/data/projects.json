@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-26T06:31:12.386Z",
+  "fetchedAt": "2026-09-27T06:32:32.135Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-25T13:24:10Z",
+            "pushedAt": "2026-09-26T17:53:14Z",
             "release": {
               "tag": "v0.11.1",
               "publishedAt": "2026-09-25T06:49:24Z",
@@ -1411,7 +1411,7 @@
             "name": "next-app-nextra-template",
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
-            "stars": 36,
+            "stars": 37,
             "forks": 8,
             "topics": [
               "mantine",
@@ -1449,7 +1449,7 @@
             "name": "next-app-fumadocs-template",
             "fullName": "gfazioli/next-app-fumadocs-template",
             "url": "https://github.com/gfazioli/next-app-fumadocs-template",
-            "stars": 4,
+            "stars": 5,
             "forks": 0,
             "topics": [
               "documentation",
