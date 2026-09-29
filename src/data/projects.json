@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-28T06:47:22.152Z",
+  "fetchedAt": "2026-09-29T06:35:29.881Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-25T12:51:27Z",
+            "pushedAt": "2026-09-28T16:26:35Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-09-21T17:15:01Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-27T12:54:49Z",
+            "pushedAt": "2026-09-28T16:27:57Z",
             "release": {
               "tag": "v0.12.0",
               "publishedAt": "2026-09-27T12:36:56Z",
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-27T20:48:20Z",
+            "pushedAt": "2026-09-28T16:48:48Z",
             "release": {
-              "tag": "v0.25.1",
-              "publishedAt": "2026-09-27T20:48:15Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.25.1"
+              "tag": "v0.27.0",
+              "publishedAt": "2026-09-28T16:48:42Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.27.0"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 66,
+            "stars": 67,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -220,11 +220,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-20T10:43:02Z",
+            "pushedAt": "2026-09-28T18:46:37Z",
             "release": {
-              "tag": "v0.35.0",
-              "publishedAt": "2026-09-16T07:06:36Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.35.0"
+              "tag": "v0.36.0",
+              "publishedAt": "2026-09-28T18:49:55Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.36.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
@@ -331,7 +331,7 @@
             "name": "mantine-book",
             "fullName": "gfazioli/mantine-book",
             "url": "https://github.com/gfazioli/mantine-book",
-            "stars": 5,
+            "stars": 6,
             "forks": 0,
             "topics": [
               "3d",
