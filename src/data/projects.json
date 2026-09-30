@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-29T13:40:12.364Z",
+  "fetchedAt": "2026-09-30T06:35:23.124Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-29T13:19:20Z",
+            "pushedAt": "2026-09-30T06:31:37Z",
             "release": {
               "tag": "v0.40.0",
               "publishedAt": "2026-09-29T11:44:13Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-29T13:33:05Z",
+            "pushedAt": "2026-09-30T06:23:27Z",
             "release": {
               "tag": "v0.13.0",
               "publishedAt": "2026-09-29T12:43:33Z",
@@ -168,7 +168,7 @@
             "name": "netfox-website",
             "fullName": "gfazioli/netfox-website",
             "url": "https://github.com/gfazioli/netfox-website",
-            "stars": 13,
+            "stars": 14,
             "forks": 0,
             "topics": [
               "macos",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-29T13:33:04Z",
+            "pushedAt": "2026-09-30T06:32:54Z",
             "release": {
               "tag": "v0.28.0",
               "publishedAt": "2026-09-29T11:52:20Z",
@@ -246,7 +246,7 @@
             "name": "mantine-audio",
             "fullName": "gfazioli/mantine-audio",
             "url": "https://github.com/gfazioli/mantine-audio",
-            "stars": 8,
+            "stars": 9,
             "forks": 0,
             "topics": [
               "audio",
