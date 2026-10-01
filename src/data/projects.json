@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-09-30T08:54:50.618Z",
+  "fetchedAt": "2026-10-01T06:35:59.355Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-30T06:49:50Z",
+            "pushedAt": "2026-09-30T10:08:53Z",
             "release": {
               "tag": "v0.40.0",
               "publishedAt": "2026-09-29T11:44:13Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-30T08:51:11Z",
+            "pushedAt": "2026-09-30T12:36:48Z",
             "release": {
               "tag": "v0.13.1",
               "publishedAt": "2026-09-30T08:51:06Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-09-30T06:49:52Z",
+            "pushedAt": "2026-09-30T12:52:35Z",
             "release": {
               "tag": "v0.28.0",
               "publishedAt": "2026-09-29T11:52:20Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-30T07:02:51Z",
+            "pushedAt": "2026-09-30T12:48:09Z",
             "release": {
               "tag": "v0.36.0",
               "publishedAt": "2026-09-28T18:49:55Z",
@@ -808,7 +808,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T13:02:25Z",
+            "pushedAt": "2026-09-30T11:26:18Z",
             "release": {
               "tag": "4.0.11",
               "publishedAt": "2026-09-29T13:02:12Z",
@@ -1086,11 +1086,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T13:04:39Z",
+            "pushedAt": "2026-09-30T19:01:11Z",
             "release": {
-              "tag": "4.1.11",
-              "publishedAt": "2026-09-29T13:04:25Z",
-              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.11"
+              "tag": "4.1.12",
+              "publishedAt": "2026-09-30T19:00:57Z",
+              "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.12"
             },
             "ogImage": "/og/mantine-spinner.jpg",
             "defaultBranch": "master"
@@ -1162,11 +1162,11 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T13:06:10Z",
+            "pushedAt": "2026-09-30T19:01:49Z",
             "release": {
-              "tag": "4.0.11",
-              "publishedAt": "2026-09-29T13:05:58Z",
-              "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.11"
+              "tag": "4.0.12",
+              "publishedAt": "2026-09-30T19:01:34Z",
+              "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.12"
             },
             "ogImage": "/og/mantine-text-animate.jpg",
             "defaultBranch": "master"
