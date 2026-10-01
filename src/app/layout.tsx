@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import {
   ColorSchemeScript,
-  MantineProvider,
   createTheme,
   mantineHtmlProps,
 } from "@mantine/core";
 import { CFAnalytics } from "@/components/CFAnalytics";
 import { ConsoleBranding } from "@/components/ConsoleBranding";
 import { KonamiOverlay } from "@/components/KonamiOverlay";
+import { MantineRoot } from "@/components/MantineRoot";
+import { COLOR_SCHEME } from "@/lib/colorScheme";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -60,18 +61,19 @@ export default function RootLayout({
     <html
       lang="en"
       {...mantineHtmlProps}
+      data-mantine-color-scheme={COLOR_SCHEME}
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <head>
-        <ColorSchemeScript defaultColorScheme="dark" />
+        <ColorSchemeScript forceColorScheme={COLOR_SCHEME} />
         <CFAnalytics />
       </head>
       <body>
-        <MantineProvider theme={theme} defaultColorScheme="dark">
+        <MantineRoot theme={theme}>
           <ConsoleBranding />
           <KonamiOverlay />
           <div className="min-h-screen flex flex-col">{children}</div>
-        </MantineProvider>
+        </MantineRoot>
       </body>
     </html>
   );
