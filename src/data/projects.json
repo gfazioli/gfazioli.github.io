@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-01T12:48:23.208Z",
+  "fetchedAt": "2026-10-02T06:12:34.768Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-01T12:21:47Z",
+            "pushedAt": "2026-10-01T13:06:29Z",
             "release": {
               "tag": "v0.40.0",
               "publishedAt": "2026-09-29T11:44:13Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-01T12:21:49Z",
+            "pushedAt": "2026-10-01T13:18:02Z",
             "release": {
               "tag": "v0.14.0",
               "publishedAt": "2026-10-01T07:46:19Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-01T12:21:45Z",
+            "pushedAt": "2026-10-01T13:17:30Z",
             "release": {
               "tag": "v0.28.0",
               "publishedAt": "2026-09-29T11:52:20Z",
@@ -396,11 +396,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-01T12:47:49Z",
+            "pushedAt": "2026-10-02T06:08:28Z",
             "release": {
-              "tag": "4.0.12",
-              "publishedAt": "2026-09-29T12:58:02Z",
-              "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.12"
+              "tag": "4.0.13",
+              "publishedAt": "2026-10-02T06:08:14Z",
+              "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.13"
             },
             "ogImage": "/og/mantine-clock.jpg",
             "defaultBranch": "master"
@@ -434,7 +434,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T12:58:25Z",
+            "pushedAt": "2026-10-01T12:49:29Z",
             "release": {
               "tag": "1.0.11",
               "publishedAt": "2026-09-29T12:58:13Z",
@@ -524,7 +524,7 @@
             "fullName": "gfazioli/mantine-json-tree",
             "url": "https://github.com/gfazioli/mantine-json-tree",
             "stars": 9,
-            "forks": 0,
+            "forks": 1,
             "topics": [
               "collapsible-tree",
               "component",
@@ -1047,7 +1047,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T13:04:40Z",
+            "pushedAt": "2026-10-01T12:48:51Z",
             "release": {
               "tag": "2.2.11",
               "publishedAt": "2026-09-29T13:04:26Z",
@@ -1205,7 +1205,7 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-01T12:48:10Z",
+            "pushedAt": "2026-10-01T12:48:32Z",
             "release": {
               "tag": "1.2.3",
               "publishedAt": "2026-09-29T13:06:21Z",
@@ -1241,7 +1241,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-09-29T13:06:44Z",
+            "pushedAt": "2026-10-01T12:49:46Z",
             "release": {
               "tag": "3.2.2",
               "publishedAt": "2026-09-29T13:06:33Z",
