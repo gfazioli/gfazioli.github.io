@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-02T06:34:57.596Z",
+  "fetchedAt": "2026-10-02T08:55:14.238Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-01T13:06:29Z",
+            "pushedAt": "2026-10-02T08:52:35Z",
             "release": {
-              "tag": "v0.40.0",
-              "publishedAt": "2026-09-29T11:44:13Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.40.0"
+              "tag": "v0.41.0",
+              "publishedAt": "2026-10-02T08:52:28Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.41.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -1162,7 +1162,7 @@
               "typewriterjs"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-01T12:47:14Z",
+            "pushedAt": "2026-10-02T08:28:33Z",
             "release": {
               "tag": "4.0.12",
               "publishedAt": "2026-09-30T19:01:34Z",
@@ -1430,11 +1430,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-01T12:43:41Z",
+            "pushedAt": "2026-10-02T08:35:12Z",
             "release": {
-              "tag": "v6.0.18",
-              "publishedAt": "2026-10-01T12:43:43Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.18"
+              "tag": "v6.0.19",
+              "publishedAt": "2026-10-02T08:15:12Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.19"
             },
             "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
@@ -1463,11 +1463,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-01T12:47:07Z",
+            "pushedAt": "2026-10-02T08:35:16Z",
             "release": {
-              "tag": "v1.0.12",
-              "publishedAt": "2026-10-01T12:47:09Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.12"
+              "tag": "v1.0.13",
+              "publishedAt": "2026-10-02T08:15:16Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.13"
             },
             "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
