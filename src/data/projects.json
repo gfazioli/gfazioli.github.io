@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-03T07:17:45.087Z",
+  "fetchedAt": "2026-10-03T16:17:26.992Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-03T07:14:47Z",
+            "pushedAt": "2026-10-03T16:15:00Z",
             "release": {
-              "tag": "v0.15.1",
-              "publishedAt": "2026-10-03T07:14:42Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.15.1"
+              "tag": "v0.15.2",
+              "publishedAt": "2026-10-03T16:14:55Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.15.2"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
