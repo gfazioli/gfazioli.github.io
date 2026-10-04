@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-04T08:12:45.607Z",
+  "fetchedAt": "2026-10-04T09:33:11.013Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-03T18:36:24Z",
+            "pushedAt": "2026-10-04T09:29:40Z",
             "release": {
-              "tag": "v0.29.0",
-              "publishedAt": "2026-10-03T17:36:30Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.29.0"
+              "tag": "v0.29.1",
+              "publishedAt": "2026-10-04T09:29:35Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.29.1"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
