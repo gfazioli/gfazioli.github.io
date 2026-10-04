@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-04T09:33:11.013Z",
+  "fetchedAt": "2026-10-04T16:17:59.355Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-03T07:08:45Z",
+            "pushedAt": "2026-10-04T16:13:20Z",
             "release": {
-              "tag": "v0.44.0",
-              "publishedAt": "2026-10-02T16:52:23Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.44.0"
+              "tag": "v0.45.0",
+              "publishedAt": "2026-10-04T16:12:34Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.45.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-04T09:29:40Z",
+            "pushedAt": "2026-10-04T09:57:01Z",
             "release": {
               "tag": "v0.29.1",
               "publishedAt": "2026-10-04T09:29:35Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-09-30T12:48:09Z",
+            "pushedAt": "2026-10-04T10:43:03Z",
             "release": {
               "tag": "v0.36.0",
               "publishedAt": "2026-09-28T18:49:55Z",
