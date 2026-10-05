@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-05T12:12:04.310Z",
+  "fetchedAt": "2026-10-05T13:28:37.800Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T12:04:39Z",
+            "pushedAt": "2026-10-05T13:12:02Z",
             "release": {
               "tag": "v0.46.0",
               "publishedAt": "2026-10-05T10:00:44Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T07:31:42Z",
+            "pushedAt": "2026-10-05T13:12:25Z",
             "release": {
               "tag": "v0.16.1",
               "publishedAt": "2026-10-05T07:31:37Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T12:05:44Z",
+            "pushedAt": "2026-10-05T13:12:14Z",
             "release": {
               "tag": "v0.29.1",
               "publishedAt": "2026-10-04T09:29:35Z",
@@ -550,11 +550,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T11:05:04Z",
+            "pushedAt": "2026-10-05T13:17:39Z",
             "release": {
-              "tag": "3.4.4",
-              "publishedAt": "2026-10-05T10:03:35Z",
-              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.4.4"
+              "tag": "3.5.0",
+              "publishedAt": "2026-10-05T13:17:23Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.5.0"
             },
             "ogImage": "/og/mantine-json-tree.jpg",
             "defaultBranch": "master"
@@ -703,7 +703,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T11:05:00Z",
+            "pushedAt": "2026-10-05T12:33:30Z",
             "release": {
               "tag": "4.1.8",
               "publishedAt": "2026-10-05T10:39:25Z",
@@ -779,11 +779,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T11:05:02Z",
+            "pushedAt": "2026-10-05T13:13:52Z",
             "release": {
-              "tag": "4.0.13",
-              "publishedAt": "2026-10-05T10:42:42Z",
-              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.0.13"
+              "tag": "4.1.0",
+              "publishedAt": "2026-10-05T13:13:40Z",
+              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.1.0"
             },
             "ogImage": "/og/mantine-onboarding-tour.jpg",
             "defaultBranch": "master"
@@ -1249,7 +1249,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T10:08:02Z",
+            "pushedAt": "2026-10-05T12:44:56Z",
             "release": {
               "tag": "3.2.3",
               "publishedAt": "2026-10-05T10:07:50Z",
@@ -1530,14 +1530,14 @@
           "url": "https://www.raycast.com/Undolog/sync-folders",
           "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
           "external": true,
-          "ogImage": "/og/sync-folders.png"
+          "ogImage": null
         },
         {
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
           "external": true,
-          "ogImage": "/og/wp-bones.png"
+          "ogImage": null
         },
         {
           "displayName": "macOS Tweaks",
@@ -1551,7 +1551,7 @@
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
           "external": true,
-          "ogImage": "/og/app-updates.png"
+          "ogImage": null
         },
         {
           "displayName": "Dev Cache Cleaner",
@@ -1579,7 +1579,7 @@
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": "/og/text-shortcuts.png"
+          "ogImage": null
         },
         {
           "displayName": "Window Layouts",
