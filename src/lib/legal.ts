@@ -112,7 +112,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
             "Hosting. The site is served by GitHub Pages. Like any host, GitHub processes your IP address and the details of each request to deliver the pages and keep them secure. We have no access to those logs; GitHub keeps them under its own privacy statement.",
             "Sponsor pictures. The sponsors' pictures are loaded from GitHub, which therefore sees your IP address.",
             "Your browser's storage. The site remembers your language choice in your browser's local storage, and, for a moment while you switch language, where you were on the page. None of it is sent to us.",
-            `Email. If you write to ${LEGAL.email}, we use your address and message only to answer you.`,
+            `Email. If you write to ${LEGAL.email}, we use your address and message only to answer you, and keep them no longer than the conversation needs.`,
           ],
         },
         {
@@ -154,7 +154,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
             "Hosting. Il sito è servito da GitHub Pages. Come qualunque hosting, GitHub tratta il tuo indirizzo IP e i dettagli di ogni richiesta per consegnare le pagine e mantenerle sicure. Noi non abbiamo accesso a questi log; GitHub li conserva secondo la propria informativa privacy.",
             "Immagini degli sponsor. Le immagini degli sponsor sono caricate da GitHub, che quindi vede il tuo indirizzo IP.",
             "Memoria del browser. Il sito ricorda la lingua scelta nella memoria locale del tuo browser e, per un attimo mentre cambi lingua, il punto della pagina in cui eri. Niente di tutto questo ci viene inviato.",
-            `Email. Se scrivi a ${LEGAL.email}, usiamo il tuo indirizzo e il messaggio solo per risponderti.`,
+            `Email. Se scrivi a ${LEGAL.email}, usiamo il tuo indirizzo e il messaggio solo per risponderti, e li conserviamo solo per il tempo che serve alla conversazione.`,
           ],
         },
         {
