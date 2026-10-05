@@ -327,7 +327,7 @@ export function HomePage({ lang, dict }: HomePageProps) {
 
         <SponsorSection dict={dict} />
       </main>
-      <SiteFooter dict={dict} />
+      <SiteFooter lang={lang} dict={dict} />
     </>
   );
 }

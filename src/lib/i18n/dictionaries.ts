@@ -49,6 +49,8 @@ export interface Dictionary {
   footer: {
     builtWith: string;
     hostedOn: string;
+    legal: string;
+    privacy: string;
   };
 }
 
@@ -102,6 +104,8 @@ const dictionaries: Record<Lang, Dictionary> = {
     footer: {
       builtWith: "Built with",
       hostedOn: "hosted on",
+      legal: "Legal",
+      privacy: "Privacy",
     },
   },
   it: {
@@ -154,6 +158,8 @@ const dictionaries: Record<Lang, Dictionary> = {
     footer: {
       builtWith: "Costruito con",
       hostedOn: "ospitato su",
+      legal: "Note legali",
+      privacy: "Privacy",
     },
   },
 };
