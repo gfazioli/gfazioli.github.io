@@ -11,7 +11,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const TARGETS = [{ file: "out/it/index.html", from: '<html lang="en"', to: '<html lang="it"' }];
+const TARGETS = ["out/it/index.html", "out/it/legal/index.html", "out/it/privacy/index.html"].map(
+  (file) => ({ file, from: '<html lang="en"', to: '<html lang="it"' })
+);
 
 async function main() {
   for (const { file, from, to } of TARGETS) {

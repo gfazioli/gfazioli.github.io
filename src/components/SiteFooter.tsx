@@ -6,10 +6,12 @@ import {
   IconBrandX,
   IconHeartFilled,
 } from "@tabler/icons-react";
-import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
+import { LEGAL, legalPath } from "@/lib/legal";
 import { SPONSOR_URL } from "./SponsorButton";
 
 interface SiteFooterProps {
+  lang: Lang;
   dict: Dictionary;
 }
 
@@ -17,13 +19,13 @@ interface SiteFooterProps {
 const techLinkClass =
   "decoration-dotted underline-offset-4 transition-colors hover:decoration-solid hover:text-[var(--mantine-color-bright)]";
 
-export function SiteFooter({ dict }: SiteFooterProps) {
+export function SiteFooter({ lang, dict }: SiteFooterProps) {
   return (
     <footer className="border-t border-[var(--mantine-color-default-border)]">
       <Container size="lg" py="xl">
         <Group justify="space-between" wrap="wrap" gap="md">
           <Text size="sm" c="dimmed">
-            © {new Date().getFullYear()} Undolog — {dict.footer.builtWith}{" "}
+            {dict.footer.builtWith}{" "}
             <Anchor
               href="https://nextjs.org"
               target="_blank"
@@ -108,6 +110,22 @@ export function SiteFooter({ dict }: SiteFooterProps) {
             </Anchor>
           </Group>
         </Group>
+        {/*
+          Who publishes the site, on every page: brand, owner and VAT number,
+          with the legal notice and the privacy policy one click away (see
+          LEGAL in src/lib/legal.ts). Text pieces sit in template literals so
+          no JSX whitespace rule can drop a space between them.
+        */}
+        <Text size="xs" c="dimmed" mt="sm">
+          {`© ${new Date().getFullYear()} ${LEGAL.brand} — ${LEGAL.owner} · P.IVA ${LEGAL.vatNumber} · `}
+          <Anchor href={legalPath("legal", lang)} inherit c="dimmed" underline="always" className={techLinkClass}>
+            {dict.footer.legal}
+          </Anchor>
+          {" · "}
+          <Anchor href={legalPath("privacy", lang)} inherit c="dimmed" underline="always" className={techLinkClass}>
+            {dict.footer.privacy}
+          </Anchor>
+        </Text>
       </Container>
     </footer>
   );
