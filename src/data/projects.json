@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-06T12:15:13.282Z",
+  "fetchedAt": "2026-10-06T12:44:12.227Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,7 +33,7 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-10-06T10:23:00Z",
+            "pushedAt": "2026-10-06T12:42:58Z",
             "release": {
               "tag": "v2.1.1",
               "publishedAt": "2026-10-06T09:27:29Z",
@@ -220,11 +220,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-06T12:07:48Z",
+            "pushedAt": "2026-10-06T12:37:39Z",
             "release": {
-              "tag": "v0.36.1",
-              "publishedAt": "2026-10-06T12:11:34Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.36.1"
+              "tag": "v0.37.0",
+              "publishedAt": "2026-10-06T12:41:30Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.37.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
