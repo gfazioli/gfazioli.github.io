@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-05T13:28:37.800Z",
+  "fetchedAt": "2026-10-06T06:35:13.992Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T13:12:02Z",
+            "pushedAt": "2026-10-05T13:40:56Z",
             "release": {
               "tag": "v0.46.0",
               "publishedAt": "2026-10-05T10:00:44Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T13:12:25Z",
+            "pushedAt": "2026-10-05T13:41:13Z",
             "release": {
               "tag": "v0.16.1",
               "publishedAt": "2026-10-05T07:31:37Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T13:12:14Z",
+            "pushedAt": "2026-10-05T14:13:40Z",
             "release": {
               "tag": "v0.29.1",
               "publishedAt": "2026-10-04T09:29:35Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-04T10:43:03Z",
+            "pushedAt": "2026-10-06T06:30:02Z",
             "release": {
               "tag": "v0.36.0",
               "publishedAt": "2026-09-28T18:49:55Z",
@@ -1130,7 +1130,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T10:03:27Z",
+            "pushedAt": "2026-10-05T14:53:32Z",
             "release": {
               "tag": "4.1.14",
               "publishedAt": "2026-10-05T10:03:17Z",
@@ -1530,14 +1530,14 @@
           "url": "https://www.raycast.com/Undolog/sync-folders",
           "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/sync-folders.png"
         },
         {
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/wp-bones.png"
         },
         {
           "displayName": "macOS Tweaks",
@@ -1551,7 +1551,7 @@
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/app-updates.png"
         },
         {
           "displayName": "Dev Cache Cleaner",
@@ -1579,7 +1579,7 @@
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": null
+          "ogImage": "/og/text-shortcuts.png"
         },
         {
           "displayName": "Window Layouts",
