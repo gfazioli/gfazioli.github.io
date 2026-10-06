@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-06T15:21:18.191Z",
+  "fetchedAt": "2026-10-06T15:31:27.633Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-06T15:09:58Z",
+            "pushedAt": "2026-10-06T15:29:36Z",
             "release": {
               "tag": "v0.37.0",
               "publishedAt": "2026-10-06T12:41:30Z",
@@ -1249,11 +1249,11 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-06T15:16:34Z",
+            "pushedAt": "2026-10-06T15:25:36Z",
             "release": {
-              "tag": "3.2.3",
-              "publishedAt": "2026-10-05T10:07:50Z",
-              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.2.3"
+              "tag": "3.3.0",
+              "publishedAt": "2026-10-06T15:25:21Z",
+              "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.3.0"
             },
             "ogImage": "/og/mantine-window.jpg",
             "defaultBranch": "master"
