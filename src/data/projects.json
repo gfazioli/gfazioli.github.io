@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-07T06:34:25.734Z",
+  "fetchedAt": "2026-10-07T08:31:57.880Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T13:40:56Z",
+            "pushedAt": "2026-10-07T08:28:55Z",
             "release": {
               "tag": "v0.46.0",
               "publishedAt": "2026-10-05T10:00:44Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T13:41:13Z",
+            "pushedAt": "2026-10-07T07:59:00Z",
             "release": {
               "tag": "v0.16.1",
               "publishedAt": "2026-10-05T07:31:37Z",
@@ -689,25 +689,30 @@
             "stars": 22,
             "forks": 0,
             "topics": [
+              "3d",
+              "animation",
+              "branding",
+              "carousel",
               "component",
               "extension",
+              "infinite-scroll",
+              "isometric",
               "mantine",
               "mantine-ui",
-              "mantine-v7",
               "mantine-v9",
               "marquee",
-              "nextjs",
+              "perspective",
               "react",
               "react-component",
-              "reactjs",
+              "scroll",
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-05T12:33:30Z",
+            "pushedAt": "2026-10-07T08:29:25Z",
             "release": {
-              "tag": "4.1.8",
-              "publishedAt": "2026-10-05T10:39:25Z",
-              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/4.1.8"
+              "tag": "5.0.0",
+              "publishedAt": "2026-10-07T08:29:11Z",
+              "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/5.0.0"
             },
             "ogImage": "/og/mantine-marquee.jpg",
             "defaultBranch": "master"
