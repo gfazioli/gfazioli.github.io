@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-07T12:38:08.295Z",
+  "fetchedAt": "2026-10-07T13:22:04.672Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-10-07T11:39:00Z",
+            "pushedAt": "2026-10-07T13:03:17Z",
             "release": {
-              "tag": "v3.0.0",
-              "publishedAt": "2026-10-06T15:06:44Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.0.0"
+              "tag": "v3.1.0",
+              "publishedAt": "2026-10-07T13:03:18Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.1.0"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -1254,7 +1254,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-06T15:25:36Z",
+            "pushedAt": "2026-10-07T13:05:31Z",
             "release": {
               "tag": "3.3.0",
               "publishedAt": "2026-10-06T15:25:21Z",
