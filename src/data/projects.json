@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-08T06:36:45.199Z",
+  "fetchedAt": "2026-10-08T10:06:10.290Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-07T12:34:39Z",
+            "pushedAt": "2026-10-08T09:50:27Z",
             "release": {
               "tag": "v0.47.0",
               "publishedAt": "2026-10-07T12:34:31Z",
@@ -1639,6 +1639,11 @@
     }
   ],
   "techLinks": [
+    {
+      "displayName": "Discord",
+      "url": "https://discord.gg/rdWu5yFCR6",
+      "description": "The community — help, ideas and what comes next for FinderGit, Netfox, Lancetta and octoscope"
+    },
     {
       "displayName": "Undolog.com",
       "url": "https://undolog.com",
