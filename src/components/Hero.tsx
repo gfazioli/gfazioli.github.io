@@ -12,6 +12,7 @@ import { IconBrandGithub, IconCoffee, IconRocket } from "@tabler/icons-react";
 import Image from "next/image";
 import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { DONATE_URL } from "./CoffeeButton";
+import { DiscordButton } from "./DiscordButton";
 import { HeroStats } from "./HeroStats";
 import { SponsorButton } from "./SponsorButton";
 
@@ -126,6 +127,7 @@ export function Hero({ lang, dict }: HeroProps) {
                   <IconCoffee size={24} />
                 </ActionIcon>
               </Tooltip>
+              <DiscordButton label={dict.community.discord} size={50} iconSize={26} />
             </Group>
           </Stack>
 

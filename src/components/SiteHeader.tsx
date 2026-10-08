@@ -4,6 +4,7 @@ import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { projects, type ProjectSection } from "@/lib/projects";
 import { HeaderNav, type HeaderNavLink } from "./HeaderNav";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { DiscordButton } from "./DiscordButton";
 import { SponsorButton } from "./SponsorButton";
 
 interface SiteHeaderProps {
@@ -54,6 +55,15 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
           </Anchor>
           <HeaderNav links={navLinks} />
           <Group gap="sm" wrap="nowrap">
+            {/* Not on a phone: one more button wraps the header onto a second
+                line below ~430px (57px to 103px tall). The hero carries it there. */}
+            <DiscordButton
+              label={dict.community.discord}
+              size={30}
+              radius="xl"
+              iconSize={17}
+              visibleFrom="xs"
+            />
             <SponsorButton label={dict.sponsor.nav} size="xs" radius="xl" href="#sponsor" />
             <LanguageSwitcher current={lang} />
           </Group>

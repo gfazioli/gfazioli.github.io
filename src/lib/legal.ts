@@ -92,7 +92,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
       title: "Privacy policy",
       description:
         "How gfazioli.github.io handles personal data: no cookies, no accounts, cookie-free visit statistics, and what the services behind it see.",
-      updated: "Last updated: 5 October 2026",
+      updated: "Last updated: 8 October 2026",
       sections: [
         {
           paragraphs: [
@@ -118,7 +118,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
         {
           heading: "Links to other services",
           paragraphs: [
-            "The projects' own sites, GitHub, npm, LinkedIn, X, GitHub Sponsors and Stripe are separate services. If you use them, their own privacy policies apply.",
+            "The projects' own sites, GitHub, npm, LinkedIn, X, Discord, GitHub Sponsors and Stripe are separate services. If you use them, their own privacy policies apply.",
           ],
         },
         {
@@ -134,7 +134,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
       title: "Privacy policy",
       description:
         "Come gfazioli.github.io tratta i dati personali: nessun cookie, nessun account, statistiche senza cookie, e cosa vedono i servizi che lo ospitano.",
-      updated: "Ultimo aggiornamento: 5 ottobre 2026",
+      updated: "Ultimo aggiornamento: 8 ottobre 2026",
       sections: [
         {
           paragraphs: [
@@ -160,7 +160,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
         {
           heading: "Link ad altri servizi",
           paragraphs: [
-            "I siti dei singoli progetti, GitHub, npm, LinkedIn, X, GitHub Sponsors e Stripe sono servizi separati. Se li usi, valgono le loro privacy policy.",
+            "I siti dei singoli progetti, GitHub, npm, LinkedIn, X, Discord, GitHub Sponsors e Stripe sono servizi separati. Se li usi, valgono le loro privacy policy.",
           ],
         },
         {

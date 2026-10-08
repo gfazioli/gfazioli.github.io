@@ -1,5 +1,6 @@
 import { Anchor, Container, Group, Text } from "@mantine/core";
 import {
+  IconBrandDiscordFilled,
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandNpm,
@@ -8,6 +9,7 @@ import {
 } from "@tabler/icons-react";
 import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { LEGAL, legalPath } from "@/lib/legal";
+import { DISCORD_BLURPLE, DISCORD_URL } from "./DiscordButton";
 import { SPONSOR_URL } from "./SponsorButton";
 
 interface SiteFooterProps {
@@ -71,6 +73,15 @@ export function SiteFooter({ lang, dict }: SiteFooterProps) {
               aria-label={dict.sponsor.ariaLabel}
             >
               <IconHeartFilled size={20} className="sponsor-heart" />
+            </Anchor>
+            <Anchor
+              href={DISCORD_URL}
+              target="_blank"
+              rel="noreferrer"
+              c={DISCORD_BLURPLE}
+              aria-label={dict.community.discord}
+            >
+              <IconBrandDiscordFilled size={20} />
             </Anchor>
             <Anchor
               href="https://github.com/gfazioli"

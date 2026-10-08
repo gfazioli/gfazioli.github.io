@@ -1,5 +1,6 @@
 import { Card, Stack, Text } from "@mantine/core";
 import {
+  IconBrandDiscordFilled,
   IconBrandMedium,
   IconBrandNpm,
   IconLink,
@@ -45,6 +46,9 @@ function resolveIcon(url: string): ResolvedIcon {
   }
   if (host.endsWith("substack.com")) {
     return { type: "si", Icon: SiSubstack };
+  }
+  if (host === "discord.gg" || host.endsWith("discord.com")) {
+    return { type: "tabler", Icon: IconBrandDiscordFilled as ComponentType<IconProps> };
   }
   if (host.endsWith("packagist.org")) {
     return { type: "si", Icon: SiPackagist };
