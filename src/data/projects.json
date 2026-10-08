@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-07T14:16:42.003Z",
+  "fetchedAt": "2026-10-08T06:36:45.199Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -18,8 +18,8 @@
             "name": "WPBones",
             "fullName": "wpbones/WPBones",
             "url": "https://github.com/wpbones/WPBones",
-            "stars": 170,
-            "forks": 31,
+            "stars": 171,
+            "forks": 32,
             "topics": [
               "laravel",
               "php7",
@@ -766,7 +766,7 @@
             "name": "mantine-onboarding-tour",
             "fullName": "gfazioli/mantine-onboarding-tour",
             "url": "https://github.com/gfazioli/mantine-onboarding-tour",
-            "stars": 56,
+            "stars": 55,
             "forks": 3,
             "topics": [
               "focus",
