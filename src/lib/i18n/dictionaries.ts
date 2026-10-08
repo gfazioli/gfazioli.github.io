@@ -46,6 +46,10 @@ export interface Dictionary {
     ariaLabel: string;
     logoHere: string;
   };
+  community: {
+    /** The Discord button's tooltip and accessible name */
+    discord: string;
+  };
   footer: {
     builtWith: string;
     hostedOn: string;
@@ -101,6 +105,9 @@ const dictionaries: Record<Lang, Dictionary> = {
       ariaLabel: "Sponsor on GitHub",
       logoHere: "Your logo here",
     },
+    community: {
+      discord: "Join us on Discord",
+    },
     footer: {
       builtWith: "Built with",
       hostedOn: "hosted on",
@@ -154,6 +161,9 @@ const dictionaries: Record<Lang, Dictionary> = {
       coffeeCta: "Offrimi un caffè",
       ariaLabel: "Sponsorizza su GitHub",
       logoHere: "Il tuo logo qui",
+    },
+    community: {
+      discord: "Unisciti a noi su Discord",
     },
     footer: {
       builtWith: "Costruito con",
