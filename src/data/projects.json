@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-08T10:06:10.290Z",
+  "fetchedAt": "2026-10-09T06:35:38.619Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-08T09:50:27Z",
+            "pushedAt": "2026-10-08T17:49:37Z",
             "release": {
               "tag": "v0.47.0",
               "publishedAt": "2026-10-07T12:34:31Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-07T10:32:16Z",
+            "pushedAt": "2026-10-08T15:42:24Z",
             "release": {
               "tag": "v0.17.0",
               "publishedAt": "2026-10-07T10:18:56Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-05T14:13:40Z",
+            "pushedAt": "2026-10-08T15:23:48Z",
             "release": {
               "tag": "v0.29.1",
               "publishedAt": "2026-10-04T09:29:35Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-06T15:49:25Z",
+            "pushedAt": "2026-10-08T15:58:18Z",
             "release": {
               "tag": "v0.37.0",
               "publishedAt": "2026-10-06T12:41:30Z",
