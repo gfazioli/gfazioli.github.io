@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-09T13:03:56.981Z",
+  "fetchedAt": "2026-10-09T13:48:04.198Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -550,11 +550,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-09T10:20:17Z",
+            "pushedAt": "2026-10-09T13:45:48Z",
             "release": {
-              "tag": "3.6.0",
-              "publishedAt": "2026-10-09T09:15:25Z",
-              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.6.0"
+              "tag": "3.7.0",
+              "publishedAt": "2026-10-09T13:45:33Z",
+              "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.7.0"
             },
             "ogImage": "/og/mantine-json-tree.jpg",
             "defaultBranch": "master"
