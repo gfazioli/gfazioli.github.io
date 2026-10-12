@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-11T06:33:00.034Z",
+  "fetchedAt": "2026-10-12T06:51:25.165Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-09T17:27:47Z",
+            "pushedAt": "2026-10-11T19:05:18Z",
             "release": {
               "tag": "v0.47.0",
               "publishedAt": "2026-10-07T12:34:31Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-10T13:56:05Z",
+            "pushedAt": "2026-10-12T05:26:24Z",
             "release": {
               "tag": "v0.50.0",
               "publishedAt": "2026-10-10T13:48:46Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-09T17:20:41Z",
+            "pushedAt": "2026-10-11T19:11:34Z",
             "release": {
               "tag": "v0.29.1",
               "publishedAt": "2026-10-04T09:29:35Z",
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 67,
+            "stars": 68,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-10T09:10:07Z",
+            "pushedAt": "2026-10-11T10:43:40Z",
             "release": {
               "tag": "v0.38.0",
               "publishedAt": "2026-10-09T13:00:56Z",
@@ -415,7 +415,7 @@
             "name": "mantine-compare",
             "fullName": "gfazioli/mantine-compare",
             "url": "https://github.com/gfazioli/mantine-compare",
-            "stars": 10,
+            "stars": 11,
             "forks": 0,
             "topics": [
               "compare",
@@ -647,7 +647,7 @@
             "name": "mantine-list-view-table",
             "fullName": "gfazioli/mantine-list-view-table",
             "url": "https://github.com/gfazioli/mantine-list-view-table",
-            "stars": 21,
+            "stars": 22,
             "forks": 0,
             "topics": [
               "column-reorder",
