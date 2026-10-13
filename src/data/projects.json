@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-13T08:51:18.624Z",
+  "fetchedAt": "2026-10-13T08:53:25.210Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -222,9 +222,9 @@
             "language": "Go",
             "pushedAt": "2026-10-13T08:47:19Z",
             "release": {
-              "tag": "v0.38.0",
-              "publishedAt": "2026-10-09T13:00:56Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.38.0"
+              "tag": "v0.39.0",
+              "publishedAt": "2026-10-13T08:51:12Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.39.0"
             },
             "ogImage": "/og/octoscope.jpg",
             "defaultBranch": "main"
