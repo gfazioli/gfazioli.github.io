@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-13T10:46:28.550Z",
+  "fetchedAt": "2026-10-13T12:54:40.784Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -84,11 +84,11 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-10-09T17:26:59Z",
+            "pushedAt": "2026-10-13T12:47:14Z",
             "release": {
-              "tag": "v6.0.11",
-              "publishedAt": "2026-10-09T17:27:01Z",
-              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.11"
+              "tag": "v6.0.12",
+              "publishedAt": "2026-10-13T12:47:16Z",
+              "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.12"
             },
             "ogImage": "/og/amiga-assembly-library.jpg",
             "defaultBranch": "main"
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-13T10:43:08Z",
+            "pushedAt": "2026-10-13T12:44:46Z",
             "release": {
               "tag": "v0.50.1",
               "publishedAt": "2026-10-13T10:43:03Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-13T09:12:57Z",
+            "pushedAt": "2026-10-13T12:46:09Z",
             "release": {
               "tag": "v0.51.0",
               "publishedAt": "2026-10-13T09:12:50Z",
@@ -1443,11 +1443,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-09T17:26:37Z",
+            "pushedAt": "2026-10-13T12:40:12Z",
             "release": {
-              "tag": "v6.0.23",
-              "publishedAt": "2026-10-09T17:26:39Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.23"
+              "tag": "v6.0.24",
+              "publishedAt": "2026-10-13T12:40:14Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.24"
             },
             "ogImage": "/og/next-app-nextra-template.jpg",
             "defaultBranch": "main"
@@ -1476,11 +1476,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-09T17:26:48Z",
+            "pushedAt": "2026-10-13T12:44:34Z",
             "release": {
-              "tag": "v1.0.17",
-              "publishedAt": "2026-10-09T17:26:50Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.17"
+              "tag": "v1.0.18",
+              "publishedAt": "2026-10-13T12:44:36Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.18"
             },
             "ogImage": "/og/next-app-fumadocs-template.jpg",
             "defaultBranch": "main"
