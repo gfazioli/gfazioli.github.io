@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-13T06:38:40.069Z",
+  "fetchedAt": "2026-10-13T07:57:26.284Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-12T05:26:24Z",
+            "pushedAt": "2026-10-13T07:52:44Z",
             "release": {
-              "tag": "v0.50.0",
-              "publishedAt": "2026-10-10T13:48:46Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.50.0"
+              "tag": "v0.51.0",
+              "publishedAt": "2026-10-13T07:52:39Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.51.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -269,11 +269,11 @@
               "web-audio-api"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-09T15:59:34Z",
+            "pushedAt": "2026-10-13T07:37:44Z",
             "release": {
-              "tag": "1.1.5",
-              "publishedAt": "2026-10-09T15:59:22Z",
-              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.1.5"
+              "tag": "1.1.6",
+              "publishedAt": "2026-10-13T07:37:34Z",
+              "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.1.6"
             },
             "ogImage": "/og/mantine-audio.jpg",
             "defaultBranch": "master"
