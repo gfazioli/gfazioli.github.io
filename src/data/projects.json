@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-14T17:25:16.996Z",
+  "fetchedAt": "2026-10-14T17:51:46.278Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-14T13:18:49Z",
+            "pushedAt": "2026-10-14T17:46:46Z",
             "release": {
-              "tag": "v0.51.0",
-              "publishedAt": "2026-10-14T12:37:49Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.51.0"
+              "tag": "v0.52.0",
+              "publishedAt": "2026-10-14T17:45:06Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.52.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -251,13 +251,13 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-10-14T17:16:34Z",
+            "pushedAt": "2026-10-14T17:49:52Z",
             "release": {
               "tag": "v0.1.0",
               "publishedAt": "2026-10-14T17:16:37Z",
               "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.1.0"
             },
-            "ogImage": "https://opengraph.githubassets.com/edde715bf389c008352c022ac0abd90fb63a1237b0442a3b399c4f3f3df0c2e4/gfazioli/glancecard",
+            "ogImage": "https://opengraph.githubassets.com/e4d1d766a2085ba566efb8e958969fdbb8bcff30799333f5bba972b6f6585828/gfazioli/glancecard",
             "defaultBranch": "main"
           }
         }
@@ -465,7 +465,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:24:42Z",
+            "pushedAt": "2026-10-14T17:49:47Z",
             "release": {
               "tag": "1.0.14",
               "publishedAt": "2026-10-13T09:04:42Z",
@@ -581,7 +581,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:09:50Z",
+            "pushedAt": "2026-10-14T17:24:51Z",
             "release": {
               "tag": "3.7.2",
               "publishedAt": "2026-10-13T09:09:38Z",
@@ -618,7 +618,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T11:37:10Z",
+            "pushedAt": "2026-10-14T17:24:54Z",
             "release": {
               "tag": "4.0.17",
               "publishedAt": "2026-10-13T09:11:09Z",
@@ -659,7 +659,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T10:43:47Z",
+            "pushedAt": "2026-10-14T17:24:57Z",
             "release": {
               "tag": "1.0.14",
               "publishedAt": "2026-10-13T08:59:47Z",
@@ -698,7 +698,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T11:05:21Z",
+            "pushedAt": "2026-10-14T17:25:01Z",
             "release": {
               "tag": "4.1.14",
               "publishedAt": "2026-10-13T09:01:25Z",
@@ -778,7 +778,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:04:39Z",
+            "pushedAt": "2026-10-14T17:25:04Z",
             "release": {
               "tag": "2.0.15",
               "publishedAt": "2026-10-13T09:04:28Z",
@@ -926,7 +926,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:04:05Z",
+            "pushedAt": "2026-10-14T17:25:07Z",
             "release": {
               "tag": "2.0.14",
               "publishedAt": "2026-10-13T09:11:16Z",
@@ -1047,7 +1047,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T11:26:16Z",
+            "pushedAt": "2026-10-14T17:25:13Z",
             "release": {
               "tag": "3.0.14",
               "publishedAt": "2026-10-13T09:04:30Z",
@@ -1091,7 +1091,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T16:14:18Z",
+            "pushedAt": "2026-10-14T17:25:10Z",
             "release": {
               "tag": "2.2.14",
               "publishedAt": "2026-10-13T09:02:52Z",
@@ -1166,7 +1166,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:07:52Z",
+            "pushedAt": "2026-10-14T17:25:16Z",
             "release": {
               "tag": "4.1.16",
               "publishedAt": "2026-10-13T09:07:39Z",
@@ -1249,7 +1249,7 @@
               "video-player"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T15:12:21Z",
+            "pushedAt": "2026-10-14T17:25:19Z",
             "release": {
               "tag": "1.2.6",
               "publishedAt": "2026-10-13T09:11:02Z",
@@ -1285,7 +1285,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T03:37:55Z",
+            "pushedAt": "2026-10-14T17:25:22Z",
             "release": {
               "tag": "3.4.2",
               "publishedAt": "2026-10-13T09:12:38Z",
@@ -1507,7 +1507,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T08:25:59Z",
+            "pushedAt": "2026-10-14T17:50:54Z",
             "release": {
               "tag": "v1.0.20",
               "publishedAt": "2026-10-14T08:26:00Z",
