@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-14T17:51:46.278Z",
+  "fetchedAt": "2026-10-14T18:29:52.535Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -251,13 +251,13 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-10-14T17:49:52Z",
+            "pushedAt": "2026-10-14T18:25:51Z",
             "release": {
-              "tag": "v0.1.0",
-              "publishedAt": "2026-10-14T17:16:37Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.1.0"
+              "tag": "v0.2.0",
+              "publishedAt": "2026-10-14T18:25:54Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.2.0"
             },
-            "ogImage": "https://opengraph.githubassets.com/e4d1d766a2085ba566efb8e958969fdbb8bcff30799333f5bba972b6f6585828/gfazioli/glancecard",
+            "ogImage": "/og/glancecard.png",
             "defaultBranch": "main"
           }
         }
@@ -581,7 +581,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:24:51Z",
+            "pushedAt": "2026-10-14T18:04:27Z",
             "release": {
               "tag": "3.7.2",
               "publishedAt": "2026-10-13T09:09:38Z",
@@ -967,7 +967,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T08:59:54Z",
+            "pushedAt": "2026-10-14T18:15:33Z",
             "release": {
               "tag": "3.0.14",
               "publishedAt": "2026-10-13T08:59:44Z",
@@ -1166,7 +1166,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:25:16Z",
+            "pushedAt": "2026-10-14T18:06:12Z",
             "release": {
               "tag": "4.1.16",
               "publishedAt": "2026-10-13T09:07:39Z",
