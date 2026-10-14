@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-14T10:33:45.596Z",
+  "fetchedAt": "2026-10-14T12:41:27.014Z",
   "sectionCount": 9,
   "projectCount": 56,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-10-14T09:18:31Z",
+            "pushedAt": "2026-10-14T11:37:01Z",
             "release": {
               "tag": "v6.0.14",
               "publishedAt": "2026-10-14T08:26:28Z",
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-14T09:17:38Z",
+            "pushedAt": "2026-10-14T12:37:55Z",
             "release": {
-              "tag": "v0.50.1",
-              "publishedAt": "2026-10-13T10:43:03Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.50.1"
+              "tag": "v0.51.0",
+              "publishedAt": "2026-10-14T12:37:49Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.51.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-14T10:31:01Z",
+            "pushedAt": "2026-10-14T10:36:06Z",
             "release": {
               "tag": "v0.53.0",
               "publishedAt": "2026-10-14T10:30:56Z",
@@ -587,7 +587,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:11:21Z",
+            "pushedAt": "2026-10-14T11:37:10Z",
             "release": {
               "tag": "4.0.17",
               "publishedAt": "2026-10-13T09:11:09Z",
@@ -628,7 +628,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T08:59:58Z",
+            "pushedAt": "2026-10-14T10:43:47Z",
             "release": {
               "tag": "1.0.14",
               "publishedAt": "2026-10-13T08:59:47Z",
@@ -667,7 +667,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:01:36Z",
+            "pushedAt": "2026-10-14T11:05:21Z",
             "release": {
               "tag": "4.1.14",
               "publishedAt": "2026-10-13T09:01:25Z",
@@ -1016,7 +1016,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:04:42Z",
+            "pushedAt": "2026-10-14T11:26:16Z",
             "release": {
               "tag": "3.0.14",
               "publishedAt": "2026-10-13T09:04:30Z",
