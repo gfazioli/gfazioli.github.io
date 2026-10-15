@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-15T11:05:08.823Z",
+  "fetchedAt": "2026-10-15T17:02:36.627Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-10-07T13:03:17Z",
+            "pushedAt": "2026-10-15T16:54:09Z",
             "release": {
-              "tag": "v3.1.0",
-              "publishedAt": "2026-10-07T13:03:18Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.1.0"
+              "tag": "v3.2.0",
+              "publishedAt": "2026-10-15T16:54:12Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.2.0"
             },
             "ogImage": "/og/wpbones-framework.jpg",
             "defaultBranch": "master"
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T08:09:40Z",
+            "pushedAt": "2026-10-15T14:00:40Z",
             "release": {
               "tag": "v0.52.1",
               "publishedAt": "2026-10-15T08:06:06Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T08:09:51Z",
+            "pushedAt": "2026-10-15T16:57:12Z",
             "release": {
-              "tag": "v0.53.0",
-              "publishedAt": "2026-10-14T10:30:56Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.53.0"
+              "tag": "v0.54.0",
+              "publishedAt": "2026-10-15T16:57:07Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.54.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T08:11:01Z",
+            "pushedAt": "2026-10-15T13:56:43Z",
             "release": {
               "tag": "v0.51.0",
               "publishedAt": "2026-10-13T09:12:50Z",
