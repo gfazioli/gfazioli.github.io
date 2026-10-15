@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-14T18:29:52.535Z",
+  "fetchedAt": "2026-10-15T05:00:55.384Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -18,7 +18,7 @@
             "name": "WPBones",
             "fullName": "wpbones/WPBones",
             "url": "https://github.com/wpbones/WPBones",
-            "stars": 171,
+            "stars": 172,
             "forks": 32,
             "topics": [
               "laravel",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-14T17:46:46Z",
+            "pushedAt": "2026-10-15T04:56:34Z",
             "release": {
               "tag": "v0.52.0",
               "publishedAt": "2026-10-14T17:45:06Z",
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 68,
+            "stars": 69,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-14T17:23:31Z",
+            "pushedAt": "2026-10-15T04:59:37Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -232,14 +232,14 @@
         },
         {
           "displayName": "glancecard",
-          "url": "https://github.com/gfazioli/glancecard",
-          "description": "Your GitHub profile and repositories, at a glance: daily SVG cards for your READMEs. A repository dashboard laid out like FinderGit and a profile card, in dark and light, rendered and committed by a GitHub Action in your own repository. No server, no dependencies.",
+          "url": "https://gfazioli.github.io/glancecard/",
+          "description": "Your GitHub profile and repositories, at a glance: daily SVG cards for your READMEs. A repository dashboard laid out like FinderGit and a profile card, in nine looks with Halloween and Christmas in their season, rendered and committed by a GitHub Action in your own repository, or by its CLI. No server, no dependencies.",
           "external": false,
           "githubRepo": {
             "name": "glancecard",
             "fullName": "gfazioli/glancecard",
             "url": "https://github.com/gfazioli/glancecard",
-            "stars": 0,
+            "stars": 2,
             "forks": 0,
             "topics": [
               "dashboard",
@@ -300,7 +300,7 @@
               "web-audio-api"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:24:25Z",
+            "pushedAt": "2026-10-14T18:58:32Z",
             "release": {
               "tag": "1.1.6",
               "publishedAt": "2026-10-13T07:37:34Z",
@@ -502,7 +502,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:24:45Z",
+            "pushedAt": "2026-10-14T18:29:32Z",
             "release": {
               "tag": "2.0.16",
               "publishedAt": "2026-10-13T09:06:13Z",
@@ -739,7 +739,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:03:07Z",
+            "pushedAt": "2026-10-14T18:37:54Z",
             "release": {
               "tag": "5.0.2",
               "publishedAt": "2026-10-13T09:02:56Z",
@@ -778,7 +778,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-14T17:25:04Z",
+            "pushedAt": "2026-10-14T18:36:34Z",
             "release": {
               "tag": "2.0.15",
               "publishedAt": "2026-10-13T09:04:28Z",
@@ -1004,7 +1004,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-13T09:01:30Z",
+            "pushedAt": "2026-10-14T18:34:14Z",
             "release": {
               "tag": "4.1.14",
               "publishedAt": "2026-10-13T09:01:19Z",
