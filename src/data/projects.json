@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-15T17:02:36.627Z",
+  "fetchedAt": "2026-10-16T06:32:12.433Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -33,7 +33,7 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-10-15T16:54:09Z",
+            "pushedAt": "2026-10-15T17:06:32Z",
             "release": {
               "tag": "v3.2.0",
               "publishedAt": "2026-10-15T16:54:12Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T16:57:12Z",
+            "pushedAt": "2026-10-15T17:04:42Z",
             "release": {
               "tag": "v0.54.0",
               "publishedAt": "2026-10-15T16:57:07Z",
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 69,
+            "stars": 70,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -1149,7 +1149,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 78,
+            "stars": 77,
             "forks": 7,
             "topics": [
               "component",
