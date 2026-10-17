@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-17T07:59:47.548Z",
+  "fetchedAt": "2026-10-17T17:19:08.277Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-17T07:56:54Z",
+            "pushedAt": "2026-10-17T17:15:48Z",
             "release": {
-              "tag": "v0.60.0",
-              "publishedAt": "2026-10-17T07:56:49Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.60.0"
+              "tag": "v0.61.0",
+              "publishedAt": "2026-10-17T17:15:43Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.61.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 70,
+            "stars": 71,
             "forks": 1,
             "topics": [
               "bubbletea",
@@ -1130,7 +1130,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-15T08:10:49Z",
+            "pushedAt": "2026-10-17T15:02:43Z",
             "release": {
               "tag": "4.1.15",
               "publishedAt": "2026-10-13T09:06:02Z",
