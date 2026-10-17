@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-16T06:32:12.433Z",
+  "fetchedAt": "2026-10-17T06:28:58.171Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -110,8 +110,8 @@
             "name": "findergit-website",
             "fullName": "gfazioli/findergit-website",
             "url": "https://github.com/gfazioli/findergit-website",
-            "stars": 18,
-            "forks": 0,
+            "stars": 19,
+            "forks": 1,
             "topics": [
               "macos",
               "swiftui",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T14:00:40Z",
+            "pushedAt": "2026-10-16T12:49:08Z",
             "release": {
               "tag": "v0.52.1",
               "publishedAt": "2026-10-15T08:06:06Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T17:04:42Z",
+            "pushedAt": "2026-10-16T20:03:15Z",
             "release": {
               "tag": "v0.54.0",
               "publishedAt": "2026-10-15T16:57:07Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-15T13:56:43Z",
+            "pushedAt": "2026-10-16T10:49:52Z",
             "release": {
               "tag": "v0.51.0",
               "publishedAt": "2026-10-13T09:12:50Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-15T07:45:56Z",
+            "pushedAt": "2026-10-16T08:57:46Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -446,7 +446,7 @@
             "name": "mantine-compare",
             "fullName": "gfazioli/mantine-compare",
             "url": "https://github.com/gfazioli/mantine-compare",
-            "stars": 11,
+            "stars": 12,
             "forks": 0,
             "topics": [
               "compare",
@@ -1444,7 +1444,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.png"
+          "ogImage": null
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
