@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-18T13:29:58.796Z",
+  "fetchedAt": "2026-10-18T14:57:49.534Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -251,11 +251,11 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-10-18T12:48:02Z",
+            "pushedAt": "2026-10-18T14:53:50Z",
             "release": {
-              "tag": "v0.4.0",
-              "publishedAt": "2026-10-18T12:54:58Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.4.0"
+              "tag": "v0.5.0",
+              "publishedAt": "2026-10-18T14:54:16Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.5.0"
             },
             "ogImage": "/og/glancecard.png",
             "defaultBranch": "main"
