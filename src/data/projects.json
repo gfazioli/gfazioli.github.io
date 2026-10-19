@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-19T17:05:04.904Z",
+  "fetchedAt": "2026-10-19T19:23:09.876Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-19T17:04:09Z",
+            "pushedAt": "2026-10-19T17:36:04Z",
             "release": {
               "tag": "v0.53.1",
               "publishedAt": "2026-10-19T17:00:24Z",
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-19T17:04:16Z",
+            "pushedAt": "2026-10-19T17:47:24Z",
             "release": {
               "tag": "v0.61.0",
               "publishedAt": "2026-10-17T17:15:43Z",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-19T12:59:55Z",
+            "pushedAt": "2026-10-19T17:47:21Z",
             "release": {
               "tag": "v0.51.0",
               "publishedAt": "2026-10-13T09:12:50Z",
@@ -251,11 +251,11 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-10-18T15:01:51Z",
+            "pushedAt": "2026-10-19T19:15:54Z",
             "release": {
-              "tag": "v0.5.0",
-              "publishedAt": "2026-10-18T14:54:16Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.5.0"
+              "tag": "v0.6.0",
+              "publishedAt": "2026-10-19T19:15:55Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.0"
             },
             "ogImage": "/og/glancecard.png",
             "defaultBranch": "main"
