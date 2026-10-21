@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-21T10:14:27.928Z",
+  "fetchedAt": "2026-10-21T16:10:51.674Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-21T10:12:00Z",
+            "pushedAt": "2026-10-21T15:54:17Z",
             "release": {
-              "tag": "v0.54.1",
-              "publishedAt": "2026-10-21T10:11:54Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.54.1"
+              "tag": "v0.55.0",
+              "publishedAt": "2026-10-21T15:54:09Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.55.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-21T10:03:22Z",
+            "pushedAt": "2026-10-21T15:36:57Z",
             "release": {
-              "tag": "v0.62.1",
-              "publishedAt": "2026-10-21T10:03:17Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.62.1"
+              "tag": "v0.63.0",
+              "publishedAt": "2026-10-21T15:36:50Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.63.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -1268,7 +1268,7 @@
             "name": "mantine-window",
             "fullName": "gfazioli/mantine-window",
             "url": "https://github.com/gfazioli/mantine-window",
-            "stars": 20,
+            "stars": 21,
             "forks": 2,
             "topics": [
               "component",
