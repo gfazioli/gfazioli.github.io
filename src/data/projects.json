@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-23T08:40:22.528Z",
+  "fetchedAt": "2026-10-23T09:44:12.359Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-23T08:34:57Z",
+            "pushedAt": "2026-10-23T09:41:13Z",
             "release": {
-              "tag": "v0.56.0",
-              "publishedAt": "2026-10-23T08:34:52Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.0"
+              "tag": "v0.56.1",
+              "publishedAt": "2026-10-23T09:41:07Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.1"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-23T07:24:14Z",
+            "pushedAt": "2026-10-23T09:21:46Z",
             "release": {
               "tag": "v0.63.0",
               "publishedAt": "2026-10-21T15:36:50Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-22T16:46:59Z",
+            "pushedAt": "2026-10-23T09:21:56Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -386,7 +386,7 @@
               "webgl"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-22T10:50:59Z",
+            "pushedAt": "2026-10-23T09:22:09Z",
             "release": {
               "tag": "1.0.12",
               "publishedAt": "2026-10-22T10:50:48Z",
@@ -581,7 +581,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-22T10:52:58Z",
+            "pushedAt": "2026-10-23T09:22:16Z",
             "release": {
               "tag": "3.7.3",
               "publishedAt": "2026-10-22T10:52:46Z",
@@ -1285,7 +1285,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-22T10:37:03Z",
+            "pushedAt": "2026-10-23T09:22:13Z",
             "release": {
               "tag": "3.4.3",
               "publishedAt": "2026-10-22T10:36:52Z",
