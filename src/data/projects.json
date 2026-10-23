@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-22T13:49:34.377Z",
+  "fetchedAt": "2026-10-23T06:33:05.793Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-21T15:36:57Z",
+            "pushedAt": "2026-10-23T06:23:59Z",
             "release": {
               "tag": "v0.63.0",
               "publishedAt": "2026-10-21T15:36:50Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-10-19T12:59:44Z",
+            "pushedAt": "2026-10-22T16:46:59Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -1149,7 +1149,7 @@
             "name": "mantine-split-pane",
             "fullName": "gfazioli/mantine-split-pane",
             "url": "https://github.com/gfazioli/mantine-split-pane",
-            "stars": 77,
+            "stars": 78,
             "forks": 7,
             "topics": [
               "component",
