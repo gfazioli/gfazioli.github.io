@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-24T11:31:16.156Z",
+  "fetchedAt": "2026-10-24T12:12:50.508Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-24T11:28:42Z",
+            "pushedAt": "2026-10-24T12:10:33Z",
             "release": {
-              "tag": "v0.56.4",
-              "publishedAt": "2026-10-24T11:28:36Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.4"
+              "tag": "v0.56.5",
+              "publishedAt": "2026-10-24T12:10:28Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.5"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-24T11:23:00Z",
+            "pushedAt": "2026-10-24T12:04:47Z",
             "release": {
-              "tag": "v0.63.2",
-              "publishedAt": "2026-10-24T11:22:56Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.63.2"
+              "tag": "v0.63.3",
+              "publishedAt": "2026-10-24T12:04:42Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.63.3"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
