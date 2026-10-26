@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-26T10:55:23.596Z",
+  "fetchedAt": "2026-10-26T11:24:12.956Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T07:03:12Z",
+            "pushedAt": "2026-10-26T11:21:15Z",
             "release": {
-              "tag": "v0.56.6",
-              "publishedAt": "2026-10-25T10:15:23Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.6"
+              "tag": "v0.56.7",
+              "publishedAt": "2026-10-26T11:21:09Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.7"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -205,7 +205,7 @@
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
             "stars": 73,
-            "forks": 2,
+            "forks": 3,
             "topics": [
               "bubbletea",
               "cli",
