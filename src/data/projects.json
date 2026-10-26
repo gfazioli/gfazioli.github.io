@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-26T11:24:12.956Z",
+  "fetchedAt": "2026-10-26T18:13:00.090Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T11:21:15Z",
+            "pushedAt": "2026-10-26T18:08:50Z",
             "release": {
-              "tag": "v0.56.7",
-              "publishedAt": "2026-10-26T11:21:09Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.7"
+              "tag": "v0.56.8",
+              "publishedAt": "2026-10-26T18:08:43Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.8"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T07:03:13Z",
+            "pushedAt": "2026-10-26T17:40:36Z",
             "release": {
-              "tag": "v0.52.0",
-              "publishedAt": "2026-10-23T13:54:21Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.52.0"
+              "tag": "v0.52.1",
+              "publishedAt": "2026-10-26T17:40:30Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.52.1"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
