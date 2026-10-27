@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-27T06:32:40.052Z",
+  "fetchedAt": "2026-10-27T08:52:47.546Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T18:51:11Z",
+            "pushedAt": "2026-10-27T08:35:04Z",
             "release": {
-              "tag": "v0.56.9",
-              "publishedAt": "2026-10-26T18:51:05Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.9"
+              "tag": "v0.56.10",
+              "publishedAt": "2026-10-27T08:34:55Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.56.10"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T18:33:26Z",
+            "pushedAt": "2026-10-27T08:48:10Z",
             "release": {
-              "tag": "v0.64.3",
-              "publishedAt": "2026-10-26T18:33:21Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.64.3"
+              "tag": "v0.64.4",
+              "publishedAt": "2026-10-27T08:48:05Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.64.4"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-26T18:42:41Z",
+            "pushedAt": "2026-10-27T08:42:18Z",
             "release": {
-              "tag": "v0.52.2",
-              "publishedAt": "2026-10-26T18:42:35Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.52.2"
+              "tag": "v0.52.3",
+              "publishedAt": "2026-10-27T08:42:13Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.52.3"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
