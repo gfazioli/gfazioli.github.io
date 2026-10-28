@@ -11,4 +11,7 @@ export interface Sponsor {
  * Current GitHub sponsors, shown in the Support section.
  * Keep in sync with the sponsors.ts used by the Mantine component docs footers.
  */
-export const sponsors: Sponsor[] = [{ key: "kastov", name: "kastov", github: "kastov" }];
+export const sponsors: Sponsor[] = [
+  { key: "kastov", name: "kastov", github: "kastov" },
+  { key: "guimazza", name: "guimazza", github: "guimazza" },
+];
