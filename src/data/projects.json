@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-10-30T06:24:20.008Z",
+  "fetchedAt": "2026-10-31T06:18:41.410Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -239,7 +239,7 @@
             "name": "glancecard",
             "fullName": "gfazioli/glancecard",
             "url": "https://github.com/gfazioli/glancecard",
-            "stars": 3,
+            "stars": 4,
             "forks": 0,
             "topics": [
               "dashboard",
@@ -1455,7 +1455,7 @@
             "name": "next-app-nextra-template",
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
-            "stars": 37,
+            "stars": 38,
             "forks": 8,
             "topics": [
               "mantine",
