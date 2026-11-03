@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-03T10:40:43.128Z",
+  "fetchedAt": "2026-11-03T17:00:03.594Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -18,7 +18,7 @@
             "name": "WPBones",
             "fullName": "wpbones/WPBones",
             "url": "https://github.com/wpbones/WPBones",
-            "stars": 173,
+            "stars": 174,
             "forks": 32,
             "topics": [
               "laravel",
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-29T19:55:09Z",
+            "pushedAt": "2026-11-03T16:55:03Z",
             "release": {
-              "tag": "v0.57.0",
-              "publishedAt": "2026-10-29T19:55:03Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.57.0"
+              "tag": "v0.58.0",
+              "publishedAt": "2026-11-03T16:54:55Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.58.0"
             },
             "ogImage": "/og/findergit.jpg",
             "defaultBranch": "main"
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T09:57:14Z",
+            "pushedAt": "2026-11-03T14:02:30Z",
             "release": {
               "tag": "v0.65.1",
               "publishedAt": "2026-11-03T07:27:28Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-03T10:36:53Z",
+            "pushedAt": "2026-11-03T10:44:29Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -251,7 +251,7 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-03T10:34:38Z",
+            "pushedAt": "2026-11-03T10:44:25Z",
             "release": {
               "tag": "v0.6.1",
               "publishedAt": "2026-11-03T10:34:39Z",
