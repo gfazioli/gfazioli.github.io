@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-03T17:00:03.594Z",
+  "fetchedAt": "2026-11-03T18:22:40.797Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T14:02:30Z",
+            "pushedAt": "2026-11-03T18:20:19Z",
             "release": {
-              "tag": "v0.65.1",
-              "publishedAt": "2026-11-03T07:27:28Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.65.1"
+              "tag": "v0.66.0",
+              "publishedAt": "2026-11-03T18:15:23Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.66.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,11 +178,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-10-29T09:45:33Z",
+            "pushedAt": "2026-11-03T18:08:34Z",
             "release": {
-              "tag": "v0.52.4",
-              "publishedAt": "2026-10-28T18:20:57Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.52.4"
+              "tag": "v0.53.0",
+              "publishedAt": "2026-11-03T18:08:28Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.53.0"
             },
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
