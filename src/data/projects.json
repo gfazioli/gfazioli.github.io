@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-03T07:32:07.194Z",
+  "fetchedAt": "2026-11-03T10:40:43.128Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -149,7 +149,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T07:27:32Z",
+            "pushedAt": "2026-11-03T09:57:14Z",
             "release": {
               "tag": "v0.65.1",
               "publishedAt": "2026-11-03T07:27:28Z",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-01T10:46:34Z",
+            "pushedAt": "2026-11-03T10:36:53Z",
             "release": {
               "tag": "v0.39.0",
               "publishedAt": "2026-10-13T08:51:12Z",
@@ -251,11 +251,11 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-10-19T19:29:15Z",
+            "pushedAt": "2026-11-03T10:34:38Z",
             "release": {
-              "tag": "v0.6.0",
-              "publishedAt": "2026-10-19T19:15:55Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.0"
+              "tag": "v0.6.1",
+              "publishedAt": "2026-11-03T10:34:39Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.1"
             },
             "ogImage": "/og/glancecard.png",
             "defaultBranch": "main"
