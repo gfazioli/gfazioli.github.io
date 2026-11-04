@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-04T08:50:18.725Z",
+  "fetchedAt": "2026-11-04T13:46:13.195Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-10-28T17:05:20Z",
+            "pushedAt": "2026-11-04T13:23:25Z",
             "release": {
               "tag": "v6.0.16",
               "publishedAt": "2026-10-26T07:01:36Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T18:20:19Z",
+            "pushedAt": "2026-11-04T13:42:08Z",
             "release": {
-              "tag": "v0.66.0",
-              "publishedAt": "2026-11-03T18:15:23Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.66.0"
+              "tag": "v0.67.0",
+              "publishedAt": "2026-11-04T13:42:03Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.67.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 73,
+            "stars": 74,
             "forks": 3,
             "topics": [
               "bubbletea",
@@ -220,7 +220,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-04T08:48:33Z",
+            "pushedAt": "2026-11-04T10:39:19Z",
             "release": {
               "tag": "v0.40.0",
               "publishedAt": "2026-11-04T08:39:03Z",
@@ -251,7 +251,7 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-03T10:44:25Z",
+            "pushedAt": "2026-11-04T13:23:20Z",
             "release": {
               "tag": "v0.6.1",
               "publishedAt": "2026-11-03T10:34:39Z",
@@ -1331,7 +1331,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-28T17:04:41Z",
+            "pushedAt": "2026-11-04T13:23:15Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1399,7 +1399,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-28T17:04:30Z",
+            "pushedAt": "2026-11-04T13:23:11Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
