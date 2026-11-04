@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-03T18:22:40.797Z",
+  "fetchedAt": "2026-11-04T06:22:04.272Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -907,7 +907,7 @@
             "name": "mantine-qr-code",
             "fullName": "gfazioli/mantine-qr-code",
             "url": "https://github.com/gfazioli/mantine-qr-code",
-            "stars": 10,
+            "stars": 11,
             "forks": 0,
             "topics": [
               "download",
