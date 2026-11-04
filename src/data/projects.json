@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-04T13:46:13.195Z",
+  "fetchedAt": "2026-11-04T21:50:59.507Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T16:55:03Z",
+            "pushedAt": "2026-11-04T21:33:40Z",
             "release": {
               "tag": "v0.58.0",
               "publishedAt": "2026-11-03T16:54:55Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-04T13:42:08Z",
+            "pushedAt": "2026-11-04T21:48:06Z",
             "release": {
-              "tag": "v0.67.0",
-              "publishedAt": "2026-11-04T13:42:03Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.67.0"
+              "tag": "v0.68.0",
+              "publishedAt": "2026-11-04T21:48:01Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.68.0"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-03T18:08:34Z",
+            "pushedAt": "2026-11-04T21:33:33Z",
             "release": {
               "tag": "v0.53.0",
               "publishedAt": "2026-11-03T18:08:28Z",
