@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-05T06:22:14.435Z",
+  "fetchedAt": "2026-11-05T18:52:32.775Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-04T21:33:40Z",
+            "pushedAt": "2026-11-05T11:02:11Z",
             "release": {
               "tag": "v0.58.0",
               "publishedAt": "2026-11-03T16:54:55Z",
@@ -149,11 +149,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-04T21:48:06Z",
+            "pushedAt": "2026-11-05T18:24:50Z",
             "release": {
-              "tag": "v0.68.0",
-              "publishedAt": "2026-11-04T21:48:01Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.68.0"
+              "tag": "v0.68.1",
+              "publishedAt": "2026-11-05T18:24:43Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.68.1"
             },
             "ogImage": "/og/lancetta.png",
             "defaultBranch": "main"
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-04T21:33:33Z",
+            "pushedAt": "2026-11-05T11:02:16Z",
             "release": {
               "tag": "v0.53.0",
               "publishedAt": "2026-11-03T18:08:28Z",
@@ -204,7 +204,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 74,
+            "stars": 73,
             "forks": 3,
             "topics": [
               "bubbletea",
@@ -558,7 +558,7 @@
             "name": "mantine-json-tree",
             "fullName": "gfazioli/mantine-json-tree",
             "url": "https://github.com/gfazioli/mantine-json-tree",
-            "stars": 9,
+            "stars": 10,
             "forks": 1,
             "topics": [
               "collapsible-tree",
