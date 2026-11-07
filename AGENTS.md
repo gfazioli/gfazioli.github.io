@@ -81,6 +81,8 @@ back: there the remote URL is the expiring one, and `null` is the safer answer.
   (`findergit.app`, `netfox.app`, private app repos) get version, stars and a GitHub link from
   their public `*-website` repos, which host the release DMGs, without inheriting the site's
   HTML/TypeScript language badge.
+- `OVERRIDES[url].price` (since 2026-11-07, Netfox Goodies at "€5") marks a paid entry: the card
+  shows the price as an orange badge in place of "external".
 - A green build proves nothing here: covers are `<img>` requests made in the browser. Verify a
   changed card by actually looking at the rendered page.
 
