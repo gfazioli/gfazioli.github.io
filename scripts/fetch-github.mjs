@@ -140,6 +140,12 @@ const OVERRIDES = {
     topics: ["macos", "swiftui", "menu-bar", "claude-code", "codex"],
     ogImage: "/og/lancetta.png",
   },
+  // A paid pack in a private repo with no public twin: it stays external. The
+  // cover is its Network Fox wallpaper; the page's og:image is a title card.
+  "https://netfox.app/goodies": {
+    topics: ["macos", "screen-saver", "wallpapers", "emoji"],
+    ogImage: "/og/netfox-goodies.jpg",
+  },
 };
 
 const BULLET_RE = /^>\s*-\s*\[([^\]]+)\]\(([^)]+)\)\s*-\s*_([^_]+)_\s*$/;
@@ -379,7 +385,8 @@ async function cacheOgImage(url, name) {
   }
 }
 
-async function externalOgImage(entry) {
+async function externalOgImage(entry, override) {
+  if (override?.ogImage) return override.ogImage;
   const remote = await getHomepageOgImage(entry.url);
   if (!remote) return null;
   return cacheOgImage(remote, entry.displayName);
@@ -400,6 +407,11 @@ async function homepageCover(homepage, slug) {
   return (await cacheOgImage(remote, slug)) ?? remote;
 }
 
+/** The fetch log's cover marker: 📌 pinned, 🌐 from the site's og:image. */
+function coverMark(ogImage, override) {
+  return override?.ogImage ? " 📌" : ogImage ? " 🌐" : "";
+}
+
 /** An entry with no repo behind it: carry the override's tags, if any. */
 function externalEntry(entry, ogImage, override) {
   const out = { ...entry, external: true, ogImage };
@@ -417,17 +429,17 @@ async function enrichEntry(entry) {
   if (!slug) {
     // External link: still try to grab the site's og:image so the card
     // gets a cover like GitHub-backed projects.
-    const ogImage = await externalOgImage(entry);
+    const ogImage = await externalOgImage(entry, override);
     process.stdout.write(
-      `  · ${entry.displayName} → external${ogImage ? " 🌐" : ""}\n`
+      `  · ${entry.displayName} → external${coverMark(ogImage, override)}\n`
     );
     return externalEntry(entry, ogImage, override);
   }
   process.stdout.write(`  · ${entry.displayName} → ${owner}/${slug} `);
   const repo = await getRepo(slug, owner);
   if (!repo) {
-    const ogImage = await externalOgImage(entry);
-    process.stdout.write(`(no repo)${ogImage ? " 🌐" : ""}\n`);
+    const ogImage = await externalOgImage(entry, override);
+    process.stdout.write(`(no repo)${coverMark(ogImage, override)}\n`);
     return externalEntry(entry, ogImage, override);
   }
   const release = await getLatestRelease(slug, owner);

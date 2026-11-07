@@ -47,7 +47,8 @@ self-hosted) and `e53385c` (`getOpenGraph` now caches instead of storing the sig
 
 `scripts/fetch-github.mjs` resolves `ogImage` with this precedence:
 
-1. `OVERRIDES[url].ogImage` — a hand-pinned local path (📌)
+1. `OVERRIDES[url].ogImage` — a hand-pinned local path (📌); since 2026-11-07 external entries
+   honour it too (Netfox Goodies), where before they always scraped the site
 2. `getHomepageOgImage(homepage)` — `og:image` scraped from the project's own site (🌐)
 3. `getOpenGraph(slug)` — the repo's custom GitHub social preview (🖼)
 
