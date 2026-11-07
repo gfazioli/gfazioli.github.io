@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-06T18:20:23.829Z",
+  "fetchedAt": "2026-11-07T06:18:59.593Z",
   "sectionCount": 9,
   "projectCount": 57,
   "sections": [
@@ -798,7 +798,7 @@
             "fullName": "gfazioli/mantine-onboarding-tour",
             "url": "https://github.com/gfazioli/mantine-onboarding-tour",
             "stars": 55,
-            "forks": 3,
+            "forks": 4,
             "topics": [
               "focus",
               "focus-management",
