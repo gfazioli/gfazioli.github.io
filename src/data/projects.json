@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-07T06:18:59.593Z",
+  "fetchedAt": "2026-11-07T12:48:08.667Z",
   "sectionCount": 9,
-  "projectCount": 57,
+  "projectCount": 58,
   "sections": [
     {
       "id": "core",
@@ -178,7 +178,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-06T18:13:28Z",
+            "pushedAt": "2026-11-07T11:18:46Z",
             "release": {
               "tag": "v0.54.0",
               "publishedAt": "2026-11-06T18:04:42Z",
@@ -187,6 +187,20 @@
             "ogImage": "/og/netfox.jpg",
             "defaultBranch": "main"
           }
+        },
+        {
+          "displayName": "Netfox Goodies",
+          "url": "https://netfox.app/goodies",
+          "description": "The Netfox companion pack, to bring the fox to your whole Mac: three native screen savers drawn by your Mac's GPU at full frame rate (Netfox Drift, Night Run, Constellation) with a preview app to try each one, six wallpapers for 5K, 4K and 16:10 screens plus five dynamic ones, iPhone wallpapers, video-call backgrounds and pixel-fox emoji. A one-time €5 purchase, VAT included, that helps keep Netfox free. Universal, signed and notarised, macOS 15.6 or later.",
+          "price": "€5",
+          "external": true,
+          "ogImage": "/og/netfox-goodies.jpg",
+          "topics": [
+            "macos",
+            "screen-saver",
+            "wallpapers",
+            "emoji"
+          ]
         }
       ]
     },
