@@ -80,6 +80,8 @@ const SECTION_MAP = {
  *   and they are the only tags an entry that stays external can have.
  * - `language`: pinned language badge (a `*-website` repo standing in for a
  *   private app would otherwise label a SwiftUI app as HTML).
+ * - `price`: what a paid entry costs (e.g. "€5"), shown as a badge in place of
+ *   "external".
  */
 const OVERRIDES = {
   "https://wpbones.com": {
@@ -145,6 +147,7 @@ const OVERRIDES = {
   "https://netfox.app/goodies": {
     topics: ["macos", "screen-saver", "wallpapers", "emoji"],
     ogImage: "/og/netfox-goodies.jpg",
+    price: "€5",
   },
 };
 
@@ -421,6 +424,7 @@ function externalEntry(entry, ogImage, override) {
 
 async function enrichEntry(entry) {
   const override = OVERRIDES[entry.url];
+  if (override?.price) entry = { ...entry, price: override.price };
   let owner = USER;
   let slug = deriveRepoSlug(entry.url);
   if (override?.repo) {

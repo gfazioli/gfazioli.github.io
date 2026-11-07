@@ -5,6 +5,8 @@ export interface ProjectEntry {
   url: string;
   description: string;
   external: boolean;
+  /** What a paid entry costs, e.g. "€5" (OVERRIDES in scripts/fetch-github.mjs). */
+  price?: string;
   /** og:image of the external site (external entries only). */
   ogImage?: string | null;
   /** Tags for an external entry, where there is no repo to read them from

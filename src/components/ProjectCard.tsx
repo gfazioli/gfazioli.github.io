@@ -146,7 +146,11 @@ export function ProjectCard({ project, icon, coverFallback }: ProjectCardProps) 
                 {repo.release.tag}
               </Badge>
             ) : null}
-            {project.external && !repo ? (
+            {project.price ? (
+              <Badge variant="light" color="orange" size="sm">
+                {project.price}
+              </Badge>
+            ) : project.external && !repo ? (
               <Badge variant="outline" color="gray" size="sm">
                 external
               </Badge>
