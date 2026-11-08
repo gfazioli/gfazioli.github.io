@@ -42,8 +42,9 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
           </Anchor>
           <SpotlightTrigger label={dict.nav.search.replace("{n}", String(total))} />
           <Group gap="sm" wrap="nowrap" className="shrink-0">
-            {/* Not on a phone: one more button wraps the header onto a second
-                line below ~430px (57px to 103px tall). The hero carries it there. */}
+            {/* Not on a phone: with them the row is 388px wide and pushes the
+                language switch off a 375px screen. The hero, the dock and the
+                footer carry both there. */}
             <DiscordButton
               label={dict.community.discord}
               size={30}
@@ -51,7 +52,13 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
               iconSize={17}
               visibleFrom="xs"
             />
-            <SponsorButton label={dict.sponsor.nav} size="xs" radius="xl" href="#sponsor" />
+            <SponsorButton
+              label={dict.sponsor.nav}
+              size="xs"
+              radius="xl"
+              href="#sponsor"
+              visibleFrom="xs"
+            />
             <LanguageSwitcher current={lang} />
           </Group>
         </Group>

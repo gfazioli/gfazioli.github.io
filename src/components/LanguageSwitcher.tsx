@@ -24,6 +24,9 @@ interface SavedPlace {
   y: number;
   /** The reader had run out of page — restore the end, not a computed offset. */
   atEnd: boolean;
+  /** How far each section's shelf was scrolled sideways, by section id. Cards
+   *  come in the same order and width in both languages. */
+  shelves: Record<string, number>;
 }
 
 function maxScroll() {
@@ -54,7 +57,12 @@ function anchorHeadings(section: Element) {
 function currentPlace(to: Lang): SavedPlace {
   const y = window.scrollY;
   const edge = y + HEADER_OFFSET + 1;
-  const place: SavedPlace = { to, id: null, head: 0, delta: 0, y, atEnd: y >= maxScroll() - 2 };
+  const shelves: Record<string, number> = {};
+  for (const track of document.querySelectorAll<HTMLElement>("section[id] .shelf__track")) {
+    const id = track.closest("section")?.id;
+    if (id && track.scrollLeft > 0) shelves[id] = track.scrollLeft;
+  }
+  const place: SavedPlace = { to, id: null, head: 0, delta: 0, y, atEnd: y >= maxScroll() - 2, shelves };
 
   for (const section of document.querySelectorAll<HTMLElement>("section[id]")) {
     const heads = anchorHeadings(section);
@@ -112,9 +120,21 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
       window.scrollTo({ top: applied, behavior: "instant" as ScrollBehavior });
     };
 
+    const restoreShelves = () => {
+      for (const [id, left] of Object.entries(place.shelves ?? {})) {
+        const track = document.getElementById(id)?.querySelector<HTMLElement>(".shelf__track");
+        if (track) track.scrollLeft = left;
+      }
+    };
+
     // Two frames for the first go: the translated content has to be laid out
     // before a heading's position means anything.
-    requestAnimationFrame(() => requestAnimationFrame(apply));
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        restoreShelves();
+        apply();
+      })
+    );
 
     // Then keep re-anchoring while the page is still settling — a fixed timer
     // was not enough on the live site, where images above the anchor finish
