@@ -2,7 +2,7 @@
   "user": "gfazioli",
   "fetchedAt": "2026-11-08T08:58:43.150Z",
   "sectionCount": 9,
-  "projectCount": 58,
+  "projectCount": 59,
   "sections": [
     {
       "id": "core",
@@ -1658,6 +1658,13 @@
           "description": "A faithful desktop recreation of the 1983 arcade shooter — command your fighter against swarming enemy formations, face the boss Galaga with its distinctive attack patterns, and chase the high score with smooth, responsive controls.",
           "external": true,
           "ogImage": "/og/galaga-1983.webp"
+        },
+        {
+          "displayName": "Greeting Professor Falken",
+          "url": "https://www.glaze.app/app/greeting-professor-falken-uPdzXO",
+          "description": "A faithful recreation of the iconic WOPR computer from 1983 cinema — play Global Thermonuclear War against the legendary AI on an ASCII world map, with period-accurate 1980s interface design and procedurally generated retro sound effects, tunable in the audio settings.",
+          "external": true,
+          "ogImage": "/og/greeting-professor-falken.webp"
         },
         {
           "displayName": "Pac-Man Classic",
