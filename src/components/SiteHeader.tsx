@@ -1,10 +1,10 @@
 import { Anchor, Container, Group, Text } from "@mantine/core";
 import Image from "next/image";
 import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
-import { projects, type ProjectSection } from "@/lib/projects";
-import { HeaderNav, type HeaderNavLink } from "./HeaderNav";
+import { projects } from "@/lib/projects";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { DiscordButton } from "./DiscordButton";
+import { SpotlightTrigger } from "./ProjectSpotlight";
 import { SponsorButton } from "./SponsorButton";
 
 interface SiteHeaderProps {
@@ -12,33 +12,20 @@ interface SiteHeaderProps {
   dict: Dictionary;
 }
 
-const SECTION_LABELS: Record<ProjectSection["id"], { en: string; it: string }> = {
-  core: { en: "Flagship", it: "Principali" },
-  macos: { en: "macOS", it: "macOS" },
-  cli: { en: "CLI", it: "CLI" },
-  mantine: { en: "Mantine", it: "Mantine" },
-  react: { en: "React", it: "React" },
-  templates: { en: "Templates", it: "Template" },
-  wordpress: { en: "WordPress", it: "WordPress" },
-  raycast: { en: "Raycast", it: "Raycast" },
-  glaze: { en: "Glaze", it: "Glaze" },
-};
-
+/**
+ * Logo, search, community and language. The section links moved to the dock
+ * at the bottom of the window (StudioDock), so the header stays calm and the
+ * search field gets the room the links used to fill.
+ */
 export function SiteHeader({ lang, dict }: SiteHeaderProps) {
   const home = lang === "it" ? "/it/" : "/";
-
-  const navLinks: HeaderNavLink[] = projects.sections.map((s) => ({
-    id: s.id,
-    label: SECTION_LABELS[s.id][lang],
-  }));
-
-  navLinks.push({ id: "links", label: lang === "it" ? "Link" : "Links" });
+  const total = projects.sections.reduce((n, s) => n + s.projects.length, 0);
 
   return (
-    <header className="sticky top-0 z-40 backdrop-blur-md bg-[var(--mantine-color-body)]/70 border-b border-[var(--mantine-color-default-border)]">
+    <header className="studio-header sticky top-0 z-40">
       <Container size="lg" py="sm">
-        <Group justify="space-between">
-          <Anchor href={home} c="bright" underline="never">
+        <Group justify="space-between" wrap="nowrap" gap="md">
+          <Anchor href={home} c="bright" underline="never" className="shrink-0">
             <Group gap="sm" align="center" wrap="nowrap">
               <Image
                 src="/logo.png"
@@ -53,8 +40,8 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
               </Text>
             </Group>
           </Anchor>
-          <HeaderNav links={navLinks} />
-          <Group gap="sm" wrap="nowrap">
+          <SpotlightTrigger label={dict.nav.search.replace("{n}", String(total))} />
+          <Group gap="sm" wrap="nowrap" className="shrink-0">
             {/* Not on a phone: one more button wraps the header onto a second
                 line below ~430px (57px to 103px tall). The hero carries it there. */}
             <DiscordButton

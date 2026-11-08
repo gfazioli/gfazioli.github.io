@@ -29,7 +29,8 @@ API. The `refresh-data.yml` workflow runs `npm run fetch:github` on a **daily cr
 commits `src/data/projects.json` + `public/og`, and redeploys. Any manual edit to the JSON is
 silently reverted the next morning — the change belongs in the script instead.
 
-Consumers: `src/lib/projects.ts`, then `ProjectCard`, `TechLinkCard`, `SectionIcon`, `SiteHeader`.
+Consumers: `src/lib/projects.ts`, then `ProjectCard`, `TechLinkCard`, `SectionIcon`, `SiteHeader`,
+`StudioDock`, `ProjectSpotlight` (the ⌘K search) and `SiteFooter`.
 
 ### Card covers: never store a remote og:image URL
 
@@ -65,6 +66,21 @@ stored that value as-is, while only the `external` branch laundered it. Closed i
 URL as a fallback when the download fails — those sources are plain static assets, so a stale cover
 beats dropping the card to its gradient placeholder. `getOpenGraph` deliberately does **not** fall
 back: there the remote URL is the expiring one, and `null` is the safer answer.
+
+### Covers are stored as WebP (since 2026-11-08)
+
+`cacheOgImage` re-encodes every PNG/JPEG/WebP it downloads to `<slug>.webp`, at most 960 px wide,
+quality 82 (`scripts/cover-encode.mjs`), and looks for `<slug>.webp` before any other extension.
+The sources are 1200×630 social cards: the 56 covers went from 15.8 MB to 1.8 MB (Lancetta's PNG
+850 KB → 22 KB) with no visible difference, and a home page load from 1.9 MB to 1.0 MB. Covers are
+plain `<img>` requests (the static export cannot optimise them), so this is the only place their
+weight is decided. GIF and SVG are kept as they come.
+
+- After writing `projects.json`, the fetch deletes every PNG/JPEG in `public/og/` that has a WebP
+  twin and that no card names any more, so in CI the deletions land in the same commit as the
+  cards that stopped pointing at them.
+- A cover pinned by hand in `OVERRIDES` gets the same treatment: drop the file in `public/og/`, run
+  `node scripts/covers-to-webp.mjs` (it writes the missing twins), and pin the `.webp`.
 
 **Rules when touching this code:**
 
@@ -120,6 +136,27 @@ Styling notes (2026-09-06): the hover/glow rules for `.project-card` live **unla
 The card reveal uses CSS scroll-driven animations behind `@supports` + `prefers-reduced-motion`;
 it needs the sections to use `overflow: clip`, not `hidden` (a hidden overflow makes the section
 the `view()` scroller and the cards never appear).
+
+### The "studio" layout (2026-11-08)
+
+- **One warm light for the whole page**: `StudioLight` is a fixed layer of five colour pools moved by
+  a CSS scroll-driven animation (`animation-timeline: scroll(root block)`), transform and opacity
+  only. Each section adds an accent (`--accent`, from `SECTION_ACCENTS` in `src/lib/sections.ts`,
+  next to `SECTION_LABELS`) as a glow behind its title.
+- **A glow must fade to transparent inside its own box.** A radial gradient still coloured where its
+  box ends draws a hard straight line there (it showed as a rectangle on windows wider than
+  1440 px). Use `closest-side` from the box's centre, or a layer taller than the section.
+- **Shelves**: every section but Flagship is a sideways `Shelf` (scroll-snap, arrows). Cards inside a
+  shelf must not carry `.reveal`: `view()` would bind to the shelf's own scroller. The shelf
+  reveals as a whole.
+- **Navigation**: `StudioDock` (fixed, bottom, CSS-only magnification, scroll-spy) replaced the
+  header's section links; `ProjectSpotlight` opens on ⌘K, Ctrl+K, `/` or the header pill.
+- **What the effects cost, measured** (`scroll.mjs`/`idle.mjs`, CPU 4×): no variant ever dropped a
+  frame. The entrance `blur()` costs nothing measurable here (about 24 elements enter), nor do
+  the hero orbs' `blur(90px)` or a lighter glass radius. The frosted glass (`backdrop-filter`) of
+  header, dock and stats panel is a third of the GPU time of a scroll, and anything animating
+  under or inside it keeps it re-blurring at rest: hence the header's heart beats four times, then
+  only on hover. Keep the glass; don't put a never-ending animation inside it.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

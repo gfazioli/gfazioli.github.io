@@ -9,11 +9,12 @@
  * Entries that point to external sites stay as-is.
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { readdir, unlink, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { dirname, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Octokit } from "@octokit/rest";
+import { RASTER_SOURCE_EXTS, RASTER_TYPES, encodeCover } from "./cover-encode.mjs";
 
 const USER = "gfazioli";
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -29,6 +30,9 @@ const OG_EXT_BY_TYPE = {
   "image/gif": "gif",
   "image/svg+xml": "svg",
 };
+// Where to look for a cover already cached: the WebP it is stored as (see
+// cover-encode.mjs) first, so a twin made from an older original wins.
+const OG_LOOKUP_EXTS = ["webp", ...Object.values(OG_EXT_BY_TYPE).filter((e) => e !== "webp")];
 
 const auth = process.env.GITHUB_TOKEN;
 const octokit = new Octokit(auth ? { auth } : {});
@@ -86,7 +90,7 @@ const SECTION_MAP = {
 const OVERRIDES = {
   "https://wpbones.com": {
     repo: "wpbones/WPBones",
-    ogImage: "/og/wpbones-framework.jpg",
+    ogImage: "/og/wpbones-framework.webp",
   },
   // mantine-extensions is a private repo: the workflow's GITHUB_TOKEN gets a
   // 404 for it, so the entry falls back to external and loses the topics that
@@ -128,25 +132,25 @@ const OVERRIDES = {
     repo: "gfazioli/findergit-website",
     language: "Swift",
     topics: ["macos", "swiftui", "git", "finder", "sparkle"],
-    ogImage: "/og/findergit.jpg",
+    ogImage: "/og/findergit.webp",
   },
   "https://netfox.app": {
     repo: "gfazioli/netfox-website",
     language: "Swift",
     topics: ["macos", "swiftui", "network-monitor", "lan", "wifi"],
-    ogImage: "/og/netfox.jpg",
+    ogImage: "/og/netfox.webp",
   },
   "https://lancetta.app": {
     repo: "gfazioli/lancetta-website",
     language: "Swift",
     topics: ["macos", "swiftui", "menu-bar", "claude-code", "codex"],
-    ogImage: "/og/lancetta.png",
+    ogImage: "/og/lancetta.webp",
   },
   // A paid pack in a private repo with no public twin: it stays external. The
   // cover is its Network Fox wallpaper; the page's og:image is a title card.
   "https://netfox.app/goodies": {
     topics: ["macos", "screen-saver", "wallpapers", "emoji"],
-    ogImage: "/og/netfox-goodies.jpg",
+    ogImage: "/og/netfox-goodies.webp",
     price: "€5",
   },
 };
@@ -358,14 +362,16 @@ function slugify(s) {
 
 /**
  * Download a remote og:image into `public/og/` and return the local path
- * (`/og/<slug>.<ext>`). Skips the download when a cached file already
- * exists, so daily refreshes don't churn binary diffs. Returns null when
- * the image can't be fetched — callers fall back to the gradient cover.
+ * (`/og/<slug>.<ext>`). A PNG, JPEG or WebP is stored re-encoded as WebP
+ * (cover-encode.mjs); GIF and SVG, or an image sharp cannot read, as they
+ * come. Skips the download when a cached file already exists, so daily
+ * refreshes don't churn binary diffs. Returns null when the image can't be
+ * fetched — callers fall back to the gradient cover.
  */
 async function cacheOgImage(url, name) {
   const slug = slugify(name);
   if (!slug) return null;
-  for (const ext of Object.values(OG_EXT_BY_TYPE)) {
+  for (const ext of OG_LOOKUP_EXTS) {
     if (existsSync(resolve(OG_DIR, `${slug}.${ext}`))) return `/og/${slug}.${ext}`;
   }
   try {
@@ -376,15 +382,39 @@ async function cacheOgImage(url, name) {
     });
     if (!res.ok) return null;
     const type = (res.headers.get("content-type") || "").split(";")[0].trim();
-    const ext = OG_EXT_BY_TYPE[type];
+    let ext = OG_EXT_BY_TYPE[type];
     if (!ext) return null;
-    const buf = Buffer.from(await res.arrayBuffer());
+    let buf = Buffer.from(await res.arrayBuffer());
     if (buf.length < 1024) return null; // tiny body → likely an error page
+    if (RASTER_TYPES.has(type)) {
+      try {
+        buf = await encodeCover(buf);
+        ext = "webp";
+      } catch {
+        // not an image sharp can read: keep the bytes as served
+      }
+    }
     await mkdir(OG_DIR, { recursive: true });
     await writeFile(resolve(OG_DIR, `${slug}.${ext}`), buf);
     return `/og/${slug}.${ext}`;
   } catch {
     return null;
+  }
+}
+
+/**
+ * Delete the PNG/JPEG covers a WebP twin has replaced, once no card names them
+ * any more. Runs after projects.json is written, so in CI the deletions land
+ * in the same commit as the cards that stopped pointing at them.
+ */
+async function pruneReplacedCovers(payload) {
+  const named = new Set(JSON.stringify(payload).match(/\/og\/[^"]+/g) ?? []);
+  for (const name of await readdir(OG_DIR)) {
+    const ext = extname(name).toLowerCase();
+    if (!RASTER_SOURCE_EXTS.includes(ext) || named.has(`/og/${name}`)) continue;
+    if (!existsSync(resolve(OG_DIR, `${name.slice(0, -ext.length)}.webp`))) continue;
+    await unlink(resolve(OG_DIR, name));
+    console.log(`  🗑 /og/${name} (replaced by its .webp)`);
   }
 }
 
@@ -519,6 +549,7 @@ async function main() {
   await mkdir(dirname(OUTPUT), { recursive: true });
   await writeFile(OUTPUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
   console.log(`\n✅ Wrote ${total} projects across ${sections.length} sections → ${OUTPUT}`);
+  await pruneReplacedCovers(payload);
 }
 
 main().catch((err) => {

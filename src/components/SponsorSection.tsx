@@ -13,27 +13,9 @@ export function SponsorSection({ dict }: SponsorSectionProps) {
   return (
     <section
       id="sponsor"
-      className="relative isolate overflow-hidden py-24 border-t border-[var(--mantine-color-default-border)]"
+      className="relative overflow-x-clip py-24"
     >
-      <div
-        aria-hidden
-        className="absolute inset-0 -z-20"
-        style={{
-          opacity: 0.4,
-          backgroundImage: [
-            "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(219,97,162,0.55), transparent 70%)",
-            "radial-gradient(ellipse 70% 60% at 50% 100%, rgba(190,57,137,0.35), transparent 70%)",
-          ].join(", "),
-        }}
-      />
-      <div
-        aria-hidden
-        className="absolute inset-0 -z-10"
-        style={{
-          background:
-            "linear-gradient(to bottom, var(--mantine-color-body) 0%, transparent 25%, transparent 75%, var(--mantine-color-body) 100%)",
-        }}
-      />
+      <div aria-hidden className="sponsor-glow" />
       <Container size="sm">
         <Stack gap="lg" align="center" ta="center">
           <IconHeartFilled

@@ -1,42 +1,33 @@
 "use client";
 
-import { Anchor, Group } from "@mantine/core";
 import { useEffect, useState } from "react";
-
-export interface HeaderNavLink {
-  id: string;
-  label: string;
-}
-
-interface HeaderNavProps {
-  links: HeaderNavLink[];
-}
 
 // Slightly larger than html `scroll-padding-top` (80px) so that anchor clicks
 // land safely below the threshold even with sub-pixel rounding.
 const SPY_OFFSET = 100;
 
-export function HeaderNav({ links }: HeaderNavProps) {
+/**
+ * The id of the last section whose top has scrolled past the header, or null
+ * while the page is still above the first one (the hero). Recomputed once per
+ * animation frame while scrolling.
+ */
+export function useScrollSpy(ids: string[]): string | null {
   const [activeId, setActiveId] = useState<string | null>(null);
+  const key = ids.join(",");
 
   useEffect(() => {
-    const targets = links
-      .map((l) => ({ id: l.id, el: document.getElementById(l.id) }))
+    const targets = key
+      .split(",")
+      .map((id) => ({ id, el: document.getElementById(id) }))
       .filter((t): t is { id: string; el: HTMLElement } => t.el !== null);
-
     if (targets.length === 0) return;
 
     const compute = () => {
       let pick: string | null = null;
       for (const { id, el } of targets) {
-        const top = el.getBoundingClientRect().top;
-        if (top - SPY_OFFSET <= 0) {
-          pick = id;
-        } else {
-          break;
-        }
+        if (el.getBoundingClientRect().top - SPY_OFFSET <= 0) pick = id;
+        else break;
       }
-      if (!pick) pick = targets[0].id;
       setActiveId((prev) => (prev === pick ? prev : pick));
     };
 
@@ -57,25 +48,7 @@ export function HeaderNav({ links }: HeaderNavProps) {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, [links]);
+  }, [key]);
 
-  return (
-    <Group gap="lg" visibleFrom="md">
-      {links.map((l) => {
-        const active = activeId === l.id;
-        return (
-          <Anchor
-            key={l.id}
-            href={`#${l.id}`}
-            underline="never"
-            size="sm"
-            data-active={active || undefined}
-            className={"nav-spy-link" + (active ? " is-active" : "")}
-          >
-            {l.label}
-          </Anchor>
-        );
-      })}
-    </Group>
-  );
+  return activeId;
 }

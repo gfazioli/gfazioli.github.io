@@ -23,47 +23,42 @@ interface HeroProps {
 
 export function Hero({ lang, dict }: HeroProps) {
   return (
-    <section className="relative isolate overflow-clip border-b border-[var(--mantine-color-default-border)]">
-      {/* Background layers: dotted base → faint grid → two drifting colour orbs → fade to body */}
-      <div aria-hidden className="absolute inset-0 -z-30 opacity-40">
-        <Image
-          src="/header-placeholder.svg"
-          alt=""
-          fill
-          priority
-          className="object-cover"
+    <section className="relative isolate overflow-clip">
+      {/* Background layers: dotted base → faint grid → two drifting colour
+          orbs. One wrapper masks them all to transparent at the bottom, so the
+          hero dissolves into the studio light instead of ending on a band. */}
+      <div aria-hidden className="hero-backdrop absolute inset-0 -z-10">
+        <div className="absolute inset-0 -z-30 opacity-40">
+          <Image
+            src="/header-placeholder.svg"
+            alt=""
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
+        <div className="hero-grid absolute inset-0 -z-20" />
+        <div
+          className="hero-orb -z-20"
+          style={{
+            width: 560,
+            height: 560,
+            left: "-6%",
+            top: "-30%",
+            background: "rgba(255, 140, 0, 0.30)",
+          }}
+        />
+        <div
+          className="hero-orb hero-orb--violet -z-20"
+          style={{
+            width: 680,
+            height: 680,
+            right: "-10%",
+            bottom: "-50%",
+            background: "rgba(112, 72, 232, 0.28)",
+          }}
         />
       </div>
-      <div aria-hidden className="hero-grid absolute inset-0 -z-20" />
-      <div
-        aria-hidden
-        className="hero-orb -z-20"
-        style={{
-          width: 560,
-          height: 560,
-          left: "-6%",
-          top: "-30%",
-          background: "rgba(255, 140, 0, 0.30)",
-        }}
-      />
-      <div
-        aria-hidden
-        className="hero-orb hero-orb--violet -z-20"
-        style={{
-          width: 680,
-          height: 680,
-          right: "-10%",
-          bottom: "-50%",
-          background: "rgba(112, 72, 232, 0.28)",
-        }}
-      />
-      <div
-        aria-hidden
-        className="absolute inset-x-0 bottom-0 -z-10 h-40"
-        style={{
-          background: "linear-gradient(to bottom, transparent, var(--mantine-color-body))",
-        }}
-      />
 
       <Container size="lg" py={96}>
         <div className="grid items-center gap-12 md:grid-cols-[minmax(0,1fr)_auto]">
@@ -89,7 +84,7 @@ export function Hero({ lang, dict }: HeroProps) {
                 </Title>
               </Stack>
             </Group>
-            <Text size="xl" c="dimmed" maw={620}>
+            <Text size="xl" maw={620} className="hero-subtitle">
               {dict.hero.subtitle}
             </Text>
             <Group>
