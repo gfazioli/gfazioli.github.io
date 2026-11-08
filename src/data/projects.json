@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-07T12:48:08.667Z",
+  "fetchedAt": "2026-11-08T06:19:21.945Z",
   "sectionCount": 9,
   "projectCount": 58,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-04T22:06:33Z",
+            "pushedAt": "2026-11-07T17:13:26Z",
             "release": {
               "tag": "v6.0.16",
               "publishedAt": "2026-10-26T07:01:36Z",
@@ -265,7 +265,7 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-04T13:23:20Z",
+            "pushedAt": "2026-11-07T17:04:08Z",
             "release": {
               "tag": "v0.6.1",
               "publishedAt": "2026-11-03T10:34:39Z",
@@ -1239,8 +1239,8 @@
             "name": "mantine-video",
             "fullName": "gfazioli/mantine-video",
             "url": "https://github.com/gfazioli/mantine-video",
-            "stars": 8,
-            "forks": 0,
+            "stars": 9,
+            "forks": 1,
             "topics": [
               "a11y",
               "captions",
@@ -1345,7 +1345,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-04T13:23:15Z",
+            "pushedAt": "2026-11-07T17:04:12Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1380,7 +1380,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-10-28T17:04:47Z",
+            "pushedAt": "2026-11-07T16:59:42Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1413,7 +1413,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-04T13:23:11Z",
+            "pushedAt": "2026-11-07T17:04:10Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1436,7 +1436,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-10-28T17:04:36Z",
+            "pushedAt": "2026-11-07T16:59:37Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
