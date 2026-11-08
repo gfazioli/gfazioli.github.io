@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-08T06:19:21.945Z",
+  "fetchedAt": "2026-11-08T08:58:43.150Z",
   "sectionCount": 9,
   "projectCount": 58,
   "sections": [
@@ -39,7 +39,7 @@
               "publishedAt": "2026-10-15T16:54:12Z",
               "url": "https://github.com/wpbones/WPBones/releases/tag/v3.2.0"
             },
-            "ogImage": "/og/wpbones-framework.jpg",
+            "ogImage": "/og/wpbones-framework.webp",
             "defaultBranch": "master"
           }
         },
@@ -48,7 +48,7 @@
           "url": "https://mantine-extensions.vercel.app",
           "description": "The showcase hub for 25+ Mantine UI extensions — live demos, documentation and copy-paste examples for every component, from Window and Split Pane to Text Animate and Onboarding Tour. Built with Next.js 16, Mantine 9 and Nextra 4.",
           "external": true,
-          "ogImage": "/og/mantine-extensions.png",
+          "ogImage": "/og/mantine-extensions.webp",
           "topics": [
             "mantine",
             "mantine-ui",
@@ -90,7 +90,7 @@
               "publishedAt": "2026-10-26T07:01:36Z",
               "url": "https://github.com/gfazioli/amiga-assembly-library/releases/tag/v6.0.16"
             },
-            "ogImage": "/og/amiga-assembly-library.jpg",
+            "ogImage": "/og/amiga-assembly-library.webp",
             "defaultBranch": "main"
           }
         }
@@ -126,7 +126,7 @@
               "publishedAt": "2026-11-06T10:29:23Z",
               "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.59.0"
             },
-            "ogImage": "/og/findergit.jpg",
+            "ogImage": "/og/findergit.webp",
             "defaultBranch": "main"
           }
         },
@@ -155,7 +155,7 @@
               "publishedAt": "2026-11-06T11:13:40Z",
               "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.68.2"
             },
-            "ogImage": "/og/lancetta.png",
+            "ogImage": "/og/lancetta.webp",
             "defaultBranch": "main"
           }
         },
@@ -184,7 +184,7 @@
               "publishedAt": "2026-11-06T18:04:42Z",
               "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.54.0"
             },
-            "ogImage": "/og/netfox.jpg",
+            "ogImage": "/og/netfox.webp",
             "defaultBranch": "main"
           }
         },
@@ -194,7 +194,7 @@
           "description": "The Netfox companion pack, to bring the fox to your whole Mac: three native screen savers drawn by your Mac's GPU at full frame rate (Netfox Drift, Night Run, Constellation) with a preview app to try each one, six wallpapers for 5K, 4K and 16:10 screens plus five dynamic ones, iPhone wallpapers, video-call backgrounds and pixel-fox emoji. A one-time €5 purchase, VAT included, that helps keep Netfox free. Universal, signed and notarised, macOS 15.6 or later.",
           "price": "€5",
           "external": true,
-          "ogImage": "/og/netfox-goodies.jpg",
+          "ogImage": "/og/netfox-goodies.webp",
           "topics": [
             "macos",
             "screen-saver",
@@ -240,7 +240,7 @@
               "publishedAt": "2026-11-04T08:39:03Z",
               "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.40.0"
             },
-            "ogImage": "/og/octoscope.jpg",
+            "ogImage": "/og/octoscope.webp",
             "defaultBranch": "main"
           }
         },
@@ -271,7 +271,7 @@
               "publishedAt": "2026-11-03T10:34:39Z",
               "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.1"
             },
-            "ogImage": "/og/glancecard.png",
+            "ogImage": "/og/glancecard.webp",
             "defaultBranch": "main"
           }
         }
@@ -320,7 +320,7 @@
               "publishedAt": "2026-11-06T12:56:32Z",
               "url": "https://github.com/gfazioli/mantine-audio/releases/tag/1.1.9"
             },
-            "ogImage": "/og/mantine-audio.jpg",
+            "ogImage": "/og/mantine-audio.webp",
             "defaultBranch": "master"
           }
         },
@@ -363,7 +363,7 @@
               "publishedAt": "2026-11-06T13:03:32Z",
               "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.0.9"
             },
-            "ogImage": "/og/mantine-border-animate.jpg",
+            "ogImage": "/og/mantine-border-animate.webp",
             "defaultBranch": "master"
           }
         },
@@ -406,7 +406,7 @@
               "publishedAt": "2026-11-06T13:03:39Z",
               "url": "https://github.com/gfazioli/mantine-book/releases/tag/1.0.14"
             },
-            "ogImage": "/og/mantine-book.jpg",
+            "ogImage": "/og/mantine-book.webp",
             "defaultBranch": "master"
           }
         },
@@ -447,7 +447,7 @@
               "publishedAt": "2026-11-06T13:03:35Z",
               "url": "https://github.com/gfazioli/mantine-clock/releases/tag/4.0.19"
             },
-            "ogImage": "/og/mantine-clock.jpg",
+            "ogImage": "/og/mantine-clock.webp",
             "defaultBranch": "master"
           }
         },
@@ -485,7 +485,7 @@
               "publishedAt": "2026-11-06T13:03:32Z",
               "url": "https://github.com/gfazioli/mantine-compare/releases/tag/1.0.17"
             },
-            "ogImage": "/og/mantine-compare.jpg",
+            "ogImage": "/og/mantine-compare.webp",
             "defaultBranch": "master"
           }
         },
@@ -522,7 +522,7 @@
               "publishedAt": "2026-11-06T13:03:30Z",
               "url": "https://github.com/gfazioli/mantine-depth-select/releases/tag/2.0.19"
             },
-            "ogImage": "/og/mantine-depth-select.jpg",
+            "ogImage": "/og/mantine-depth-select.webp",
             "defaultBranch": "master"
           }
         },
@@ -559,7 +559,7 @@
               "publishedAt": "2026-11-06T13:05:25Z",
               "url": "https://github.com/gfazioli/mantine-flip/releases/tag/4.0.21"
             },
-            "ogImage": "/og/mantine-flip.jpg",
+            "ogImage": "/og/mantine-flip.webp",
             "defaultBranch": "master"
           }
         },
@@ -601,7 +601,7 @@
               "publishedAt": "2026-11-06T13:05:39Z",
               "url": "https://github.com/gfazioli/mantine-json-tree/releases/tag/3.7.5"
             },
-            "ogImage": "/og/mantine-json-tree.jpg",
+            "ogImage": "/og/mantine-json-tree.webp",
             "defaultBranch": "master"
           }
         },
@@ -638,7 +638,7 @@
               "publishedAt": "2026-11-06T13:05:26Z",
               "url": "https://github.com/gfazioli/mantine-led/releases/tag/4.0.20"
             },
-            "ogImage": "/og/mantine-led.jpg",
+            "ogImage": "/og/mantine-led.webp",
             "defaultBranch": "master"
           }
         },
@@ -679,7 +679,7 @@
               "publishedAt": "2026-11-06T13:05:32Z",
               "url": "https://github.com/gfazioli/mantine-lens-select/releases/tag/1.0.17"
             },
-            "ogImage": "/og/mantine-lens-select.jpg",
+            "ogImage": "/og/mantine-lens-select.webp",
             "defaultBranch": "master"
           }
         },
@@ -718,7 +718,7 @@
               "publishedAt": "2026-11-06T13:05:36Z",
               "url": "https://github.com/gfazioli/mantine-list-view-table/releases/tag/4.1.17"
             },
-            "ogImage": "/og/mantine-list-view-table.jpg",
+            "ogImage": "/og/mantine-list-view-table.webp",
             "defaultBranch": "master"
           }
         },
@@ -759,7 +759,7 @@
               "publishedAt": "2026-11-06T13:07:15Z",
               "url": "https://github.com/gfazioli/mantine-marquee/releases/tag/5.0.5"
             },
-            "ogImage": "/og/mantine-marquee.jpg",
+            "ogImage": "/og/mantine-marquee.webp",
             "defaultBranch": "master"
           }
         },
@@ -798,7 +798,7 @@
               "publishedAt": "2026-11-06T13:07:16Z",
               "url": "https://github.com/gfazioli/mantine-mask/releases/tag/2.0.18"
             },
-            "ogImage": "/og/mantine-mask.jpg",
+            "ogImage": "/og/mantine-mask.webp",
             "defaultBranch": "master"
           }
         },
@@ -835,7 +835,7 @@
               "publishedAt": "2026-11-06T14:34:43Z",
               "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.1.6"
             },
-            "ogImage": "/og/mantine-onboarding-tour.jpg",
+            "ogImage": "/og/mantine-onboarding-tour.webp",
             "defaultBranch": "master"
           }
         },
@@ -871,7 +871,7 @@
               "publishedAt": "2026-11-06T13:07:25Z",
               "url": "https://github.com/gfazioli/mantine-parallax/releases/tag/4.0.17"
             },
-            "ogImage": "/og/mantine-parallax.jpg",
+            "ogImage": "/og/mantine-parallax.webp",
             "defaultBranch": "master"
           }
         },
@@ -908,7 +908,7 @@
               "publishedAt": "2026-11-06T13:07:26Z",
               "url": "https://github.com/gfazioli/mantine-picker/releases/tag/3.1.17"
             },
-            "ogImage": "/og/mantine-picker.jpg",
+            "ogImage": "/og/mantine-picker.webp",
             "defaultBranch": "master"
           }
         },
@@ -946,7 +946,7 @@
               "publishedAt": "2026-11-06T13:09:11Z",
               "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.17"
             },
-            "ogImage": "/og/mantine-qr-code.jpg",
+            "ogImage": "/og/mantine-qr-code.webp",
             "defaultBranch": "master"
           }
         },
@@ -987,7 +987,7 @@
               "publishedAt": "2026-11-06T13:09:11Z",
               "url": "https://github.com/gfazioli/mantine-reflection/releases/tag/3.0.17"
             },
-            "ogImage": "/og/mantine-reflection.jpg",
+            "ogImage": "/og/mantine-reflection.webp",
             "defaultBranch": "master"
           }
         },
@@ -1024,7 +1024,7 @@
               "publishedAt": "2026-11-06T13:09:22Z",
               "url": "https://github.com/gfazioli/mantine-rings-progress/releases/tag/4.1.17"
             },
-            "ogImage": "/og/mantine-rings-progress.jpg",
+            "ogImage": "/og/mantine-rings-progress.webp",
             "defaultBranch": "master"
           }
         },
@@ -1067,7 +1067,7 @@
               "publishedAt": "2026-11-06T13:09:27Z",
               "url": "https://github.com/gfazioli/mantine-select-stepper/releases/tag/3.0.17"
             },
-            "ogImage": "/og/mantine-select-stepper.jpg",
+            "ogImage": "/og/mantine-select-stepper.webp",
             "defaultBranch": "master"
           }
         },
@@ -1111,7 +1111,7 @@
               "publishedAt": "2026-11-06T13:09:24Z",
               "url": "https://github.com/gfazioli/mantine-scene/releases/tag/2.2.17"
             },
-            "ogImage": "/og/mantine-scene.jpg",
+            "ogImage": "/og/mantine-scene.webp",
             "defaultBranch": "master"
           }
         },
@@ -1150,7 +1150,7 @@
               "publishedAt": "2026-11-06T13:11:12Z",
               "url": "https://github.com/gfazioli/mantine-spinner/releases/tag/4.1.18"
             },
-            "ogImage": "/og/mantine-spinner.jpg",
+            "ogImage": "/og/mantine-spinner.webp",
             "defaultBranch": "master"
           }
         },
@@ -1186,7 +1186,7 @@
               "publishedAt": "2026-11-06T13:11:12Z",
               "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.19"
             },
-            "ogImage": "/og/mantine-split-pane.jpg",
+            "ogImage": "/og/mantine-split-pane.webp",
             "defaultBranch": "master"
           }
         },
@@ -1226,7 +1226,7 @@
               "publishedAt": "2026-11-06T13:11:27Z",
               "url": "https://github.com/gfazioli/mantine-text-animate/releases/tag/4.0.19"
             },
-            "ogImage": "/og/mantine-text-animate.jpg",
+            "ogImage": "/og/mantine-text-animate.webp",
             "defaultBranch": "master"
           }
         },
@@ -1269,7 +1269,7 @@
               "publishedAt": "2026-11-06T13:11:26Z",
               "url": "https://github.com/gfazioli/mantine-video/releases/tag/1.2.9"
             },
-            "ogImage": "/og/mantine-video.jpg",
+            "ogImage": "/og/mantine-video.webp",
             "defaultBranch": "master"
           }
         },
@@ -1305,7 +1305,7 @@
               "publishedAt": "2026-11-06T13:11:31Z",
               "url": "https://github.com/gfazioli/mantine-window/releases/tag/3.4.5"
             },
-            "ogImage": "/og/mantine-window.jpg",
+            "ogImage": "/og/mantine-window.webp",
             "defaultBranch": "master"
           }
         }
@@ -1351,7 +1351,7 @@
               "publishedAt": "2026-06-02T07:37:12Z",
               "url": "https://github.com/gfazioli/react-toggle/releases/tag/v4.0.1"
             },
-            "ogImage": "/og/react-toggle.png",
+            "ogImage": "/og/react-toggle.webp",
             "defaultBranch": "main"
           }
         },
@@ -1386,7 +1386,7 @@
               "publishedAt": "2026-06-02T07:37:13Z",
               "url": "https://github.com/gfazioli/react-amiga-guru-meditation/releases/tag/v4.0.1"
             },
-            "ogImage": "/og/react-amiga-guru-meditation.png",
+            "ogImage": "/og/react-amiga-guru-meditation.webp",
             "defaultBranch": "main"
           }
         },
@@ -1419,7 +1419,7 @@
               "publishedAt": "2026-06-02T07:37:13Z",
               "url": "https://github.com/gfazioli/react-flip/releases/tag/v1.0.1"
             },
-            "ogImage": "/og/react-flip.png",
+            "ogImage": "/og/react-flip.webp",
             "defaultBranch": "main"
           }
         },
@@ -1442,7 +1442,7 @@
               "publishedAt": "2026-06-02T07:37:14Z",
               "url": "https://github.com/gfazioli/react-tilt/releases/tag/v1.0.1"
             },
-            "ogImage": "/og/react-tilt.png",
+            "ogImage": "/og/react-tilt.webp",
             "defaultBranch": "main"
           }
         }
@@ -1458,7 +1458,7 @@
           "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
           "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
           "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.png"
+          "ogImage": "/og/vercel-mantineui-nextra.webp"
         },
         {
           "displayName": "Mantine NextJS App Router + Nextra Template",
@@ -1494,7 +1494,7 @@
               "publishedAt": "2026-10-26T06:57:44Z",
               "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.28"
             },
-            "ogImage": "/og/next-app-nextra-template.jpg",
+            "ogImage": "/og/next-app-nextra-template.webp",
             "defaultBranch": "main"
           }
         },
@@ -1527,7 +1527,7 @@
               "publishedAt": "2026-10-26T07:01:26Z",
               "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.22"
             },
-            "ogImage": "/og/next-app-fumadocs-template.jpg",
+            "ogImage": "/og/next-app-fumadocs-template.webp",
             "defaultBranch": "main"
           }
         }
@@ -1580,63 +1580,63 @@
           "url": "https://www.raycast.com/Undolog/sync-folders",
           "description": "Sync two folders with rsync, manage presets, Dry Run preview, AI Advice, Sync History, Menu bar launch",
           "external": true,
-          "ogImage": "/og/sync-folders.png"
+          "ogImage": "/og/sync-folders.webp"
         },
         {
           "displayName": "WP Bones",
           "url": "https://www.raycast.com/Undolog/wp-bones",
           "description": "Search Docs, Ask AI, Release Notes, Menu Bar Sync Version, Starter Boilerplate",
           "external": true,
-          "ogImage": "/og/wp-bones.png"
+          "ogImage": "/og/wp-bones.webp"
         },
         {
           "displayName": "macOS Tweaks",
           "url": "https://www.raycast.com/Undolog/macos-tweaks",
           "description": "Toggle hidden macOS settings without the Terminal — a curated catalog of `defaults write` tweaks for Finder, Dock, Screenshots, Animations, and more, with a menu bar to track what's modified",
           "external": true,
-          "ogImage": "/og/macos-tweaks.png"
+          "ogImage": "/og/macos-tweaks.webp"
         },
         {
           "displayName": "App Updates",
           "url": "https://www.raycast.com/Undolog/app-updates",
           "description": "Check for macOS app updates from Sparkle, Homebrew Cask and Mac App Store, with brew doctor advice",
           "external": true,
-          "ogImage": "/og/app-updates.png"
+          "ogImage": "/og/app-updates.webp"
         },
         {
           "displayName": "Dev Cache Cleaner",
           "url": "https://www.raycast.com/Undolog/dev-cache-cleaner",
           "description": "Scan and clean developer caches, build artifacts and orphaned dependencies to reclaim disk space, with Quick Clean and a Cache Status menu bar",
           "external": true,
-          "ogImage": "/og/dev-cache-cleaner.png"
+          "ogImage": "/og/dev-cache-cleaner.webp"
         },
         {
           "displayName": "GitHub",
           "url": "https://www.raycast.com/raycast/github",
           "description": "My GitHub Stats Menu Bar, view followers, stars, PRs, issues and commits at a glance",
           "external": true,
-          "ogImage": "/og/github.png"
+          "ogImage": "/og/github.webp"
         },
         {
           "displayName": "Open Folders",
           "url": "https://www.raycast.com/timothy_boye/open-folders",
           "description": "Open your common files and folders quickly!",
           "external": true,
-          "ogImage": "/og/open-folders.png"
+          "ogImage": "/og/open-folders.webp"
         },
         {
           "displayName": "Text Shortcuts",
           "url": "https://www.raycast.com/koinzhang/text-shortcuts",
           "description": "Use Text Shortcuts to handle text from the selection or clipboard",
           "external": true,
-          "ogImage": "/og/text-shortcuts.png"
+          "ogImage": "/og/text-shortcuts.webp"
         },
         {
           "displayName": "Window Layouts",
           "url": "https://www.raycast.com/teemu_suvinen/window-layouts",
           "description": "Tile open windows into predefined or custom layouts, Save & Restore, Auto Layout, Pick Layout",
           "external": true,
-          "ogImage": "/og/window-layouts.png"
+          "ogImage": "/og/window-layouts.webp"
         }
       ]
     },
@@ -1650,35 +1650,35 @@
           "url": "https://www.glaze.app/app/applause-0La79U",
           "description": "A macOS menu bar app that celebrates your GitHub stars in real time — live star counts with automatic refresh, confetti and toast notifications on every new star, daily and session deltas with sparklines, a recent-stars feed with contributor avatars, and milestone celebrations. All processed locally, no external tracking.",
           "external": true,
-          "ogImage": "/og/applause.png"
+          "ogImage": "/og/applause.webp"
         },
         {
           "displayName": "Galaga 1983",
           "url": "https://www.glaze.app/app/galaga-1983-WWwcYw",
           "description": "A faithful desktop recreation of the 1983 arcade shooter — command your fighter against swarming enemy formations, face the boss Galaga with its distinctive attack patterns, and chase the high score with smooth, responsive controls.",
           "external": true,
-          "ogImage": "/og/galaga-1983.png"
+          "ogImage": "/og/galaga-1983.webp"
         },
         {
           "displayName": "Pac-Man Classic",
           "url": "https://www.glaze.app/app/pac-man-classic-WC9u94",
           "description": "A pixel-perfect recreation of the iconic 1980s maze arcade game — collect the pellets while outsmarting the four ghosts, play with arrow keys or WASD, pause, mute and restart with dedicated shortcuts, all with authentic retro sound effects.",
           "external": true,
-          "ogImage": "/og/pac-man-classic.png"
+          "ogImage": "/og/pac-man-classic.webp"
         },
         {
           "displayName": "Pole Position",
           "url": "https://www.glaze.app/app/pole-position-gjRKc2",
           "description": "A desktop recreation of the 1982 polygon racing classic — precision steering and acceleration across multiple tracks with increasing difficulty and unique obstacles, racing against the clock to reach the finish line before time expires.",
           "external": true,
-          "ogImage": "/og/pole-position.png"
+          "ogImage": "/og/pole-position.webp"
         },
         {
           "displayName": "Quokka",
           "url": "https://www.glaze.app/app/quokka-jKQxa8",
           "description": "A number-logic puzzle: fill the grid by placing 1–25 along a single continuous path, leaping three cells straight or two diagonally on each move. Multiple difficulty levels up to zero-undo Genius mode, timer or zen mode, grids from 5×5 to 100×100, and a shareable Daily Challenge — fully offline, no account needed.",
           "external": true,
-          "ogImage": "/og/quokka.png"
+          "ogImage": "/og/quokka.webp"
         }
       ]
     }
