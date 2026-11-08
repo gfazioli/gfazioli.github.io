@@ -97,11 +97,13 @@ export function ProjectSpotlight({ items, labels }: ProjectSpotlightProps) {
 
   const active = Math.min(index, Math.max(results.length - 1, 0));
 
+  // Also when the results change: a new query keeps index 0, which may sit
+  // above a list the reader had scrolled down
   useEffect(() => {
     listRef.current
       ?.querySelector<HTMLElement>(`[data-index="${active}"]`)
       ?.scrollIntoView({ block: "nearest" });
-  }, [active]);
+  }, [active, results]);
 
   const onInputKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowDown") {
