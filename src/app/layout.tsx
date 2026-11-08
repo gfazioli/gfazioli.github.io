@@ -24,6 +24,24 @@ const geistMono = Geist_Mono({
 
 const theme = createTheme({
   primaryColor: "orange",
+  // A warm "studio" dark instead of Mantine's neutral greys: the body, cards,
+  // borders and dimmed text all take the espresso tones of the hero's light.
+  // Index 0 is the text colour, 2 the dimmed text, 4 the borders, 6 the card
+  // surface and 7 the page body in the dark scheme.
+  colors: {
+    dark: [
+      "#f2e8df",
+      "#d9c9bc",
+      "#b8a395",
+      "#8c776a",
+      "#4d3d35",
+      "#3b2f29",
+      "#2a211d",
+      "#1c1513",
+      "#150f0d",
+      "#0e0a08",
+    ],
+  },
   fontFamily: "var(--font-geist-sans)",
   fontFamilyMonospace: "var(--font-geist-mono)",
   defaultRadius: "md",

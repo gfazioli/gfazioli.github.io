@@ -3,17 +3,20 @@ import { projects, type ProjectEntry, type SectionId } from "@/lib/projects";
 
 export const SITE_URL = "https://gfazioli.github.io";
 
+/** The author's profiles by name; the footer links to them by these names. */
+export const PROFILE = {
+  github: "https://github.com/gfazioli",
+  npm: "https://www.npmjs.com/~gfazioli",
+  linkedin: "https://it.linkedin.com/in/giovambattistafazioli",
+  x: "https://twitter.com/gfazioli",
+  undolog: "https://undolog.com",
+  devto: "https://dev.to/undolog",
+  medium: "https://medium.com/@giovambattista.fazioli",
+  packagist: "https://packagist.org/users/gfazioli/packages/",
+} as const;
+
 /** Where the same person is, elsewhere: the footer links plus the writing homes. */
-export const PROFILES = [
-  "https://github.com/gfazioli",
-  "https://www.npmjs.com/~gfazioli",
-  "https://it.linkedin.com/in/giovambattistafazioli",
-  "https://twitter.com/gfazioli",
-  "https://undolog.com",
-  "https://dev.to/undolog",
-  "https://medium.com/@giovambattista.fazioli",
-  "https://packagist.org/users/gfazioli/packages/",
-];
+export const PROFILES: string[] = Object.values(PROFILE);
 
 export const SITE_TITLE: Record<Lang, string> = {
   en: "Undolog — open source studio",

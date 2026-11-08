@@ -174,12 +174,15 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
     }
   };
 
+  // The link to the language already on screen never prefetches: Next would
+  // download this very page's payload again (49 KiB gzipped) for nothing.
   return (
     <Group gap={4}>
       <Button
         component={Link}
         href="/"
         scroll={false}
+        prefetch={current === "en" ? false : undefined}
         variant={current === "en" ? "filled" : "subtle"}
         size="compact-sm"
         onClick={() => go("en")}
@@ -190,6 +193,7 @@ export function LanguageSwitcher({ current }: LanguageSwitcherProps) {
         component={Link}
         href="/it/"
         scroll={false}
+        prefetch={current === "it" ? false : undefined}
         variant={current === "it" ? "filled" : "subtle"}
         size="compact-sm"
         onClick={() => go("it")}

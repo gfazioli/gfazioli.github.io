@@ -6,6 +6,16 @@ export interface Dictionary {
     mantine: string;
     timeline: string;
     links: string;
+    /** The dock's accessible name */
+    dock: string;
+    /** Search trigger label; `{n}` is the number of projects */
+    search: string;
+    searchPlaceholder: string;
+    searchEmpty: string;
+    /** Shelf arrows */
+    previous: string;
+    next: string;
+    top: string;
   };
   hero: {
     kicker: string;
@@ -50,7 +60,15 @@ export interface Dictionary {
     /** The Discord button's tooltip and accessible name */
     discord: string;
   };
+  /** The section of places where the author writes and publishes */
+  techLinks: {
+    kicker: string;
+    title: string;
+    lead: string;
+  };
   footer: {
+    /** Heading of the footer's column of community and support links */
+    community: string;
     builtWith: string;
     hostedOn: string;
     legal: string;
@@ -65,6 +83,13 @@ const dictionaries: Record<Lang, Dictionary> = {
       mantine: "Mantine Extensions",
       timeline: "Since 1983",
       links: "Links",
+      dock: "Sections",
+      search: "Search {n} projects",
+      searchPlaceholder: "Search by name, technology or category…",
+      searchEmpty: "Nothing matches that. Try a technology, like “mantine” or “swift”.",
+      previous: "Previous",
+      next: "Next",
+      top: "Back to top",
     },
     hero: {
       kicker: "Open source studio · Since 1983",
@@ -108,7 +133,13 @@ const dictionaries: Record<Lang, Dictionary> = {
     community: {
       discord: "Join us on Discord",
     },
+    techLinks: {
+      kicker: "Read & subscribe",
+      title: "Tech Links",
+      lead: "Where I write and publish.",
+    },
     footer: {
+      community: "Community",
       builtWith: "Built with",
       hostedOn: "hosted on",
       legal: "Legal",
@@ -121,6 +152,13 @@ const dictionaries: Record<Lang, Dictionary> = {
       mantine: "Estensioni Mantine",
       timeline: "Dal 1983",
       links: "Link",
+      dock: "Sezioni",
+      search: "Cerca tra {n} progetti",
+      searchPlaceholder: "Cerca per nome, tecnologia o categoria…",
+      searchEmpty: "Nessun risultato. Prova con una tecnologia, come “mantine” o “swift”.",
+      previous: "Precedenti",
+      next: "Successivi",
+      top: "Torna su",
     },
     hero: {
       kicker: "Studio open source · Dal 1983",
@@ -165,7 +203,13 @@ const dictionaries: Record<Lang, Dictionary> = {
     community: {
       discord: "Unisciti a noi su Discord",
     },
+    techLinks: {
+      kicker: "Pubblicazioni",
+      title: "Link tech",
+      lead: "Dove scrivo e pubblico.",
+    },
     footer: {
+      community: "Community",
       builtWith: "Costruito con",
       hostedOn: "ospitato su",
       legal: "Note legali",
