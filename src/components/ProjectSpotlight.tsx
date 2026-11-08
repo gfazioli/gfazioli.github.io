@@ -2,7 +2,7 @@
 
 import { Badge, Group, Kbd, Modal, Text, TextInput, UnstyledButton } from "@mantine/core";
 import { IconArrowUpRight, IconSearch } from "@tabler/icons-react";
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useId, useMemo, useRef, useState, type CSSProperties } from "react";
 
 /** Fired on `window` by anything that wants the spotlight open (header, dock). */
 export const OPEN_SPOTLIGHT_EVENT = "undolog:spotlight";
@@ -43,6 +43,10 @@ export function ProjectSpotlight({ items, labels }: ProjectSpotlightProps) {
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState(0);
   const listRef = useRef<HTMLDivElement>(null);
+  // The field keeps the focus while the arrows move the selection, so it is a
+  // combobox that names the active option for screen readers
+  const listId = useId();
+  const optionId = (i: number) => `${listId}-${i}`;
 
   // Hand-rolled rather than Mantine's useHotkeys: "/" is Shift+7 on an Italian
   // keyboard, and useHotkeys only matches a key with exactly its modifiers.
@@ -147,11 +151,16 @@ export function ProjectSpotlight({ items, labels }: ProjectSpotlightProps) {
         rightSection={<Kbd size="xs">esc</Kbd>}
         rightSectionWidth={52}
         aria-label={labels.title}
+        role="combobox"
+        aria-expanded={opened}
+        aria-controls={listId}
+        aria-autocomplete="list"
+        aria-activedescendant={results.length > 0 ? optionId(active) : undefined}
         className="spotlight__input"
       />
       {/* A plain vertical scroller: a ScrollArea lets long descriptions widen
           the list sideways instead of truncating them. */}
-      <div ref={listRef} className="spotlight__list" role="listbox" aria-label={labels.title}>
+      <div ref={listRef} id={listId} className="spotlight__list" role="listbox" aria-label={labels.title}>
         {results.length === 0 ? (
           <Text c="dimmed" size="sm" p="lg">
             {labels.empty}
@@ -167,6 +176,7 @@ export function ProjectSpotlight({ items, labels }: ProjectSpotlightProps) {
                 target="_blank"
                 rel="noreferrer"
                 role="option"
+                id={optionId(i)}
                 aria-selected={i === active}
                 data-index={i}
                 data-active={i === active || undefined}

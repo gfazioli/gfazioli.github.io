@@ -1038,8 +1038,22 @@ body[data-crt="on"]::before {
 
 @media print {
   .dock,
-  .studio-light {
+  .dock-clearance,
+  .studio-light,
+  .shelf__controls {
     display: none;
+  }
+
+  /* Paper cannot scroll sideways: every shelf prints as a wrapped grid */
+  .shelf__track {
+    flex-wrap: wrap;
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .shelf__item {
+    flex: 0 0 calc((100% - 40px) / 3);
   }
 }
 
