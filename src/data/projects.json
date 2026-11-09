@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-09T06:28:25.159Z",
+  "fetchedAt": "2026-11-09T09:38:25.625Z",
   "sectionCount": 9,
   "projectCount": 59,
   "sections": [
@@ -516,7 +516,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-06T13:58:51Z",
+            "pushedAt": "2026-11-09T07:48:11Z",
             "release": {
               "tag": "2.0.19",
               "publishedAt": "2026-11-06T13:03:30Z",
@@ -940,11 +940,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-06T14:04:29Z",
+            "pushedAt": "2026-11-09T09:28:16Z",
             "release": {
-              "tag": "2.0.17",
-              "publishedAt": "2026-11-06T13:09:11Z",
-              "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.0.17"
+              "tag": "2.1.0",
+              "publishedAt": "2026-11-09T09:28:03Z",
+              "url": "https://github.com/gfazioli/mantine-qr-code/releases/tag/2.1.0"
             },
             "ogImage": "/og/mantine-qr-code.webp",
             "defaultBranch": "master"
