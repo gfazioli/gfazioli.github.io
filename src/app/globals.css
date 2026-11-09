@@ -852,6 +852,7 @@ body[data-crt="on"]::before {
 }
 
 .dock {
+  --dock-radius: 22px;
   position: fixed;
   left: 50%;
   bottom: max(14px, env(safe-area-inset-bottom));
@@ -874,7 +875,7 @@ body[data-crt="on"]::before {
   margin: 0;
   padding: 8px 10px;
   list-style: none;
-  border-radius: 22px;
+  border-radius: var(--dock-radius);
   background: rgba(30, 22, 19, 0.6);
   border: 1px solid rgba(255, 214, 186, 0.13);
   box-shadow:
@@ -882,6 +883,82 @@ body[data-crt="on"]::before {
     inset 0 1px 0 rgba(255, 255, 255, 0.07);
   -webkit-backdrop-filter: blur(18px) saturate(1.5);
   backdrop-filter: blur(18px) saturate(1.5);
+}
+
+/* ── The neon tube ── On the dark warm page the smoked glass all but
+   vanished. Its outline is now a thin neon tube in the sections' own
+   accents (--dock-neon, set by StudioDock), with a soft backlight spilling
+   out behind the glass. Both are static paint: they flicker on once after
+   the dock slides in, like a sign being switched on, then cost nothing at
+   rest; hover only fades their opacity, which the compositor does alone. */
+.dock::before,
+.dock::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  border-radius: var(--dock-radius);
+  background: var(--dock-neon);
+  transition: opacity 240ms ease;
+}
+
+/* The backlight: the same colours, blurred, behind the glass */
+.dock::before {
+  z-index: -1;
+  inset: 4px 10px -3px;
+  filter: blur(14px);
+  opacity: 0.55;
+}
+
+/* The tube: a 1.5px ring cut out of the gradient */
+.dock::after {
+  inset: 0;
+  padding: 1.5px;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  opacity: 0.8;
+}
+
+.dock:hover::before,
+.dock:focus-within::before {
+  opacity: 0.75;
+}
+
+.dock:hover::after,
+.dock:focus-within::after {
+  opacity: 1;
+}
+
+/* No `to` frame: each ends on its own resting opacity */
+@keyframes dock-neon-on {
+  0%,
+  6% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.9;
+  }
+  12% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  23% {
+    opacity: 0.2;
+  }
+  34%,
+  70% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dock::before,
+  .dock::after {
+    /* After the slide-in (250ms delay + 700ms) */
+    animation: dock-neon-on 1500ms linear 900ms backwards;
+  }
 }
 
 .dock__item {
