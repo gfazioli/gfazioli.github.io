@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-09T17:57:38.201Z",
+  "fetchedAt": "2026-11-09T20:10:32.883Z",
   "sectionCount": 9,
   "projectCount": 59,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-09T17:50:52Z",
+            "pushedAt": "2026-11-09T20:04:04Z",
             "release": {
-              "tag": "v0.60.0",
-              "publishedAt": "2026-11-09T17:50:45Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.60.0"
+              "tag": "v0.60.1",
+              "publishedAt": "2026-11-09T20:03:58Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.60.1"
             },
             "ogImage": "/og/findergit.webp",
             "defaultBranch": "main"
