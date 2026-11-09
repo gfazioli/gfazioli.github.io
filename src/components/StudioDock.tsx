@@ -38,6 +38,20 @@ interface DockEntry {
 }
 
 type AccentStyle = CSSProperties & { "--accent"?: string };
+type NeonStyle = CSSProperties & { "--dock-neon"?: string };
+
+/**
+ * The dock's neon tube: the accents of its own icons, left to right, each
+ * colour sitting roughly under the icon it belongs to (on a phone, where the
+ * row scrolls, it is only an ambient band), so the outline is a legend of the
+ * sections before any of them is hovered. The back-to-top key adds no stop:
+ * its cream would read as a white end, not as neon, and a gradient holds its
+ * first colour out to the edge anyway.
+ */
+const neonGradient = (entries: DockEntry[]) =>
+  `linear-gradient(90deg, ${entries
+    .flatMap((e, i) => (e.id === "top" ? [] : [`${e.accent} ${((i + 0.5) * 100) / entries.length}%`]))
+    .join(", ")})`;
 
 const openSpotlight = () => window.dispatchEvent(new Event(OPEN_SPOTLIGHT_EVENT));
 
@@ -79,7 +93,7 @@ export function StudioDock({ sections, labels }: StudioDockProps) {
       {/* The dock floats over the page; on a phone it is a full-width bar,
           so it keeps the end of the page clear of itself */}
       <div aria-hidden className="dock-clearance" />
-      <nav aria-label={labels.dock} className="dock">
+      <nav aria-label={labels.dock} className="dock" style={{ "--dock-neon": neonGradient(entries) } as NeonStyle}>
         <ul className="dock__list">
           {entries.map((e) => {
             const isActive = active === e.id;
