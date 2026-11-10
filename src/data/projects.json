@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-10T14:47:04.576Z",
+  "fetchedAt": "2026-11-10T18:17:26.333Z",
   "sectionCount": 9,
   "projectCount": 59,
   "sections": [
@@ -234,11 +234,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-04T10:39:19Z",
+            "pushedAt": "2026-11-10T18:03:41Z",
             "release": {
-              "tag": "v0.40.0",
-              "publishedAt": "2026-11-04T08:39:03Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.40.0"
+              "tag": "v0.41.0",
+              "publishedAt": "2026-11-10T18:07:17Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.41.0"
             },
             "ogImage": "/og/octoscope.webp",
             "defaultBranch": "main"
