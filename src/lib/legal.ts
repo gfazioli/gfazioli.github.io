@@ -14,17 +14,57 @@ export const LEGAL = {
   email: "hello@undolog.com",
 } as const;
 
-export type LegalDoc = "legal" | "privacy";
+export type LegalDoc = "legal" | "privacy" | "goodies";
+
+/** Each document's path below the language prefix. */
+const DOC_PATH: Record<LegalDoc, string> = {
+  legal: "legal",
+  privacy: "privacy",
+  goodies: "goodies/terms",
+};
 
 export function legalPath(doc: LegalDoc, lang: Lang): string {
-  return lang === "it" ? `/it/${doc}/` : `/${doc}/`;
+  return lang === "it" ? `/it/${DOC_PATH[doc]}/` : `/${DOC_PATH[doc]}/`;
+}
+
+/**
+ * The paid Goodies packs. Only `live` packs appear on /goodies/terms/: flip a
+ * pack's flag when its shop opens. `licence` is the address of its licence
+ * page, with the scheme.
+ */
+export interface GoodiesPack {
+  name: string;
+  licence: string;
+  live: boolean;
+}
+
+export const GOODIES_PACKS: GoodiesPack[] = [
+  { name: "Netfox Goodies", licence: "https://netfox.app/goodies/licence", live: true },
+  { name: "FinderGit Goodies", licence: "https://findergit.app/goodies/licence", live: false },
+];
+
+function liveLicenceItems(note?: string): LegalLink[] {
+  return GOODIES_PACKS.filter((pack) => pack.live).map((pack) => ({
+    text: `${pack.name}: ${pack.licence.replace(/^https?:\/\//, "")}`,
+    href: pack.licence,
+    note,
+  }));
+}
+
+/** A list item that is a link; `note` follows the link, outside it. */
+export interface LegalLink {
+  text: string;
+  href: string;
+  note?: string;
 }
 
 /** One block of a legal page: a heading, then paragraphs or a list. */
 export interface LegalSection {
   heading?: string;
   paragraphs?: string[];
-  items?: string[];
+  items?: (string | LegalLink)[];
+  /** Set the items as they are, without bolding a lead up to the first ':' or '.'. */
+  plainItems?: boolean;
 }
 
 export interface LegalContent {
@@ -37,6 +77,100 @@ export interface LegalContent {
 const vat = `IT${LEGAL.vatNumber}`;
 
 export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
+  goodies: {
+    en: {
+      title: "Goodies terms",
+      description:
+        "The terms of sale for Undolog's paid Goodies packs: each pack comes with its own licence, linked here.",
+      updated: "Last updated: 11 November 2026",
+      sections: [
+        {
+          paragraphs: [
+            "The Goodies are small paid packs of extras for the Mac apps made by Giovambattista Fazioli (Undolog): screen savers, wallpapers, video-call backgrounds and emoji. Every purchase helps keep the apps free. This page is the terms link shown at checkout: by buying a pack you accept the licence of that pack.",
+          ],
+        },
+        {
+          heading: "The licence of each pack",
+          items: liveLicenceItems(),
+        },
+        {
+          paragraphs: [
+            "The same licence is in the pack you download, as License.txt. If this page and a pack's licence ever differ, the licence wins.",
+          ],
+        },
+        {
+          heading: "What every licence says, in short",
+          plainItems: true,
+          items: [
+            "You may use everything in the pack on the computers and devices you own or control, for your personal use or your own work, and keep backup copies.",
+            "You may not sell, share or redistribute the files, include them in a product or service, use them as a logo or brand, or use them to train an artificial-intelligence model.",
+            "The pack is licensed, not sold, and the licence is personal: it cannot be transferred.",
+            "The pack is provided as is. Nothing limits the rights you have as a consumer in the country where you live.",
+          ],
+        },
+        {
+          heading: "Payment, receipt and refunds",
+          paragraphs: [
+            "The packs are sold through Link, Stripe's merchant of record, which handles the payment, the tax, your receipt and any refund on our behalf. After paying you land on your download page: keep its link, it always serves the latest version of the pack.",
+          ],
+        },
+        {
+          heading: "Law and contact",
+          paragraphs: [
+            "The licences are governed by Italian law. If you are a consumer, you keep the protection of the mandatory rules of the country where you live.",
+            `Who sells the packs is in the legal notice. Questions: ${LEGAL.email}.`,
+          ],
+          items: [{ text: "Legal notice", href: legalPath("legal", "en") }],
+        },
+      ],
+    },
+    it: {
+      title: "Termini dei Goodies",
+      description:
+        "I termini di vendita dei pacchetti Goodies a pagamento di Undolog: ogni pacchetto ha la sua licenza, collegata qui.",
+      updated: "Ultimo aggiornamento: 11 novembre 2026",
+      sections: [
+        {
+          paragraphs: [
+            "I Goodies sono piccoli pacchetti a pagamento di extra per le app Mac di Giovambattista Fazioli (Undolog): salvaschermo, sfondi, sfondi per videochiamate ed emoji. Ogni acquisto aiuta a mantenere gratuite le app. Questa pagina è il link ai termini mostrato al checkout: acquistando un pacchetto accetti la licenza di quel pacchetto.",
+          ],
+        },
+        {
+          heading: "La licenza di ogni pacchetto",
+          items: liveLicenceItems("(in inglese)"),
+        },
+        {
+          paragraphs: [
+            "La stessa licenza è nel pacchetto che scarichi, come License.txt. Se questa pagina e la licenza di un pacchetto dovessero differire, vale la licenza.",
+          ],
+        },
+        {
+          heading: "Cosa dice ogni licenza, in breve",
+          plainItems: true,
+          items: [
+            "Puoi usare tutto il contenuto del pacchetto sui computer e i dispositivi che possiedi o controlli, per uso personale o per il tuo lavoro, e tenerne copie di backup.",
+            "Non puoi vendere, condividere o ridistribuire i file, includerli in un prodotto o servizio, usarli come logo o marchio, né usarli per addestrare un modello di intelligenza artificiale.",
+            "Il pacchetto è concesso in licenza, non venduto, e la licenza è personale: non può essere trasferita.",
+            "Il pacchetto è fornito così com'è. Nulla limita i diritti che hai come consumatore nel paese in cui vivi.",
+          ],
+        },
+        {
+          heading: "Pagamento, ricevuta e rimborsi",
+          paragraphs: [
+            "I pacchetti sono venduti tramite Link, il merchant of record di Stripe, che gestisce per nostro conto il pagamento, le imposte, la ricevuta e gli eventuali rimborsi. Dopo il pagamento arrivi alla tua pagina di download: conservane il link, serve sempre l'ultima versione del pacchetto.",
+          ],
+        },
+        {
+          heading: "Legge applicabile e contatti",
+          paragraphs: [
+            "Le licenze sono regolate dalla legge italiana. Se sei un consumatore, conservi la tutela delle norme inderogabili del paese in cui vivi.",
+            `Chi vende i pacchetti è indicato nelle note legali. Domande: ${LEGAL.email}.`,
+          ],
+          items: [{ text: "Note legali", href: legalPath("legal", "it") }],
+        },
+      ],
+    },
+  },
   legal: {
     en: {
       title: "Legal notice",

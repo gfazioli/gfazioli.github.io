@@ -49,7 +49,9 @@ function withLead(text: string): ReactNode {
  */
 export function LegalPage({ doc, lang, dict }: LegalPageProps) {
   const content = LEGAL_CONTENT[doc][lang];
-  const other: LegalDoc = doc === "legal" ? "privacy" : "legal";
+  // legal <-> privacy as ever; the Goodies terms link both.
+  const others: LegalDoc[] =
+    doc === "goodies" ? ["legal", "privacy"] : [doc === "legal" ? "privacy" : "legal"];
   const home = lang === "it" ? "/it/" : "/";
 
   return (
@@ -79,14 +81,30 @@ export function LegalPage({ doc, lang, dict }: LegalPageProps) {
                 {section.items ? (
                   <List spacing="xs" listStyleType="disc" withPadding>
                     {section.items.map((item, j) => (
-                      <ListItem key={j}>{withLead(item)}</ListItem>
+                      <ListItem key={j}>
+                        {typeof item === "string" ? (
+                          section.plainItems ? withEmailLinks(item) : withLead(item)
+                        ) : (
+                          <>
+                            <Anchor href={item.href} inherit>
+                              {item.text}
+                            </Anchor>
+                            {item.note ? ` ${item.note}` : null}
+                          </>
+                        )}
+                      </ListItem>
                     ))}
                   </List>
                 ) : null}
               </Stack>
             ))}
             <Text size="sm">
-              <Anchor href={legalPath(other, lang)}>{LEGAL_CONTENT[other][lang].title}</Anchor>
+              {others.map((other, i) => (
+                <Fragment key={other}>
+                  {i > 0 ? " · " : null}
+                  <Anchor href={legalPath(other, lang)}>{LEGAL_CONTENT[other][lang].title}</Anchor>
+                </Fragment>
+              ))}
             </Text>
           </Stack>
         </Container>
