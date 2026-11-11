@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-10T19:59:57.801Z",
+  "fetchedAt": "2026-11-11T06:21:31.691Z",
   "sectionCount": 9,
   "projectCount": 59,
   "sections": [
@@ -218,7 +218,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 73,
+            "stars": 74,
             "forks": 3,
             "topics": [
               "bubbletea",
@@ -1470,7 +1470,7 @@
             "fullName": "gfazioli/next-app-nextra-template",
             "url": "https://github.com/gfazioli/next-app-nextra-template",
             "stars": 38,
-            "forks": 9,
+            "forks": 8,
             "topics": [
               "mantine",
               "mantine-ui",
