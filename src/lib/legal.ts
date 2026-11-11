@@ -40,7 +40,7 @@ export interface GoodiesPack {
 
 export const GOODIES_PACKS: GoodiesPack[] = [
   { name: "Netfox Goodies", licence: "https://netfox.app/goodies/licence", live: true },
-  { name: "FinderGit Goodies", licence: "https://findergit.app/goodies/licence", live: false },
+  { name: "FinderGit Goodies", licence: "https://findergit.app/goodies/licence", live: true },
 ];
 
 function liveLicenceItems(note?: string): LegalLink[] {
