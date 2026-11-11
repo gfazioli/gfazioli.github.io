@@ -11,7 +11,12 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const TARGETS = ["out/it/index.html", "out/it/legal/index.html", "out/it/privacy/index.html"].map(
+const TARGETS = [
+  "out/it/index.html",
+  "out/it/legal/index.html",
+  "out/it/privacy/index.html",
+  "out/it/goodies/terms/index.html",
+].map(
   (file) => ({ file, from: '<html lang="en"', to: '<html lang="it"' })
 );
 
