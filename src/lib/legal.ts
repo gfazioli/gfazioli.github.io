@@ -226,7 +226,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
       title: "Privacy policy",
       description:
         "How gfazioli.github.io handles personal data: no cookies, no accounts, cookie-free visit statistics, and what the services behind it see.",
-      updated: "Last updated: 8 October 2026",
+      updated: "Last updated: 11 November 2026",
       sections: [
         {
           paragraphs: [
@@ -250,6 +250,15 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
           ],
         },
         {
+          heading: "Goodies purchases",
+          paragraphs: [
+            "The Goodies packs are sold on their apps' own sites, not here. This section is the privacy link shown at checkout, and says what a purchase processes.",
+            "The payment is handled by Link, Stripe's merchant of record, which sells the packs on our behalf. Link collects what the payment needs (your name, email address, payment details and billing country) and sends your receipt; its own privacy policy applies to that data.",
+            "From a purchase we receive, in our payment account, your email address, your country, what you paid and a purchase number. We use your email address once, to send you the link to your download page, through an email delivery service that sends it on our behalf and keeps a log of the message. We do not add you to any mailing list. We keep the purchase records for as long as our accounting obligations require: delivering what you bought, and the law, are why we process them.",
+            "The pack's site counts each purchase and each download in its cookie-free statistics, under an anonymous tag that holds no email address, name or purchase number. The link to your download page is your key to the files: anyone who holds it can download them, so keep it to yourself. The files are served from GitHub. The privacy policy of the pack's own site says the rest.",
+          ],
+        },
+        {
           heading: "Links to other services",
           paragraphs: [
             "The projects' own sites, GitHub, npm, LinkedIn, X, Discord, GitHub Sponsors and Stripe are separate services. If you use them, their own privacy policies apply.",
@@ -268,7 +277,7 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
       title: "Privacy policy",
       description:
         "Come gfazioli.github.io tratta i dati personali: nessun cookie, nessun account, statistiche senza cookie, e cosa vedono i servizi che lo ospitano.",
-      updated: "Ultimo aggiornamento: 8 ottobre 2026",
+      updated: "Ultimo aggiornamento: 11 novembre 2026",
       sections: [
         {
           paragraphs: [
@@ -289,6 +298,15 @@ export const LEGAL_CONTENT: Record<LegalDoc, Record<Lang, LegalContent>> = {
             "Immagini degli sponsor. Le immagini degli sponsor sono caricate da GitHub, che quindi vede il tuo indirizzo IP.",
             "Memoria del browser. Il sito ricorda la lingua scelta nella memoria locale del tuo browser e, per un attimo mentre cambi lingua, il punto della pagina in cui eri. Niente di tutto questo ci viene inviato.",
             `Email. Se scrivi a ${LEGAL.email}, usiamo il tuo indirizzo e il messaggio solo per risponderti, e li conserviamo solo per il tempo che serve alla conversazione.`,
+          ],
+        },
+        {
+          heading: "Acquisti dei Goodies",
+          paragraphs: [
+            "I pacchetti Goodies si comprano sui siti delle rispettive app, non qui. Questa sezione è il link alla privacy mostrato al checkout, e dice cosa tratta un acquisto.",
+            "Il pagamento è gestito da Link, il merchant of record di Stripe, che vende i pacchetti per nostro conto. Link raccoglie ciò che serve al pagamento (nome, indirizzo email, dati di pagamento e paese di fatturazione) e ti invia la ricevuta; a quei dati si applica la sua privacy policy.",
+            "Da un acquisto riceviamo, nel nostro account di pagamento, il tuo indirizzo email, il tuo paese, quanto hai pagato e un numero d'acquisto. Usiamo il tuo indirizzo email una sola volta, per mandarti il link alla tua pagina di download, attraverso un servizio di invio che spedisce il messaggio per nostro conto e ne conserva un registro. Non ti iscriviamo a nessuna mailing list. Conserviamo i dati dell'acquisto per il tempo richiesto dai nostri obblighi contabili: li trattiamo per consegnarti ciò che hai comprato e perché la legge lo chiede.",
+            "Il sito del pacchetto conta ogni acquisto e ogni download nelle sue statistiche senza cookie, con un'etichetta anonima che non contiene email, nome né numero d'acquisto. Il link alla tua pagina di download è la chiave dei file: chiunque lo abbia può scaricarli, quindi tienilo per te. I file sono serviti da GitHub. Il resto lo dice la privacy policy del sito del pacchetto.",
           ],
         },
         {
