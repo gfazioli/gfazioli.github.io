@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-12T09:46:40.730Z",
+  "fetchedAt": "2026-11-12T13:12:56.693Z",
   "sectionCount": 9,
-  "projectCount": 59,
+  "projectCount": 60,
   "sections": [
     {
       "id": "core",
@@ -131,6 +131,20 @@
           }
         },
         {
+          "displayName": "FinderGit Goodies",
+          "url": "https://findergit.app/goodies",
+          "description": "The FinderGit companion pack, to bring FinderGit to your whole Mac: two native screen savers drawn by your Mac's GPU (FinderGit Mainline, a flight over an endless commit graph, and FinderGit Streak, a wall of contribution calendars that fills in) with a preview app to try each one, five wallpapers for 5K, 4K and 16:10 screens plus light and dark dynamic ones, iPhone wallpapers, video-call backgrounds and a pixel-folder emoji. A one-time €5 purchase, VAT included, that helps keep FinderGit free. Universal, signed and notarised, macOS 15.6 or later.",
+          "price": "€5",
+          "external": true,
+          "ogImage": "/og/findergit-goodies.webp",
+          "topics": [
+            "macos",
+            "screen-saver",
+            "wallpapers",
+            "emoji"
+          ]
+        },
+        {
           "displayName": "Lancetta",
           "url": "https://lancetta.app",
           "description": "A native macOS menu-bar monitor for Codex and Claude Code. Both quota windows per agent, a pace line saying where each one lands at your current rate, and every reading carrying its own age — and reading a quota spends no tokens. It also reaps the orphaned agent processes nothing else does, and sits under the notch on a MacBook Pro. SwiftUI, free, universal binary, signed and notarised.",
@@ -178,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-11T14:38:46Z",
+            "pushedAt": "2026-11-12T11:16:19Z",
             "release": {
               "tag": "v0.54.1",
               "publishedAt": "2026-11-10T14:43:40Z",
