@@ -153,6 +153,12 @@ const OVERRIDES = {
     ogImage: "/og/netfox-goodies.webp",
     price: "€5",
   },
+  // Its FinderGit sibling, the same way: the cover is its Branch Lines wallpaper.
+  "https://findergit.app/goodies": {
+    topics: ["macos", "screen-saver", "wallpapers", "emoji"],
+    ogImage: "/og/findergit-goodies.webp",
+    price: "€5",
+  },
 };
 
 const BULLET_RE = /^>\s*-\s*\[([^\]]+)\]\(([^)]+)\)\s*-\s*_([^_]+)_\s*$/;
