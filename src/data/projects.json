@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-12T14:38:55.695Z",
+  "fetchedAt": "2026-11-13T06:21:37.191Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-09T11:26:30Z",
+            "pushedAt": "2026-11-12T16:00:53Z",
             "release": {
               "tag": "v6.0.17",
               "publishedAt": "2026-11-09T11:26:31Z",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-12T14:34:36Z",
+            "pushedAt": "2026-11-12T16:00:43Z",
             "release": {
               "tag": "v0.70.0",
               "publishedAt": "2026-11-12T14:34:26Z",
@@ -192,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-12T13:50:21Z",
+            "pushedAt": "2026-11-12T16:00:20Z",
             "release": {
               "tag": "v0.54.1",
               "publishedAt": "2026-11-10T14:43:40Z",
@@ -248,7 +248,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-10T19:53:20Z",
+            "pushedAt": "2026-11-12T17:22:42Z",
             "release": {
               "tag": "v0.41.1",
               "publishedAt": "2026-11-10T19:57:30Z",
@@ -279,7 +279,7 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-07T17:04:08Z",
+            "pushedAt": "2026-11-12T17:22:47Z",
             "release": {
               "tag": "v0.6.1",
               "publishedAt": "2026-11-03T10:34:39Z",
