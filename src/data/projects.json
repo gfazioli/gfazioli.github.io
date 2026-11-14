@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-13T10:46:28.519Z",
+  "fetchedAt": "2026-11-14T06:18:42.845Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -163,7 +163,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-06T11:13:45Z",
+            "pushedAt": "2026-11-13T17:58:29Z",
             "release": {
               "tag": "v0.68.2",
               "publishedAt": "2026-11-06T11:13:40Z",
@@ -192,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-12T16:00:20Z",
+            "pushedAt": "2026-11-13T11:26:04Z",
             "release": {
               "tag": "v0.54.1",
               "publishedAt": "2026-11-10T14:43:40Z",
@@ -267,7 +267,7 @@
             "name": "glancecard",
             "fullName": "gfazioli/glancecard",
             "url": "https://github.com/gfazioli/glancecard",
-            "stars": 5,
+            "stars": 6,
             "forks": 0,
             "topics": [
               "dashboard",
