@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-14T14:17:26.354Z",
+  "fetchedAt": "2026-11-15T06:20:10.650Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -232,7 +232,7 @@
             "name": "octoscope",
             "fullName": "gfazioli/octoscope",
             "url": "https://github.com/gfazioli/octoscope",
-            "stars": 74,
+            "stars": 75,
             "forks": 3,
             "topics": [
               "bubbletea",
@@ -614,7 +614,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-09T11:10:58Z",
+            "pushedAt": "2026-11-14T15:34:05Z",
             "release": {
               "tag": "3.7.6",
               "publishedAt": "2026-11-09T11:10:47Z",
@@ -848,7 +848,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-09T11:06:58Z",
+            "pushedAt": "2026-11-14T18:18:21Z",
             "release": {
               "tag": "4.1.7",
               "publishedAt": "2026-11-09T10:47:33Z",
@@ -1199,7 +1199,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-09T11:16:30Z",
+            "pushedAt": "2026-11-14T18:18:17Z",
             "release": {
               "tag": "4.1.20",
               "publishedAt": "2026-11-09T11:16:18Z",
@@ -1318,7 +1318,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-09T11:16:50Z",
+            "pushedAt": "2026-11-14T18:18:26Z",
             "release": {
               "tag": "3.4.6",
               "publishedAt": "2026-11-09T11:16:37Z",
