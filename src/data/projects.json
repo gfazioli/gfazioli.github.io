@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-15T08:25:34.577Z",
+  "fetchedAt": "2026-11-15T14:37:01.027Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -248,11 +248,11 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-12T17:22:42Z",
+            "pushedAt": "2026-11-15T14:29:50Z",
             "release": {
-              "tag": "v0.41.1",
-              "publishedAt": "2026-11-10T19:57:30Z",
-              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.41.1"
+              "tag": "v0.41.2",
+              "publishedAt": "2026-11-15T14:33:44Z",
+              "url": "https://github.com/gfazioli/octoscope/releases/tag/v0.41.2"
             },
             "ogImage": "/og/octoscope.webp",
             "defaultBranch": "main"
@@ -479,7 +479,7 @@
             "name": "mantine-compare",
             "fullName": "gfazioli/mantine-compare",
             "url": "https://github.com/gfazioli/mantine-compare",
-            "stars": 12,
+            "stars": 13,
             "forks": 0,
             "topics": [
               "compare",
@@ -554,7 +554,7 @@
             "name": "mantine-flip",
             "fullName": "gfazioli/mantine-flip",
             "url": "https://github.com/gfazioli/mantine-flip",
-            "stars": 31,
+            "stars": 32,
             "forks": 1,
             "topics": [
               "component",
