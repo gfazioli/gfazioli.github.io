@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-15T06:20:10.650Z",
+  "fetchedAt": "2026-11-15T08:25:34.577Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -192,11 +192,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-13T11:26:04Z",
+            "pushedAt": "2026-11-15T08:22:18Z",
             "release": {
-              "tag": "v0.54.1",
-              "publishedAt": "2026-11-10T14:43:40Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.54.1"
+              "tag": "v0.54.2",
+              "publishedAt": "2026-11-15T08:22:12Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.54.2"
             },
             "ogImage": "/og/netfox.webp",
             "defaultBranch": "main"
@@ -395,7 +395,7 @@
             "name": "mantine-book",
             "fullName": "gfazioli/mantine-book",
             "url": "https://github.com/gfazioli/mantine-book",
-            "stars": 6,
+            "stars": 7,
             "forks": 0,
             "topics": [
               "3d",
@@ -614,7 +614,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-14T15:34:05Z",
+            "pushedAt": "2026-11-15T07:58:14Z",
             "release": {
               "tag": "3.7.6",
               "publishedAt": "2026-11-09T11:10:47Z",
@@ -848,7 +848,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-14T18:18:21Z",
+            "pushedAt": "2026-11-15T07:58:03Z",
             "release": {
               "tag": "4.1.7",
               "publishedAt": "2026-11-09T10:47:33Z",
@@ -1199,7 +1199,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-14T18:18:17Z",
+            "pushedAt": "2026-11-15T07:57:58Z",
             "release": {
               "tag": "4.1.20",
               "publishedAt": "2026-11-09T11:16:18Z",
@@ -1318,7 +1318,7 @@
               "window"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-14T18:18:26Z",
+            "pushedAt": "2026-11-15T07:58:09Z",
             "release": {
               "tag": "3.4.6",
               "publishedAt": "2026-11-09T11:16:37Z",
