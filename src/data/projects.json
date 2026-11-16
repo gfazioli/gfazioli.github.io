@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-16T12:00:10.673Z",
+  "fetchedAt": "2026-11-16T13:32:12.107Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-10-15T17:06:32Z",
+            "pushedAt": "2026-11-16T13:25:31Z",
             "release": {
-              "tag": "v3.2.0",
-              "publishedAt": "2026-10-15T16:54:12Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.2.0"
+              "tag": "v3.3.0",
+              "publishedAt": "2026-11-16T13:25:33Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.3.0"
             },
             "ogImage": "/og/wpbones-framework.webp",
             "defaultBranch": "master"
