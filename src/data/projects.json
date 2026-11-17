@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-16T18:26:49.865Z",
+  "fetchedAt": "2026-11-17T06:22:00.998Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-16T17:58:37Z",
+            "pushedAt": "2026-11-16T19:08:32Z",
             "release": {
               "tag": "v0.71.3",
               "publishedAt": "2026-11-16T17:58:31Z",
