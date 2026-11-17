@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-17T14:27:38.851Z",
+  "fetchedAt": "2026-11-17T15:29:23.042Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T14:25:41Z",
+            "pushedAt": "2026-11-17T14:53:05Z",
             "release": {
               "tag": "v0.72.0",
               "publishedAt": "2026-11-17T07:15:06Z",
@@ -163,7 +163,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T14:19:45Z",
+            "pushedAt": "2026-11-17T15:06:04Z",
             "release": {
               "tag": "v0.68.3",
               "publishedAt": "2026-11-17T13:00:57Z",
@@ -192,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T14:25:47Z",
+            "pushedAt": "2026-11-17T14:52:59Z",
             "release": {
               "tag": "v0.55.0",
               "publishedAt": "2026-11-15T15:42:14Z",
@@ -376,11 +376,11 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-17T14:12:58Z",
+            "pushedAt": "2026-11-17T15:24:23Z",
             "release": {
-              "tag": "3.0.11",
-              "publishedAt": "2026-11-17T10:01:06Z",
-              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.0.11"
+              "tag": "3.0.12",
+              "publishedAt": "2026-11-17T15:24:10Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.0.12"
             },
             "ogImage": "/og/mantine-border-animate.webp",
             "defaultBranch": "master"
@@ -848,11 +848,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-17T14:13:03Z",
+            "pushedAt": "2026-11-17T15:24:52Z",
             "release": {
-              "tag": "4.1.8",
-              "publishedAt": "2026-11-17T09:44:54Z",
-              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.1.8"
+              "tag": "4.1.9",
+              "publishedAt": "2026-11-17T15:24:39Z",
+              "url": "https://github.com/gfazioli/mantine-onboarding-tour/releases/tag/4.1.9"
             },
             "ogImage": "/og/mantine-onboarding-tour.webp",
             "defaultBranch": "master"
