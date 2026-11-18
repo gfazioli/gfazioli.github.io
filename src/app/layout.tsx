@@ -9,6 +9,7 @@ import { CFAnalytics } from "@/components/CFAnalytics";
 import { ConsoleBranding } from "@/components/ConsoleBranding";
 import { KonamiOverlay } from "@/components/KonamiOverlay";
 import { MantineRoot } from "@/components/MantineRoot";
+import { SeasonScript } from "@/components/Season";
 import { COLOR_SCHEME } from "@/lib/colorScheme";
 import "./globals.css";
 
@@ -84,6 +85,7 @@ export default function RootLayout({
     >
       <head>
         <ColorSchemeScript forceColorScheme={COLOR_SCHEME} />
+        <SeasonScript />
         <CFAnalytics />
       </head>
       <body>

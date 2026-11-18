@@ -158,6 +158,28 @@ the `view()` scroller and the cards never appear).
   under or inside it keeps it re-blurring at rest: hence the header's heart beats four times, then
   only on hover. Keep the glass; don't put a never-ending animation inside it.
 
+### Seasonal decorations (2026-11-18)
+
+- **The calendar switches them, not a deploy.** `src/lib/season.ts` is an inline `<head>` script
+  that sets `html[data-season="christmas"]` from 18 November to 6 January by the visitor's local
+  date; every decoration (`src/components/Season.tsx`: the hat on the logo via `SeasonLogo`, the
+  lights under the header, the hero snow) is `display: none` until then, so out of season the hat
+  is never downloaded and nothing animates. Netfox does the same in the app (Netfox#505).
+- **`?season=christmas` / `?season=none`** override the date for one load, for screenshots. On
+  `/` a browser in Italian (this Mac's headless Chrome included) is sent to `/it/` by
+  `LanguageDetector`'s `location.replace`, which drops the query: put the override on the page's
+  own path (`/it/?season=none`), or the calendar decides.
+- **`scripts/postbuild-season.mjs`** runs the script actually shipped in `out/index.html` against a
+  stub page at both edges of the window and with both overrides, and fails the build otherwise.
+  The script is serialised with `toString()`, and a stray outer reference would otherwise make the
+  season silently never start (its `try` swallows the error).
+- **The hat** is Codex-painted in the logo's outlines and palette (prompt in the PR), keyed off a
+  flat green and stored as `public/season/santa-hat.webp` (256 px, 11 KB). Its geometry is a share
+  of the logo, so header, hero and footer wear the same hat; it reaches only 12% past the logo's
+  left edge because a phone leaves 16 px beside the hero's logo.
+- **Finite motion only**: the lights twinkle for 12 s, the snow falls for about a minute, then the
+  page is as still as without them.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

@@ -5,6 +5,7 @@ import { projects } from "@/lib/projects";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { DiscordButton } from "./DiscordButton";
 import { SpotlightTrigger } from "./ProjectSpotlight";
+import { SeasonLights, SeasonLogo } from "./Season";
 import { SponsorButton } from "./SponsorButton";
 
 interface SiteHeaderProps {
@@ -27,14 +28,16 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
         <Group justify="space-between" wrap="nowrap" gap="md">
           <Anchor href={home} c="bright" underline="never" className="shrink-0">
             <Group gap="sm" align="center" wrap="nowrap">
-              <Image
-                src="/logo.png"
-                alt="Undolog"
-                width={32}
-                height={32}
-                priority
-                className="rounded-md"
-              />
+              <SeasonLogo>
+                <Image
+                  src="/logo.png"
+                  alt="Undolog"
+                  width={32}
+                  height={32}
+                  priority
+                  className="rounded-md"
+                />
+              </SeasonLogo>
               <Text component="span" fw={700} fz="lg">
                 Undolog<span className="text-orange-400">.</span>
               </Text>
@@ -63,6 +66,7 @@ export function SiteHeader({ lang, dict }: SiteHeaderProps) {
           </Group>
         </Group>
       </Container>
+      <SeasonLights />
     </header>
   );
 }

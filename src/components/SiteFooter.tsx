@@ -18,6 +18,7 @@ import { SECTION_ACCENTS, SECTION_LABELS } from "@/lib/sections";
 import { PROFILE } from "@/lib/seo";
 import { DONATE_URL } from "./CoffeeButton";
 import { DISCORD_BLURPLE, DISCORD_URL } from "./DiscordButton";
+import { SeasonLogo } from "./Season";
 import { SPONSOR_URL } from "./SponsorButton";
 
 interface SiteFooterProps {
@@ -69,7 +70,9 @@ export function SiteFooter({ lang, dict }: SiteFooterProps) {
         <div className="studio-footer__grid">
           <div className="studio-footer__brand">
             <a href={home} className="studio-footer__logo">
-              <Image src="/logo.png" alt="" width={44} height={44} className="rounded-xl" />
+              <SeasonLogo>
+                <Image src="/logo.png" alt="" width={44} height={44} className="rounded-xl" />
+              </SeasonLogo>
               <span>
                 Undolog<span className="text-orange-400">.</span>
               </span>
