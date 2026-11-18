@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-18T13:40:29.069Z",
+  "fetchedAt": "2026-11-18T13:47:51.070Z",
   "sectionCount": 9,
-  "projectCount": 61,
+  "projectCount": 60,
   "sections": [
     {
       "id": "core",
@@ -1472,13 +1472,6 @@
       "title": "Templates",
       "titleIt": "Template",
       "projects": [
-        {
-          "displayName": "Vercel MantineUI + Nextra",
-          "url": "https://vercel.com/templates/documentation/mantine-ui-nextra",
-          "description": "Get started with beautiful documentation on the Next.js App Router, Nextra, and MantineUI",
-          "external": true,
-          "ogImage": "/og/vercel-mantineui-nextra.webp"
-        },
         {
           "displayName": "Mantine NextJS App Router + Docs Template",
           "url": "https://next-app-mantine-docs-template.vercel.app/",
