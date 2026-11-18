@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-18T13:47:51.070Z",
+  "fetchedAt": "2026-11-18T13:55:26.919Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -1497,13 +1497,13 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T13:01:03Z",
+            "pushedAt": "2026-11-18T13:53:36Z",
             "release": {
-              "tag": "v0.1.0",
-              "publishedAt": "2026-11-17T18:56:07Z",
-              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v0.1.0"
+              "tag": "v1.0.0",
+              "publishedAt": "2026-11-18T13:53:37Z",
+              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v1.0.0"
             },
-            "ogImage": null,
+            "ogImage": "/og/next-app-mantine-docs-template.webp",
             "defaultBranch": "main"
           }
         },
