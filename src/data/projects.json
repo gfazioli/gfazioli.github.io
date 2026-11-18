@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-18T06:21:41.949Z",
+  "fetchedAt": "2026-11-18T13:40:29.069Z",
   "sectionCount": 9,
-  "projectCount": 60,
+  "projectCount": 61,
   "sections": [
     {
       "id": "core",
@@ -1480,6 +1480,41 @@
           "ogImage": "/og/vercel-mantineui-nextra.webp"
         },
         {
+          "displayName": "Mantine NextJS App Router + Docs Template",
+          "url": "https://next-app-mantine-docs-template.vercel.app/",
+          "description": "Documentation starter with Next.js 16 App Router and Mantine 9 on `@next/mdx`, no docs framework in between: every piece of the interface is a Mantine component, with a collapsible sidebar, table of contents, `⌘K` Pagefind search in a Mantine Spotlight, code highlighted at build time and live GitHub release notes. Reads a Nextra content folder unchanged.",
+          "external": false,
+          "githubRepo": {
+            "name": "next-app-mantine-docs-template",
+            "fullName": "gfazioli/next-app-mantine-docs-template",
+            "url": "https://github.com/gfazioli/next-app-mantine-docs-template",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "documentation",
+              "mantine",
+              "mantine-v9",
+              "mdx",
+              "nextjs",
+              "nextjs16",
+              "pagefind",
+              "react",
+              "shiki",
+              "template",
+              "typescript"
+            ],
+            "language": "TypeScript",
+            "pushedAt": "2026-11-18T13:01:03Z",
+            "release": {
+              "tag": "v0.1.0",
+              "publishedAt": "2026-11-17T18:56:07Z",
+              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v0.1.0"
+            },
+            "ogImage": null,
+            "defaultBranch": "main"
+          }
+        },
+        {
           "displayName": "Mantine NextJS App Router + Nextra Template",
           "url": "https://next-app-nextra-template.vercel.app/",
           "description": "This starter Next.js project includes a minimal setup for server side rendering, if you want to learn more on Mantine + Next.js",
@@ -1507,7 +1542,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-17T21:09:08Z",
+            "pushedAt": "2026-11-18T13:01:10Z",
             "release": {
               "tag": "v6.0.30",
               "publishedAt": "2026-11-17T14:16:01Z",
@@ -1519,7 +1554,7 @@
         },
         {
           "displayName": "Mantine NextJS App Router + Fumadocs Template",
-          "url": "https://gfazioli.github.io/next-app-fumadocs-template/",
+          "url": "https://next-app-fumadocs-template.vercel.app/",
           "description": "Documentation starter with Next.js App Router, Mantine 9 and the headless Fumadocs engine — docs UI built 100% with Mantine, no Tailwind: collapsible sidebar, clerk-style TOC, `⌘K` Orama search with Mantine Spotlight, live GitHub release notes. Deploys to GitHub Pages (bundled workflow) or Vercel.",
           "external": false,
           "githubRepo": {
@@ -1540,7 +1575,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-17T21:09:09Z",
+            "pushedAt": "2026-11-18T13:01:15Z",
             "release": {
               "tag": "v1.0.24",
               "publishedAt": "2026-11-17T14:24:24Z",
