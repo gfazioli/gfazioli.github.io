@@ -14,6 +14,7 @@ import type { Dictionary, Lang } from "@/lib/i18n/dictionaries";
 import { DONATE_URL } from "./CoffeeButton";
 import { DiscordButton } from "./DiscordButton";
 import { HeroStats } from "./HeroStats";
+import { SeasonLogo, SeasonSnow } from "./Season";
 import { SponsorButton } from "./SponsorButton";
 
 interface HeroProps {
@@ -58,13 +59,14 @@ export function Hero({ lang, dict }: HeroProps) {
             background: "rgba(112, 72, 232, 0.28)",
           }}
         />
+        <SeasonSnow />
       </div>
 
       <Container size="lg" py={96}>
         <div className="grid items-center gap-12 md:grid-cols-[minmax(0,1fr)_auto]">
           <Stack gap="xl" maw={760}>
             <Group gap="xl" wrap="nowrap" align="center">
-              <div className="hero-logo shrink-0">
+              <SeasonLogo className="hero-logo">
                 <Image
                   src="/logo.png"
                   alt="Undolog logo"
@@ -73,7 +75,7 @@ export function Hero({ lang, dict }: HeroProps) {
                   priority
                   className="rounded-2xl shadow-2xl"
                 />
-              </div>
+              </SeasonLogo>
               <Stack gap={4}>
                 <Text size="sm" c="orange" fw={600} tt="uppercase" lts={2}>
                   {dict.hero.kicker}

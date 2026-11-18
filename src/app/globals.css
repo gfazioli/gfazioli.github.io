@@ -1257,3 +1257,141 @@ body[data-crt="on"]::before {
 .spotlight__item[data-active] .spotlight__go {
   opacity: 1;
 }
+
+/* ── The Christmas season ───────────────────────────────────────────── */
+/* Everything here hangs on `html[data-season="christmas"]`, which the
+   inline script in src/lib/season.ts sets before the first paint, from
+   18 November to 6 January by the visitor's date. Out of season every
+   piece stays `display: none`: the hat is never downloaded and nothing
+   animates. */
+.season-logo {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.season-hat,
+.season-lights,
+.season-snow {
+  display: none;
+}
+
+html[data-season="christmas"] {
+  /* The hat: painted for the logo, in its outlines and palette, and worn
+     on its top-left corner. Every number is a share of the logo, so the
+     32 px header, the 44 px footer and the 120 px hero wear the same hat.
+     It reaches 12% past the logo's left edge, under the 16 px a phone
+     leaves beside the hero's logo: further, and the hero clips the pompom. */
+  .season-hat {
+    display: block;
+    position: absolute;
+    left: -12%;
+    top: -40%;
+    width: 70%;
+    aspect-ratio: 256 / 216;
+    background: url("/season/santa-hat.webp") center / contain no-repeat;
+    transform: rotate(-6deg);
+    pointer-events: none;
+  }
+
+  /* A string of lights in the logo's colours (amber, coral, teal, cream),
+     hanging from the header's bottom edge. They twinkle a few times on
+     arrival and then stay lit: they belong to the header's frosted glass,
+     and a twinkle that never stops would make it blur again every frame,
+     the same reason the header's heart stops beating. */
+  .season-lights {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 26px;
+    pointer-events: none;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='26'><path d='M0 1Q20 13 40 1T80 1T120 1T160 1' fill='none' stroke='%23705a4c' stroke-width='1.2'/><g stroke='%23001c25' stroke-width='1'><rect x='18' y='6' width='4' height='4' rx='1' fill='%233b2f29'/><rect x='58' y='6' width='4' height='4' rx='1' fill='%233b2f29'/><rect x='98' y='6' width='4' height='4' rx='1' fill='%233b2f29'/><rect x='138' y='6' width='4' height='4' rx='1' fill='%233b2f29'/><ellipse cx='20' cy='14.5' rx='3.4' ry='5' fill='%23f4c04a'/><ellipse cx='60' cy='14.5' rx='3.4' ry='5' fill='%23f7461d'/><ellipse cx='100' cy='14.5' rx='3.4' ry='5' fill='%236ccece'/><ellipse cx='140' cy='14.5' rx='3.4' ry='5' fill='%23fbfbf4'/></g></svg>")
+      center top / 160px 26px repeat-x;
+
+    /* The glow of the amber and teal bulbs, then of the coral and cream
+       ones, half a beat apart */
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: center top / 160px 26px repeat-x;
+      animation: season-twinkle 1.4s ease-in-out 8 alternate both;
+    }
+
+    &::before {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='26'><defs><radialGradient id='a'><stop offset='0' stop-color='%23f4c04a' stop-opacity='.8'/><stop offset='1' stop-color='%23f4c04a' stop-opacity='0'/></radialGradient><radialGradient id='t'><stop offset='0' stop-color='%236ccece' stop-opacity='.8'/><stop offset='1' stop-color='%236ccece' stop-opacity='0'/></radialGradient></defs><circle cx='20' cy='14.5' r='10' fill='url(%23a)'/><circle cx='100' cy='14.5' r='10' fill='url(%23t)'/></svg>");
+    }
+
+    &::after {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='26'><defs><radialGradient id='c'><stop offset='0' stop-color='%23f7461d' stop-opacity='.8'/><stop offset='1' stop-color='%23f7461d' stop-opacity='0'/></radialGradient><radialGradient id='w'><stop offset='0' stop-color='%23fbfbf4' stop-opacity='.7'/><stop offset='1' stop-color='%23fbfbf4' stop-opacity='0'/></radialGradient></defs><circle cx='60' cy='14.5' r='10' fill='url(%23c)'/><circle cx='140' cy='14.5' r='10' fill='url(%23w)'/></svg>");
+      animation-delay: 0.7s;
+    }
+  }
+
+  /* Soft snow behind the hero's content. Each flake falls four times and
+     is gone, so the snowfall thins out over about a minute and the page is
+     still again. It lives inside .hero-backdrop, whose mask fades it out
+     towards the bottom. Measured with idle.mjs (2026-11-18): while it
+     falls it adds about 0.19 s of main thread and 80 style recalcs per
+     10 s, the lights' twinkle about 0.1 s and 50 for its 12 s; once both
+     have ended, no season animation is left running. */
+  .season-snow {
+    display: block;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    container-type: size;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .season-snow {
+      display: none;
+    }
+
+    .season-lights::before,
+    .season-lights::after {
+      animation: none;
+    }
+  }
+}
+
+.season-snow span {
+  position: absolute;
+  top: 0;
+  left: var(--x);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 9999px;
+  background: radial-gradient(circle closest-side, rgba(255, 250, 242, 0.95) 45%, rgba(255, 250, 242, 0));
+  opacity: 0;
+  animation: season-snowfall var(--fall) linear var(--delay) 4 both;
+}
+
+/* An even count of alternate runs ends on `from`: the bulbs end lit */
+@keyframes season-twinkle {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes season-snowfall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -12px, 0);
+  }
+  12%,
+  85% {
+    opacity: var(--alpha);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift), 100cqh, 0);
+  }
+}
