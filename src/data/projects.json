@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-18T14:45:33.612Z",
+  "fetchedAt": "2026-11-19T06:22:42.673Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -248,7 +248,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-17T11:02:24Z",
+            "pushedAt": "2026-11-18T19:36:55Z",
             "release": {
               "tag": "v0.41.3",
               "publishedAt": "2026-11-17T11:05:51Z",
@@ -267,7 +267,7 @@
             "name": "glancecard",
             "fullName": "gfazioli/glancecard",
             "url": "https://github.com/gfazioli/glancecard",
-            "stars": 6,
+            "stars": 7,
             "forks": 0,
             "topics": [
               "dashboard",
@@ -1497,7 +1497,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T14:43:39Z",
+            "pushedAt": "2026-11-18T17:29:29Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-11-18T14:43:41Z",
@@ -1535,7 +1535,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T14:43:46Z",
+            "pushedAt": "2026-11-18T17:29:31Z",
             "release": {
               "tag": "v6.0.31",
               "publishedAt": "2026-11-18T14:43:47Z",
@@ -1568,7 +1568,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T14:43:51Z",
+            "pushedAt": "2026-11-18T17:29:33Z",
             "release": {
               "tag": "v1.0.25",
               "publishedAt": "2026-11-18T14:43:52Z",
