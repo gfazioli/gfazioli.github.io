@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-20T10:24:36.808Z",
+  "fetchedAt": "2026-11-20T11:34:31.763Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -498,7 +498,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-17T10:02:48Z",
+            "pushedAt": "2026-11-20T11:34:00Z",
             "release": {
               "tag": "1.0.19",
               "publishedAt": "2026-11-17T10:02:36Z",
@@ -1568,11 +1568,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-20T10:22:25Z",
+            "pushedAt": "2026-11-20T11:33:29Z",
             "release": {
-              "tag": "v1.0.26",
-              "publishedAt": "2026-11-20T10:22:27Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.26"
+              "tag": "v1.0.27",
+              "publishedAt": "2026-11-20T11:32:21Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.27"
             },
             "ogImage": "/og/next-app-fumadocs-template.webp",
             "defaultBranch": "main"
