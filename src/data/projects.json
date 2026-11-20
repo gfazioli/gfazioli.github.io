@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-19T06:22:42.673Z",
+  "fetchedAt": "2026-11-20T06:21:45.930Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T14:53:05Z",
+            "pushedAt": "2026-11-19T11:17:40Z",
             "release": {
               "tag": "v0.72.0",
               "publishedAt": "2026-11-17T07:15:06Z",
@@ -163,7 +163,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T15:06:04Z",
+            "pushedAt": "2026-11-19T16:40:54Z",
             "release": {
               "tag": "v0.68.3",
               "publishedAt": "2026-11-17T13:00:57Z",
@@ -192,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-17T14:52:59Z",
+            "pushedAt": "2026-11-19T10:01:12Z",
             "release": {
               "tag": "v0.55.0",
               "publishedAt": "2026-11-15T15:42:14Z",
@@ -1568,7 +1568,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T17:29:33Z",
+            "pushedAt": "2026-11-19T09:10:57Z",
             "release": {
               "tag": "v1.0.25",
               "publishedAt": "2026-11-18T14:43:52Z",
