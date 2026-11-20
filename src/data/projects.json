@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-20T06:21:45.930Z",
+  "fetchedAt": "2026-11-20T10:24:36.808Z",
   "sectionCount": 9,
   "projectCount": 60,
   "sections": [
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-19T11:17:40Z",
+            "pushedAt": "2026-11-20T10:02:30Z",
             "release": {
               "tag": "v0.72.0",
               "publishedAt": "2026-11-17T07:15:06Z",
@@ -163,7 +163,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-19T16:40:54Z",
+            "pushedAt": "2026-11-20T10:03:43Z",
             "release": {
               "tag": "v0.68.3",
               "publishedAt": "2026-11-17T13:00:57Z",
@@ -192,7 +192,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-19T10:01:12Z",
+            "pushedAt": "2026-11-20T10:02:40Z",
             "release": {
               "tag": "v0.55.0",
               "publishedAt": "2026-11-15T15:42:14Z",
@@ -1497,11 +1497,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T17:29:29Z",
+            "pushedAt": "2026-11-20T10:21:24Z",
             "release": {
-              "tag": "v1.0.1",
-              "publishedAt": "2026-11-18T14:43:41Z",
-              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v1.0.1"
+              "tag": "v1.0.2",
+              "publishedAt": "2026-11-20T10:21:31Z",
+              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v1.0.2"
             },
             "ogImage": "/og/next-app-mantine-docs-template.webp",
             "defaultBranch": "main"
@@ -1535,11 +1535,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-18T17:29:31Z",
+            "pushedAt": "2026-11-20T10:22:11Z",
             "release": {
-              "tag": "v6.0.31",
-              "publishedAt": "2026-11-18T14:43:47Z",
-              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.31"
+              "tag": "v6.0.32",
+              "publishedAt": "2026-11-20T10:22:12Z",
+              "url": "https://github.com/gfazioli/next-app-nextra-template/releases/tag/v6.0.32"
             },
             "ogImage": "/og/next-app-nextra-template.webp",
             "defaultBranch": "main"
@@ -1568,11 +1568,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-19T09:10:57Z",
+            "pushedAt": "2026-11-20T10:22:25Z",
             "release": {
-              "tag": "v1.0.25",
-              "publishedAt": "2026-11-18T14:43:52Z",
-              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.25"
+              "tag": "v1.0.26",
+              "publishedAt": "2026-11-20T10:22:27Z",
+              "url": "https://github.com/gfazioli/next-app-fumadocs-template/releases/tag/v1.0.26"
             },
             "ogImage": "/og/next-app-fumadocs-template.webp",
             "defaultBranch": "main"
