@@ -146,6 +146,13 @@ const OVERRIDES = {
     topics: ["macos", "swiftui", "menu-bar", "claude-code", "codex"],
     ogImage: "/og/lancetta.webp",
   },
+  // Manovella's site is an apex domain too, so deriveRepoSlug has nothing to
+  // guess from; the plugin's own repository is public and carries the
+  // Releases. It sets no topics, hence these.
+  "https://manovella.mov": {
+    repo: "gfazioli/manovella",
+    topics: ["claude-code", "claude-code-plugin", "video", "motion-design", "canvas", "webgl", "ffmpeg", "macos"],
+  },
   // A paid pack in a private repo with no public twin: it stays external. The
   // cover is its Network Fox wallpaper; the page's og:image is a title card.
   "https://netfox.app/goodies": {
