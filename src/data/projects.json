@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-21T11:29:46.077Z",
+  "fetchedAt": "2026-11-21T11:37:03.077Z",
   "sectionCount": 9,
-  "projectCount": 60,
+  "projectCount": 61,
   "sections": [
     {
       "id": "core",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-21T08:47:16Z",
+            "pushedAt": "2026-11-21T11:35:50Z",
             "release": {
               "tag": "v0.72.0",
               "publishedAt": "2026-11-17T07:15:06Z",
@@ -291,6 +291,38 @@
               "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.1"
             },
             "ogImage": "/og/glancecard.webp",
+            "defaultBranch": "main"
+          }
+        },
+        {
+          "displayName": "Manovella",
+          "url": "https://manovella.mov",
+          "description": "A Claude Code plugin that makes product films as code: promo loops, launch and release films, tutorials and README GIFs. Every frame is a pure function of time, rendered on your Mac with real motion blur and loops exact to the pixel, your product's UI rebuilt as vector. A Studio window briefs the film: looks, type, motion, devices, music and a local voice, heard before you choose. Built with JavaScript, Canvas, WebGL and FFmpeg.",
+          "external": false,
+          "githubRepo": {
+            "name": "manovella",
+            "fullName": "gfazioli/manovella",
+            "url": "https://github.com/gfazioli/manovella",
+            "stars": 0,
+            "forks": 0,
+            "topics": [
+              "claude-code",
+              "claude-code-plugin",
+              "video",
+              "motion-design",
+              "canvas",
+              "webgl",
+              "ffmpeg",
+              "macos"
+            ],
+            "language": "JavaScript",
+            "pushedAt": "2026-11-21T11:28:07Z",
+            "release": {
+              "tag": "v1.18.0",
+              "publishedAt": "2026-11-21T11:28:07Z",
+              "url": "https://github.com/gfazioli/manovella/releases/tag/v1.18.0"
+            },
+            "ogImage": "/og/manovella.webp",
             "defaultBranch": "main"
           }
         }
