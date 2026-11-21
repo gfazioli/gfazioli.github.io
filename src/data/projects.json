@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-21T11:37:03.077Z",
+  "fetchedAt": "2026-11-21T11:44:52.622Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -303,7 +303,7 @@
             "name": "manovella",
             "fullName": "gfazioli/manovella",
             "url": "https://github.com/gfazioli/manovella",
-            "stars": 0,
+            "stars": 1,
             "forks": 0,
             "topics": [
               "claude-code",
