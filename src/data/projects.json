@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-21T11:44:52.622Z",
+  "fetchedAt": "2026-11-21T21:24:32.663Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -192,11 +192,11 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-20T10:02:40Z",
+            "pushedAt": "2026-11-21T21:20:12Z",
             "release": {
-              "tag": "v0.55.0",
-              "publishedAt": "2026-11-15T15:42:14Z",
-              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.55.0"
+              "tag": "v0.55.1",
+              "publishedAt": "2026-11-21T21:20:06Z",
+              "url": "https://github.com/gfazioli/netfox-website/releases/tag/v0.55.1"
             },
             "ogImage": "/og/netfox.webp",
             "defaultBranch": "main"
@@ -284,7 +284,7 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-13T08:02:10Z",
+            "pushedAt": "2026-11-21T17:53:04Z",
             "release": {
               "tag": "v0.6.1",
               "publishedAt": "2026-11-03T10:34:39Z",
