@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-22T06:20:17.519Z",
+  "fetchedAt": "2026-11-22T10:25:41.766Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-21T11:35:50Z",
+            "pushedAt": "2026-11-22T10:22:24Z",
             "release": {
-              "tag": "v0.72.0",
-              "publishedAt": "2026-11-17T07:15:06Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.72.0"
+              "tag": "v0.73.0",
+              "publishedAt": "2026-11-22T10:20:08Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.73.0"
             },
             "ogImage": "/og/findergit.webp",
             "defaultBranch": "main"
@@ -248,7 +248,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-18T19:36:55Z",
+            "pushedAt": "2026-11-22T10:10:10Z",
             "release": {
               "tag": "v0.41.3",
               "publishedAt": "2026-11-17T11:05:51Z",
@@ -284,11 +284,11 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-21T17:53:04Z",
+            "pushedAt": "2026-11-22T10:04:35Z",
             "release": {
-              "tag": "v0.6.1",
-              "publishedAt": "2026-11-03T10:34:39Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.6.1"
+              "tag": "v0.7.0",
+              "publishedAt": "2026-11-22T10:04:35Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.7.0"
             },
             "ogImage": "/og/glancecard.webp",
             "defaultBranch": "main"
