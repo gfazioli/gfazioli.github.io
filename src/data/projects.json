@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-23T10:40:57.865Z",
+  "fetchedAt": "2026-11-23T11:16:57.316Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-23T10:40:30Z",
+            "pushedAt": "2026-11-23T10:54:21Z",
             "release": {
-              "tag": "v3.3.0",
-              "publishedAt": "2026-11-16T13:25:33Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.3.0"
+              "tag": "v3.3.1",
+              "publishedAt": "2026-11-23T10:54:23Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.3.1"
             },
             "ogImage": "/og/wpbones-framework.webp",
             "defaultBranch": "master"
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-22T22:44:23Z",
+            "pushedAt": "2026-11-23T11:00:58Z",
             "release": {
               "tag": "v0.74.0",
               "publishedAt": "2026-11-22T22:44:16Z",
