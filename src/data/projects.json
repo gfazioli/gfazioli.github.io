@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-23T11:33:37.861Z",
+  "fetchedAt": "2026-11-23T13:18:31.168Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -248,7 +248,7 @@
               "tui"
             ],
             "language": "Go",
-            "pushedAt": "2026-11-22T19:02:30Z",
+            "pushedAt": "2026-11-23T12:09:33Z",
             "release": {
               "tag": "v0.41.3",
               "publishedAt": "2026-11-17T11:05:51Z",
@@ -1231,11 +1231,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-23T10:15:02Z",
+            "pushedAt": "2026-11-23T13:14:30Z",
             "release": {
-              "tag": "4.1.22",
-              "publishedAt": "2026-11-23T10:14:50Z",
-              "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.22"
+              "tag": "4.1.23",
+              "publishedAt": "2026-11-23T13:14:16Z",
+              "url": "https://github.com/gfazioli/mantine-split-pane/releases/tag/4.1.23"
             },
             "ogImage": "/og/mantine-split-pane.webp",
             "defaultBranch": "master"
