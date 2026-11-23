@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-23T13:18:31.168Z",
+  "fetchedAt": "2026-11-23T19:12:09.131Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -316,11 +316,11 @@
               "macos"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-21T11:28:07Z",
+            "pushedAt": "2026-11-23T19:04:36Z",
             "release": {
-              "tag": "v1.18.0",
-              "publishedAt": "2026-11-21T11:28:07Z",
-              "url": "https://github.com/gfazioli/manovella/releases/tag/v1.18.0"
+              "tag": "v1.19.0",
+              "publishedAt": "2026-11-23T19:04:36Z",
+              "url": "https://github.com/gfazioli/manovella/releases/tag/v1.19.0"
             },
             "ogImage": "/og/manovella.webp",
             "defaultBranch": "main"
@@ -1396,7 +1396,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-07T17:04:12Z",
+            "pushedAt": "2026-11-23T13:30:08Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:12Z",
@@ -1431,7 +1431,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-07T16:59:42Z",
+            "pushedAt": "2026-11-23T13:38:36Z",
             "release": {
               "tag": "v4.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1464,7 +1464,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-07T17:04:10Z",
+            "pushedAt": "2026-11-23T13:36:04Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:13Z",
@@ -1487,7 +1487,7 @@
             "forks": 0,
             "topics": [],
             "language": "TypeScript",
-            "pushedAt": "2026-11-07T16:59:37Z",
+            "pushedAt": "2026-11-23T13:33:14Z",
             "release": {
               "tag": "v1.0.1",
               "publishedAt": "2026-06-02T07:37:14Z",
