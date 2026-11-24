@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-24T18:10:11.970Z",
+  "fetchedAt": "2026-11-24T18:18:47.348Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -408,11 +408,11 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-24T17:58:05Z",
+            "pushedAt": "2026-11-24T18:12:39Z",
             "release": {
-              "tag": "3.0.14",
-              "publishedAt": "2026-11-23T10:07:53Z",
-              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.0.14"
+              "tag": "3.1.0",
+              "publishedAt": "2026-11-24T18:12:26Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.1.0"
             },
             "ogImage": "/og/mantine-border-animate.webp",
             "defaultBranch": "master"
