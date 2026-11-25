@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-25T06:22:38.981Z",
+  "fetchedAt": "2026-11-25T13:06:09.231Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-24T21:52:21Z",
+            "pushedAt": "2026-11-25T11:37:33Z",
             "release": {
               "tag": "v6.0.19",
               "publishedAt": "2026-11-23T11:22:55Z",
@@ -408,7 +408,7 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-24T18:12:39Z",
+            "pushedAt": "2026-11-25T12:58:03Z",
             "release": {
               "tag": "3.1.0",
               "publishedAt": "2026-11-24T18:12:26Z",
@@ -623,7 +623,7 @@
             "name": "mantine-json-tree",
             "fullName": "gfazioli/mantine-json-tree",
             "url": "https://github.com/gfazioli/mantine-json-tree",
-            "stars": 10,
+            "stars": 11,
             "forks": 1,
             "topics": [
               "collapsible-tree",
@@ -1529,11 +1529,11 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-23T10:24:34Z",
+            "pushedAt": "2026-11-25T13:00:05Z",
             "release": {
-              "tag": "v1.0.3",
-              "publishedAt": "2026-11-23T10:24:35Z",
-              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v1.0.3"
+              "tag": "v1.0.4",
+              "publishedAt": "2026-11-25T13:00:27Z",
+              "url": "https://github.com/gfazioli/next-app-mantine-docs-template/releases/tag/v1.0.4"
             },
             "ogImage": "/og/next-app-mantine-docs-template.webp",
             "defaultBranch": "main"
