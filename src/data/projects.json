@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-25T14:11:44.948Z",
+  "fetchedAt": "2026-11-25T17:02:41.800Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-25T11:37:33Z",
+            "pushedAt": "2026-11-25T16:37:32Z",
             "release": {
               "tag": "v6.0.19",
               "publishedAt": "2026-11-23T11:22:55Z",
@@ -316,7 +316,7 @@
               "macos"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-23T19:04:36Z",
+            "pushedAt": "2026-11-25T16:59:24Z",
             "release": {
               "tag": "v1.19.0",
               "publishedAt": "2026-11-23T19:04:36Z",
@@ -408,11 +408,11 @@
               "ui"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-25T12:58:03Z",
+            "pushedAt": "2026-11-25T16:56:09Z",
             "release": {
-              "tag": "3.1.0",
-              "publishedAt": "2026-11-24T18:12:26Z",
-              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.1.0"
+              "tag": "3.2.0",
+              "publishedAt": "2026-11-25T16:55:52Z",
+              "url": "https://github.com/gfazioli/mantine-border-animate/releases/tag/3.2.0"
             },
             "ogImage": "/og/mantine-border-animate.webp",
             "defaultBranch": "master"
@@ -1529,7 +1529,7 @@
               "typescript"
             ],
             "language": "TypeScript",
-            "pushedAt": "2026-11-25T13:00:05Z",
+            "pushedAt": "2026-11-25T17:02:31Z",
             "release": {
               "tag": "v1.0.4",
               "publishedAt": "2026-11-25T13:00:27Z",
