@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-26T09:11:02.327Z",
+  "fetchedAt": "2026-11-26T09:31:15.971Z",
   "sectionCount": 9,
-  "projectCount": 61,
+  "projectCount": 64,
   "sections": [
     {
       "id": "core",
@@ -1646,6 +1646,93 @@
             "nextjs",
             "nextra"
           ]
+        },
+        {
+          "displayName": "Add Browser Search",
+          "url": "https://wordpress.org/plugins/add-browser-search/",
+          "description": "Publishes your site's search as an OpenSearch description, so browsers can add it as a search engine and suggest post titles right in the address bar. Rebuilt from its 2009 original. Built with WPBones.",
+          "external": false,
+          "githubRepo": {
+            "name": "add-browser-search",
+            "fullName": "wpbones/add-browser-search",
+            "url": "https://github.com/wpbones/add-browser-search",
+            "stars": 0,
+            "forks": 0,
+            "topics": [
+              "wordpress",
+              "wpbones",
+              "opensearch",
+              "search",
+              "browser"
+            ],
+            "language": "PHP",
+            "pushedAt": "2026-11-26T09:24:27Z",
+            "release": {
+              "tag": "v2.0.0",
+              "publishedAt": "2026-11-26T09:10:34Z",
+              "url": "https://github.com/wpbones/add-browser-search/releases/tag/v2.0.0"
+            },
+            "ogImage": "/og/add-browser-search.webp",
+            "defaultBranch": "main"
+          }
+        },
+        {
+          "displayName": "Feed Scroll Reader",
+          "url": "https://wordpress.org/plugins/flash-feed-scroll-reader/",
+          "description": "A horizontal scrolling ticker of RSS and Atom feed items in plain HTML and CSS, with a shortcode, a widget, a pause button and reduced-motion support. The 2009 Flash movie is gone. Built with WPBones.",
+          "external": false,
+          "githubRepo": {
+            "name": "flash-feed-scroll-reader",
+            "fullName": "wpbones/flash-feed-scroll-reader",
+            "url": "https://github.com/wpbones/flash-feed-scroll-reader",
+            "stars": 0,
+            "forks": 0,
+            "topics": [
+              "wordpress",
+              "wpbones",
+              "rss",
+              "feed",
+              "ticker"
+            ],
+            "language": "PHP",
+            "pushedAt": "2026-11-26T09:27:29Z",
+            "release": {
+              "tag": "v2.0.0",
+              "publishedAt": "2026-11-26T09:10:35Z",
+              "url": "https://github.com/wpbones/flash-feed-scroll-reader/releases/tag/v2.0.0"
+            },
+            "ogImage": "/og/feed-scroll-reader.webp",
+            "defaultBranch": "main"
+          }
+        },
+        {
+          "displayName": "WP Choose Your Theme",
+          "url": "https://wordpress.org/plugins/wp-chooseyourtheme/",
+          "description": "Lets visitors switch the site's front end to another installed theme you allowed, as a menu, a list or a roll, from a widget, a shortcode or a template tag, and remembers the choice in a cookie. Rebuilt from its 2010 original. Built with WPBones.",
+          "external": false,
+          "githubRepo": {
+            "name": "wp-chooseyourtheme",
+            "fullName": "wpbones/wp-chooseyourtheme",
+            "url": "https://github.com/wpbones/wp-chooseyourtheme",
+            "stars": 0,
+            "forks": 0,
+            "topics": [
+              "wordpress",
+              "wpbones",
+              "theme",
+              "switcher",
+              "widget"
+            ],
+            "language": "PHP",
+            "pushedAt": "2026-11-26T09:27:38Z",
+            "release": {
+              "tag": "v1.0.0",
+              "publishedAt": "2026-11-26T09:10:37Z",
+              "url": "https://github.com/wpbones/wp-chooseyourtheme/releases/tag/v1.0.0"
+            },
+            "ogImage": "/og/wp-chooseyourtheme.webp",
+            "defaultBranch": "main"
+          }
         }
       ]
     },
