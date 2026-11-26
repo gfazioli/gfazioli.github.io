@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-26T10:04:18.020Z",
+  "fetchedAt": "2026-11-26T12:19:56.518Z",
   "sectionCount": 9,
   "projectCount": 65,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-25T18:02:00Z",
+            "pushedAt": "2026-11-26T11:56:08Z",
             "release": {
               "tag": "v6.0.20",
               "publishedAt": "2026-11-25T18:02:01Z",
@@ -168,7 +168,7 @@
               "workbench"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-26T10:01:22Z",
+            "pushedAt": "2026-11-26T11:20:13Z",
             "release": {
               "tag": "v0.1.0",
               "publishedAt": "2026-11-26T09:55:13Z",
@@ -318,11 +318,11 @@
               "svg"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-22T13:02:19Z",
+            "pushedAt": "2026-11-26T12:16:32Z",
             "release": {
-              "tag": "v0.7.0",
-              "publishedAt": "2026-11-22T10:04:35Z",
-              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.7.0"
+              "tag": "v0.8.0",
+              "publishedAt": "2026-11-26T12:16:32Z",
+              "url": "https://github.com/gfazioli/glancecard/releases/tag/v0.8.0"
             },
             "ogImage": "/og/glancecard.webp",
             "defaultBranch": "main"
@@ -350,7 +350,7 @@
               "macos"
             ],
             "language": "JavaScript",
-            "pushedAt": "2026-11-25T19:14:49Z",
+            "pushedAt": "2026-11-26T12:15:52Z",
             "release": {
               "tag": "v1.22.0",
               "publishedAt": "2026-11-25T19:14:49Z",
