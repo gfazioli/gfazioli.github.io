@@ -9,6 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       "https://gfazioli.github.io/sitemap.xml",
       "https://gfazioli.github.io/octoscope/sitemap.xml",
       "https://gfazioli.github.io/glancecard/sitemap.xml",
+      "https://gfazioli.github.io/floppeek/sitemap.xml",
       "https://gfazioli.github.io/react-tilt/sitemap.xml",
       "https://gfazioli.github.io/react-flip/sitemap.xml",
       "https://gfazioli.github.io/react-toggle/sitemap.xml",
