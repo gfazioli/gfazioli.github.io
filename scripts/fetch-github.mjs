@@ -113,13 +113,17 @@ const OVERRIDES = {
   // `scotty-plugin` while the repos are `*-website`. Pin the real slug (the
   // entry upgrades itself if they ever go public) and mirror the topics, with
   // the WordPress ones first since that's what these cards are about.
+  // Neither site declares an og:image, so the covers are pinned: their
+  // WordPress.org banners (assets/banner-1544x500), cropped to 952x500.
   "https://bannerize.vercel.app/": {
     repo: "gfazioli/bannerize-website",
-    topics: ["wordpress", "wpbones", "banner", "mantine", "mantine-v9", "nextra"],
+    topics: ["wordpress", "wpbones", "banner", "mantine", "mantine-v9", "nextjs"],
+    ogImage: "/og/bannerize.webp",
   },
   "https://scotty-plugin.vercel.app/": {
     repo: "gfazioli/scotty-plugin-website",
-    topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
+    topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs"],
+    ogImage: "/og/scotty.webp",
   },
   // The WordPress.org plugin pages: deriveRepoSlug cannot map a wordpress.org
   // URL, so pin the repo. The plugins have no website, hence the pinned covers
