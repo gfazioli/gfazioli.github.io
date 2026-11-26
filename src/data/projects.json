@@ -1,8 +1,8 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-26T09:31:15.971Z",
+  "fetchedAt": "2026-11-26T09:58:28.170Z",
   "sectionCount": 9,
-  "projectCount": 64,
+  "projectCount": 65,
   "sections": [
     {
       "id": "core",
@@ -143,6 +143,40 @@
             "wallpapers",
             "emoji"
           ]
+        },
+        {
+          "displayName": "Floppeek",
+          "url": "https://gfazioli.github.io/floppeek/",
+          "description": "Quick Look for Amiga disk images on macOS. Press Space on an `.adf` in the Finder and the disk opens as a Workbench window listing every drawer, with sizes, protection bits, dates and comments; in the Finder each disk becomes a floppy with its volume name on the label, and games and demos show their boot block. Sandboxed and offline, free and open source (MIT), universal binary, signed and notarised.",
+          "external": false,
+          "githubRepo": {
+            "name": "floppeek",
+            "fullName": "gfazioli/floppeek",
+            "url": "https://github.com/gfazioli/floppeek",
+            "stars": 1,
+            "forks": 0,
+            "topics": [
+              "adf",
+              "amiga",
+              "amigados",
+              "macos",
+              "quick-look",
+              "quicklook",
+              "retrocomputing",
+              "swift",
+              "swiftui",
+              "workbench"
+            ],
+            "language": "Swift",
+            "pushedAt": "2026-11-26T09:55:09Z",
+            "release": {
+              "tag": "v0.1.0",
+              "publishedAt": "2026-11-26T09:55:13Z",
+              "url": "https://github.com/gfazioli/floppeek/releases/tag/v0.1.0"
+            },
+            "ogImage": "/og/floppeek.webp",
+            "defaultBranch": "main"
+          }
         },
         {
           "displayName": "Lancetta",
@@ -1666,7 +1700,7 @@
               "browser"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-26T09:24:27Z",
+            "pushedAt": "2026-11-26T09:55:29Z",
             "release": {
               "tag": "v2.0.0",
               "publishedAt": "2026-11-26T09:10:34Z",
@@ -1695,11 +1729,11 @@
               "ticker"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-26T09:27:29Z",
+            "pushedAt": "2026-11-26T09:55:38Z",
             "release": {
-              "tag": "v2.0.0",
-              "publishedAt": "2026-11-26T09:10:35Z",
-              "url": "https://github.com/wpbones/flash-feed-scroll-reader/releases/tag/v2.0.0"
+              "tag": "v2.0.1",
+              "publishedAt": "2026-11-26T09:53:45Z",
+              "url": "https://github.com/wpbones/flash-feed-scroll-reader/releases/tag/v2.0.1"
             },
             "ogImage": "/og/feed-scroll-reader.webp",
             "defaultBranch": "main"
@@ -1724,7 +1758,7 @@
               "widget"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-26T09:27:38Z",
+            "pushedAt": "2026-11-26T09:55:48Z",
             "release": {
               "tag": "v1.0.0",
               "publishedAt": "2026-11-26T09:10:37Z",
