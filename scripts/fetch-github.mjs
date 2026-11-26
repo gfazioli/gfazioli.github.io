@@ -121,6 +121,24 @@ const OVERRIDES = {
     repo: "gfazioli/scotty-plugin-website",
     topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
   },
+  // The WordPress.org plugin pages: deriveRepoSlug cannot map a wordpress.org
+  // URL, so pin the repo. The plugins have no website, hence the pinned covers
+  // (the WordPress.org banners, centre-cropped to the cover ratio).
+  "https://wordpress.org/plugins/add-browser-search/": {
+    repo: "wpbones/add-browser-search",
+    topics: ["wordpress", "wpbones", "opensearch", "search", "browser"],
+    ogImage: "/og/add-browser-search.webp",
+  },
+  "https://wordpress.org/plugins/flash-feed-scroll-reader/": {
+    repo: "wpbones/flash-feed-scroll-reader",
+    topics: ["wordpress", "wpbones", "rss", "feed", "ticker"],
+    ogImage: "/og/feed-scroll-reader.webp",
+  },
+  "https://wordpress.org/plugins/wp-chooseyourtheme/": {
+    repo: "wpbones/wp-chooseyourtheme",
+    topics: ["wordpress", "wpbones", "theme", "switcher", "widget"],
+    ogImage: "/og/wp-chooseyourtheme.webp",
+  },
   // The macOS apps live in private repos, but their public `*-website`
   // repos host the marketing site AND the release artifacts (one DMG per
   // GitHub Release), so they are the right source for version, stars and the
