@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-26T06:22:44.841Z",
+  "fetchedAt": "2026-11-26T09:11:02.327Z",
   "sectionCount": 9,
   "projectCount": 61,
   "sections": [
@@ -33,11 +33,11 @@
               "wp-bones"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-23T10:54:21Z",
+            "pushedAt": "2026-11-26T07:42:06Z",
             "release": {
-              "tag": "v3.3.1",
-              "publishedAt": "2026-11-23T10:54:23Z",
-              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.3.1"
+              "tag": "v3.4.0",
+              "publishedAt": "2026-11-26T07:42:07Z",
+              "url": "https://github.com/wpbones/WPBones/releases/tag/v3.4.0"
             },
             "ogImage": "/og/wpbones-framework.webp",
             "defaultBranch": "master"
@@ -163,11 +163,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-25T19:02:48Z",
+            "pushedAt": "2026-11-26T09:07:15Z",
             "release": {
-              "tag": "v0.68.4",
-              "publishedAt": "2026-11-22T13:14:45Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.68.4"
+              "tag": "v0.69.0",
+              "publishedAt": "2026-11-26T09:07:09Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.69.0"
             },
             "ogImage": "/og/lancetta.webp",
             "defaultBranch": "main"
