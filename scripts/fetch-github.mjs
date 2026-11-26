@@ -115,11 +115,11 @@ const OVERRIDES = {
   // the WordPress ones first since that's what these cards are about.
   "https://bannerize.vercel.app/": {
     repo: "gfazioli/bannerize-website",
-    topics: ["wordpress", "wpbones", "banner", "mantine", "mantine-v9", "nextra"],
+    topics: ["wordpress", "wpbones", "banner", "mantine", "mantine-v9", "nextjs"],
   },
   "https://scotty-plugin.vercel.app/": {
     repo: "gfazioli/scotty-plugin-website",
-    topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs", "nextra"],
+    topics: ["wordpress", "wpbones", "mantine", "mantine-v9", "nextjs"],
   },
   // The WordPress.org plugin pages: deriveRepoSlug cannot map a wordpress.org
   // URL, so pin the repo. The plugins have no website, hence the pinned covers
