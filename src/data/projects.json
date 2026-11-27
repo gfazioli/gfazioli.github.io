@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-27T06:23:15.552Z",
+  "fetchedAt": "2026-11-27T11:45:50.850Z",
   "sectionCount": 9,
   "projectCount": 65,
   "sections": [
@@ -120,11 +120,11 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-26T16:38:37Z",
+            "pushedAt": "2026-11-27T11:40:11Z",
             "release": {
-              "tag": "v0.77.0",
-              "publishedAt": "2026-11-26T16:38:29Z",
-              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.77.0"
+              "tag": "v0.78.0",
+              "publishedAt": "2026-11-27T11:40:03Z",
+              "url": "https://github.com/gfazioli/findergit-website/releases/tag/v0.78.0"
             },
             "ogImage": "/og/findergit.webp",
             "defaultBranch": "main"
@@ -1699,7 +1699,7 @@
               "browser"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-26T16:56:25Z",
+            "pushedAt": "2026-11-27T08:09:18Z",
             "release": {
               "tag": "v2.0.1",
               "publishedAt": "2026-11-26T16:56:25Z",
@@ -1757,7 +1757,7 @@
               "widget"
             ],
             "language": "PHP",
-            "pushedAt": "2026-11-26T16:57:11Z",
+            "pushedAt": "2026-11-27T07:10:29Z",
             "release": {
               "tag": "v1.1.1",
               "publishedAt": "2026-11-26T16:57:11Z",
