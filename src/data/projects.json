@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-27T12:14:23.574Z",
+  "fetchedAt": "2026-11-27T18:37:58.613Z",
   "sectionCount": 9,
   "projectCount": 65,
   "sections": [
@@ -84,7 +84,7 @@
               "retro-computing"
             ],
             "language": "MDX",
-            "pushedAt": "2026-11-26T17:17:43Z",
+            "pushedAt": "2026-11-27T15:40:50Z",
             "release": {
               "tag": "v6.0.20",
               "publishedAt": "2026-11-25T18:02:01Z",
@@ -120,7 +120,7 @@
               "sparkle"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-27T11:40:11Z",
+            "pushedAt": "2026-11-27T18:28:26Z",
             "release": {
               "tag": "v0.78.0",
               "publishedAt": "2026-11-27T11:40:03Z",
@@ -197,11 +197,11 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-26T09:07:15Z",
+            "pushedAt": "2026-11-27T18:36:25Z",
             "release": {
-              "tag": "v0.69.0",
-              "publishedAt": "2026-11-26T09:07:09Z",
-              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.69.0"
+              "tag": "v0.70.0",
+              "publishedAt": "2026-11-27T18:34:50Z",
+              "url": "https://github.com/gfazioli/lancetta-website/releases/tag/v0.70.0"
             },
             "ogImage": "/og/lancetta.webp",
             "defaultBranch": "main"
@@ -226,7 +226,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-25T19:02:43Z",
+            "pushedAt": "2026-11-27T18:28:21Z",
             "release": {
               "tag": "v0.56.0",
               "publishedAt": "2026-11-25T18:21:12Z",
