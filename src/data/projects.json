@@ -1,6 +1,6 @@
 {
   "user": "gfazioli",
-  "fetchedAt": "2026-11-27T18:37:58.613Z",
+  "fetchedAt": "2026-11-28T06:20:49.463Z",
   "sectionCount": 9,
   "projectCount": 65,
   "sections": [
@@ -111,7 +111,7 @@
             "fullName": "gfazioli/findergit-website",
             "url": "https://github.com/gfazioli/findergit-website",
             "stars": 19,
-            "forks": 1,
+            "forks": 2,
             "topics": [
               "macos",
               "swiftui",
@@ -197,7 +197,7 @@
               "codex"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-27T18:36:25Z",
+            "pushedAt": "2026-11-27T20:28:46Z",
             "release": {
               "tag": "v0.70.0",
               "publishedAt": "2026-11-27T18:34:50Z",
@@ -226,7 +226,7 @@
               "wifi"
             ],
             "language": "Swift",
-            "pushedAt": "2026-11-27T18:28:21Z",
+            "pushedAt": "2026-11-27T20:28:41Z",
             "release": {
               "tag": "v0.56.0",
               "publishedAt": "2026-11-25T18:21:12Z",
